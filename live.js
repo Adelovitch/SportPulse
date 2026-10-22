@@ -50,7 +50,7 @@
       const currentCompetition=m.competition||'Autres rencontres';
       if(currentCompetition!==previousCompetition){
         const heading=make('h3','competitionHeading',leagueLabel(currentCompetition));
-        const sportTag=make('span','competitionSport',m.sport||'Sport');
+        const sportTag=make('span','competitionSport','— '+(m.sport||'Sport'));
         heading.append(sportTag);
         target.append(heading);
         previousCompetition=currentCompetition;

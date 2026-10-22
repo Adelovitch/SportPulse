@@ -22,7 +22,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Collect results (preserve last good snapshot on error)
         run: python scripts/collect_openligadb.py
-      - name: Collect optional F1 and basketball data\n        run: python scripts/collect_extras.py\n      - name: Publish only changed snapshot
+      - name: Collect optional F1 and basketball data
+        continue-on-error: true
+        run: python scripts/collect_extras.py\n      - name: Publish only changed snapshot
         run: |
           git config user.name "sportpulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

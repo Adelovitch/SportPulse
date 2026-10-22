@@ -24,6 +24,12 @@ Si les règles du dépôt bloquent les modifications de `main`, un autre mode de
 `python -m unittest discover -s tests -p 'test_collect.py'`.
 Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 
+## Lot statistiques (nouveau)
+- `scripts/collect_analytics.py` calcule, à partir des **matchs terminés de toute la saison**, le classement simplifié, les buts pour/contre, les points et les cinq derniers résultats par équipe.
+- `data/analytics.json` est généré par GitHub Actions et lu par `standings.js`.
+- Classements **indicatifs et non officiels** : certains départages, sanctions ou retraits de points peuvent différer des classements officiels.
+- Si l’API de statistiques échoue, la collecte des scores conserve son fonctionnement ; aucune statistique inventée n’est affichée.
+
 ## Prochaines versions
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.

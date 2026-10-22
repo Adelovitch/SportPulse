@@ -7,16 +7,16 @@ https://sportpulse-bg1.pages.dev/
 
 ## Architecture active : GitHub Actions + Cloudflare Pages
 - `scripts/collect_extras.py` collecte F1 et basket via des API publiques indépendantes ; indisponibilité partielle signalée.\n- `scripts/collect_openligadb.py` lit l'API publique OpenLigaDB, sans clé privée.
-- `.github/workflows/sports-collection.yml` lance la collecte toutes les 6 heures et **à la demande**.
+- `.github/workflows/sports-collection.yml` lance une collecte complète toutes les 6 heures et **à la demande**. Lorsqu'une rencontre football ou basket non terminée est prévue entre H-30 min et H+3 h, une deuxième programmation déclenche des collectes jusqu'à toutes les **20 minutes**. En dehors de ces fenêtres, les passages de contrôle sont légers et ne déclenchent pas d'appels API. GitHub Actions peut retarder les déclenchements planifiés.
 - `data/matches.json` et `data/extras.json` sont générés et committé automatiquement ; Cloudflare Pages déploie ensuite la nouvelle version.
-- `live.js` affiche le JSON, identifie la source et la date réelle de collecte.
+- `live.js` affiche le JSON, identifie la source et la date réelle de collecte. Le navigateur reconsulte les fichiers statiques toutes les 5 minutes lorsqu'il est visible, sans recharger la page entière ; cela ne garantit aucun score en temps réel.
 - Compétitions initiales : Bundesliga et 2. Bundesliga ; calendrier F1 par Jolpica-F1 ; matchs NBA exploratoires par TheSportsDB (offre gratuite limitée).
 - Fenêtre d'affichage : J-14 à J+14, maximum 160 matchs ; cela **n'est pas du direct**.
 - Si une API échoue, l'Action échoue sans remplacer le dernier fichier validé.
 
 ## Lancer la première collecte
 Ouvrir **GitHub → Adelovitch/SportPulse → Actions → Collecte résultats sportifs → Run workflow → main → Run workflow**.
-La collecte programmée démarrera ensuite toutes les 6 heures (horaire UTC approximatif ; GitHub peut retarder les cron).
+La collecte complète programmée démarrera ensuite toutes les 6 heures (horaire UTC approximatif ; GitHub peut retarder les cron).
 L'Action a besoin des permissions **Read and write permissions** pour le `GITHUB_TOKEN` dans **Settings → Actions → General → Workflow permissions**.
 Si les règles du dépôt bloquent les modifications de `main`, un autre mode de publication devra être configuré.
 

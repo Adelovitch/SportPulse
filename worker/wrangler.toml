@@ -8,4 +8,4 @@ crons = ["*/30 * * * *"]
 
 [[kv_namespaces]]
 binding = "SPORT_CACHE"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "0f13ad113eb24a9792a8650591909b5d"

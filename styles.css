@@ -27,3 +27,9 @@
 .formCell{white-space:nowrap}
 .formItem{display:inline-flex;align-items:center;justify-content:center;width:21px;height:21px;border-radius:5px;margin:0 2px;font-weight:700;font-size:11px}
 .formWin{background:#1b7052;color:white}.formLoss{background:#873c4e;color:white}.formDraw{background:#586780;color:white}
+
+/* Championnat clairement identifié avant chaque bloc de rencontres */
+.competitionHeading{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:clamp(19px,3vw,25px);font-weight:800;line-height:1.25;letter-spacing:-.3px;color:#eef6ff;background:#17344f;border-left:4px solid #63bfff;border-radius:9px;padding:15px 18px;margin:19px 0 5px}
+.competitionHeading:first-child{margin-top:4px}
+.competitionSport{font-size:11px;font-weight:600;letter-spacing:.3px;color:#afd7ed;border:1px solid #3d607a;border-radius:99px;padding:6px 10px;white-space:nowrap}
+@media(max-width:700px){.competitionHeading{padding:12px 13px;font-size:20px}.competitionSport{font-size:10px}}

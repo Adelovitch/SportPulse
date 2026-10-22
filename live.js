@@ -1,35 +1,63 @@
 'use strict';
-// Affiche uniquement les données réelles fournies par notre backend Cloudflare.
+// Les scores proviennent d'un JSON statique créé par GitHub Actions. Aucun secret côté client.
 (function () {
   const status = document.getElementById('liveStatus');
   const target = document.getElementById('liveMatches');
   const stamp = document.getElementById('liveUpdated');
   const source = document.getElementById('liveSource');
-  const endpoint = String(window.SPORTPULSE_API_URL || '').replace(/\/+$/, '');
-  if (!endpoint || !/^https:\/\//i.test(endpoint)) {
-    status.textContent = 'Source réelle non configurée : consultez le README. Les rencontres plus bas sont fictives.';
-    return;
-  }
-  const ctrl = new AbortController();
-  const timeout = setTimeout(() => ctrl.abort(), 9000);
-  fetch(endpoint + '/api/matches', { signal: ctrl.signal })
-    .then(async response => { if (!response.ok) throw Error('HTTP ' + response.status); return response.json(); })
-    .then(payload => {
-      if (!payload || !Array.isArray(payload.matches) || payload.source !== 'football-data.org') throw Error('Format inattendu');
-      status.textContent = payload.stale ? 'Données en cache : une actualisation a échoué.' : 'Résultats récupérés auprès de la source indiquée.';
-      stamp.textContent = payload.updatedAt ? 'Dernière collecte : ' + new Date(payload.updatedAt).toLocaleString('fr-FR', {timeZone:'Europe/Paris'}) : 'Heure de collecte inconnue';
-      source.textContent = 'Data provided by football-data.org';
+  const make = (tag, cls, content) => {
+    const el = document.createElement(tag);
+    if (cls) el.className = cls;
+    if (content !== undefined) el.textContent = String(content);
+    return el;
+  };
+  fetch('./data/matches.json', {cache:'no-cache'})
+    .then(async res => {
+      if (!res.ok) throw new Error('Snapshot absent');
+      return res.json();
+    })
+    .then(data => {
+      if (!data || data.source !== 'OpenLigaDB' || !Array.isArray(data.matches)) throw new Error('Format inattendu');
+      const time = Date.parse(data.updatedAt || '');
+      const age = Date.now() - time;
+      const old = !Number.isFinite(time) || age > 12 * 3600 * 1000;
+      status.textContent = old
+        ? 'Résultats disponibles, mais dernière collecte ancienne. Vérifiez la date ci-dessous.'
+        : 'Résultats disponibles — mise à jour périodique (non temps réel).';
+      stamp.textContent = Number.isFinite(time)
+        ? 'Dernière collecte : ' + new Date(time).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'})
+        : 'Date de collecte non disponible';
+      source.replaceChildren(make('span','','Source : '));
+      const link = make('a','','OpenLigaDB');
+      link.href = 'https://www.openligadb.de/';
+      link.rel = 'noopener noreferrer';
+      link.target = '_blank';
+      source.append(link);
       target.replaceChildren();
-      if (!payload.matches.length) { target.appendChild(make('p','','Aucun match dans la fenêtre couverte par cette source.')); return; }
-      payload.matches.slice(0,80).forEach(match => {
-        const card=make('article','match');
-        const top=make('div','matchtop');
-        top.append(make('span','',match.competition || 'Compétition'),make('span','',match.utcDate ? new Date(match.utcDate).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'}) : 'Horaire inconnu'));
-        const teams=make('div','teams');teams.append(make('span','',match.home||'Équipe inconnue'),make('strong','',match.score||'–'),make('span','',match.away||'Équipe inconnue'));
-        const bottom=make('div','matchbottom');bottom.append(make('span','',match.status||'Statut indisponible'),make('span','tag','Football'));
-        card.append(top,teams,bottom);target.append(card);
-      });
-    }).catch(() => { status.textContent='Résultats réels indisponibles. Aucun score fictif n’est présenté comme réel.'; })
-    .finally(() => clearTimeout(timeout));
-  function make(tag, cls, text) { const e=document.createElement(tag); if(cls)e.className=cls; if(text!==undefined)e.textContent=String(text);return e; }
+      if (!data.matches.length) {
+        target.append(make('p','','Aucune rencontre dans la période couverte par la collecte.'));
+        return;
+      }
+      for (const match of data.matches) {
+        const card = make('article','match');
+        const top = make('div','matchtop');
+        const dt = Date.parse(match.utcDate);
+        const date = Number.isFinite(dt) ? new Date(dt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'}) : 'Horaire inconnu';
+        top.append(make('span','',match.competition || 'Compétition'),make('span','',date));
+        const teams = make('div','teams');
+        teams.append(make('span','',match.home || 'Équipe inconnue'),
+          make('strong','',match.score || '–'),make('span','',match.away || 'Équipe inconnue'));
+        const bottom = make('div','matchbottom');
+        bottom.append(make('span','',match.status === 'FINISHED' ? 'Terminé' : 'Prévu / en cours (statut non direct)'),
+          make('span','tag','Football'));
+        card.append(top,teams,bottom);
+        target.append(card);
+      }
+    })
+    .catch(() => {
+      status.textContent = 'Données réelles non encore collectées ou momentanément indisponibles.';
+      stamp.textContent = 'La collecte GitHub Actions doit être exécutée une première fois.';
+      target.replaceChildren();
+      source.textContent = 'Source prévue : OpenLigaDB';
+    });
 })();

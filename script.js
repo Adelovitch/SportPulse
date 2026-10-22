@@ -1,0 +1,17 @@
+'use strict';
+// All records are synthetic; never represent them as live sports data.
+const matches=[
+{id:'f1',sport:'Football',league:'Ligue fictive A',home:'Rivière FC',away:'Montclair AC',status:'scheduled',when:'24 octobre · 20h00',homeForm:[3,1,3,0,3],awayForm:[1,0,1,3,0]},
+{id:'f2',sport:'Football',league:'Coupe fictive B',home:'Étoile SC',away:'Atlas United',status:'finished',when:'21 octobre · Terminé',score:'2 – 1'},
+{id:'b1',sport:'Basketball',league:'Ligue fictive basket',home:'Comètes',away:'Orions',status:'scheduled',when:'25 octobre · 18h30'},
+{id:'b2',sport:'Basketball',league:'Tournoi fictif',home:'Phénix',away:'Titans',status:'finished',when:'20 octobre · Terminé',score:'83 – 79'}];
+const node=id=>document.getElementById(id);
+const mean=x=>x.reduce((a,b)=>a+b,0)/x.length;
+function predict(m){if(!m.homeForm||!m.awayForm)return null;const d=mean(m.homeForm)-mean(m.awayForm);const weights=[Math.exp(.22+d*.48),Math.exp(-.1),Math.exp(-d*.48)];const z=weights.reduce((a,b)=>a+b,0);const raw=weights.map(v=>100*v/z);const rounded=raw.map(Math.floor);const rest=100-rounded.reduce((a,b)=>a+b,0);raw.map((v,i)=>[i,v%1]).sort((a,b)=>b[1]-a[1]).slice(0,rest).forEach(([i])=>rounded[i]++);return rounded}
+function elt(tag,cls,content){const x=document.createElement(tag);if(cls)x.className=cls;if(content!==undefined)x.textContent=content;return x}
+function render(){const sport=node('sport').value,status=node('status').value;const filtered=matches.filter(m=>(sport==='all'||m.sport===sport)&&(status==='all'||m.status===status));const list=node('matchList');list.replaceChildren();
+if(!filtered.length)list.append(elt('p','', 'Aucune rencontre fictive pour ces filtres.'));
+for(const m of filtered){const c=elt('article','match'),top=elt('div','matchtop'),teams=elt('div','teams'),bottom=elt('div','matchbottom');top.append(elt('span','',m.sport+' · '+m.league),elt('span','',m.when));teams.append(elt('span','',m.home),elt('strong','',m.score||'vs'),elt('span','',m.away));const p=m.status==='scheduled'?predict(m):null;bottom.append(elt('span','',m.status==='finished'?'Terminé':'À venir'),elt('span','tag',p?'Exemple 1/N/2 : '+p[0]+' % / '+p[1]+' % / '+p[2]+' %':'Données fictives'));c.append(top,teams,bottom);list.append(c)}
+const m=filtered.find(x=>x.status==='scheduled'&&predict(x));const panel=node('predictionPanel');panel.replaceChildren();if(!m){panel.append(elt('p','','Sélectionnez Football et les rencontres à venir pour afficher une prédiction fictive.'));return}
+const p=predict(m);panel.append(elt('div','predtitle',m.home+' – '+m.away+' (fictif)'));const bars=elt('div','bars');bars.setAttribute('role','img');bars.setAttribute('aria-label','Victoire domicile '+p[0]+' %, nul '+p[1]+' %, victoire extérieur '+p[2]+' %');p.forEach(v=>{const s=elt('span');s.style.width=v+'%';bars.append(s)});panel.append(bars);const values=elt('div','percent');['1','N','2'].forEach((v,i)=>values.append(elt('span','',v+' : '+p[i]+' %')));panel.append(values,elt('small','','Heuristique illustrative sur cinq résultats fictifs, effet domicile fixe, normalisation. Aucune validation prédictive réelle.'))}
+node('sport').addEventListener('change',render);node('status').addEventListener('change',render);render();

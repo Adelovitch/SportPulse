@@ -31,6 +31,9 @@
       return true;
     });
     filtered.sort((a,b)=>{
+      // Regrouper par compétition pour garder un titre visible au-dessus de chaque série.
+      const leagueCompare=(a.competition||'').localeCompare(b.competition||'','fr');
+      if(leagueCompare!==0)return leagueCompare;
       const aTime=Date.parse(a.utcDate)||0,bTime=Date.parse(b.utcDate)||0;
       // Show near-term games first when unfiltered, with upcoming games before older results.
       if(period.value==='all'&&!date.value){const now=Date.now();const aUpcoming=aTime>=now,bUpcoming=bTime>=now;if(aUpcoming!==bUpcoming)return aUpcoming?-1:1;return aUpcoming?aTime-bTime:bTime-aTime;}
@@ -42,11 +45,20 @@
     pageLabel.textContent='Page '+(page+1)+' / '+pages;prev.disabled=page===0;next.disabled=page+1>=pages;
     target.replaceChildren();
     if(!chunk.length){target.append(make('p','','Aucune rencontre pour ces filtres.'));return;}
+    let previousCompetition=null;
     for(const m of chunk){
+      const currentCompetition=m.competition||'Autres rencontres';
+      if(currentCompetition!==previousCompetition){
+        const heading=make('h3','competitionHeading',leagueLabel(currentCompetition));
+        const sportTag=make('span','competitionSport',m.sport||'Sport');
+        heading.append(sportTag);
+        target.append(heading);
+        previousCompetition=currentCompetition;
+      }
       const card=make('article','match compactmatch');
       const top=make('div','matchtop');const dt=Date.parse(m.utcDate);
       const formatted=Number.isFinite(dt)?new Date(dt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'}):'Date inconnue';
-      top.append(make('span','',leagueLabel(m.competition||'Compétition')),make('span','',formatted));
+      top.append(make('span','',m.status==='FINISHED'?'Résultat':'Rencontre'),make('span','',formatted));
       const teams=make('div','teams');
       teams.append(make('span','',m.home||'Événement'),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),make('span','',m.away||'Lieu inconnu'));
       const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?'Grand Prix (calendrier)':(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));

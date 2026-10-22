@@ -16,3 +16,14 @@
 .sourceDetails summary{cursor:pointer}
 .sourceDetails p{margin:5px 0}
 @media(max-width:700px){.compactmatch .teams{font-size:13px;gap:8px}.realfilters label{flex:1 1 43%}.resetbtn{width:100%}}
+
+.standingsScroll{overflow-x:auto;border-radius:12px;border:1px solid #29445e}
+.standingsTable{width:100%;border-collapse:collapse;font-size:13px;min-width:650px}
+.standingsTable th,.standingsTable td{padding:12px 9px;text-align:center;border-bottom:1px solid #25405a}
+.standingsTable th{background:#142d48;color:#bddaf2;font-weight:600}
+.standingsTable tr:last-child td{border-bottom:none}
+.standingsTable td:nth-child(2),.standingsTable th:nth-child(2){text-align:left}
+.standingsTable td:nth-child(2){font-weight:600}
+.formCell{white-space:nowrap}
+.formItem{display:inline-flex;align-items:center;justify-content:center;width:21px;height:21px;border-radius:5px;margin:0 2px;font-weight:700;font-size:11px}
+.formWin{background:#1b7052;color:white}.formLoss{background:#873c4e;color:white}.formDraw{background:#586780;color:white}

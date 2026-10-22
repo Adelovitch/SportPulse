@@ -30,6 +30,14 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 - Classements **indicatifs et non officiels** : certains départages, sanctions ou retraits de points peuvent différer des classements officiels.
 - Si l’API de statistiques échoue, la collecte des scores conserve son fonctionnement ; aucune statistique inventée n’est affichée.
 
+## Football international — option football-data.org
+- Le connecteur `scripts/collect_football_data.py` tente FL1, PL, PD, SA, CL, DED et PPL, **uniquement si le plan autorise les ressources**. Un refus HTTP 403 est ignoré, un HTTP 429 arrête la collecte, et chaque requête est espacée d’au moins 7 secondes.
+- Ressources : matchs de saison (résultats et calendrier sur une fenêtre J-14 à J+21), classement TOTAL lorsque disponible ; sortie `data/football_data.json`.
+- Pour activer : GitHub → Settings → Secrets and variables → Actions → New repository secret, nom exact `FOOTBALL_DATA_TOKEN`, valeur **la clé privée personnelle**. Ne jamais la saisir dans `config.js`, un commit ou le navigateur.
+- Le collecteur est facultatif : sans secret ou si le fournisseur est inaccessible, les sources existantes continuent de fonctionner.
+- La formule gratuite n’autorise pas les données enrichies payantes (composition, statistiques détaillées, longues archives). Attribution du fournisseur à conserver de manière visible conformément à ses conditions.
+- La liste des compétitions tentées ne garantit pas leur accès : vérifier le JSON après la première exécution.
+
 ## Prochaines versions
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.

@@ -28,6 +28,11 @@ jobs:
       - name: Collect optional F1 and basketball data
         continue-on-error: true
         run: python scripts/collect_extras.py
+      - name: Collect available international football competitions (optional)
+        continue-on-error: true
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/collect_football_data.py
       - name: Publish only changed snapshot
         run: |
           git config user.name "sportpulse-bot"
@@ -35,6 +40,7 @@ jobs:
           git add data/matches.json
           if [ -f data/extras.json ]; then git add data/extras.json; fi
           if [ -f data/analytics.json ]; then git add data/analytics.json; fi
+          if [ -f data/football_data.json ]; then git add data/football_data.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "data: update multi-sport data snapshots"
             git push

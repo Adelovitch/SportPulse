@@ -7,7 +7,7 @@
   const PER_PAGE=12;
   let matches=[],page=0;
   const make=(tag,cls,value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=String(value);return e;};
-  const localDay=(value)=>{const d=new Date(value);return Number.isFinite(d.getTime())?new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).format(d):'';};
+  const localDay=(value)=>{const d=new Date(value);if(!Number.isFinite(d.getTime()))return '';const parts=new Intl.DateTimeFormat('fr-FR',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=type=>parts.find(p=>p.type===type)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
   const today=()=>localDay(new Date());
   function options(select,items){for(const value of items.sort((a,b)=>a.localeCompare(b,'fr'))) {const option=make('option','',value);option.value=value;select.append(option);}}
   function render(){

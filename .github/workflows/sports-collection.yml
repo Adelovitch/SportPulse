@@ -26,7 +26,8 @@ jobs:
         run: |
           git config user.name "sportpulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/matches.json data/extras.json
+          git add data/matches.json
+          if [ -f data/extras.json ]; then git add data/extras.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "data: update multi-sport data snapshots"
             git push

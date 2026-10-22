@@ -6,11 +6,11 @@
 https://sportpulse-bg1.pages.dev/
 
 ## Architecture active : GitHub Actions + Cloudflare Pages
-- `scripts/collect_openligadb.py` lit l'API publique OpenLigaDB, sans clé privée.
+- `scripts/collect_extras.py` collecte F1 et basket via des API publiques indépendantes ; indisponibilité partielle signalée.\n- `scripts/collect_openligadb.py` lit l'API publique OpenLigaDB, sans clé privée.
 - `.github/workflows/sports-collection.yml` lance la collecte toutes les 6 heures et **à la demande**.
-- `data/matches.json` est généré et committé automatiquement ; Cloudflare Pages déploie ensuite la nouvelle version.
+- `data/matches.json` et `data/extras.json` sont générés et committé automatiquement ; Cloudflare Pages déploie ensuite la nouvelle version.
 - `live.js` affiche le JSON, identifie la source et la date réelle de collecte.
-- Compétitions initiales : Bundesliga et 2. Bundesliga, saison courante.
+- Compétitions initiales : Bundesliga et 2. Bundesliga ; calendrier F1 par Jolpica-F1 ; matchs NBA exploratoires par TheSportsDB (offre gratuite limitée).
 - Fenêtre d'affichage : J-14 à J+14, maximum 160 matchs ; cela **n'est pas du direct**.
 - Si une API échoue, l'Action échoue sans remplacer le dernier fichier validé.
 
@@ -34,4 +34,4 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 Le dossier `worker/` reste archivé pour une éventuelle phase ultérieure Cloudflare Workers + football-data.org. **Il n'est pas utilisé par l'interface active.** Ne pas transmettre de secrets dans le dépôt.
 
 ## Transparence
-Source publique : https://www.openligadb.de/. Accès gratuit ne signifie pas absence de conditions de réutilisation ; vérifier droits et attribution pour un usage public durable. Logos d'équipes non intégrés. Pages juridiques à compléter avant lancement officiel.
+Sources : https://www.openligadb.de/, https://github.com/jolpica/jolpica-f1 et https://www.thesportsdb.com/. Accès gratuit ne signifie pas absence de conditions de réutilisation ; vérifier droits et attribution pour un usage public durable. Logos d'équipes non intégrés. Pages juridiques à compléter avant lancement officiel.

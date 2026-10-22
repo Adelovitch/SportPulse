@@ -59,22 +59,25 @@
   prev.addEventListener('click',()=>{if(page>0){page--;render();}});
   next.addEventListener('click',()=>{page++;render();});
   const load=(file)=>fetch(file,{cache:'no-cache'}).then(async response=>{if(!response.ok)throw Error(file+' unavailable');return response.json();});
-  Promise.allSettled([load('./data/matches.json'),load('./data/extras.json')]).then(results=>{
+  Promise.allSettled([load('./data/matches.json'),load('./data/extras.json'),load('./data/football_data.json')]).then(results=>{
     const base=results[0].status==='fulfilled'?results[0].value:null;
     const extra=results[1].status==='fulfilled'?results[1].value:null;
+    const international=results[2].status==='fulfilled'?results[2].value:null;
+    const validInternational=international&&international.source==='football-data.org'&&Array.isArray(international.matches);
     const validBase=base&&base.source==='OpenLigaDB'&&Array.isArray(base.matches);
     const validExtra=extra&&extra.source==='SportPulseExtras'&&Array.isArray(extra.matches);
-    if(!validBase&&!validExtra)throw Error('No valid snapshots');
-    matches=[...(validBase?base.matches:[]),...(validExtra?extra.matches:[])].filter(m=>m&&m.utcDate&&m.home&&m.away);
+    if(!validBase&&!validExtra&&!validInternational)throw Error('No valid snapshots');
+    matches=[...(validBase?base.matches:[]),...(validExtra?extra.matches:[]),...(validInternational?international.matches:[])].filter(m=>m&&m.utcDate&&m.home&&m.away);
     options(sport,[...new Set(matches.map(m=>m.sport).filter(Boolean))]);
     refreshCompetitions();
-    const timestamps=[validBase?Date.parse(base.updatedAt):NaN,validExtra?Date.parse(extra.updatedAt):NaN].filter(Number.isFinite);
+    const timestamps=[validBase?Date.parse(base.updatedAt):NaN,validExtra?Date.parse(extra.updatedAt):NaN,validInternational?Date.parse(international.updatedAt):NaN].filter(Number.isFinite);
     const oldest=timestamps.length?Math.min(...timestamps):NaN;
     status.textContent=Number.isFinite(oldest)&&Date.now()-oldest>12*3600000?'Des données sont disponibles ; au moins une collecte est ancienne.':'Calendriers et résultats disponibles (actualisation périodique, non temps réel).';
     stamp.textContent=timestamps.length?'Dernières collectes : '+timestamps.map(t=>new Date(t).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'})).join(' · '):'Dates de collecte indisponibles';
     source.replaceChildren();
-    const attribution=[['OpenLigaDB','https://www.openligadb.de/',validBase],['Jolpica-F1','https://github.com/jolpica/jolpica-f1',validExtra&&extra.providers?.includes('Jolpica-F1')],['TheSportsDB','https://www.thesportsdb.com/',validExtra&&extra.providers?.includes('TheSportsDB')]];
+    const attribution=[['OpenLigaDB','https://www.openligadb.de/',validBase],['Jolpica-F1','https://github.com/jolpica/jolpica-f1',validExtra&&extra.providers?.includes('Jolpica-F1')],['TheSportsDB','https://www.thesportsdb.com/',validExtra&&extra.providers?.includes('TheSportsDB')],['football-data.org','https://www.football-data.org/',validInternational]];
     for(const [name,url,active] of attribution){if(!active)continue;const link=make('a','',name);link.href=url;link.target='_blank';link.rel='noopener noreferrer';source.append(link,document.createTextNode(' · '));}
+    if(validInternational){source.append(document.createTextNode(' Football data provided by the Football-Data.org API.'));}
     render();
   }).catch(()=>{
     status.textContent='Résultats momentanément indisponibles.';

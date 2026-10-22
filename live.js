@@ -59,6 +59,7 @@
   prev.addEventListener('click',()=>{if(page>0){page--;render();}});
   next.addEventListener('click',()=>{page++;render();});
   const load=(file)=>fetch(file,{cache:'no-cache'}).then(async response=>{if(!response.ok)throw Error(file+' unavailable');return response.json();});
+  function refreshSnapshots(){
   Promise.allSettled([load('./data/matches.json'),load('./data/extras.json'),load('./data/football_data.json')]).then(results=>{
     const base=results[0].status==='fulfilled'?results[0].value:null;
     const extra=results[1].status==='fulfilled'?results[1].value:null;
@@ -68,7 +69,10 @@
     const validExtra=extra&&extra.source==='SportPulseExtras'&&Array.isArray(extra.matches);
     if(!validBase&&!validExtra&&!validInternational)throw Error('No valid snapshots');
     matches=[...(validBase?base.matches:[]),...(validExtra?extra.matches:[]),...(validInternational?international.matches:[])].filter(m=>m&&m.utcDate&&m.home&&m.away);
+    const previousSport=sport.value;
+    sport.replaceChildren();const allSports=make('option','','Tous les sports');allSports.value='all';sport.append(allSports);
     options(sport,[...new Set(matches.map(m=>m.sport).filter(Boolean))]);
+    sport.value=[...sport.options].some(o=>o.value===previousSport)?previousSport:'all';
     refreshCompetitions();
     const timestamps=[validBase?Date.parse(base.updatedAt):NaN,validExtra?Date.parse(extra.updatedAt):NaN,validInternational?Date.parse(international.updatedAt):NaN].filter(Number.isFinite);
     const oldest=timestamps.length?Math.min(...timestamps):NaN;
@@ -80,8 +84,13 @@
     if(validInternational){source.append(document.createTextNode(' Football data provided by the Football-Data.org API.'));}
     render();
   }).catch(()=>{
+    if(matches.length){status.textContent='Actualisation temporairement indisponible ; derniers résultats conservés.';return;}
     status.textContent='Résultats momentanément indisponibles.';
     stamp.textContent='Dernière collecte non accessible.';
     count.textContent='';target.replaceChildren();source.textContent='';
   });
+  }
+  refreshSnapshots();
+  // Fetch only JSON from our own static site; never call external provider from browser.
+  setInterval(()=>{if(document.visibilityState==='visible')refreshSnapshots();},5*60*1000);
 })();

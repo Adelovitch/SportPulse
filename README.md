@@ -28,7 +28,7 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.
 - Participation volontaire et gratuite des internautes : pronostics horodatés avant match, scores de fiabilité, consentement, modération et comparaisons modèle/communauté. Aucun pari en argent réel.
-- La section « Rencontres fictives » et ses probabilités sont pédagogiques ; ne pas les confondre avec des données réelles.
+- Les anciennes rencontres fictives et leur script de démonstration ne sont plus affichés sur le site public.
 
 ## Ancien prototype (inactif)
 Le dossier `worker/` reste archivé pour une éventuelle phase ultérieure Cloudflare Workers + football-data.org. **Il n'est pas utilisé par l'interface active.** Ne pas transmettre de secrets dans le dépôt.

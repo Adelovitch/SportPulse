@@ -22,6 +22,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Collect results (preserve last good snapshot on error)
         run: python scripts/collect_openligadb.py
+      - name: Calculate football standings and recent form
+        continue-on-error: true
+        run: python scripts/collect_analytics.py
       - name: Collect optional F1 and basketball data
         continue-on-error: true
         run: python scripts/collect_extras.py
@@ -31,6 +34,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/matches.json
           if [ -f data/extras.json ]; then git add data/extras.json; fi
+          if [ -f data/analytics.json ]; then git add data/analytics.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "data: update multi-sport data snapshots"
             git push

@@ -39,8 +39,8 @@
       const formatted=Number.isFinite(dt)?new Date(dt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'}):'Date inconnue';
       top.append(make('span','',m.competition||'Compétition'),make('span','',formatted));
       const teams=make('div','teams');
-      teams.append(make('span','',m.home||'Équipe inconnue'),make('strong','',m.score||'–'),make('span','',m.away||'Équipe inconnue'));
-      const foot=make('div','matchbottom');foot.append(make('span','',m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé'),make('span','tag',m.sport||'Sport'));
+      teams.append(make('span','',m.home||'Événement'),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),make('span','',m.away||'Lieu inconnu'));
+      const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?'Grand Prix (calendrier)':(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));
       card.append(top,teams,foot);target.append(card);
     }
   }
@@ -48,17 +48,23 @@
   el('clearRealFilters').addEventListener('click',()=>{sport.value='all';competition.value='all';period.value='all';date.value='';page=0;render();});
   prev.addEventListener('click',()=>{if(page>0){page--;render();}});
   next.addEventListener('click',()=>{page++;render();});
-  fetch('./data/matches.json',{cache:'no-cache'}).then(async response=>{
-    if(!response.ok)throw Error('Données absentes');return response.json();
-  }).then(data=>{
-    if(!data||data.source!=='OpenLigaDB'||!Array.isArray(data.matches))throw Error('Format inattendu');
-    matches=data.matches.filter(m=>m&&m.utcDate&&m.home&&m.away);
+  const load=(file)=>fetch(file,{cache:'no-cache'}).then(async response=>{if(!response.ok)throw Error(file+' unavailable');return response.json();});
+  Promise.allSettled([load('./data/matches.json'),load('./data/extras.json')]).then(results=>{
+    const base=results[0].status==='fulfilled'?results[0].value:null;
+    const extra=results[1].status==='fulfilled'?results[1].value:null;
+    const validBase=base&&base.source==='OpenLigaDB'&&Array.isArray(base.matches);
+    const validExtra=extra&&extra.source==='SportPulseExtras'&&Array.isArray(extra.matches);
+    if(!validBase&&!validExtra)throw Error('No valid snapshots');
+    matches=[...(validBase?base.matches:[]),...(validExtra?extra.matches:[])].filter(m=>m&&m.utcDate&&m.home&&m.away);
     options(sport,[...new Set(matches.map(m=>m.sport).filter(Boolean))]);
     options(competition,[...new Set(matches.map(m=>m.competition).filter(Boolean))]);
-    const fetched=Date.parse(data.updatedAt||'');
-    status.textContent=Number.isFinite(fetched)&&Date.now()-fetched>12*3600000?'Données disponibles ; la dernière collecte est ancienne.':'Résultats et calendriers disponibles (mise à jour périodique, pas en direct).';
-    stamp.textContent=Number.isFinite(fetched)?'Mis à jour le '+new Date(fetched).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}):'Date de collecte non disponible';
-    const link=make('a','','OpenLigaDB');link.href='https://www.openligadb.de/';link.target='_blank';link.rel='noopener noreferrer';source.replaceChildren(make('span','','Source des données : '),link);
+    const timestamps=[validBase?Date.parse(base.updatedAt):NaN,validExtra?Date.parse(extra.updatedAt):NaN].filter(Number.isFinite);
+    const oldest=timestamps.length?Math.min(...timestamps):NaN;
+    status.textContent=Number.isFinite(oldest)&&Date.now()-oldest>12*3600000?'Des données sont disponibles ; au moins une collecte est ancienne.':'Calendriers et résultats disponibles (actualisation périodique, non temps réel).';
+    stamp.textContent=timestamps.length?'Dernières collectes : '+timestamps.map(t=>new Date(t).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'})).join(' · '):'Dates de collecte indisponibles';
+    source.replaceChildren();
+    const attribution=[['OpenLigaDB','https://www.openligadb.de/',validBase],['Jolpica-F1','https://github.com/jolpica/jolpica-f1',validExtra&&extra.providers?.includes('Jolpica-F1')],['TheSportsDB','https://www.thesportsdb.com/',validExtra&&extra.providers?.includes('TheSportsDB')]];
+    for(const [name,url,active] of attribution){if(!active)continue;const link=make('a','',name);link.href=url;link.target='_blank';link.rel='noopener noreferrer';source.append(link,document.createTextNode(' · '));}
     render();
   }).catch(()=>{
     status.textContent='Résultats momentanément indisponibles.';

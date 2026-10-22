@@ -33,3 +33,7 @@
 .competitionHeading:first-child{margin-top:4px}
 .competitionSport{font-size:11px;font-weight:600;letter-spacing:.3px;color:#afd7ed;border:1px solid #3d607a;border-radius:99px;padding:6px 10px;white-space:nowrap}
 @media(max-width:700px){.competitionHeading{padding:12px 13px;font-size:20px}.competitionSport{font-size:10px}}
+
+.competitionHeading{justify-content:flex-start}
+.competitionSport{border:0;padding:0;font-size:14px;font-weight:500;white-space:normal}
+@media(max-width:700px){.competitionSport{font-size:12px}}

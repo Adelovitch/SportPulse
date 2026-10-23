@@ -41,9 +41,9 @@
  const num=v=>v===null||v===undefined?NaN:Number(v);
  const avg=(team,field)=>num(team.played)>0?num(team[field])/num(team.played):NaN;
  const percent=team=>num(team.played)>0?100*num(team.won)/num(team.played):NaN;
- const norm=s=>String(s||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLocaleLowerCase('fr').replace(/[^a-z0-9]/g,'');
- const finished=m=>m.status==='FINISHED'&&/^\\d+\\s*[–-]\\s*\\d+$/.test(m.score||'');
- const parsed=m=>m.score.split(/\\s*[–-]\\s*/).map(Number);
+ const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr').replace(/[^a-z0-9]/g,'');
+ const finished=m=>m.status==='FINISHED'&&/^\d+\s*[–-]\s*\d+$/.test(m.score||'');
+ const parsed=m=>m.score.split(/\s*[–-]\s*/).map(Number);
  const matching=(name,m)=>norm(name)===norm(m.home)||norm(name)===norm(m.away);
  const record=(team,side)=>{
   const arr=fixtures.filter(m=>m.competition===league.value&&finished(m)&&matching(team.team,m)&&(side==='home'?norm(team.team)===norm(m.home):norm(team.team)===norm(m.away)));

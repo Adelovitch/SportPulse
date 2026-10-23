@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T21:23:08.793781Z",
+  "updatedAt": "2026-10-23T21:30:39.664100Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -8007,10 +8007,10 @@
         "won": 2,
         "drawn": 2,
         "lost": 5,
-        "gf": 8,
+        "gf": 9,
         "ga": 10,
         "points": 8,
-        "goalDifference": -2
+        "goalDifference": -1
       },
       {
         "team": "Moreirense FC",
@@ -8034,9 +8034,9 @@
         "drawn": 2,
         "lost": 5,
         "gf": 9,
-        "ga": 17,
+        "ga": 18,
         "points": 8,
-        "goalDifference": -8
+        "goalDifference": -9
       },
       {
         "team": "FC Famalicão",

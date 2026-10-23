@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T08:09:18.182Z",
+  "updatedAt": "2026-10-23T12:33:07.910130Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -9,6 +9,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Heidenheim 1846",
       "away": "1. FC Kaiserslautern",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "utcDate": "2026-10-09T16:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -19,6 +21,8 @@
       "competition": "2. Bundesliga",
       "home": "Eintracht Braunschweig",
       "away": "Holstein Kiel",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "utcDate": "2026-10-09T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -32,7 +36,9 @@
       "utcDate": "2026-10-09T17:45:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/583.png",
+      "awayLogo": "https://crests.football-data.org/5533.png"
     },
     {
       "id": "football-data:558881",
@@ -43,7 +49,9 @@
       "utcDate": "2026-10-09T18:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/674.png",
+      "awayLogo": "https://crests.football-data.org/673.png"
     },
     {
       "id": "openligadb:83192",
@@ -51,6 +59,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Dortmund",
       "away": "SV Werder Bremen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-10-09T18:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -64,7 +74,9 @@
       "utcDate": "2026-10-09T18:45:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/523.png"
     },
     {
       "id": "football-data:564706",
@@ -75,7 +87,9 @@
       "utcDate": "2026-10-09T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/84.png",
+      "awayLogo": "https://crests.football-data.org/80.png"
     },
     {
       "id": "football-data:567326",
@@ -86,7 +100,9 @@
       "utcDate": "2026-10-09T19:15:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5613.png",
+      "awayLogo": "https://crests.football-data.org/498.png"
     },
     {
       "id": "openligadb:83611",
@@ -94,6 +110,8 @@
       "competition": "2. Bundesliga",
       "home": "SV Darmstadt 98",
       "away": "Energie Cottbus",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1"
@@ -104,6 +122,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Magdeburg",
       "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 0"
@@ -114,6 +134,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Osnabrück",
       "away": "Dynamo Dresden",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -127,7 +149,9 @@
       "utcDate": "2026-10-10T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/57.png",
+      "awayLogo": "https://crests.football-data.org/341.png"
     },
     {
       "id": "football-data:558588",
@@ -138,7 +162,9 @@
       "utcDate": "2026-10-10T13:00:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/107.png",
+      "awayLogo": "https://crests.football-data.org/99.png"
     },
     {
       "id": "openligadb:83194",
@@ -146,6 +172,8 @@
       "competition": "Bundesliga",
       "home": "TSG Hoffenheim",
       "away": "Hamburger SV",
+      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 3"
@@ -156,6 +184,8 @@
       "competition": "Bundesliga",
       "home": "FC Augsburg",
       "away": "FC Bayern München",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -166,6 +196,8 @@
       "competition": "Bundesliga",
       "home": "1. FSV Mainz 05",
       "away": "Bayer 04 Leverkusen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "3 – 4"
@@ -176,6 +208,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Union Berlin",
       "away": "SV 07 Elversberg",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -186,6 +220,8 @@
       "competition": "Bundesliga",
       "home": "SC Paderborn 07",
       "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 2"
@@ -199,7 +235,9 @@
       "utcDate": "2026-10-10T14:00:00Z",
       "status": "FINISHED",
       "score": "0 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/71.png",
+      "awayLogo": "https://crests.football-data.org/397.png"
     },
     {
       "id": "football-data:560595",
@@ -210,7 +248,9 @@
       "utcDate": "2026-10-10T14:00:00Z",
       "status": "FINISHED",
       "score": "5 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/61.png",
+      "awayLogo": "https://crests.football-data.org/bournemouth.png"
     },
     {
       "id": "football-data:560599",
@@ -221,7 +261,9 @@
       "utcDate": "2026-10-10T14:00:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/349.png",
+      "awayLogo": "https://crests.football-data.org/63.png"
     },
     {
       "id": "football-data:560601",
@@ -232,7 +274,9 @@
       "utcDate": "2026-10-10T14:00:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/58.png",
+      "awayLogo": "https://crests.football-data.org/402.png"
     },
     {
       "id": "football-data:564699",
@@ -243,7 +287,9 @@
       "utcDate": "2026-10-10T14:15:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/263.png",
+      "awayLogo": "https://crests.football-data.org/78.png"
     },
     {
       "id": "football-data:558880",
@@ -254,7 +300,9 @@
       "utcDate": "2026-10-10T14:30:00Z",
       "status": "FINISHED",
       "score": "3 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/718.png",
+      "awayLogo": "https://crests.football-data.org/6806.png"
     },
     {
       "id": "football-data:559674",
@@ -265,7 +313,9 @@
       "utcDate": "2026-10-10T15:15:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/521.png",
+      "awayLogo": "https://crests.football-data.org/533.png"
     },
     {
       "id": "football-data:558582",
@@ -276,7 +326,9 @@
       "utcDate": "2026-10-10T16:00:00Z",
       "status": "FINISHED",
       "score": "3 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/108.png",
+      "awayLogo": "https://crests.football-data.org/112.png"
     },
     {
       "id": "football-data:560600",
@@ -287,7 +339,9 @@
       "utcDate": "2026-10-10T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/66.png",
+      "awayLogo": "https://crests.football-data.org/73.png"
     },
     {
       "id": "football-data:564700",
@@ -298,7 +352,9 @@
       "utcDate": "2026-10-10T16:30:00Z",
       "status": "FINISHED",
       "score": "3 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/81.png",
+      "awayLogo": "https://crests.football-data.org/82.png"
     },
     {
       "id": "openligadb:83193",
@@ -306,6 +362,8 @@
       "competition": "Bundesliga",
       "home": "RB Leipzig",
       "away": "Eintracht Frankfurt",
+      "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
+      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-10-10T16:30:00Z",
       "status": "FINISHED",
       "score": "6 – 0"
@@ -319,7 +377,9 @@
       "utcDate": "2026-10-10T16:45:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/675.png",
+      "awayLogo": "https://crests.football-data.org/682.png"
     },
     {
       "id": "football-data:567323",
@@ -330,7 +390,9 @@
       "utcDate": "2026-10-10T17:00:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5575.png",
+      "awayLogo": "https://crests.football-data.org/503.png"
     },
     {
       "id": "football-data:558877",
@@ -341,7 +403,9 @@
       "utcDate": "2026-10-10T18:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1920.png",
+      "awayLogo": "https://crests.football-data.org/666.png"
     },
     {
       "id": "openligadb:83615",
@@ -349,6 +413,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Nürnberg",
       "away": "VfL Wolfsburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-10-10T18:30:00Z",
       "status": "FINISHED",
       "score": "4 – 4"
@@ -362,7 +428,9 @@
       "utcDate": "2026-10-10T18:45:00Z",
       "status": "FINISHED",
       "score": "3 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/113.png",
+      "awayLogo": "https://crests.football-data.org/470.png"
     },
     {
       "id": "football-data:559666",
@@ -373,7 +441,9 @@
       "utcDate": "2026-10-10T18:45:00Z",
       "status": "FINISHED",
       "score": "5 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/512.png",
+      "awayLogo": "https://crests.football-data.org/532.png"
     },
     {
       "id": "football-data:559668",
@@ -384,7 +454,9 @@
       "utcDate": "2026-10-10T18:45:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/525.png",
+      "awayLogo": "https://crests.football-data.org/1045.png"
     },
     {
       "id": "football-data:559672",
@@ -395,7 +467,9 @@
       "utcDate": "2026-10-10T18:45:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/524.png",
+      "awayLogo": "https://crests.football-data.org/535.png"
     },
     {
       "id": "football-data:559673",
@@ -406,7 +480,9 @@
       "utcDate": "2026-10-10T18:45:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/548.png",
+      "awayLogo": "https://crests.football-data.org/511.png"
     },
     {
       "id": "football-data:558878",
@@ -417,7 +493,9 @@
       "utcDate": "2026-10-10T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/678.png",
+      "awayLogo": "https://crests.football-data.org/1915.png"
     },
     {
       "id": "football-data:564702",
@@ -428,7 +506,9 @@
       "utcDate": "2026-10-10T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/86.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
     },
     {
       "id": "football-data:567321",
@@ -439,7 +519,9 @@
       "utcDate": "2026-10-10T19:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6618.png",
+      "awayLogo": "https://crests.football-data.org/5530.png"
     },
     {
       "id": "football-data:567322",
@@ -450,7 +532,9 @@
       "utcDate": "2026-10-10T19:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5527.png",
+      "awayLogo": "https://crests.football-data.org/582.png"
     },
     {
       "id": "football-data:558876",
@@ -461,7 +545,9 @@
       "utcDate": "2026-10-11T10:15:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/676.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     },
     {
       "id": "football-data:558585",
@@ -472,7 +558,9 @@
       "utcDate": "2026-10-11T10:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7397.png",
+      "awayLogo": "https://crests.football-data.org/100.png"
     },
     {
       "id": "openligadb:83608",
@@ -480,6 +568,8 @@
       "competition": "2. Bundesliga",
       "home": "FC St. Pauli",
       "away": "Karlsruher SC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -490,6 +580,8 @@
       "competition": "2. Bundesliga",
       "home": "Hertha BSC",
       "away": "SpVgg Greuther Fürth",
+      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
+      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -500,6 +592,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Bochum",
       "away": "DSC Arminia Bielefeld",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1"
@@ -513,7 +607,9 @@
       "utcDate": "2026-10-11T12:00:00Z",
       "status": "FINISHED",
       "score": "0 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/285.png",
+      "awayLogo": "https://crests.football-data.org/558.png"
     },
     {
       "id": "football-data:558874",
@@ -524,7 +620,9 @@
       "utcDate": "2026-10-11T12:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/684.png",
+      "awayLogo": "https://crests.football-data.org/1909.png"
     },
     {
       "id": "football-data:558875",
@@ -535,7 +633,9 @@
       "utcDate": "2026-10-11T12:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1912.png",
+      "awayLogo": "https://crests.football-data.org/680.png"
     },
     {
       "id": "football-data:558581",
@@ -546,7 +646,9 @@
       "utcDate": "2026-10-11T13:00:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5890.png",
+      "awayLogo": "https://crests.football-data.org/103.png"
     },
     {
       "id": "football-data:558583",
@@ -557,7 +659,9 @@
       "utcDate": "2026-10-11T13:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/110.png",
+      "awayLogo": "https://crests.football-data.org/5911.png"
     },
     {
       "id": "football-data:559670",
@@ -568,7 +672,9 @@
       "utcDate": "2026-10-11T13:00:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/522.png",
+      "awayLogo": "https://crests.football-data.org/576.png"
     },
     {
       "id": "football-data:560594",
@@ -579,7 +685,9 @@
       "utcDate": "2026-10-11T13:00:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/322.png",
+      "awayLogo": "https://crests.football-data.org/62.png"
     },
     {
       "id": "football-data:560596",
@@ -590,7 +698,9 @@
       "utcDate": "2026-10-11T13:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/354.png",
+      "awayLogo": "https://crests.football-data.org/351.png"
     },
     {
       "id": "openligadb:83199",
@@ -598,6 +708,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Köln",
       "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
       "utcDate": "2026-10-11T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -611,7 +723,9 @@
       "utcDate": "2026-10-11T14:15:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/92.png",
+      "awayLogo": "https://crests.football-data.org/560.png"
     },
     {
       "id": "football-data:567328",
@@ -622,7 +736,9 @@
       "utcDate": "2026-10-11T14:30:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/496.png",
+      "awayLogo": "https://crests.football-data.org/5529.png"
     },
     {
       "id": "football-data:558873",
@@ -633,7 +749,9 @@
       "utcDate": "2026-10-11T14:45:00Z",
       "status": "FINISHED",
       "score": "1 – 5",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/670.png",
+      "awayLogo": "https://crests.football-data.org/677.png"
     },
     {
       "id": "football-data:559667",
@@ -644,7 +762,9 @@
       "utcDate": "2026-10-11T15:15:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/529.png",
+      "awayLogo": "https://crests.football-data.org/519.png"
     },
     {
       "id": "football-data:560598",
@@ -655,7 +775,9 @@
       "utcDate": "2026-10-11T15:30:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/64.png",
+      "awayLogo": "https://crests.football-data.org/65.png"
     },
     {
       "id": "openligadb:83195",
@@ -663,6 +785,8 @@
       "competition": "Bundesliga",
       "home": "SC Freiburg",
       "away": "FC Schalke 04",
+      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "utcDate": "2026-10-11T15:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -676,7 +800,9 @@
       "utcDate": "2026-10-11T16:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/471.png",
+      "awayLogo": "https://crests.football-data.org/98.png"
     },
     {
       "id": "football-data:564701",
@@ -687,7 +813,9 @@
       "utcDate": "2026-10-11T16:30:00Z",
       "status": "FINISHED",
       "score": "5 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/90.png",
+      "awayLogo": "https://crests.football-data.org/79.png"
     },
     {
       "id": "football-data:567320",
@@ -698,7 +826,9 @@
       "utcDate": "2026-10-11T17:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1903.png",
+      "awayLogo": "https://crests.football-data.org/5543.png"
     },
     {
       "id": "football-data:558584",
@@ -709,7 +839,9 @@
       "utcDate": "2026-10-11T18:45:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/104.png",
+      "awayLogo": "https://crests.football-data.org/109.png"
     },
     {
       "id": "football-data:559671",
@@ -720,7 +852,9 @@
       "utcDate": "2026-10-11T18:45:00Z",
       "status": "FINISHED",
       "score": "0 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/531.png",
+      "awayLogo": "https://crests.football-data.org/516.png"
     },
     {
       "id": "football-data:564705",
@@ -731,7 +865,9 @@
       "utcDate": "2026-10-11T19:00:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5335.png",
+      "awayLogo": "https://crests.football-data.org/95.png"
     },
     {
       "id": "football-data:567324",
@@ -742,7 +878,9 @@
       "utcDate": "2026-10-11T19:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/712.png",
+      "awayLogo": "https://crests.football-data.org/9136.png"
     },
     {
       "id": "football-data:558579",
@@ -753,7 +891,9 @@
       "utcDate": "2026-10-12T16:30:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/102.png",
+      "awayLogo": "https://crests.football-data.org/454.png"
     },
     {
       "id": "football-data:558587",
@@ -764,7 +904,9 @@
       "utcDate": "2026-10-12T18:45:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/586.png",
+      "awayLogo": "https://crests.football-data.org/115.png"
     },
     {
       "id": "football-data:560597",
@@ -775,7 +917,9 @@
       "utcDate": "2026-10-12T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1076.png",
+      "awayLogo": "https://crests.football-data.org/67.png"
     },
     {
       "id": "football-data:564704",
@@ -786,7 +930,9 @@
       "utcDate": "2026-10-12T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/88.png",
+      "awayLogo": "https://crests.football-data.org/559.png"
     },
     {
       "id": "football-data:567325",
@@ -797,7 +943,9 @@
       "utcDate": "2026-10-12T19:15:00Z",
       "status": "FINISHED",
       "score": "1 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5531.png",
+      "awayLogo": "https://crests.football-data.org/7822.png"
     },
     {
       "id": "football-data:575341",
@@ -808,7 +956,9 @@
       "utcDate": "2026-10-13T16:45:00Z",
       "status": "FINISHED",
       "score": "0 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/498.png"
     },
     {
       "id": "football-data:575342",
@@ -819,7 +969,9 @@
       "utcDate": "2026-10-13T16:45:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/10233.png",
+      "awayLogo": "https://crests.football-data.org/930.png"
     },
     {
       "id": "football-data:575343",
@@ -830,7 +982,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/108.png",
+      "awayLogo": "https://crests.football-data.org/851.png"
     },
     {
       "id": "football-data:575344",
@@ -841,7 +995,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/610.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
     },
     {
       "id": "football-data:575345",
@@ -852,7 +1008,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/78.png",
+      "awayLogo": "https://crests.football-data.org/66.png"
     },
     {
       "id": "football-data:575346",
@@ -863,7 +1021,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/57.png",
+      "awayLogo": "https://crests.football-data.org/521.png"
     },
     {
       "id": "football-data:575347",
@@ -874,7 +1034,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5720.png",
+      "awayLogo": "https://crests.football-data.org/5.png"
     },
     {
       "id": "football-data:575348",
@@ -885,7 +1047,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/721.png",
+      "awayLogo": "https://crests.football-data.org/674.png"
     },
     {
       "id": "football-data:575349",
@@ -896,7 +1060,9 @@
       "utcDate": "2026-10-13T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/94.png",
+      "awayLogo": "https://crests.football-data.org/113.png"
     },
     {
       "id": "football-data:575350",
@@ -907,7 +1073,9 @@
       "utcDate": "2026-10-14T16:45:00Z",
       "status": "FINISHED",
       "score": "3 – 6",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/2016.png",
+      "awayLogo": "https://crests.football-data.org/64.png"
     },
     {
       "id": "football-data:575351",
@@ -918,7 +1086,9 @@
       "utcDate": "2026-10-14T16:45:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/675.png",
+      "awayLogo": "https://crests.football-data.org/7397.png"
     },
     {
       "id": "football-data:575352",
@@ -929,7 +1099,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/100.png",
+      "awayLogo": "https://crests.football-data.org/86.png"
     },
     {
       "id": "football-data:575353",
@@ -940,7 +1112,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "2 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/65.png",
+      "awayLogo": "https://crests.football-data.org/524.png"
     },
     {
       "id": "football-data:575354",
@@ -951,7 +1125,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5721.png",
+      "awayLogo": "https://crests.football-data.org/4.png"
     },
     {
       "id": "football-data:575355",
@@ -962,7 +1138,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "6 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/58.png",
+      "awayLogo": "https://crests.football-data.org/613.png"
     },
     {
       "id": "football-data:575356",
@@ -973,7 +1151,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/90.png",
+      "awayLogo": "https://crests.football-data.org/503.png"
     },
     {
       "id": "football-data:575357",
@@ -984,7 +1164,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1887.png",
+      "awayLogo": "https://crests.football-data.org/1899.png"
     },
     {
       "id": "football-data:575358",
@@ -995,7 +1177,9 @@
       "utcDate": "2026-10-14T19:00:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7509.png",
+      "awayLogo": "https://crests.football-data.org/10.png"
     },
     {
       "id": "openligadb:83632",
@@ -1003,6 +1187,8 @@
       "competition": "2. Bundesliga",
       "home": "Holstein Kiel",
       "away": "Hertha BSC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-10-16T16:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -1013,6 +1199,8 @@
       "competition": "2. Bundesliga",
       "home": "Energie Cottbus",
       "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-10-16T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -1026,7 +1214,9 @@
       "utcDate": "2026-10-16T18:00:00Z",
       "status": "FINISHED",
       "score": "4 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/673.png",
+      "awayLogo": "https://crests.football-data.org/670.png"
     },
     {
       "id": "openligadb:83203",
@@ -1034,6 +1224,8 @@
       "competition": "Bundesliga",
       "home": "Eintracht Frankfurt",
       "away": "1. FC Köln",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
       "utcDate": "2026-10-16T18:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -1047,7 +1239,9 @@
       "utcDate": "2026-10-16T18:45:00Z",
       "status": "FINISHED",
       "score": "4 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/470.png",
+      "awayLogo": "https://crests.football-data.org/471.png"
     },
     {
       "id": "football-data:559661",
@@ -1058,7 +1252,9 @@
       "utcDate": "2026-10-16T18:45:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/535.png",
+      "awayLogo": "https://crests.football-data.org/511.png"
     },
     {
       "id": "football-data:564716",
@@ -1069,7 +1265,9 @@
       "utcDate": "2026-10-16T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/560.png",
+      "awayLogo": "https://crests.football-data.org/88.png"
     },
     {
       "id": "openligadb:83626",
@@ -1077,6 +1275,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Wolfsburg",
       "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1"
@@ -1087,6 +1287,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Kaiserslautern",
       "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -1097,6 +1299,8 @@
       "competition": "2. Bundesliga",
       "home": "SpVgg Greuther Fürth",
       "away": "Eintracht Braunschweig",
+      "homeLogo": "https://i.imgur.com/pwuVbKr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -1110,7 +1314,9 @@
       "utcDate": "2026-10-17T11:30:00Z",
       "status": "FINISHED",
       "score": "0 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/62.png",
+      "awayLogo": "https://crests.football-data.org/61.png"
     },
     {
       "id": "football-data:564710",
@@ -1121,7 +1327,9 @@
       "utcDate": "2026-10-17T12:00:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/80.png",
+      "awayLogo": "https://crests.football-data.org/78.png"
     },
     {
       "id": "football-data:558575",
@@ -1132,7 +1340,9 @@
       "utcDate": "2026-10-17T13:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/454.png",
+      "awayLogo": "https://crests.football-data.org/113.png"
     },
     {
       "id": "openligadb:83204",
@@ -1140,6 +1350,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Union Berlin",
       "away": "Borussia Dortmund",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -1150,6 +1362,8 @@
       "competition": "Bundesliga",
       "home": "Hamburger SV",
       "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -1160,6 +1374,8 @@
       "competition": "Bundesliga",
       "home": "SV Werder Bremen",
       "away": "SC Paderborn 07",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -1170,6 +1386,8 @@
       "competition": "Bundesliga",
       "home": "FC Schalke 04",
       "away": "1. FSV Mainz 05",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1"
@@ -1180,6 +1398,8 @@
       "competition": "Bundesliga",
       "home": "SV 07 Elversberg",
       "away": "FC Augsburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/sdE62e2.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "4 – 3"
@@ -1193,7 +1413,9 @@
       "utcDate": "2026-10-17T14:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/63.png",
+      "awayLogo": "https://crests.football-data.org/322.png"
     },
     {
       "id": "football-data:560610",
@@ -1204,7 +1426,9 @@
       "utcDate": "2026-10-17T14:00:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/65.png",
+      "awayLogo": "https://crests.football-data.org/349.png"
     },
     {
       "id": "football-data:560611",
@@ -1215,7 +1439,9 @@
       "utcDate": "2026-10-17T14:00:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/402.png",
+      "awayLogo": "https://crests.football-data.org/64.png"
     },
     {
       "id": "football-data:564708",
@@ -1226,7 +1452,9 @@
       "utcDate": "2026-10-17T14:15:00Z",
       "status": "FINISHED",
       "score": "0 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/94.png",
+      "awayLogo": "https://crests.football-data.org/285.png"
     },
     {
       "id": "football-data:558871",
@@ -1237,7 +1465,9 @@
       "utcDate": "2026-10-17T14:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/680.png",
+      "awayLogo": "https://crests.football-data.org/674.png"
     },
     {
       "id": "football-data:559662",
@@ -1248,7 +1478,9 @@
       "utcDate": "2026-10-17T15:15:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/576.png",
+      "awayLogo": "https://crests.football-data.org/524.png"
     },
     {
       "id": "football-data:558571",
@@ -1259,7 +1491,9 @@
       "utcDate": "2026-10-17T16:00:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/103.png",
+      "awayLogo": "https://crests.football-data.org/108.png"
     },
     {
       "id": "football-data:560607",
@@ -1270,7 +1504,9 @@
       "utcDate": "2026-10-17T16:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/67.png",
+      "awayLogo": "https://crests.football-data.org/58.png"
     },
     {
       "id": "football-data:564713",
@@ -1281,7 +1517,9 @@
       "utcDate": "2026-10-17T16:30:00Z",
       "status": "FINISHED",
       "score": "2 – 5",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/90.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
     },
     {
       "id": "openligadb:83201",
@@ -1289,6 +1527,8 @@
       "competition": "Bundesliga",
       "home": "FC Bayern München",
       "away": "RB Leipzig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://i.imgur.com/Rpwsjz1.png",
       "utcDate": "2026-10-17T16:30:00Z",
       "status": "FINISHED",
       "score": "6 – 1"
@@ -1302,7 +1542,9 @@
       "utcDate": "2026-10-17T18:00:00Z",
       "status": "FINISHED",
       "score": "3 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1912.png",
+      "awayLogo": "https://crests.football-data.org/675.png"
     },
     {
       "id": "openligadb:83627",
@@ -1310,6 +1552,8 @@
       "competition": "2. Bundesliga",
       "home": "Hannover 96",
       "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-10-17T18:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -1323,7 +1567,9 @@
       "utcDate": "2026-10-17T18:45:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/100.png",
+      "awayLogo": "https://crests.football-data.org/107.png"
     },
     {
       "id": "football-data:559659",
@@ -1334,7 +1580,9 @@
       "utcDate": "2026-10-17T18:45:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/531.png",
+      "awayLogo": "https://crests.football-data.org/546.png"
     },
     {
       "id": "football-data:559660",
@@ -1345,7 +1593,9 @@
       "utcDate": "2026-10-17T18:45:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/521.png",
+      "awayLogo": "https://crests.football-data.org/512.png"
     },
     {
       "id": "football-data:558868",
@@ -1356,7 +1606,9 @@
       "utcDate": "2026-10-17T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6806.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     },
     {
       "id": "football-data:564711",
@@ -1367,7 +1619,9 @@
       "utcDate": "2026-10-17T19:00:00Z",
       "status": "FINISHED",
       "score": "0 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/95.png",
+      "awayLogo": "https://crests.football-data.org/77.png"
     },
     {
       "id": "football-data:558867",
@@ -1378,7 +1632,9 @@
       "utcDate": "2026-10-18T10:15:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/684.png",
+      "awayLogo": "https://crests.football-data.org/718.png"
     },
     {
       "id": "football-data:558574",
@@ -1389,7 +1645,9 @@
       "utcDate": "2026-10-18T10:30:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/115.png",
+      "awayLogo": "https://crests.football-data.org/5890.png"
     },
     {
       "id": "openligadb:83629",
@@ -1397,6 +1655,8 @@
       "competition": "2. Bundesliga",
       "home": "Karlsruher SC",
       "away": "SV Darmstadt 98",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "4 – 0"
@@ -1407,6 +1667,8 @@
       "competition": "2. Bundesliga",
       "home": "Dynamo Dresden",
       "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -1417,6 +1679,8 @@
       "competition": "2. Bundesliga",
       "home": "DSC Arminia Bielefeld",
       "away": "VfL Osnabrück",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -1430,7 +1694,9 @@
       "utcDate": "2026-10-18T12:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/79.png",
+      "awayLogo": "https://crests.football-data.org/5335.png"
     },
     {
       "id": "football-data:558865",
@@ -1441,7 +1707,9 @@
       "utcDate": "2026-10-18T12:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1909.png",
+      "awayLogo": "https://crests.football-data.org/682.png"
     },
     {
       "id": "football-data:558577",
@@ -1452,7 +1720,9 @@
       "utcDate": "2026-10-18T13:00:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/99.png",
+      "awayLogo": "https://crests.football-data.org/7397.png"
     },
     {
       "id": "football-data:559664",
@@ -1463,7 +1733,9 @@
       "utcDate": "2026-10-18T13:00:00Z",
       "status": "FINISHED",
       "score": "2 – 5",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/532.png",
+      "awayLogo": "https://crests.football-data.org/516.png"
     },
     {
       "id": "football-data:560604",
@@ -1474,7 +1746,9 @@
       "utcDate": "2026-10-18T13:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/bournemouth.png",
+      "awayLogo": "https://crests.football-data.org/71.png"
     },
     {
       "id": "football-data:560605",
@@ -1485,7 +1759,9 @@
       "utcDate": "2026-10-18T13:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/341.png",
+      "awayLogo": "https://crests.football-data.org/66.png"
     },
     {
       "id": "football-data:560609",
@@ -1496,7 +1772,9 @@
       "utcDate": "2026-10-18T13:00:00Z",
       "status": "FINISHED",
       "score": "5 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/397.png",
+      "awayLogo": "https://crests.football-data.org/354.png"
     },
     {
       "id": "openligadb:83202",
@@ -1504,6 +1782,8 @@
       "competition": "Bundesliga",
       "home": "Bayer 04 Leverkusen",
       "away": "SC Freiburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "awayLogo": "https://i.imgur.com/r3mvi0h.png",
       "utcDate": "2026-10-18T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -1517,7 +1797,9 @@
       "utcDate": "2026-10-18T14:15:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/558.png",
+      "awayLogo": "https://crests.football-data.org/263.png"
     },
     {
       "id": "football-data:558864",
@@ -1528,7 +1810,9 @@
       "utcDate": "2026-10-18T14:45:00Z",
       "status": "FINISHED",
       "score": "2 – 5",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/677.png",
+      "awayLogo": "https://crests.football-data.org/678.png"
     },
     {
       "id": "football-data:559657",
@@ -1539,7 +1823,9 @@
       "utcDate": "2026-10-18T15:15:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/525.png",
+      "awayLogo": "https://crests.football-data.org/548.png"
     },
     {
       "id": "football-data:559658",
@@ -1550,7 +1836,9 @@
       "utcDate": "2026-10-18T15:15:00Z",
       "status": "FINISHED",
       "score": "4 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1045.png",
+      "awayLogo": "https://crests.football-data.org/529.png"
     },
     {
       "id": "football-data:559663",
@@ -1561,7 +1849,9 @@
       "utcDate": "2026-10-18T15:15:00Z",
       "status": "FINISHED",
       "score": "1 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/533.png",
+      "awayLogo": "https://crests.football-data.org/519.png"
     },
     {
       "id": "football-data:560608",
@@ -1572,7 +1862,9 @@
       "utcDate": "2026-10-18T15:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/351.png",
+      "awayLogo": "https://crests.football-data.org/57.png"
     },
     {
       "id": "openligadb:83205",
@@ -1580,6 +1872,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Mönchengladbach",
       "away": "TSG Hoffenheim",
+      "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "awayLogo": "https://i.imgur.com/gF0PfEl.png",
       "utcDate": "2026-10-18T15:30:00Z",
       "status": "FINISHED",
       "score": "1 – 2"
@@ -1593,7 +1887,9 @@
       "utcDate": "2026-10-18T16:00:00Z",
       "status": "FINISHED",
       "score": "3 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/98.png",
+      "awayLogo": "https://crests.football-data.org/102.png"
     },
     {
       "id": "football-data:564714",
@@ -1604,7 +1900,9 @@
       "utcDate": "2026-10-18T16:30:00Z",
       "status": "FINISHED",
       "score": "2 – 5",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/84.png",
+      "awayLogo": "https://crests.football-data.org/92.png"
     },
     {
       "id": "football-data:558866",
@@ -1615,7 +1913,9 @@
       "utcDate": "2026-10-18T18:00:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/666.png",
+      "awayLogo": "https://crests.football-data.org/676.png"
     },
     {
       "id": "football-data:558870",
@@ -1626,7 +1926,9 @@
       "utcDate": "2026-10-18T18:00:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1915.png",
+      "awayLogo": "https://crests.football-data.org/1920.png"
     },
     {
       "id": "football-data:558570",
@@ -1637,7 +1939,9 @@
       "utcDate": "2026-10-18T18:45:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/109.png",
+      "awayLogo": "https://crests.football-data.org/110.png"
     },
     {
       "id": "football-data:559665",
@@ -1648,7 +1952,9 @@
       "utcDate": "2026-10-18T18:45:00Z",
       "status": "FINISHED",
       "score": "2 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/523.png",
+      "awayLogo": "https://crests.football-data.org/522.png"
     },
     {
       "id": "football-data:564709",
@@ -1659,7 +1965,9 @@
       "utcDate": "2026-10-18T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/86.png",
+      "awayLogo": "https://crests.football-data.org/559.png"
     },
     {
       "id": "football-data:558576",
@@ -1670,7 +1978,9 @@
       "utcDate": "2026-10-19T16:30:00Z",
       "status": "FINISHED",
       "score": "4 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5911.png",
+      "awayLogo": "https://crests.football-data.org/104.png"
     },
     {
       "id": "football-data:558578",
@@ -1681,7 +1991,9 @@
       "utcDate": "2026-10-19T18:45:00Z",
       "status": "FINISHED",
       "score": "0 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/112.png",
+      "awayLogo": "https://crests.football-data.org/586.png"
     },
     {
       "id": "football-data:560606",
@@ -1692,7 +2004,9 @@
       "utcDate": "2026-10-19T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/73.png",
+      "awayLogo": "https://crests.football-data.org/1076.png"
     },
     {
       "id": "football-data:564717",
@@ -1703,7 +2017,9 @@
       "utcDate": "2026-10-19T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/82.png",
+      "awayLogo": "https://crests.football-data.org/87.png"
     },
     {
       "id": "football-data:567271",
@@ -1714,7 +2030,9 @@
       "utcDate": "2026-10-19T19:15:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5613.png",
+      "awayLogo": "https://crests.football-data.org/5533.png"
     },
     {
       "id": "football-data:575359",
@@ -1725,7 +2043,9 @@
       "utcDate": "2026-10-20T16:45:00Z",
       "status": "FINISHED",
       "score": "1 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/10233.png",
+      "awayLogo": "https://crests.football-data.org/4.png"
     },
     {
       "id": "football-data:575360",
@@ -1736,7 +2056,9 @@
       "utcDate": "2026-10-20T16:45:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/613.png",
+      "awayLogo": "https://crests.football-data.org/930.png"
     },
     {
       "id": "football-data:575361",
@@ -1747,7 +2069,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "5 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/65.png",
+      "awayLogo": "https://crests.football-data.org/1899.png"
     },
     {
       "id": "football-data:575362",
@@ -1758,7 +2082,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/10.png",
+      "awayLogo": "https://crests.football-data.org/78.png"
     },
     {
       "id": "football-data:575363",
@@ -1769,7 +2095,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/64.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
     },
     {
       "id": "football-data:575364",
@@ -1780,7 +2108,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/100.png",
+      "awayLogo": "https://crests.football-data.org/7509.png"
     },
     {
       "id": "football-data:575365",
@@ -1791,7 +2121,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/503.png",
+      "awayLogo": "https://crests.football-data.org/674.png"
     },
     {
       "id": "football-data:575366",
@@ -1802,7 +2134,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/113.png",
+      "awayLogo": "https://crests.football-data.org/5721.png"
     },
     {
       "id": "football-data:575367",
@@ -1813,7 +2147,9 @@
       "utcDate": "2026-10-20T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/524.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
     },
     {
       "id": "football-data:575368",
@@ -1824,7 +2160,9 @@
       "utcDate": "2026-10-21T16:45:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7397.png",
+      "awayLogo": "https://crests.football-data.org/66.png"
     },
     {
       "id": "football-data:575369",
@@ -1835,7 +2173,9 @@
       "utcDate": "2026-10-21T16:45:00Z",
       "status": "FINISHED",
       "score": "2 – 4",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/521.png",
+      "awayLogo": "https://crests.football-data.org/610.png"
     },
     {
       "id": "football-data:564685",
@@ -1846,7 +2186,9 @@
       "utcDate": "2026-10-21T18:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/88.png",
+      "awayLogo": "https://crests.football-data.org/77.png"
     },
     {
       "id": "football-data:575370",
@@ -1857,7 +2199,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/86.png",
+      "awayLogo": "https://crests.football-data.org/721.png"
     },
     {
       "id": "football-data:575371",
@@ -1868,7 +2212,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/108.png",
+      "awayLogo": "https://crests.football-data.org/1887.png"
     },
     {
       "id": "football-data:575372",
@@ -1879,7 +2225,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "2 – 2",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5.png",
+      "awayLogo": "https://crests.football-data.org/57.png"
     },
     {
       "id": "football-data:575373",
@@ -1890,7 +2238,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/851.png",
+      "awayLogo": "https://crests.football-data.org/546.png"
     },
     {
       "id": "football-data:575374",
@@ -1901,7 +2251,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/58.png",
+      "awayLogo": "https://crests.football-data.org/5720.png"
     },
     {
       "id": "football-data:575375",
@@ -1912,7 +2264,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "2 – 3",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/498.png",
+      "awayLogo": "https://crests.football-data.org/2016.png"
     },
     {
       "id": "football-data:575376",
@@ -1923,7 +2277,9 @@
       "utcDate": "2026-10-21T19:00:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
-      "provider": "football-data.org"
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/90.png",
+      "awayLogo": "https://crests.football-data.org/675.png"
     }
   ]
 }

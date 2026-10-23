@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-23T11:49:00.004707Z",
+  "updatedAt": "2026-10-23T12:31:22.909046Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -13,6 +13,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Heidenheim 1846",
       "away": "1. FC Kaiserslautern",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "utcDate": "2026-10-09T16:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -23,6 +25,8 @@
       "competition": "2. Bundesliga",
       "home": "Eintracht Braunschweig",
       "away": "Holstein Kiel",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "utcDate": "2026-10-09T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -33,6 +37,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Dortmund",
       "away": "SV Werder Bremen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-10-09T18:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -43,6 +49,8 @@
       "competition": "2. Bundesliga",
       "home": "SV Darmstadt 98",
       "away": "Energie Cottbus",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1"
@@ -53,6 +61,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Magdeburg",
       "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 0"
@@ -63,6 +73,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Osnabrück",
       "away": "Dynamo Dresden",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-10-10T11:00:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -73,6 +85,8 @@
       "competition": "Bundesliga",
       "home": "TSG Hoffenheim",
       "away": "Hamburger SV",
+      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 3"
@@ -83,6 +97,8 @@
       "competition": "Bundesliga",
       "home": "FC Augsburg",
       "away": "FC Bayern München",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -93,6 +109,8 @@
       "competition": "Bundesliga",
       "home": "1. FSV Mainz 05",
       "away": "Bayer 04 Leverkusen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "3 – 4"
@@ -103,6 +121,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Union Berlin",
       "away": "SV 07 Elversberg",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -113,6 +133,8 @@
       "competition": "Bundesliga",
       "home": "SC Paderborn 07",
       "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-10-10T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 2"
@@ -123,6 +145,8 @@
       "competition": "Bundesliga",
       "home": "RB Leipzig",
       "away": "Eintracht Frankfurt",
+      "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
+      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-10-10T16:30:00Z",
       "status": "FINISHED",
       "score": "6 – 0"
@@ -133,6 +157,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Nürnberg",
       "away": "VfL Wolfsburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-10-10T18:30:00Z",
       "status": "FINISHED",
       "score": "4 – 4"
@@ -143,6 +169,8 @@
       "competition": "2. Bundesliga",
       "home": "FC St. Pauli",
       "away": "Karlsruher SC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -153,6 +181,8 @@
       "competition": "2. Bundesliga",
       "home": "Hertha BSC",
       "away": "SpVgg Greuther Fürth",
+      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
+      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -163,6 +193,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Bochum",
       "away": "DSC Arminia Bielefeld",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "utcDate": "2026-10-11T11:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1"
@@ -173,6 +205,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Köln",
       "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
       "utcDate": "2026-10-11T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -183,6 +217,8 @@
       "competition": "Bundesliga",
       "home": "SC Freiburg",
       "away": "FC Schalke 04",
+      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "utcDate": "2026-10-11T15:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -193,6 +229,8 @@
       "competition": "2. Bundesliga",
       "home": "Holstein Kiel",
       "away": "Hertha BSC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-10-16T16:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -203,6 +241,8 @@
       "competition": "2. Bundesliga",
       "home": "Energie Cottbus",
       "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-10-16T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -213,6 +253,8 @@
       "competition": "Bundesliga",
       "home": "Eintracht Frankfurt",
       "away": "1. FC Köln",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
       "utcDate": "2026-10-16T18:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -223,6 +265,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Wolfsburg",
       "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "3 – 1"
@@ -233,6 +277,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Kaiserslautern",
       "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -243,6 +289,8 @@
       "competition": "2. Bundesliga",
       "home": "SpVgg Greuther Fürth",
       "away": "Eintracht Braunschweig",
+      "homeLogo": "https://i.imgur.com/pwuVbKr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "utcDate": "2026-10-17T11:00:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -253,6 +301,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Union Berlin",
       "away": "Borussia Dortmund",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
@@ -263,6 +313,8 @@
       "competition": "Bundesliga",
       "home": "Hamburger SV",
       "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
@@ -273,6 +325,8 @@
       "competition": "Bundesliga",
       "home": "SV Werder Bremen",
       "away": "SC Paderborn 07",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
@@ -283,6 +337,8 @@
       "competition": "Bundesliga",
       "home": "FC Schalke 04",
       "away": "1. FSV Mainz 05",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "0 – 1"
@@ -293,6 +349,8 @@
       "competition": "Bundesliga",
       "home": "SV 07 Elversberg",
       "away": "FC Augsburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/sdE62e2.png",
       "utcDate": "2026-10-17T13:30:00Z",
       "status": "FINISHED",
       "score": "4 – 3"
@@ -303,6 +361,8 @@
       "competition": "Bundesliga",
       "home": "FC Bayern München",
       "away": "RB Leipzig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://i.imgur.com/Rpwsjz1.png",
       "utcDate": "2026-10-17T16:30:00Z",
       "status": "FINISHED",
       "score": "6 – 1"
@@ -313,6 +373,8 @@
       "competition": "2. Bundesliga",
       "home": "Hannover 96",
       "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-10-17T18:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
@@ -323,6 +385,8 @@
       "competition": "2. Bundesliga",
       "home": "Karlsruher SC",
       "away": "SV Darmstadt 98",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "4 – 0"
@@ -333,6 +397,8 @@
       "competition": "2. Bundesliga",
       "home": "Dynamo Dresden",
       "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 0"
@@ -343,6 +409,8 @@
       "competition": "2. Bundesliga",
       "home": "DSC Arminia Bielefeld",
       "away": "VfL Osnabrück",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "utcDate": "2026-10-18T11:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -353,6 +421,8 @@
       "competition": "Bundesliga",
       "home": "Bayer 04 Leverkusen",
       "away": "SC Freiburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "awayLogo": "https://i.imgur.com/r3mvi0h.png",
       "utcDate": "2026-10-18T13:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
@@ -363,6 +433,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Mönchengladbach",
       "away": "TSG Hoffenheim",
+      "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "awayLogo": "https://i.imgur.com/gF0PfEl.png",
       "utcDate": "2026-10-18T15:30:00Z",
       "status": "FINISHED",
       "score": "1 – 2"
@@ -373,6 +445,8 @@
       "competition": "2. Bundesliga",
       "home": "SV Darmstadt 98",
       "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-10-23T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -383,6 +457,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Bochum",
       "away": "VfL Wolfsburg",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-10-23T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -393,6 +469,8 @@
       "competition": "Bundesliga",
       "home": "VfB Stuttgart",
       "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
       "utcDate": "2026-10-23T18:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -403,6 +481,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Heidenheim 1846",
       "away": "Energie Cottbus",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "utcDate": "2026-10-24T11:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -413,6 +493,8 @@
       "competition": "2. Bundesliga",
       "home": "Hertha BSC",
       "away": "DSC Arminia Bielefeld",
+      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "utcDate": "2026-10-24T11:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -423,6 +505,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Magdeburg",
       "away": "Karlsruher SC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "utcDate": "2026-10-24T11:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -433,6 +517,8 @@
       "competition": "Bundesliga",
       "home": "RB Leipzig",
       "away": "SV 07 Elversberg",
+      "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -443,6 +529,8 @@
       "competition": "Bundesliga",
       "home": "FC Augsburg",
       "away": "1. FC Union Berlin",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -453,6 +541,8 @@
       "competition": "Bundesliga",
       "home": "1. FSV Mainz 05",
       "away": "SV Werder Bremen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -463,6 +553,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Köln",
       "away": "FC Schalke 04",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -473,6 +565,8 @@
       "competition": "Bundesliga",
       "home": "SC Paderborn 07",
       "away": "Hamburger SV",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -483,6 +577,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Dortmund",
       "away": "Eintracht Frankfurt",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-10-24T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -493,6 +589,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Nürnberg",
       "away": "1. FC Kaiserslautern",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "utcDate": "2026-10-24T18:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -503,6 +601,8 @@
       "competition": "2. Bundesliga",
       "home": "Holstein Kiel",
       "away": "Dynamo Dresden",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-10-25T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -513,6 +613,8 @@
       "competition": "2. Bundesliga",
       "home": "Eintracht Braunschweig",
       "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "utcDate": "2026-10-25T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -523,6 +625,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Osnabrück",
       "away": "SpVgg Greuther Fürth",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
+      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
       "utcDate": "2026-10-25T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -533,6 +637,8 @@
       "competition": "Bundesliga",
       "home": "TSG Hoffenheim",
       "away": "Bayer 04 Leverkusen",
+      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "utcDate": "2026-10-25T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -543,6 +649,8 @@
       "competition": "Bundesliga",
       "home": "SC Freiburg",
       "away": "FC Bayern München",
+      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "utcDate": "2026-10-25T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -553,6 +661,8 @@
       "competition": "2. Bundesliga",
       "home": "DSC Arminia Bielefeld",
       "away": "Eintracht Braunschweig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "utcDate": "2026-10-30T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -563,6 +673,8 @@
       "competition": "2. Bundesliga",
       "home": "Energie Cottbus",
       "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
       "utcDate": "2026-10-30T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -573,6 +685,8 @@
       "competition": "Bundesliga",
       "home": "SV 07 Elversberg",
       "away": "1. FSV Mainz 05",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "utcDate": "2026-10-30T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -583,6 +697,8 @@
       "competition": "2. Bundesliga",
       "home": "VfL Wolfsburg",
       "away": "VfL Osnabrück",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "utcDate": "2026-10-31T12:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -593,6 +709,8 @@
       "competition": "2. Bundesliga",
       "home": "SV Darmstadt 98",
       "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "utcDate": "2026-10-31T12:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -603,6 +721,8 @@
       "competition": "2. Bundesliga",
       "home": "1. FC Kaiserslautern",
       "away": "Hertha BSC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-10-31T12:00:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -613,6 +733,8 @@
       "competition": "Bundesliga",
       "home": "Bayer 04 Leverkusen",
       "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-10-31T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -623,6 +745,8 @@
       "competition": "Bundesliga",
       "home": "FC Augsburg",
       "away": "SC Freiburg",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://i.imgur.com/r3mvi0h.png",
       "utcDate": "2026-10-31T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -633,6 +757,8 @@
       "competition": "Bundesliga",
       "home": "Borussia Mönchengladbach",
       "away": "SC Paderborn 07",
+      "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "utcDate": "2026-10-31T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -643,6 +769,8 @@
       "competition": "Bundesliga",
       "home": "SV Werder Bremen",
       "away": "TSG Hoffenheim",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "awayLogo": "https://i.imgur.com/gF0PfEl.png",
       "utcDate": "2026-10-31T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -653,6 +781,8 @@
       "competition": "Bundesliga",
       "home": "FC Schalke 04",
       "away": "RB Leipzig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "awayLogo": "https://i.imgur.com/Rpwsjz1.png",
       "utcDate": "2026-10-31T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -663,6 +793,8 @@
       "competition": "Bundesliga",
       "home": "FC Bayern München",
       "away": "Borussia Dortmund",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "utcDate": "2026-10-31T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -673,6 +805,8 @@
       "competition": "2. Bundesliga",
       "home": "Karlsruher SC",
       "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "utcDate": "2026-10-31T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -683,6 +817,8 @@
       "competition": "2. Bundesliga",
       "home": "FC St. Pauli",
       "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-11-01T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -693,6 +829,8 @@
       "competition": "2. Bundesliga",
       "home": "Hannover 96",
       "away": "Dynamo Dresden",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-11-01T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -703,6 +841,8 @@
       "competition": "2. Bundesliga",
       "home": "SpVgg Greuther Fürth",
       "away": "Holstein Kiel",
+      "homeLogo": "https://i.imgur.com/pwuVbKr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "utcDate": "2026-11-01T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -713,6 +853,8 @@
       "competition": "Bundesliga",
       "home": "1. FC Union Berlin",
       "away": "1. FC Köln",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
       "utcDate": "2026-11-01T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
@@ -723,6 +865,8 @@
       "competition": "Bundesliga",
       "home": "Eintracht Frankfurt",
       "away": "Hamburger SV",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-11-01T16:30:00Z",
       "status": "SCHEDULED",
       "score": null

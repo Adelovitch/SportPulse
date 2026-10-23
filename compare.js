@@ -10,16 +10,8 @@
   leagueLabel.hidden=!isFootball;
   document.querySelectorAll('.compareFootballOnly').forEach(node=>{node.hidden=!isFootball;});
   if(isFootball){if(loaded)populate();return;}
-  otherPanel.replaceChildren();
-  const p=document.createElement('p');
-  if(discipline.value==='Basketball'){
-   p.textContent='Analyse NBA indisponible : les résultats collectés sont encore insuffisants pour une comparaison fiable.';
-  }else{
-   p.textContent='Pour la F1, consultez les classements officiels pilotes et constructeurs dans la rubrique Classements. Un comparateur statistique de pilotes sera ajouté après validation des données historiques.';
-   const link=document.createElement('a');link.href='#classements';link.textContent='Consulter les classements F1';otherPanel.append(link);
-  }
-  otherPanel.prepend(p);
-  note.textContent='Aucune statistique ou probabilité fictive n’est affichée.';
+  document.dispatchEvent(new CustomEvent('sportpulse:compare-multisport',{detail:{sport:discipline.value}}));
+  note.textContent='Analyse descriptive des données disponibles, sans prédictions.';
  }
  document.addEventListener('sportpulse:filters',event=>{
   const selectedSport=event.detail?.sport,selectedLeague=event.detail?.competition;

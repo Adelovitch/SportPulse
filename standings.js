@@ -13,7 +13,13 @@
   updated.textContent=(Number.isFinite(t)?'Dernière collecte : '+new Date(t).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}):'Date de collecte indisponible')+' · Source : '+league.provider;
   for(const [i,team] of league.teams.entries()){
    const tr=document.createElement('tr');
-   [team.rank??i+1,team.team,team.played,team.won,team.drawn,team.lost,team.goalDifference,team.points].forEach(v=>tr.append(make('td',v??'—')));
+   const position=team.rank??i+1;
+   tr.append(make('td',position));
+   const nameCell=document.createElement('td');
+   const link=make('button',team.team);link.type='button';link.className='teamProfileLink';link.title='Afficher la fiche de '+team.team;
+   link.addEventListener('click',()=>document.dispatchEvent(new CustomEvent('sportpulse:team',{detail:{team,competition:selector.value,position,provider:league.provider}})));
+   nameCell.append(link);tr.append(nameCell);
+   [team.played,team.won,team.drawn,team.lost,team.goalDifference,team.points].forEach(v=>tr.append(make('td',v??'—')));
    const form=document.createElement('td');form.className='formCell';
    if(Array.isArray(team.form)&&team.form.length){
     team.form.forEach(entry=>{const badge=make('span',entry.outcome);badge.className='formItem '+(entry.outcome==='V'?'formWin':entry.outcome==='D'?'formLoss':'formDraw');badge.title=entry.opponent+' : '+entry.goalsFor+'–'+entry.goalsAgainst;form.append(badge);});

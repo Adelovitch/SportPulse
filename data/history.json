@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T19:00:17.550541Z",
+  "updatedAt": "2026-10-23T20:12:59.262612Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3045,6 +3045,19 @@
       "utcDate": "2026-10-23T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 1"
+    },
+    {
+      "id": "football-data:558863",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "Go Ahead Eagles",
+      "away": "Telstar 1963",
+      "utcDate": "2026-10-23T18:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/718.png",
+      "awayLogo": "https://crests.football-data.org/1912.png"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T19:29:18.191055Z",
+  "updatedAt": "2026-10-23T20:10:29.718482Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2544,8 +2544,8 @@
       "home": "Go Ahead Eagles",
       "away": "Telstar 1963",
       "utcDate": "2026-10-23T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/718.png",
       "awayLogo": "https://crests.football-data.org/1912.png"
@@ -6220,21 +6220,8 @@
         "goalDifference": 1
       },
       {
-        "team": "Stade Brestois 29",
-        "rank": 7,
-        "played": 8,
-        "logo": "https://crests.football-data.org/512.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 2,
-        "gf": 14,
-        "ga": 10,
-        "points": 12,
-        "goalDifference": 4
-      },
-      {
         "team": "FC Lorient",
-        "rank": 8,
+        "rank": 7,
         "played": 7,
         "logo": "https://crests.football-data.org/525.png",
         "won": 3,
@@ -6247,12 +6234,25 @@
       },
       {
         "team": "Racing Club de Lens",
-        "rank": 9,
+        "rank": 8,
         "played": 7,
         "logo": "https://crests.football-data.org/546.png",
         "won": 3,
         "drawn": 1,
         "lost": 3,
+        "gf": 14,
+        "ga": 11,
+        "points": 10,
+        "goalDifference": 3
+      },
+      {
+        "team": "Stade Brestois 29",
+        "rank": 8,
+        "played": 8,
+        "logo": "https://crests.football-data.org/512.png",
+        "won": 2,
+        "drawn": 4,
+        "lost": 2,
         "gf": 14,
         "ga": 11,
         "points": 10,
@@ -6285,8 +6285,21 @@
         "goalDifference": 1
       },
       {
-        "team": "AJ Auxerre",
+        "team": "OGC Nice",
         "rank": 12,
+        "played": 8,
+        "logo": "https://crests.football-data.org/522.png",
+        "won": 2,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 7,
+        "ga": 10,
+        "points": 9,
+        "goalDifference": -3
+      },
+      {
+        "team": "AJ Auxerre",
+        "rank": 13,
         "played": 7,
         "logo": "https://crests.football-data.org/519.png",
         "won": 3,
@@ -6296,19 +6309,6 @@
         "ga": 17,
         "points": 9,
         "goalDifference": -6
-      },
-      {
-        "team": "OGC Nice",
-        "rank": 13,
-        "played": 8,
-        "logo": "https://crests.football-data.org/522.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 6,
-        "ga": 10,
-        "points": 8,
-        "goalDifference": -4
       },
       {
         "team": "RC Strasbourg Alsace",
@@ -6482,8 +6482,21 @@
         "goalDifference": 1
       },
       {
-        "team": "Hull City AFC",
+        "team": "Ipswich Town FC",
         "rank": 9,
+        "played": 8,
+        "logo": "https://crests.football-data.org/349.png",
+        "won": 3,
+        "drawn": 1,
+        "lost": 4,
+        "gf": 12,
+        "ga": 16,
+        "points": 10,
+        "goalDifference": -4
+      },
+      {
+        "team": "Hull City AFC",
+        "rank": 10,
         "played": 7,
         "logo": "https://crests.football-data.org/322.png",
         "won": 2,
@@ -6495,34 +6508,8 @@
         "goalDifference": 1
       },
       {
-        "team": "Ipswich Town FC",
-        "rank": 10,
-        "played": 8,
-        "logo": "https://crests.football-data.org/349.png",
-        "won": 3,
-        "drawn": 0,
-        "lost": 5,
-        "gf": 11,
-        "ga": 16,
-        "points": 9,
-        "goalDifference": -5
-      },
-      {
-        "team": "Nottingham Forest FC",
-        "rank": 11,
-        "played": 8,
-        "logo": "https://crests.football-data.org/351.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 6,
-        "ga": 9,
-        "points": 8,
-        "goalDifference": -3
-      },
-      {
         "team": "Newcastle United FC",
-        "rank": 12,
+        "rank": 11,
         "played": 7,
         "logo": "https://crests.football-data.org/67.png",
         "won": 2,
@@ -6535,7 +6522,7 @@
       },
       {
         "team": "Aston Villa FC",
-        "rank": 13,
+        "rank": 12,
         "played": 7,
         "logo": "https://crests.football-data.org/58.png",
         "won": 2,
@@ -6548,7 +6535,7 @@
       },
       {
         "team": "Manchester United FC",
-        "rank": 14,
+        "rank": 13,
         "played": 7,
         "logo": "https://crests.football-data.org/66.png",
         "won": 1,
@@ -6561,7 +6548,7 @@
       },
       {
         "team": "Crystal Palace FC",
-        "rank": 15,
+        "rank": 14,
         "played": 7,
         "logo": "https://crests.football-data.org/354.png",
         "won": 2,
@@ -6574,7 +6561,7 @@
       },
       {
         "team": "AFC Bournemouth",
-        "rank": 16,
+        "rank": 15,
         "played": 7,
         "logo": "https://crests.football-data.org/bournemouth.png",
         "won": 1,
@@ -6586,8 +6573,21 @@
         "goalDifference": -4
       },
       {
+        "team": "Nottingham Forest FC",
+        "rank": 16,
+        "played": 8,
+        "logo": "https://crests.football-data.org/351.png",
+        "won": 1,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 6,
+        "ga": 10,
+        "points": 6,
+        "goalDifference": -4
+      },
+      {
         "team": "Tottenham Hotspur FC",
-        "rank": 17,
+        "rank": 16,
         "played": 7,
         "logo": "https://crests.football-data.org/73.png",
         "won": 1,
@@ -6718,21 +6718,8 @@
         "goalDifference": -2
       },
       {
-        "team": "Deportivo Alavés",
-        "rank": 7,
-        "played": 10,
-        "logo": "https://crests.football-data.org/263.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 13,
-        "ga": 10,
-        "points": 12,
-        "goalDifference": 3
-      },
-      {
         "team": "RC Celta de Vigo",
-        "rank": 8,
+        "rank": 7,
         "played": 9,
         "logo": "https://crests.football-data.org/558.png",
         "won": 2,
@@ -6742,6 +6729,19 @@
         "ga": 7,
         "points": 11,
         "goalDifference": 3
+      },
+      {
+        "team": "Deportivo Alavés",
+        "rank": 8,
+        "played": 10,
+        "logo": "https://crests.football-data.org/263.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 5,
+        "gf": 13,
+        "ga": 11,
+        "points": 11,
+        "goalDifference": 2
       },
       {
         "team": "RC Deportivo La Coruña",
@@ -6874,8 +6874,21 @@
         "goalDifference": -6
       },
       {
-        "team": "Valencia CF",
+        "team": "Málaga CF",
         "rank": 19,
+        "played": 10,
+        "logo": "https://crests.football-data.org/84.png",
+        "won": 1,
+        "drawn": 4,
+        "lost": 5,
+        "gf": 7,
+        "ga": 18,
+        "points": 7,
+        "goalDifference": -11
+      },
+      {
+        "team": "Valencia CF",
+        "rank": 20,
         "played": 9,
         "logo": "https://crests.football-data.org/95.png",
         "won": 1,
@@ -6885,19 +6898,6 @@
         "ga": 15,
         "points": 6,
         "goalDifference": -9
-      },
-      {
-        "team": "Málaga CF",
-        "rank": 20,
-        "played": 10,
-        "logo": "https://crests.football-data.org/84.png",
-        "won": 0,
-        "drawn": 5,
-        "lost": 5,
-        "gf": 6,
-        "ga": 18,
-        "points": 5,
-        "goalDifference": -12
       }
     ],
     "Serie A": [
@@ -6987,8 +6987,8 @@
         "won": 4,
         "drawn": 1,
         "lost": 3,
-        "gf": 11,
-        "ga": 9,
+        "gf": 12,
+        "ga": 10,
         "points": 13,
         "goalDifference": 2
       },
@@ -7078,8 +7078,8 @@
         "won": 2,
         "drawn": 1,
         "lost": 5,
-        "gf": 13,
-        "ga": 16,
+        "gf": 14,
+        "ga": 17,
         "points": 7,
         "goalDifference": -3
       },
@@ -7733,9 +7733,9 @@
         "drawn": 5,
         "lost": 2,
         "gf": 23,
-        "ga": 22,
+        "ga": 23,
         "points": 14,
-        "goalDifference": 1
+        "goalDifference": 0
       },
       {
         "team": "SC Heerenveen",
@@ -7829,8 +7829,21 @@
         "goalDifference": -12
       },
       {
-        "team": "ADO Den Haag",
+        "team": "Telstar 1963",
         "rank": 16,
+        "played": 10,
+        "logo": "https://crests.football-data.org/1912.png",
+        "won": 1,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 12,
+        "ga": 21,
+        "points": 6,
+        "goalDifference": -9
+      },
+      {
+        "team": "ADO Den Haag",
+        "rank": 17,
         "played": 9,
         "logo": "https://crests.football-data.org/680.png",
         "won": 1,
@@ -7840,19 +7853,6 @@
         "ga": 20,
         "points": 6,
         "goalDifference": -9
-      },
-      {
-        "team": "Telstar 1963",
-        "rank": 17,
-        "played": 10,
-        "logo": "https://crests.football-data.org/1912.png",
-        "won": 1,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 11,
-        "ga": 21,
-        "points": 6,
-        "goalDifference": -10
       },
       {
         "team": "Willem II Tilburg",
@@ -8002,14 +8002,14 @@
       {
         "team": "CS Marítimo",
         "rank": 11,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/5575.png",
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 4,
         "gf": 9,
         "ga": 14,
-        "points": 8,
+        "points": 9,
         "goalDifference": -5
       },
       {
@@ -8054,14 +8054,14 @@
       {
         "team": "Vitória SC",
         "rank": 15,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/5543.png",
         "won": 1,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 5,
         "gf": 5,
         "ga": 10,
-        "points": 5,
+        "points": 6,
         "goalDifference": -5
       },
       {

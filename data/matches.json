@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-23T19:29:11.140041Z",
+  "updatedAt": "2026-10-23T20:10:19.893595Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -856,6 +856,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "utcDate": "2026-11-06T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83234",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Hamburger SV",
+      "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "utcDate": "2026-11-06T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

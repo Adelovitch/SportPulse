@@ -1,38 +1,50 @@
 'use strict';
 (function(){
- const el=id=>document.getElementById(id), selector=el('standingsLeague'),body=el('standingsBody'),status=el('standingsStatus'),updated=el('standingsUpdated');
- let data=null;
- const make=(tag,value)=>{const node=document.createElement(tag);node.textContent=String(value);return node;};
+ const el=id=>document.getElementById(id),selector=el('standingsLeague'),body=el('standingsBody'),status=el('standingsStatus'),updated=el('standingsUpdated');
+ const make=(tag,value)=>{const n=document.createElement(tag);n.textContent=String(value);return n;};
+ const label=name=>name==='Bundesliga'?'Bundesliga · 1re division':name==='2. Bundesliga'?'2. Bundesliga · 2e division':name;
+ let leagues={};
  function render(){
-   body.replaceChildren();
-   const league=data?.leagues?.[selector.value];
-   if(!league){status.textContent='Pas de classement disponible pour cette compétition.';return;}
-   status.textContent=league.scope||'Classement calculé, non officiel.';
-   league.teams.forEach((team,i)=>{
-     const tr=document.createElement('tr');
-     const values=[i+1,team.team,team.played,team.won,team.drawn,team.lost,team.goalDifference,team.points];
-     values.forEach(v=>tr.append(make('td',v)));
-     const form=document.createElement('td');form.className='formCell';
-     (team.form||[]).forEach(entry=>{
-       const badge=make('span',entry.outcome);badge.className='formItem '+(entry.outcome==='V'?'formWin':entry.outcome==='D'?'formLoss':'formDraw');
-       badge.title=entry.opponent+' : '+entry.goalsFor+'–'+entry.goalsAgainst;
-       form.append(badge);
-     });
-     tr.append(form);body.append(tr);
-   });
+  body.replaceChildren();
+  const league=leagues[selector.value];
+  if(!league){status.textContent='Pas de classement disponible pour cette compétition.';updated.textContent='';return;}
+  status.textContent=league.scope;
+  const t=Date.parse(league.updatedAt||'');
+  updated.textContent=(Number.isFinite(t)?'Dernière collecte : '+new Date(t).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}):'Date de collecte indisponible')+' · Source : '+league.provider;
+  for(const [i,team] of league.teams.entries()){
+   const tr=document.createElement('tr');
+   [team.rank??i+1,team.team,team.played,team.won,team.drawn,team.lost,team.goalDifference,team.points].forEach(v=>tr.append(make('td',v??'—')));
+   const form=document.createElement('td');form.className='formCell';
+   if(Array.isArray(team.form)&&team.form.length){
+    team.form.forEach(entry=>{const badge=make('span',entry.outcome);badge.className='formItem '+(entry.outcome==='V'?'formWin':entry.outcome==='D'?'formLoss':'formDraw');badge.title=entry.opponent+' : '+entry.goalsFor+'–'+entry.goalsAgainst;form.append(badge);});
+   }else form.textContent='—';
+   tr.append(form);body.append(tr);
+  }
  }
- fetch('./data/analytics.json',{cache:'no-cache'})
-   .then(async response=>{if(!response.ok)throw Error('Not yet collected');return response.json();})
-   .then(payload=>{
-      if(payload?.source!=='OpenLigaDB'||!payload.leagues)throw Error('Invalid data');
-      data=payload;selector.replaceChildren();
-      Object.keys(data.leagues).sort((a,b)=>a.localeCompare(b,'fr')).forEach(name=>{
-         const option=make('option',name==='Bundesliga'?'Bundesliga · 1re division':name==='2. Bundesliga'?'2. Bundesliga · 2e division':name);option.value=name;selector.append(option);
-      });
-      if(data.leagues.Bundesliga)selector.value='Bundesliga';
-      const date=Date.parse(data.updatedAt||'');
-      updated.textContent=Number.isFinite(date)?'Statistiques mises à jour : '+new Date(date).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'}):'Actualisation non datée';
-      render();
-   }).catch(()=>{selector.replaceChildren(make('option','Données indisponibles'));status.textContent='Les statistiques apparaîtront après la première collecte réussie.';updated.textContent='';});
+ const load=file=>fetch(file,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error(file+' unavailable');return r.json();});
+ Promise.allSettled([load('./data/analytics.json'),load('./data/football_data.json')]).then(results=>{
+  const local=results[0].status==='fulfilled'?results[0].value:null;
+  const international=results[1].status==='fulfilled'?results[1].value:null;
+  if(local?.source==='OpenLigaDB'&&local.leagues){
+   for(const [name,v] of Object.entries(local.leagues)){
+    if(Array.isArray(v.teams))leagues[name]={teams:v.teams,scope:v.scope||'Classement calculé par SportPulse (non officiel).',updatedAt:local.updatedAt,provider:'OpenLigaDB / SportPulse'};
+   }
+  }
+  if(international?.source==='football-data.org'&&international.tables){
+   for(const [name,teams] of Object.entries(international.tables)){
+    if(Array.isArray(teams)&&teams.length)leagues[name]={teams,scope:'Classement fourni par football-data.org. La forme récente des équipes n’est pas disponible dans cette source.',updatedAt:international.updatedAt,provider:'football-data.org'};
+   }
+  }
+  const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));
+  if(!names.length)throw Error('No tables');
+  const selected=selector.value;
+  selector.replaceChildren();
+  names.forEach(name=>{const option=make('option',label(name));option.value=name;selector.append(option);});
+  selector.value=names.includes(selected)?selected:(names.includes('Ligue 1')?'Ligue 1':names[0]);
+  render();
+ }).catch(()=>{
+  selector.replaceChildren(make('option','Données indisponibles'));
+  body.replaceChildren();status.textContent='Classements momentanément indisponibles.';updated.textContent='';
+ });
  selector.addEventListener('change',render);
 })();

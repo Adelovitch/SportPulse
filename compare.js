@@ -3,11 +3,14 @@
  const el=id=>document.getElementById(id);
  const league=el('compareLeague'),left=el('compareTeamA'),right=el('compareTeamB'),table=el('compareBody'),note=el('compareNote');
  const discipline=el('compareSport'),footballPanel=el('compareFootballPanel'),otherPanel=el('compareOtherPanel'),leagueLabel=el('compareLeagueLabel');
- let leagues={},fixtures=[],pendingLeague=null,loaded=false;
+ let leagues={},fixtures=[],pendingLeague=null,loaded=false,lastFootballLeague=null;
+ function singleLeague(name){league.replaceChildren();league.append(option(name,name));league.value=name;}
+ function footballLeagues(){const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));const requested=pendingLeague||lastFootballLeague||'Ligue 1';league.replaceChildren();for(const name of names)league.append(option(name,name));if(requested&&!names.includes(requested))league.append(option(requested+' · classement indisponible',requested));league.value=requested&&[...league.options].some(o=>o.value===requested)?requested:(names.includes('Ligue 1')?'Ligue 1':names[0]||'');}
  function showDiscipline(){
   const isFootball=discipline.value==='Football';
   footballPanel.hidden=!isFootball;otherPanel.hidden=isFootball;
-  leagueLabel.hidden=!isFootball;
+  leagueLabel.hidden=false;
+  if(isFootball)footballLeagues();else singleLeague(discipline.value==='Formule 1'?'Championnat du monde F1':'NBA');
   document.querySelectorAll('.compareFootballOnly').forEach(node=>{node.hidden=!isFootball;});
   if(isFootball){if(loaded)populate();return;}
   document.dispatchEvent(new CustomEvent('sportpulse:compare-multisport',{detail:{sport:discipline.value}}));
@@ -19,6 +22,7 @@
   discipline.value=selectedSport;
   if(selectedSport==='Football'&&selectedLeague&&selectedLeague!=='all'){
    pendingLeague=selectedLeague;
+   lastFootballLeague=selectedLeague;
    if(loaded){
     if(![...league.options].some(o=>o.value===selectedLeague))league.append(option(selectedLeague+' · classement indisponible',selectedLeague));
     league.value=selectedLeague;
@@ -111,6 +115,6 @@
   if(pendingLeague&&!names.includes(pendingLeague))league.append(option(pendingLeague+' · classement indisponible',pendingLeague));
   league.value=pendingLeague|| (names.includes('Ligue 1')?'Ligue 1':names[0]);loaded=true;showDiscipline();
  }).catch(()=>{note.textContent='Données de comparaison momentanément indisponibles.';});
- league.addEventListener('change',()=>{pendingLeague=null;left.value='0';right.value='1';populate();});
+ league.addEventListener('change',()=>{if(discipline.value!=='Football')return;pendingLeague=null;lastFootballLeague=league.value;left.value='0';right.value='1';populate();});
  left.addEventListener('change',render);right.addEventListener('change',render);
 })();

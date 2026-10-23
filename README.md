@@ -76,3 +76,10 @@ Sources : https://www.openligadb.de/, https://github.com/jolpica/jolpica-f1 et h
 
 ### Correctif NBA du 23 octobre 2026
 Le collecteur ne dépend plus seulement des endpoints « prochain / précédent » (un événement chacun en accès gratuit). Il consulte aussi un échantillon de la saison NBA et cinq dates autour de la collecte via les endpoints documentés de TheSportsDB. Les limites de la clé gratuite restent applicables (saison et journées partielles) : aucune couverture exhaustive n'est revendiquée. Les doublons sont consolidés par identifiant, un score final vérifié n'est pas écrasé par un statut programmé, et les heures UTC sans suffixe sont normalisées avec `Z`. Tests spécifiques dans `tests/test_extras.py`.
+
+### LOT 1.6 — Stabilisation technique
+- Le 23 octobre 2026, l'archive multisport contenait 7 résultats NBA et 1 course F1 ; le fichier d'événements courants présentait 16 rencontres NBA et 7 courses F1. Ces chiffres sont un instantané, pas une garantie de couverture exhaustive.
+- Correctif de `compare.js` : expressions régulières Unicode / scores restaurées, pour fiabiliser la détection des confrontations directes et les bilans domicile/extérieur.
+- F1 : vérification des résultats des cinq courses récentes (au lieu de deux) et fenêtre d'affichage de 70 jours pour mieux préserver les grands prix précédents. Les résultats restent soumis à une classification réellement fournie par Jolpica-F1.
+- GitHub Actions : compilation syntaxique Python et `node --check` de tous les fichiers JavaScript avant la suite de tests et la collecte.
+- Ne pas considérer cette phase terminée avant de vérifier une exécution GitHub Actions et le rendu mobile/ordinateur sur la production Cloudflare.

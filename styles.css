@@ -70,3 +70,6 @@
 .sportLogo,.standingsLogo{width:26px;height:26px;object-fit:contain;flex-shrink:0;vertical-align:middle}
 .standingsLogo{width:23px;height:23px;margin-right:7px}
 @media(max-width:700px){.sportLogo{width:20px;height:20px}.sportTeam{gap:4px}}
+
+/* Respect semantic visibility on sport-dependent panels and filters. */
+[hidden]{display:none!important}

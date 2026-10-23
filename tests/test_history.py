@@ -18,7 +18,7 @@ class HistoryTests(unittest.TestCase):
     def test_deduplicate_and_correct(self):
         a=game("x")
         newer=game("x","3 – 1")
-        result=merge([a],[newer])
+        result=merge([a],[[newer]])
         self.assertEqual(len(result),1)
         self.assertEqual(result[0]["score"],"3 – 1")
     def test_never_erase_on_empty_window(self):

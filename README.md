@@ -47,6 +47,15 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 
 - `scripts/build_history_index.py` produit `data/history_index.json`, un **index non destructif par saison et compétition** avec identifiants et nombres de matchs. Convention provisoire juillet–juin, déduite des dates (pas une saison officiellement certifiée, notamment pour certaines compétitions). Le fichier historique source reste inchangé. Tests dans `tests/test_history_index.py`.
 
+## LOT 1 multisport — football, basketball, F1 (premier socle)
+- Les événements partagent les champs communs `id`, `sport`, `competition`, `utcDate`, `status`, `provider` (selon source). Leur résultat est **spécifique au sport** : score domicile/extérieur pour le football et le basketball ; classement par pilotes (`classification`, `winner`) pour la F1. Une course ne reçoit jamais de faux score de type « équipe contre équipe ».
+- `collect_extras.py` vérifie maintenant, via l'endpoint de résultats Jolpica-F1, les deux courses antérieures les plus récentes. Il ne les marque `FINISHED` que si un classement avec au moins un vainqueur identifié est effectivement renvoyé. Pas de résultats présumés selon la date.
+- `collect_multisport_history.py` écrit `data/multisport_history.json` : archive cumulative des résultats NBA validés et courses F1 avec classification vérifiée, sans effacer l'historique de football existant.
+- `build_multisport_index.py` écrit `data/multisport_index.json`, regroupé par sport, saison et compétition. F1 suit l'année civile ; pour le basketball, la convention juillet–juin reste **provisoire** tant que l'API ne fournit pas une saison de ligue explicite.
+- Le premier fichier a été initialisé avec un match NBA terminé (1 résultat). **Aucun résultat F1 n'a été inventé ou confirmé lors de l'initialisation** ; les prochaines collectes tenteront de les ajouter.
+- La source TheSportsDB gratuite demeure limitée à un petit échantillon d'événements NBA. Le LOT 1 multisport n'est pas encore complet : qualité de couverture et historique multi-saisons seront audités avant toute modélisation prédictive.
+- Tests dédiés dans `tests/test_multisport_history.py` et `tests/test_multisport_index.py`.
+
 ## Prochaines versions
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.

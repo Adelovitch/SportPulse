@@ -38,7 +38,7 @@ def normalize_match(raw, league):
         "sport": "Football",
         "competition": league,
         "home": str(home),
-        "away": str(away),
+        "away": str(away),\n        "homeLogo": (raw.get("team1") or {}).get("teamIconUrl"),\n        "awayLogo": (raw.get("team2") or {}).get("teamIconUrl"),
         "utcDate": kickoff,
         "status": "FINISHED" if finished else "SCHEDULED",
         "score": score if finished else None,

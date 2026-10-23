@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T21:30:39.664100Z",
+  "updatedAt": "2026-10-23T22:29:21.382207Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2622,8 +2622,8 @@
       "home": "Vitória SC",
       "away": "CS Marítimo",
       "utcDate": "2026-10-23T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "5 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5543.png",
       "awayLogo": "https://crests.football-data.org/5575.png"
@@ -8007,10 +8007,10 @@
         "won": 2,
         "drawn": 2,
         "lost": 5,
-        "gf": 9,
+        "gf": 10,
         "ga": 10,
         "points": 8,
-        "goalDifference": -1
+        "goalDifference": 0
       },
       {
         "team": "Moreirense FC",
@@ -8034,9 +8034,9 @@
         "drawn": 2,
         "lost": 5,
         "gf": 9,
-        "ga": 18,
+        "ga": 19,
         "points": 8,
-        "goalDifference": -9
+        "goalDifference": -10
       },
       {
         "team": "FC Famalicão",

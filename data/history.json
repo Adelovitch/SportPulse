@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T21:15:55.313491Z",
+  "updatedAt": "2026-10-23T22:31:50.099024Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3122,6 +3122,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/263.png",
       "awayLogo": "https://crests.football-data.org/84.png"
+    },
+    {
+      "id": "football-data:567329",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Vitória SC",
+      "away": "CS Marítimo",
+      "utcDate": "2026-10-23T19:45:00Z",
+      "status": "FINISHED",
+      "score": "5 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5543.png",
+      "awayLogo": "https://crests.football-data.org/5575.png"
     }
   ]
 }

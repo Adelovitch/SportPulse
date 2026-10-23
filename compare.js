@@ -2,13 +2,24 @@
 (function(){
  const el=id=>document.getElementById(id);
  const league=el('compareLeague'),left=el('compareTeamA'),right=el('compareTeamB'),table=el('compareBody'),note=el('compareNote');
- let leagues={};
+ let leagues={},fixtures=[];
  const load=file=>fetch(file,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('missing');return r.json();});
  const option=(label,value)=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;};
  const fmt=v=>Number.isFinite(v)?v.toLocaleString('fr-FR',{maximumFractionDigits:2}):'—';
  const num=v=>v===null||v===undefined?NaN:Number(v);
  const avg=(team,field)=>num(team.played)>0?num(team[field])/num(team.played):NaN;
  const percent=team=>num(team.played)>0?100*num(team.won)/num(team.played):NaN;
+ const norm=s=>String(s||'').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLocaleLowerCase('fr').replace(/[^a-z0-9]/g,'');
+ const finished=m=>m.status==='FINISHED'&&/^\\d+\\s*[–-]\\s*\\d+$/.test(m.score||'');
+ const parsed=m=>m.score.split(/\\s*[–-]\\s*/).map(Number);
+ const matching=(name,m)=>norm(name)===norm(m.home)||norm(name)===norm(m.away);
+ const record=(team,side)=>{
+  const arr=fixtures.filter(m=>m.competition===league.value&&finished(m)&&matching(team.team,m)&&(side==='home'?norm(team.team)===norm(m.home):norm(team.team)===norm(m.away)));
+  let wins=0,draws=0,losses=0;
+  for(const m of arr){const [h,a]=parsed(m),forUs=side==='home'?h:a,against=side==='home'?a:h;if(forUs>against)wins++;else if(forUs===against)draws++;else losses++;}
+  return arr.length?wins+' V · '+draws+' N · '+losses+' D ('+arr.length+' matchs)':'—';
+ };
+ const pairings=(a,b)=>fixtures.filter(m=>m.competition===league.value&&(matching(a.team,m)&&matching(b.team,m))).sort((x,y)=>Date.parse(y.utcDate)-Date.parse(x.utcDate));
  function populate(){
   const teams=leagues[league.value]?.teams||[];
   const priorA=left.selectedIndex>=0?left.value:null,priorB=right.selectedIndex>=0?right.value:null;
@@ -37,20 +48,36 @@
    ['Différence de buts',a.goalDifference,b.goalDifference],
    ['Buts marqués / match',fmt(avg(a,'gf')),fmt(avg(b,'gf'))],
    ['Buts encaissés / match',fmt(avg(a,'ga')),fmt(avg(b,'ga'))],
-   ['Forme (5 derniers)',form(a),form(b)]
+   ['Forme (5 derniers)',form(a),form(b)],
+   ['Domicile (extrait)',record(a,'home'),record(b,'home')],
+   ['Extérieur (extrait)',record(a,'away'),record(b,'away')]
   ];
   const head=document.createElement('tr');
   [a.team,'Indicateur',b.team].forEach(v=>{const th=document.createElement('th');th.textContent=v;head.append(th);});
   table.append(head);
   rows.forEach(([label,x,y])=>{const tr=document.createElement('tr');[x??'—',label,y??'—'].forEach((v,i)=>{const td=document.createElement('td');td.textContent=String(v);if(i===1)td.className='compareMetric';tr.append(td);});table.append(tr);});
-  note.textContent='Comparaison descriptive des chiffres du classement ('+info.provider+'). Le classement allemand est calculé et non officiel. Les cinq derniers résultats ne sont montrés que si la source les fournit. Aucune probabilité de victoire n’est déduite de cette comparaison.';
+  const meetings=pairings(a,b),played=meetings.filter(finished),next=meetings.filter(m=>!finished(m)&&Date.parse(m.utcDate)>=Date.now()-3600000).sort((x,y)=>Date.parse(x.utcDate)-Date.parse(y.utcDate));
+  const formatDate=d=>new Date(d).toLocaleDateString('fr-FR',{timeZone:'Europe/Paris',day:'2-digit',month:'short',year:'numeric'});
+  const h2h=document.getElementById('compareH2H');
+  h2h.replaceChildren();
+  const heading=document.createElement('h3');heading.textContent='Confrontations directes — matchs collectés';h2h.append(heading);
+  if(!played.length&&!next.length){const p=document.createElement('p');p.textContent='Aucune confrontation disponible dans la fenêtre actuellement collectée.';h2h.append(p);}
+  for(const m of [...played.slice(0,5),...next.slice(0,2)]){
+   const row=document.createElement('div');row.className='teamFixture';
+   const time=document.createElement('span');time.textContent=formatDate(m.utcDate);
+   const fixture=document.createElement('strong');fixture.textContent=m.home+' '+(finished(m)?m.score:'—')+' '+m.away;
+   row.append(time,fixture);h2h.append(row);
+  }
+  note.textContent='Les bilans domicile/extérieur et confrontations directes portent uniquement sur les matchs terminés de la fenêtre collectée. Ils sont partiels. Comparaison descriptive des chiffres du classement ('+info.provider+'). Le classement allemand est calculé et non officiel. Les cinq derniers résultats ne sont montrés que si la source les fournit. Aucune probabilité de victoire n’est déduite de cette comparaison.';
  }
  const form=t=>Array.isArray(t.form)&&t.form.length?t.form.map(x=>x.outcome).join(' · '):'Non disponible';
- Promise.allSettled([load('./data/analytics.json'),load('./data/football_data.json')]).then(results=>{
+ Promise.allSettled([load('./data/analytics.json'),load('./data/football_data.json'),load('./data/matches.json')]).then(results=>{
   const local=results[0].status==='fulfilled'?results[0].value:null;
   const intl=results[1].status==='fulfilled'?results[1].value:null;
   if(local?.source==='OpenLigaDB')Object.entries(local.leagues||{}).forEach(([name,v])=>{if(v.teams?.length)leagues[name]={teams:v.teams,provider:'OpenLigaDB / SportPulse'};});
   if(intl?.source==='football-data.org')Object.entries(intl.tables||{}).forEach(([name,teams])=>{if(teams?.length)leagues[name]={teams,provider:'football-data.org'};});
+  const localMatches=results[2].status==='fulfilled'?results[2].value:null;
+  fixtures=[...(intl?.source==='football-data.org'&&Array.isArray(intl.matches)?intl.matches:[]),...(localMatches?.source==='OpenLigaDB'&&Array.isArray(localMatches.matches)?localMatches.matches:[])];
   const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));
   league.replaceChildren();
   names.forEach(name=>league.append(option(name,name)));

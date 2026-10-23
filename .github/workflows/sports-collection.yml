@@ -22,6 +22,10 @@ jobs:
       - name: Detect match window
         id: match_window
         run: python scripts/match_window.py --output "$GITHUB_OUTPUT"
+      - name: Check Python and JavaScript syntax
+        run: |
+          python -m compileall -q scripts tests
+          for file in *.js; do node --check "$file"; done
       - name: Test normalization
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Collect results (preserve last good snapshot on error)

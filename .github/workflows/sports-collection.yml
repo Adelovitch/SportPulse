@@ -41,12 +41,16 @@ jobs:
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
         run: python scripts/collect_football_data.py
+      - name: Preserve completed football match history
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */6 * * *' || steps.match_window.outputs.active == 'true'
+        run: python scripts/collect_history.py
       - name: Publish only changed snapshot
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */6 * * *' || steps.match_window.outputs.active == 'true'
         run: |
           git config user.name "sportpulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/matches.json
+          if [ -f data/history.json ]; then git add data/history.json; fi
           if [ -f data/extras.json ]; then git add data/extras.json; fi
           if [ -f data/analytics.json ]; then git add data/analytics.json; fi
           if [ -f data/football_data.json ]; then git add data/football_data.json; fi

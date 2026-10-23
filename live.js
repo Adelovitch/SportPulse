@@ -67,9 +67,10 @@
       card.append(top,teams,foot);target.append(card);
     }
   }
-  sport.addEventListener('change',()=>{refreshCompetitions();page=0;render();});
-  for(const filter of [competition,period,date])filter.addEventListener('change',()=>{page=0;render();});
-  el('clearRealFilters').addEventListener('click',()=>{sport.value='all';competition.value='all';period.value='all';date.value='';refreshCompetitions();page=0;render();});
+  const syncStandings=()=>document.dispatchEvent(new CustomEvent('sportpulse:filters',{detail:{sport:sport.value,competition:competition.value}}));
+  sport.addEventListener('change',()=>{refreshCompetitions();page=0;render();syncStandings();});
+  for(const filter of [competition,period,date])filter.addEventListener('change',()=>{page=0;render();if(filter===competition)syncStandings();});
+  el('clearRealFilters').addEventListener('click',()=>{sport.value='all';competition.value='all';period.value='all';date.value='';refreshCompetitions();page=0;render();syncStandings();});
   prev.addEventListener('click',()=>{if(page>0){page--;render();}});
   next.addEventListener('click',()=>{page++;render();});
   const load=(file)=>fetch(file,{cache:'no-cache'}).then(async response=>{if(!response.ok)throw Error(file+' unavailable');return response.json();});
@@ -97,6 +98,7 @@
     for(const [name,url,active] of attribution){if(!active)continue;const link=make('a','',name);link.href=url;link.target='_blank';link.rel='noopener noreferrer';source.append(link,document.createTextNode(' · '));}
     if(validInternational){source.append(document.createTextNode(' Football data provided by the Football-Data.org API.'));}
     render();
+    syncStandings();
   }).catch(()=>{
     if(matches.length){status.textContent='Actualisation temporairement indisponible ; derniers résultats conservés.';return;}
     status.textContent='Résultats momentanément indisponibles.';

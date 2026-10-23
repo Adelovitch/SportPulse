@@ -67,3 +67,9 @@ Le dossier `worker/` reste archivé pour une éventuelle phase ultérieure Cloud
 
 ## Transparence
 Sources : https://www.openligadb.de/, https://github.com/jolpica/jolpica-f1 et https://www.thesportsdb.com/. Accès gratuit ne signifie pas absence de conditions de réutilisation ; vérifier droits et attribution pour un usage public durable. Logos d'équipes non intégrés. Pages juridiques à compléter avant lancement officiel.
+
+## LOT 1.5 — ouverture mondiale (octobre 2026)
+- **Football :** extension expérimentale du collecteur football-data.org à la Coupe du monde (`WC`), l'Euro (`EC`), la Série A brésilienne (`BSA`) et l'EFL Championship (`ELC`). Les compétitions réellement disponibles dépendent du jeton et de la saison ; les réponses 403/429 sont traitées, sans matchs fictifs. Les tournois n'ont pas de requête de classement inutile.
+- **Formule 1 :** `scripts/collect_f1_standings.py` récupère via Jolpica-F1 les classements des pilotes et constructeurs de l'année civile. La rubrique `#f1-championnat` affiche uniquement le fichier `data/f1_standings.json` réellement produit par GitHub Actions. Si absent, le site le signale clairement. Pas d'images artificielles ni de points calculés.
+- **NBA :** l'API TheSportsDB accessible avec la clé gratuite demeure limitée pour la liste des matchs ; nous n'annonçons pas une couverture mondiale exhaustive et n'ajoutons aucun résultat non vérifié.
+- Les tests de normalisation sont dans `tests/test_world_coverage.py` ; lancer `python -m unittest discover -s tests -p 'test_*.py'` avant publication. La première exécution réelle de collecte et l'affichage Cloudflare restent à confirmer.

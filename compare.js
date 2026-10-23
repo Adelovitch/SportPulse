@@ -2,7 +2,39 @@
 (function(){
  const el=id=>document.getElementById(id);
  const league=el('compareLeague'),left=el('compareTeamA'),right=el('compareTeamB'),table=el('compareBody'),note=el('compareNote');
- let leagues={},fixtures=[];
+ const discipline=el('compareSport'),footballPanel=el('compareFootballPanel'),otherPanel=el('compareOtherPanel'),leagueLabel=el('compareLeagueLabel');
+ let leagues={},fixtures=[],pendingLeague=null,loaded=false;
+ function showDiscipline(){
+  const isFootball=discipline.value==='Football';
+  footballPanel.hidden=!isFootball;otherPanel.hidden=isFootball;
+  leagueLabel.hidden=!isFootball;
+  document.querySelectorAll('.compareFootballOnly').forEach(node=>{node.hidden=!isFootball;});
+  if(isFootball){if(loaded)populate();return;}
+  otherPanel.replaceChildren();
+  const p=document.createElement('p');
+  if(discipline.value==='Basketball'){
+   p.textContent='Analyse NBA indisponible : les résultats collectés sont encore insuffisants pour une comparaison fiable.';
+  }else{
+   p.textContent='Pour la F1, consultez les classements officiels pilotes et constructeurs dans la rubrique Classements. Un comparateur statistique de pilotes sera ajouté après validation des données historiques.';
+   const link=document.createElement('a');link.href='#classements';link.textContent='Consulter les classements F1';otherPanel.append(link);
+  }
+  otherPanel.prepend(p);
+  note.textContent='Aucune statistique ou probabilité fictive n’est affichée.';
+ }
+ document.addEventListener('sportpulse:filters',event=>{
+  const selectedSport=event.detail?.sport,selectedLeague=event.detail?.competition;
+  if(!['Football','Formule 1','Basketball'].includes(selectedSport))return;
+  discipline.value=selectedSport;
+  if(selectedSport==='Football'&&selectedLeague&&selectedLeague!=='all'){
+   pendingLeague=selectedLeague;
+   if(loaded){
+    if(![...league.options].some(o=>o.value===selectedLeague))league.append(option(selectedLeague+' · classement indisponible',selectedLeague));
+    league.value=selectedLeague;
+   }
+  }
+  showDiscipline();
+ });
+ discipline.addEventListener('change',showDiscipline);
  const load=file=>fetch(file,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('missing');return r.json();});
  const option=(label,value)=>{const o=document.createElement('option');o.value=value;o.textContent=label;return o;};
  const fmt=v=>Number.isFinite(v)?v.toLocaleString('fr-FR',{maximumFractionDigits:2}):'—';
@@ -84,8 +116,9 @@
   league.replaceChildren();
   names.forEach(name=>league.append(option(name,name)));
   if(!names.length){note.textContent='Données de comparaison momentanément indisponibles.';return;}
-  league.value=names.includes('Ligue 1')?'Ligue 1':names[0];populate();
+  if(pendingLeague&&!names.includes(pendingLeague))league.append(option(pendingLeague+' · classement indisponible',pendingLeague));
+  league.value=pendingLeague|| (names.includes('Ligue 1')?'Ligue 1':names[0]);loaded=true;showDiscipline();
  }).catch(()=>{note.textContent='Données de comparaison momentanément indisponibles.';});
- league.addEventListener('change',()=>{left.value='0';right.value='1';populate();});
+ league.addEventListener('change',()=>{pendingLeague=null;left.value='0';right.value='1';populate();});
  left.addEventListener('change',render);right.addEventListener('change',render);
 })();

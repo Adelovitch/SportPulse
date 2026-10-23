@@ -12,11 +12,13 @@
  const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr').replace(/[^a-z0-9]/g,'');
  const date=s=>new Date(s).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'medium',timeStyle:'short'});
  const load=p=>fetch(p,{cache:'no-cache'}).then(async r=>{if(!r.ok)throw Error('Unreachable');return r.json();});
- Promise.allSettled(['./data/matches.json','./data/football_data.json'].map(load)).then(results=>{
-   fixtures=results.flatMap((r,i)=>{
+ Promise.allSettled(['./data/matches.json','./data/football_data.json','./data/history.json'].map(load)).then(results=>{
+   const gathered=results.flatMap((r,i)=>{
     const p=r.status==='fulfilled'?r.value:null;
-    return p&&p.source===(i?'football-data.org':'OpenLigaDB')&&Array.isArray(p.matches)?p.matches:[];
+    const expected=['OpenLigaDB','football-data.org','SportPulse'][i];
+    return p&&p.source===expected&&Array.isArray(p.matches)?p.matches:[];
    });
+   fixtures=[...new Map(gathered.filter(m=>m&&m.id).map(m=>[m.id,m])).values()];
  });
  function open(team,competition,position,provider){
   title.textContent=team.team;
@@ -64,7 +66,7 @@
    for(const m of list){const article=mk('div','','teamFixture');article.append(mk('span',date(m.utcDate)),mk('strong',m.home+'  '+(m.score||'–')+'  '+m.away));games.append(article);}
   };
   section('Derniers résultats',past);section('Prochaines rencontres',future);
-  note.textContent='Les moyennes de buts et le taux de victoires utilisent les totaux du classement. Les bilans domicile/extérieur et la série observée utilisent uniquement les rencontres terminées présentes dans la fenêtre collectée : ils sont partiels et ne décrivent pas nécessairement la saison entière.';
+  note.textContent='Les moyennes de buts et le taux de victoires utilisent les totaux du classement. Les bilans domicile/extérieur et la série observée utilisent l’historique SportPulse progressivement constitué. Les saisons antérieures et certaines rencontres peuvent manquer : ces indicateurs restent partiels.';
   panel.hidden=false;
   panel.scrollIntoView({behavior:'smooth',block:'start'});
  }

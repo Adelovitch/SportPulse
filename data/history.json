@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T20:47:45.160259Z",
+  "updatedAt": "2026-10-23T21:15:55.313491Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3070,6 +3070,58 @@
       "utcDate": "2026-10-23T18:30:00Z",
       "status": "FINISHED",
       "score": "2 – 3"
+    },
+    {
+      "id": "football-data:558567",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Torino FC",
+      "away": "AC Monza",
+      "utcDate": "2026-10-23T18:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/586.png",
+      "awayLogo": "https://crests.football-data.org/5911.png"
+    },
+    {
+      "id": "football-data:559654",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Stade Brestois 29",
+      "away": "OGC Nice",
+      "utcDate": "2026-10-23T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/512.png",
+      "awayLogo": "https://crests.football-data.org/522.png"
+    },
+    {
+      "id": "football-data:560620",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Ipswich Town FC",
+      "away": "Nottingham Forest FC",
+      "utcDate": "2026-10-23T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/349.png",
+      "awayLogo": "https://crests.football-data.org/351.png"
+    },
+    {
+      "id": "football-data:564719",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Deportivo Alavés",
+      "away": "Málaga CF",
+      "utcDate": "2026-10-23T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/263.png",
+      "awayLogo": "https://crests.football-data.org/84.png"
     }
   ]
 }

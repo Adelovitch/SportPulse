@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T20:45:19.368985Z",
+  "updatedAt": "2026-10-23T21:13:24.976698Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2557,8 +2557,8 @@
       "home": "Stade Brestois 29",
       "away": "OGC Nice",
       "utcDate": "2026-10-23T18:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/512.png",
       "awayLogo": "https://crests.football-data.org/522.png"
@@ -2570,8 +2570,8 @@
       "home": "Torino FC",
       "away": "AC Monza",
       "utcDate": "2026-10-23T18:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/586.png",
       "awayLogo": "https://crests.football-data.org/5911.png"
@@ -2583,8 +2583,8 @@
       "home": "Ipswich Town FC",
       "away": "Nottingham Forest FC",
       "utcDate": "2026-10-23T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/349.png",
       "awayLogo": "https://crests.football-data.org/351.png"
@@ -2596,8 +2596,8 @@
       "home": "Deportivo Alavés",
       "away": "Málaga CF",
       "utcDate": "2026-10-23T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/263.png",
       "awayLogo": "https://crests.football-data.org/84.png"
@@ -6718,8 +6718,21 @@
         "goalDifference": -2
       },
       {
-        "team": "RC Celta de Vigo",
+        "team": "Deportivo Alavés",
         "rank": 7,
+        "played": 10,
+        "logo": "https://crests.football-data.org/263.png",
+        "won": 3,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 14,
+        "ga": 11,
+        "points": 12,
+        "goalDifference": 3
+      },
+      {
+        "team": "RC Celta de Vigo",
+        "rank": 8,
         "played": 9,
         "logo": "https://crests.football-data.org/558.png",
         "won": 2,
@@ -6729,19 +6742,6 @@
         "ga": 7,
         "points": 11,
         "goalDifference": 3
-      },
-      {
-        "team": "Deportivo Alavés",
-        "rank": 8,
-        "played": 10,
-        "logo": "https://crests.football-data.org/263.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 13,
-        "ga": 11,
-        "points": 11,
-        "goalDifference": 2
       },
       {
         "team": "RC Deportivo La Coruña",
@@ -6874,21 +6874,8 @@
         "goalDifference": -6
       },
       {
-        "team": "Málaga CF",
-        "rank": 19,
-        "played": 10,
-        "logo": "https://crests.football-data.org/84.png",
-        "won": 1,
-        "drawn": 4,
-        "lost": 5,
-        "gf": 7,
-        "ga": 18,
-        "points": 7,
-        "goalDifference": -11
-      },
-      {
         "team": "Valencia CF",
-        "rank": 20,
+        "rank": 19,
         "played": 9,
         "logo": "https://crests.football-data.org/95.png",
         "won": 1,
@@ -6898,6 +6885,19 @@
         "ga": 15,
         "points": 6,
         "goalDifference": -9
+      },
+      {
+        "team": "Málaga CF",
+        "rank": 20,
+        "played": 10,
+        "logo": "https://crests.football-data.org/84.png",
+        "won": 0,
+        "drawn": 5,
+        "lost": 5,
+        "gf": 7,
+        "ga": 19,
+        "points": 5,
+        "goalDifference": -12
       }
     ],
     "Serie A": [
@@ -8007,27 +8007,14 @@
         "won": 2,
         "drawn": 2,
         "lost": 5,
-        "gf": 6,
+        "gf": 8,
         "ga": 10,
         "points": 8,
-        "goalDifference": -4
-      },
-      {
-        "team": "CS Marítimo",
-        "rank": 12,
-        "played": 9,
-        "logo": "https://crests.football-data.org/5575.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 9,
-        "ga": 15,
-        "points": 8,
-        "goalDifference": -6
+        "goalDifference": -2
       },
       {
         "team": "Moreirense FC",
-        "rank": 13,
+        "rank": 12,
         "played": 8,
         "logo": "https://crests.football-data.org/583.png",
         "won": 2,
@@ -8037,6 +8024,19 @@
         "ga": 15,
         "points": 8,
         "goalDifference": -7
+      },
+      {
+        "team": "CS Marítimo",
+        "rank": 13,
+        "played": 9,
+        "logo": "https://crests.football-data.org/5575.png",
+        "won": 2,
+        "drawn": 2,
+        "lost": 5,
+        "gf": 9,
+        "ga": 17,
+        "points": 8,
+        "goalDifference": -8
       },
       {
         "team": "FC Famalicão",

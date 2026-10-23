@@ -7,6 +7,8 @@
   const PER_PAGE=12;
   let matches=[],page=0;
   const make=(tag,cls,value)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(value!==undefined)e.textContent=String(value);return e;};
+  const providerImage=(value,alt)=>{if(typeof value!=='string')return null;let url;try{url=new URL(value);}catch{return null;}if(url.protocol!=='https:')return null;const image=make('img','sportLogo');image.src=url.href;image.alt=alt;image.loading='lazy';image.decoding='async';image.referrerPolicy='no-referrer';image.addEventListener('error',()=>image.remove(),{once:true});return image;};
+  const teamName=(name,logo)=>{const node=make('span','sportTeam');const picture=providerImage(logo,'Logo '+name);if(picture)node.append(picture);node.append(make('span','',name));return node;};
   const localDay=(value)=>{const d=new Date(value);if(!Number.isFinite(d.getTime()))return '';const parts=new Intl.DateTimeFormat('fr-FR',{timeZone:'Europe/Paris',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(d);const get=type=>parts.find(p=>p.type===type)?.value||'';return get('year')+'-'+get('month')+'-'+get('day');};
   const today=()=>localDay(new Date());
   const leagueLabel=(name)=>name==='Bundesliga'?'Bundesliga · 1re division':name==='2. Bundesliga'?'2. Bundesliga · 2e division':name;
@@ -60,7 +62,7 @@
       const formatted=Number.isFinite(dt)?new Date(dt).toLocaleString('fr-FR',{timeZone:'Europe/Paris',dateStyle:'short',timeStyle:'short'}):'Date inconnue';
       top.append(make('span','',m.status==='FINISHED'?'Résultat':'Rencontre'),make('span','',formatted));
       const teams=make('div','teams');
-      teams.append(make('span','',m.home||'Événement'),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),make('span','',m.away||'Lieu inconnu'));
+      teams.append(teamName(m.home||'Événement',m.homeLogo),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),teamName(m.away||'Lieu inconnu',m.awayLogo));
       const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?(m.status==='FINISHED'&&m.winner?'Terminé · Vainqueur : '+m.winner:'Grand Prix (calendrier / résultat non confirmé)'):(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));
       card.append(top,teams,foot);target.append(card);
     }

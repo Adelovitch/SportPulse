@@ -61,7 +61,7 @@
       top.append(make('span','',m.status==='FINISHED'?'Résultat':'Rencontre'),make('span','',formatted));
       const teams=make('div','teams');
       teams.append(make('span','',m.home||'Événement'),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),make('span','',m.away||'Lieu inconnu'));
-      const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?'Grand Prix (calendrier)':(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));
+      const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?(m.status==='FINISHED'&&m.winner?'Terminé · Vainqueur : '+m.winner:'Grand Prix (calendrier / résultat non confirmé)'):(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));
       card.append(top,teams,foot);target.append(card);
     }
   }

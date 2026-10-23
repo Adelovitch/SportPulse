@@ -11,12 +11,12 @@
  const percent=team=>num(team.played)>0?100*num(team.won)/num(team.played):NaN;
  function populate(){
   const teams=leagues[league.value]?.teams||[];
-  const priorA=left.value,priorB=right.value;
+  const priorA=left.selectedIndex>=0?left.value:null,priorB=right.selectedIndex>=0?right.value:null;
   left.replaceChildren();right.replaceChildren();
   teams.forEach((t,i)=>{left.append(option(t.team,String(i)));right.append(option(t.team,String(i)));});
   if(teams.length){
-   left.value=Number(priorA)>=0&&Number(priorA)<teams.length?priorA:'0';
-   right.value=Number(priorB)>=0&&Number(priorB)<teams.length&&priorB!==left.value?priorB:String(Math.min(1,teams.length-1));
+   left.value=priorA!==null&&Number(priorA)>=0&&Number(priorA)<teams.length?priorA:'0';
+   right.value=priorB!==null&&Number(priorB)>=0&&Number(priorB)<teams.length&&priorB!==left.value?priorB:String(Math.min(1,teams.length-1));
   }
   render();
  }

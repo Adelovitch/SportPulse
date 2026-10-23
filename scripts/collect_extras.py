@@ -47,7 +47,37 @@ def collect_f1(now):
     if not isinstance(races, list) or not races:
         raise ValueError("F1 schedule unavailable")
     result = [normalize_f1(r, season) for r in races]
-    return [m for m in result if m]
+    return attach_f1_results([m for m in result if m],now)
+
+
+
+def attach_f1_results(matches, now, fetch=get_json):
+    """Enrich only the two most recent past races; never fabricate a result."""
+    completed=[m for m in matches if m.get("eventType")=="race" and datetime.fromisoformat(m["utcDate"].replace("Z","+00:00"))<now]
+    completed.sort(key=lambda m:m["utcDate"],reverse=True)
+    for event in completed[:2]:
+        season,round_number=event["id"].split(":")[-2:]
+        try:
+            response=fetch(f"https://api.jolpi.ca/ergast/f1/{season}/{round_number}/results/?limit=100")
+            races=response.get("MRData",{}).get("RaceTable",{}).get("Races",[])
+            if not races or not isinstance(races[0].get("Results"),list) or not races[0]["Results"]:
+                continue
+            classified=[]
+            for result in races[0]["Results"]:
+                driver=result.get("Driver") or {}
+                if not result.get("position") or not driver.get("driverId"):
+                    continue
+                classified.append({"position":str(result["position"]),"driver":str(driver.get("givenName","")+" "+driver.get("familyName","")).strip(),"driverId":driver["driverId"],"team":(result.get("Constructor") or {}).get("name",""),"points":result.get("points")})
+            if not classified:
+                continue
+            event["status"]="FINISHED"
+            event["classification"]=classified
+            event["winner"]=next((x["driver"] for x in classified if x["position"]=="1"),None)
+        except (ValueError,KeyError,TypeError):
+            continue
+        except Exception:
+            continue # Best-effort enrichment, schedule remains safe if results unavailable.
+    return matches
 
 
 def normalize_sportsdb(event):

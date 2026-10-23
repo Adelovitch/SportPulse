@@ -85,6 +85,8 @@ def normalize_sportsdb(event):
         return None
     home, away = event.get("strHomeTeam"), event.get("strAwayTeam")
     date = event.get("strTimestamp")
+    if isinstance(date,str) and date and date[-1] not in "Zz" and "+" not in date[10:] and "-" not in date[10:]:
+        date += "Z"  # Provider naive timestamps are UTC; avoid browser-local ambiguity.
     if not home or not away or not date or not event.get("idEvent"):
         return None
     score_a, score_b = event.get("intHomeScore"), event.get("intAwayScore")
@@ -168,7 +170,7 @@ def collect(now=None):
         raise RuntimeError("No auxiliary provider succeeded; previous snapshot preserved: " + "; ".join(warnings))
     lo, hi = now - timedelta(days=14), now + timedelta(days=60)
     results = []
-    seen = set()
+    by_id = {}
     for match in matches:
         try:
             dt = datetime.fromisoformat(match["utcDate"].replace("Z", "+00:00"))
@@ -176,9 +178,11 @@ def collect(now=None):
                 dt = dt.replace(tzinfo=timezone.utc)
         except (ValueError, TypeError):
             continue
-        if lo <= dt <= hi and match["id"] not in seen:
-            seen.add(match["id"])
-            results.append(match)
+        if lo <= dt <= hi:
+            old = by_id.get(match["id"])
+            if old is None or match["status"] == "FINISHED" or old["status"] != "FINISHED":
+                by_id[match["id"]] = match
+    results = list(by_id.values())
     results.sort(key=lambda m: m["utcDate"])
     return {"source": "SportPulseExtras", "providers": sources, "updatedAt": now.isoformat().replace("+00:00", "Z"),
             "matches": results[:100], "warnings": warnings}

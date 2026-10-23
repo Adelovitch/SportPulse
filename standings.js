@@ -19,7 +19,15 @@
   const {sport,competition}=event.detail||{};
   if(sport==='Football'||sport==='Formule 1'||sport==='Basketball'){
    sportSelect.value=sport;
-   if(sport==='Football'&&leagues[competition])selector.value=competition;
+   if(sport==='Football'&&competition&&competition!=='all'){
+    if(leagues[competition])selector.value=competition;
+    else {
+     const missingOption=document.createElement('option');missingOption.value=competition;missingOption.textContent=competition+' · classement indisponible';
+     const existing=[...selector.options].find(o=>o.value===competition);
+     if(!existing)selector.append(missingOption);
+     selector.value=competition;
+    }
+   }
    showSport();
   }
  });

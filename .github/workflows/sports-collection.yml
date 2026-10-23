@@ -44,6 +44,9 @@ jobs:
       - name: Preserve verified F1 and basketball history
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */6 * * *' || steps.match_window.outputs.active == 'true'
         run: python scripts/collect_multisport_history.py
+      - name: Index archived F1 and basketball events
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */6 * * *' || steps.match_window.outputs.active == 'true'
+        run: python scripts/build_multisport_index.py
       - name: Preserve completed football match history
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '17 */6 * * *' || steps.match_window.outputs.active == 'true'
         run: python scripts/collect_history.py
@@ -58,6 +61,7 @@ jobs:
           git add data/matches.json
           if [ -f data/history.json ]; then git add data/history.json; fi
           if [ -f data/multisport_history.json ]; then git add data/multisport_history.json; fi
+          if [ -f data/multisport_index.json ]; then git add data/multisport_index.json; fi
           if [ -f data/history_index.json ]; then git add data/history_index.json; fi
           if [ -f data/extras.json ]; then git add data/extras.json; fi
           if [ -f data/analytics.json ]; then git add data/analytics.json; fi

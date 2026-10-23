@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-22T21:39:35.579206Z",
+  "updatedAt": "2026-10-23T00:10:57.209080Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:17",
@@ -19,23 +19,23 @@
       "provider": "Jolpica-F1"
     },
     {
-      "id": "thesportsdb:2601678",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Los Angeles Clippers",
-      "away": "Sacramento Kings",
-      "utcDate": "2026-10-22T02:30:00",
-      "status": "FINISHED",
-      "score": "121 – 96",
-      "provider": "TheSportsDB"
-    },
-    {
       "id": "thesportsdb:2601679",
       "sport": "Basketball",
       "competition": "NBA",
       "home": "Philadelphia 76ers",
       "away": "Cleveland Cavaliers",
       "utcDate": "2026-10-22T23:00:00",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB"
+    },
+    {
+      "id": "thesportsdb:2601680",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Denver Nuggets",
+      "utcDate": "2026-10-23T01:30:00",
       "status": "SCHEDULED",
       "score": null,
       "provider": "TheSportsDB"

@@ -105,30 +105,56 @@ def normalize_sportsdb(event):
     }
 
 
-def collect_basketball():
-    # NBA league ID in TheSportsDB; the free key can yield only 1 event per endpoint.
-    matches = []
-    for endpoint in ("eventsnextleague.php", "eventspastleague.php"):
-        url = "https://www.thesportsdb.com/api/v1/json/123/" + endpoint + "?" + urlencode({"id": "4387"})
-        payload = get_json(url)
-        records = payload.get("events") if isinstance(payload, dict) else None
-        if records is None:
+def collect_basketball(now=None, fetch=None):
+    # TheSportsDB free API limits returned results per call. Sample both season
+    # and nearby days, deduplicate on provider event ID, never invent scores.
+    now = now or datetime.now(timezone.utc)
+    fetch = fetch or get_json
+    season_start = now.year if now.month >= 7 else now.year - 1
+    season = f"{season_start}-{season_start+1}"
+    base = "https://www.thesportsdb.com/api/v1/json/123/"
+    requests = [
+        ("eventsseason.php", {"id": "4387", "s": season}),
+        ("eventspastleague.php", {"id": "4387"}),
+        ("eventsnextleague.php", {"id": "4387"}),
+    ]
+    for offset in (-2, -1, 0, 1, 2):
+        day = (now + timedelta(days=offset)).strftime("%Y-%m-%d")
+        requests.append(("eventsday.php", {"d": day, "l": "4387"}))
+    matches = {}
+    succeeded = 0
+    for endpoint, params in requests:
+        try:
+            payload = fetch(base + endpoint + "?" + urlencode(params))
+            if not isinstance(payload, dict):
+                continue
+            records = payload.get("events")
+            if records is None:
+                succeeded += 1
+                continue
+            if not isinstance(records, list):
+                continue
+            succeeded += 1
+            for event in records:
+                item = normalize_sportsdb(event)
+                if not item:
+                    continue
+                old = matches.get(item["id"])
+                # Do not let a scheduled snapshot erase a validated final score.
+                if old is None or item["status"] == "FINISHED" or old["status"] != "FINISHED":
+                    matches[item["id"]] = item
+        except Exception:
             continue
-        if not isinstance(records, list):
-            raise ValueError("Invalid TheSportsDB response")
-        for event in records:
-            match = normalize_sportsdb(event)
-            if match:
-                matches.append(match)
-    return matches
-
+    if not succeeded:
+        raise RuntimeError("All TheSportsDB requests failed")
+    return list(matches.values())
 
 def collect(now=None):
     now = now or datetime.now(timezone.utc)
     sources = []
     matches = []
     warnings = []
-    for name, method in (("Jolpica-F1", lambda: collect_f1(now)), ("TheSportsDB", collect_basketball)):
+    for name, method in (("Jolpica-F1", lambda: collect_f1(now)), ("TheSportsDB", lambda: collect_basketball(now))):
         try:
             rows = method()
             if rows:

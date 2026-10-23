@@ -45,6 +45,8 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 - Les fiches d'équipes et le comparateur exploitent ce fichier lorsqu'il est disponible ; l'absence du fichier ne bloque pas l'affichage des résultats récents.
 - Aucun résultat programmé, incomplet ou sans score validé n'est conservé dans l'historique. La source d'origine reste traçable via l'identifiant du match.
 
+- `scripts/build_history_index.py` produit `data/history_index.json`, un **index non destructif par saison et compétition** avec identifiants et nombres de matchs. Convention provisoire juillet–juin, déduite des dates (pas une saison officiellement certifiée, notamment pour certaines compétitions). Le fichier historique source reste inchangé. Tests dans `tests/test_history_index.py`.
+
 ## Prochaines versions
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.

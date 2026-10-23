@@ -98,7 +98,7 @@ def normalize_sportsdb(event):
         "utcDate": date,
         "status": "FINISHED" if completed else "SCHEDULED",
         "score": score,
-        "provider": "TheSportsDB"
+        "provider": "TheSportsDB",\n        "homeLogo": event.get("strHomeTeamBadge"),\n        "awayLogo": event.get("strAwayTeamBadge"),\n        "eventImage": event.get("strThumb")
     }
 
 

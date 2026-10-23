@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T12:33:07.910130Z",
+  "updatedAt": "2026-10-23T19:00:17.550541Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -79,6 +79,19 @@
       "awayLogo": "https://crests.football-data.org/523.png"
     },
     {
+      "id": "football-data:561862",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "West Ham United FC",
+      "away": "Queens Park Rangers FC",
+      "utcDate": "2026-10-09T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/563.png",
+      "awayLogo": "https://crests.football-data.org/69.png"
+    },
+    {
       "id": "football-data:564706",
       "sport": "Football",
       "competition": "La Liga",
@@ -152,6 +165,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/57.png",
       "awayLogo": "https://crests.football-data.org/341.png"
+    },
+    {
+      "id": "football-data:561857",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "West Bromwich Albion FC",
+      "away": "Birmingham City FC",
+      "utcDate": "2026-10-10T11:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/74.png",
+      "awayLogo": "https://crests.football-data.org/332.png"
+    },
+    {
+      "id": "football-data:561860",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Swansea City AFC",
+      "away": "Norwich City FC",
+      "utcDate": "2026-10-10T11:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/72.png",
+      "awayLogo": "https://crests.football-data.org/68.png"
+    },
+    {
+      "id": "football-data:561863",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Charlton Athletic FC",
+      "away": "Bristol City FC",
+      "utcDate": "2026-10-10T11:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/348.png",
+      "awayLogo": "https://crests.football-data.org/387.png"
     },
     {
       "id": "football-data:558588",
@@ -277,6 +329,97 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/58.png",
       "awayLogo": "https://crests.football-data.org/402.png"
+    },
+    {
+      "id": "football-data:561858",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Sheffield United FC",
+      "away": "Lincoln City FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/356.png",
+      "awayLogo": "https://crests.football-data.org/1126.png"
+    },
+    {
+      "id": "football-data:561861",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Watford FC",
+      "away": "Burnley FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/346.png",
+      "awayLogo": "https://crests.football-data.org/328.png"
+    },
+    {
+      "id": "football-data:561864",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Derby County FC",
+      "away": "Wrexham AFC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/342.png",
+      "awayLogo": "https://crests.football-data.org/404.png"
+    },
+    {
+      "id": "football-data:561865",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Blackburn Rovers FC",
+      "away": "Cardiff City FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/59.png",
+      "awayLogo": "https://crests.football-data.org/715.png"
+    },
+    {
+      "id": "football-data:561866",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bolton Wanderers FC",
+      "away": "Stoke City FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/60.png",
+      "awayLogo": "https://crests.football-data.org/70.png"
+    },
+    {
+      "id": "football-data:561867",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Preston North End FC",
+      "away": "Millwall FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1081.png",
+      "awayLogo": "https://crests.football-data.org/384.png"
+    },
+    {
+      "id": "football-data:561868",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Middlesbrough FC",
+      "away": "Wolverhampton Wanderers FC",
+      "utcDate": "2026-10-10T14:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/343.png",
+      "awayLogo": "https://crests.football-data.org/76.png"
     },
     {
       "id": "football-data:564699",
@@ -537,6 +680,32 @@
       "awayLogo": "https://crests.football-data.org/582.png"
     },
     {
+      "id": "football-data:555039",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Vasco da Gama",
+      "away": "Clube do Remo",
+      "utcDate": "2026-10-10T21:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1780.png",
+      "awayLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": "football-data:555038",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "São Paulo FC",
+      "away": "EC Vitória",
+      "utcDate": "2026-10-11T00:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1776.png",
+      "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
       "id": "football-data:558876",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -561,6 +730,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/7397.png",
       "awayLogo": "https://crests.football-data.org/100.png"
+    },
+    {
+      "id": "football-data:561859",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Southampton FC",
+      "away": "Portsmouth FC",
+      "utcDate": "2026-10-11T11:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/340.png",
+      "awayLogo": "https://crests.football-data.org/325.png"
     },
     {
       "id": "openligadb:83608",
@@ -857,6 +1039,19 @@
       "awayLogo": "https://crests.football-data.org/516.png"
     },
     {
+      "id": "football-data:555030",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Mineiro",
+      "away": "Santos FC",
+      "utcDate": "2026-10-11T19:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1766.png",
+      "awayLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
       "id": "football-data:564705",
       "sport": "Football",
       "competition": "La Liga",
@@ -883,6 +1078,58 @@
       "awayLogo": "https://crests.football-data.org/9136.png"
     },
     {
+      "id": "football-data:555035",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Flamengo",
+      "away": "Fluminense FC",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1783.png",
+      "awayLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": "football-data:555036",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Grêmio FBPA",
+      "away": "SC Internacional",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1767.png",
+      "awayLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": "football-data:555037",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SE Palmeiras",
+      "away": "SC Corinthians Paulista",
+      "utcDate": "2026-10-11T20:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1769.png",
+      "awayLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": "football-data:555031",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Bahia",
+      "away": "Mirassol FC",
+      "utcDate": "2026-10-11T22:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1777.png",
+      "awayLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
       "id": "football-data:558579",
       "sport": "Football",
       "competition": "Serie A",
@@ -907,6 +1154,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/586.png",
       "awayLogo": "https://crests.football-data.org/115.png"
+    },
+    {
+      "id": "football-data:555034",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Coritiba FBC",
+      "away": "Botafogo FR",
+      "utcDate": "2026-10-12T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4241.png",
+      "awayLogo": "https://crests.football-data.org/1770.png"
     },
     {
       "id": "football-data:560597",
@@ -948,6 +1208,32 @@
       "awayLogo": "https://crests.football-data.org/7822.png"
     },
     {
+      "id": "football-data:555033",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Chapecoense AF",
+      "away": "CA Paranaense",
+      "utcDate": "2026-10-12T22:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1772_large.png",
+      "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "football-data:555032",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "RB Bragantino",
+      "away": "Cruzeiro EC",
+      "utcDate": "2026-10-13T00:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4286.png",
+      "awayLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
       "id": "football-data:575341",
       "sport": "Football",
       "competition": "Ligue des champions",
@@ -972,6 +1258,110 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/10233.png",
       "awayLogo": "https://crests.football-data.org/930.png"
+    },
+    {
+      "id": "football-data:561869",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Bolton Wanderers FC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/76.png",
+      "awayLogo": "https://crests.football-data.org/60.png"
+    },
+    {
+      "id": "football-data:561870",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Wrexham AFC",
+      "away": "West Bromwich Albion FC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/404.png",
+      "awayLogo": "https://crests.football-data.org/74.png"
+    },
+    {
+      "id": "football-data:561871",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Millwall FC",
+      "away": "Swansea City AFC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/384.png",
+      "awayLogo": "https://crests.football-data.org/72.png"
+    },
+    {
+      "id": "football-data:561872",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Cardiff City FC",
+      "away": "Watford FC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "5 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/715.png",
+      "awayLogo": "https://crests.football-data.org/346.png"
+    },
+    {
+      "id": "football-data:561873",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Burnley FC",
+      "away": "Charlton Athletic FC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/328.png",
+      "awayLogo": "https://crests.football-data.org/348.png"
+    },
+    {
+      "id": "football-data:561874",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bristol City FC",
+      "away": "Blackburn Rovers FC",
+      "utcDate": "2026-10-13T18:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/387.png",
+      "awayLogo": "https://crests.football-data.org/59.png"
+    },
+    {
+      "id": "football-data:561875",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Birmingham City FC",
+      "away": "Preston North End FC",
+      "utcDate": "2026-10-13T19:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/332.png",
+      "awayLogo": "https://crests.football-data.org/1081.png"
+    },
+    {
+      "id": "football-data:561876",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Stoke City FC",
+      "away": "Middlesbrough FC",
+      "utcDate": "2026-10-13T19:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/70.png",
+      "awayLogo": "https://crests.football-data.org/343.png"
     },
     {
       "id": "football-data:575343",
@@ -1089,6 +1479,58 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/675.png",
       "awayLogo": "https://crests.football-data.org/7397.png"
+    },
+    {
+      "id": "football-data:561877",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Portsmouth FC",
+      "away": "Sheffield United FC",
+      "utcDate": "2026-10-14T18:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/325.png",
+      "awayLogo": "https://crests.football-data.org/356.png"
+    },
+    {
+      "id": "football-data:561879",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Norwich City FC",
+      "away": "Southampton FC",
+      "utcDate": "2026-10-14T18:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/68.png",
+      "awayLogo": "https://crests.football-data.org/340.png"
+    },
+    {
+      "id": "football-data:561880",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Queens Park Rangers FC",
+      "away": "Derby County FC",
+      "utcDate": "2026-10-14T18:45:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/69.png",
+      "awayLogo": "https://crests.football-data.org/342.png"
+    },
+    {
+      "id": "football-data:561878",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Lincoln City FC",
+      "away": "West Ham United FC",
+      "utcDate": "2026-10-14T19:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 6",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1126.png",
+      "awayLogo": "https://crests.football-data.org/563.png"
     },
     {
       "id": "football-data:575352",
@@ -1257,6 +1699,19 @@
       "awayLogo": "https://crests.football-data.org/511.png"
     },
     {
+      "id": "football-data:561883",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Burnley FC",
+      "away": "Wolverhampton Wanderers FC",
+      "utcDate": "2026-10-16T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/328.png",
+      "awayLogo": "https://crests.football-data.org/76.png"
+    },
+    {
       "id": "football-data:564716",
       "sport": "Football",
       "competition": "La Liga",
@@ -1268,6 +1723,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/560.png",
       "awayLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": "football-data:555047",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Mirassol FC",
+      "away": "SC Internacional",
+      "utcDate": "2026-10-16T23:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4364.png",
+      "awayLogo": "https://crests.football-data.org/6684.png"
     },
     {
       "id": "openligadb:83626",
@@ -1317,6 +1785,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/62.png",
       "awayLogo": "https://crests.football-data.org/61.png"
+    },
+    {
+      "id": "football-data:561884",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Millwall FC",
+      "away": "Lincoln City FC",
+      "utcDate": "2026-10-17T11:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/384.png",
+      "awayLogo": "https://crests.football-data.org/1126.png"
+    },
+    {
+      "id": "football-data:561887",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Middlesbrough FC",
+      "away": "Cardiff City FC",
+      "utcDate": "2026-10-17T11:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/343.png",
+      "awayLogo": "https://crests.football-data.org/715.png"
+    },
+    {
+      "id": "football-data:561889",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Watford FC",
+      "away": "Charlton Athletic FC",
+      "utcDate": "2026-10-17T11:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/346.png",
+      "awayLogo": "https://crests.football-data.org/348.png"
     },
     {
       "id": "football-data:564710",
@@ -1442,6 +1949,110 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/402.png",
       "awayLogo": "https://crests.football-data.org/64.png"
+    },
+    {
+      "id": "football-data:561881",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Norwich City FC",
+      "away": "Portsmouth FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/68.png",
+      "awayLogo": "https://crests.football-data.org/325.png"
+    },
+    {
+      "id": "football-data:561882",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Southampton FC",
+      "away": "Bolton Wanderers FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/340.png",
+      "awayLogo": "https://crests.football-data.org/60.png"
+    },
+    {
+      "id": "football-data:561885",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bristol City FC",
+      "away": "Sheffield United FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/387.png",
+      "awayLogo": "https://crests.football-data.org/356.png"
+    },
+    {
+      "id": "football-data:561886",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Birmingham City FC",
+      "away": "Queens Park Rangers FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/332.png",
+      "awayLogo": "https://crests.football-data.org/69.png"
+    },
+    {
+      "id": "football-data:561888",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Derby County FC",
+      "away": "Stoke City FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/342.png",
+      "awayLogo": "https://crests.football-data.org/70.png"
+    },
+    {
+      "id": "football-data:561890",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Swansea City AFC",
+      "away": "West Ham United FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/72.png",
+      "awayLogo": "https://crests.football-data.org/563.png"
+    },
+    {
+      "id": "football-data:561891",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "West Bromwich Albion FC",
+      "away": "Blackburn Rovers FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/74.png",
+      "awayLogo": "https://crests.football-data.org/59.png"
+    },
+    {
+      "id": "football-data:561892",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Wrexham AFC",
+      "away": "Preston North End FC",
+      "utcDate": "2026-10-17T14:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/404.png",
+      "awayLogo": "https://crests.football-data.org/1081.png"
     },
     {
       "id": "football-data:564708",
@@ -1622,6 +2233,58 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/95.png",
       "awayLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": "football-data:555043",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Botafogo FR",
+      "away": "Chapecoense AF",
+      "utcDate": "2026-10-17T21:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1770.png",
+      "awayLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": "football-data:555041",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Mineiro",
+      "away": "Coritiba FBC",
+      "utcDate": "2026-10-17T21:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1766.png",
+      "awayLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": "football-data:555040",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Paranaense",
+      "away": "SE Palmeiras",
+      "utcDate": "2026-10-17T22:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1768.png",
+      "awayLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": "football-data:555049",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "São Paulo FC",
+      "away": "CR Vasco da Gama",
+      "utcDate": "2026-10-18T00:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1776.png",
+      "awayLogo": "https://crests.football-data.org/1780.png"
     },
     {
       "id": "football-data:558867",
@@ -1957,6 +2620,32 @@
       "awayLogo": "https://crests.football-data.org/522.png"
     },
     {
+      "id": "football-data:555045",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Fluminense FC",
+      "away": "Santos FC",
+      "utcDate": "2026-10-18T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1765.png",
+      "awayLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": "football-data:555046",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Grêmio FBPA",
+      "away": "Cruzeiro EC",
+      "utcDate": "2026-10-18T19:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1767.png",
+      "awayLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
       "id": "football-data:564709",
       "sport": "Football",
       "competition": "La Liga",
@@ -1968,6 +2657,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/86.png",
       "awayLogo": "https://crests.football-data.org/559.png"
+    },
+    {
+      "id": "football-data:555042",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Bahia",
+      "away": "CR Flamengo",
+      "utcDate": "2026-10-18T21:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1777.png",
+      "awayLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": "football-data:555048",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Clube do Remo",
+      "away": "RB Bragantino",
+      "utcDate": "2026-10-18T22:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4287.png",
+      "awayLogo": "https://crests.football-data.org/4286.png"
     },
     {
       "id": "football-data:558576",
@@ -2035,6 +2750,19 @@
       "awayLogo": "https://crests.football-data.org/5533.png"
     },
     {
+      "id": "football-data:555044",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Corinthians Paulista",
+      "away": "EC Vitória",
+      "utcDate": "2026-10-19T23:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1779.png",
+      "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
       "id": "football-data:575359",
       "sport": "Football",
       "competition": "Ligue des champions",
@@ -2059,6 +2787,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/613.png",
       "awayLogo": "https://crests.football-data.org/930.png"
+    },
+    {
+      "id": "football-data:561826",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Wolverhampton Wanderers FC",
+      "away": "Portsmouth FC",
+      "utcDate": "2026-10-20T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/76.png",
+      "awayLogo": "https://crests.football-data.org/325.png"
     },
     {
       "id": "football-data:575361",
@@ -2280,6 +3021,30 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/90.png",
       "awayLogo": "https://crests.football-data.org/675.png"
+    },
+    {
+      "id": "openligadb:83648",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "SV Darmstadt 98",
+      "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "utcDate": "2026-10-23T16:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0"
+    },
+    {
+      "id": "openligadb:83655",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "VfL Wolfsburg",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "utcDate": "2026-10-23T16:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1"
     }
   ]
 }

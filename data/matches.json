@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-23T12:31:22.909046Z",
+  "updatedAt": "2026-10-23T18:57:36.806413Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83609",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Heidenheim 1846",
-      "away": "1. FC Kaiserslautern",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-      "utcDate": "2026-10-09T16:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0"
-    },
-    {
-      "id": "openligadb:83620",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Eintracht Braunschweig",
-      "away": "Holstein Kiel",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
-      "utcDate": "2026-10-09T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0"
-    },
-    {
-      "id": "openligadb:83192",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Borussia Dortmund",
-      "away": "SV Werder Bremen",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-      "utcDate": "2026-10-09T18:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2"
-    },
     {
       "id": "openligadb:83611",
       "sport": "Football",
@@ -448,8 +412,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-10-23T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 0"
     },
     {
       "id": "openligadb:83655",
@@ -460,8 +424,8 @@
       "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-10-23T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 1"
     },
     {
       "id": "openligadb:83212",
@@ -868,6 +832,30 @@
       "homeLogo": "https://i.imgur.com/X8NFkOb.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-11-01T16:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83684",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Dynamo Dresden",
+      "away": "SpVgg Greuther Fürth",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
+      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
+      "utcDate": "2026-11-06T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83687",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Eintracht Braunschweig",
+      "away": "Energie Cottbus",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "utcDate": "2026-11-06T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

@@ -5,6 +5,7 @@
  const label=name=>name==='Bundesliga'?'Bundesliga · 1re division':name==='2. Bundesliga'?'2. Bundesliga · 2e division':name;
  const sportSelect=el('standingsSport'),footballPanel=el('footballStandingsContent'),f1Panel=el('f1-championnat'),basketPanel=el('basketStandingsContent'),leagueLabel=el('standingsLeagueLabel');
  let leagues={};
+ let pendingCompetition=null;
  function showSport(){
   const discipline=sportSelect.value;
   footballPanel.hidden=discipline!=='Football';
@@ -20,6 +21,7 @@
   if(sport==='Football'||sport==='Formule 1'||sport==='Basketball'){
    sportSelect.value=sport;
    if(sport==='Football'&&competition&&competition!=='all'){
+    pendingCompetition=competition;
     if(leagues[competition])selector.value=competition;
     else {
      const missingOption=document.createElement('option');missingOption.value=competition;missingOption.textContent=competition+' · classement indisponible';
@@ -72,14 +74,15 @@
   }
   const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));
   if(!names.length)throw Error('No tables');
-  const selected=selector.value;
+  const selected=pendingCompetition||selector.value;
   selector.replaceChildren();
   names.forEach(name=>{const option=make('option',label(name));option.value=name;selector.append(option);});
-  selector.value=names.includes(selected)?selected:(names.includes('Ligue 1')?'Ligue 1':names[0]);
+  if(selected&&!names.includes(selected)&&pendingCompetition){const option=make('option',selected+' · classement indisponible');option.value=selected;selector.append(option);}
+  selector.value=[...selector.options].some(o=>o.value===selected)?selected:(names.includes('Ligue 1')?'Ligue 1':names[0]);
   showSport();
  }).catch(()=>{
   selector.replaceChildren(make('option','Données indisponibles'));
   body.replaceChildren();status.textContent='Classements momentanément indisponibles.';updated.textContent='';
  });
- selector.addEventListener('change',render);
+ selector.addEventListener('change',()=>{pendingCompetition=null;render();});
 })();

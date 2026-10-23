@@ -18,6 +18,7 @@
    const nameCell=document.createElement('td');
    const link=make('button',team.team);link.type='button';link.className='teamProfileLink';link.title='Afficher la fiche de '+team.team;
    link.addEventListener('click',()=>document.dispatchEvent(new CustomEvent('sportpulse:team',{detail:{team,competition:selector.value,position,provider:league.provider}})));
+   if(typeof team.logo==='string'){try{const url=new URL(team.logo);if(url.protocol==='https:'){const img=document.createElement('img');img.className='standingsLogo';img.src=url.href;img.alt='';img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.addEventListener('error',()=>img.remove(),{once:true});nameCell.append(img);}}catch{}}
    nameCell.append(link);tr.append(nameCell);
    [team.played,team.won,team.drawn,team.lost,team.goalDifference,team.points].forEach(v=>tr.append(make('td',v??'—')));
    const form=document.createElement('td');form.className='formCell';

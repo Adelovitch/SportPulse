@@ -25,7 +25,7 @@
    selector.value=wanted&&[...selector.options].some(o=>o.value===wanted)?wanted:(names.includes('Ligue 1')?'Ligue 1':names[0]||'');
    render();
   }
-  else status.textContent=discipline==='Formule 1'?'Classements pilotes et constructeurs fournis par Jolpica-F1.':'Classement NBA indisponible via la source actuelle.';
+  if(discipline!=='Football')status.textContent=discipline==='Formule 1'?'Classements pilotes et constructeurs fournis par Jolpica-F1.':'Classement NBA indisponible via la source actuelle.';
   if(discipline!=='Football')updated.textContent='';
  }
  document.addEventListener('sportpulse:filters',event=>{

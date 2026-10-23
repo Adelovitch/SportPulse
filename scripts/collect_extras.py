@@ -98,7 +98,10 @@ def normalize_sportsdb(event):
         "utcDate": date,
         "status": "FINISHED" if completed else "SCHEDULED",
         "score": score,
-        "provider": "TheSportsDB",\n        "homeLogo": event.get("strHomeTeamBadge"),\n        "awayLogo": event.get("strAwayTeamBadge"),\n        "eventImage": event.get("strThumb")
+        "provider": "TheSportsDB",
+        "homeLogo": event.get("strHomeTeamBadge"),
+        "awayLogo": event.get("strAwayTeamBadge"),
+        "eventImage": event.get("strThumb")
     }
 
 
@@ -159,7 +162,8 @@ def main():
     data = collect()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUTPUT.with_suffix(".tmp")
-    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "
+", encoding="utf-8")
     os.replace(temp, OUTPUT)
     print("Auxiliary sources:", ", ".join(data["providers"]), "| Events:", len(data["matches"]))
     for warning in data["warnings"]:

@@ -33,7 +33,7 @@ def normalize_match(raw, label):
     return {"id": "football-data:" + str(raw["id"]), "sport": "Football", "competition": label,
             "home": home["name"], "away": away["name"], "utcDate": date,
             "status": "FINISHED" if status in ("FINISHED", "AWARDED") else "SCHEDULED",
-            "score": score, "provider": "football-data.org"}
+            "score": score, "provider": "football-data.org",\n            "homeLogo": home.get("crest"), "awayLogo": away.get("crest")}
 
 
 def normalize_standings(raw):
@@ -46,7 +46,7 @@ def normalize_standings(raw):
             if not team:
                 continue
             result.append({"team": team, "rank": r.get("position"), "played": r.get("playedGames"),
-                "won": r.get("won"), "drawn": r.get("draw"), "lost": r.get("lost"),
+                "logo": (r.get("team") or {}).get("crest"), "won": r.get("won"), "drawn": r.get("draw"), "lost": r.get("lost"),
                 "gf": r.get("goalsFor"), "ga": r.get("goalsAgainst"), "points": r.get("points"),
                 "goalDifference": r.get("goalDifference")})
     return result

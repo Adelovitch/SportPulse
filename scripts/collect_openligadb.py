@@ -38,7 +38,9 @@ def normalize_match(raw, league):
         "sport": "Football",
         "competition": league,
         "home": str(home),
-        "away": str(away),\n        "homeLogo": (raw.get("team1") or {}).get("teamIconUrl"),\n        "awayLogo": (raw.get("team2") or {}).get("teamIconUrl"),
+        "away": str(away),
+        "homeLogo": (raw.get("team1") or {}).get("teamIconUrl"),
+        "awayLogo": (raw.get("team2") or {}).get("teamIconUrl"),
         "utcDate": kickoff,
         "status": "FINISHED" if finished else "SCHEDULED",
         "score": score if finished else None,
@@ -93,7 +95,8 @@ def main():
     snapshot = collect()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     tmp = OUTPUT.with_suffix(".tmp")
-    tmp.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "
+", encoding="utf-8")
     os.replace(tmp, OUTPUT)
     print(f"Published {len(snapshot['matches'])} OpenLigaDB games.")
 

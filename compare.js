@@ -68,16 +68,18 @@
    const fixture=document.createElement('strong');fixture.textContent=m.home+' '+(finished(m)?m.score:'—')+' '+m.away;
    row.append(time,fixture);h2h.append(row);
   }
-  note.textContent='Les bilans domicile/extérieur et confrontations directes portent uniquement sur les matchs terminés de la fenêtre collectée. Ils sont partiels. Comparaison descriptive des chiffres du classement ('+info.provider+'). Le classement allemand est calculé et non officiel. Les cinq derniers résultats ne sont montrés que si la source les fournit. Aucune probabilité de victoire n’est déduite de cette comparaison.';
+  note.textContent='Les bilans domicile/extérieur et confrontations directes utilisent les résultats conservés dans l’historique SportPulse et les rencontres disponibles. L’historique commence avec les données effectivement récupérées et reste incomplet pour les saisons antérieures. Comparaison descriptive des chiffres du classement ('+info.provider+'). Le classement allemand est calculé et non officiel. Les cinq derniers résultats ne sont montrés que si la source les fournit. Aucune probabilité de victoire n’est déduite de cette comparaison.';
  }
  const form=t=>Array.isArray(t.form)&&t.form.length?t.form.map(x=>x.outcome).join(' · '):'Non disponible';
- Promise.allSettled([load('./data/analytics.json'),load('./data/football_data.json'),load('./data/matches.json')]).then(results=>{
+ Promise.allSettled([load('./data/analytics.json'),load('./data/football_data.json'),load('./data/matches.json'),load('./data/history.json')]).then(results=>{
   const local=results[0].status==='fulfilled'?results[0].value:null;
   const intl=results[1].status==='fulfilled'?results[1].value:null;
   if(local?.source==='OpenLigaDB')Object.entries(local.leagues||{}).forEach(([name,v])=>{if(v.teams?.length)leagues[name]={teams:v.teams,provider:'OpenLigaDB / SportPulse'};});
   if(intl?.source==='football-data.org')Object.entries(intl.tables||{}).forEach(([name,teams])=>{if(teams?.length)leagues[name]={teams,provider:'football-data.org'};});
   const localMatches=results[2].status==='fulfilled'?results[2].value:null;
-  fixtures=[...(intl?.source==='football-data.org'&&Array.isArray(intl.matches)?intl.matches:[]),...(localMatches?.source==='OpenLigaDB'&&Array.isArray(localMatches.matches)?localMatches.matches:[])];
+  const history=results[3].status==='fulfilled'?results[3].value:null;
+  const all=[...(history?.source==='SportPulse'&&Array.isArray(history.matches)?history.matches:[]),...(intl?.source==='football-data.org'&&Array.isArray(intl.matches)?intl.matches:[]),...(localMatches?.source==='OpenLigaDB'&&Array.isArray(localMatches.matches)?localMatches.matches:[])];
+  fixtures=[...new Map(all.filter(m=>m&&m.id).map(m=>[m.id,m])).values()];
   const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));
   league.replaceChildren();
   names.forEach(name=>league.append(option(name,name)));

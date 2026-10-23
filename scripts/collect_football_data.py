@@ -33,7 +33,8 @@ def normalize_match(raw, label):
     return {"id": "football-data:" + str(raw["id"]), "sport": "Football", "competition": label,
             "home": home["name"], "away": away["name"], "utcDate": date,
             "status": "FINISHED" if status in ("FINISHED", "AWARDED") else "SCHEDULED",
-            "score": score, "provider": "football-data.org",\n            "homeLogo": home.get("crest"), "awayLogo": away.get("crest")}
+            "score": score, "provider": "football-data.org",
+            "homeLogo": home.get("crest"), "awayLogo": away.get("crest")}
 
 
 def normalize_standings(raw):
@@ -123,7 +124,8 @@ def main():
     snapshot=collect(token)
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     tmp=OUTPUT.with_suffix(".tmp")
-    tmp.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    tmp.write_text(json.dumps(snapshot,ensure_ascii=False,indent=2)+"
+",encoding="utf-8")
     os.replace(tmp,OUTPUT)
     print("football-data.org competitions:",len(snapshot["competitions"]),"matches:",len(snapshot["matches"]))
     for warning in snapshot["warnings"]:

@@ -95,8 +95,7 @@ def main():
     snapshot = collect()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     tmp = OUTPUT.with_suffix(".tmp")
-    tmp.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "
-", encoding="utf-8")
+    tmp.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     os.replace(tmp, OUTPUT)
     print(f"Published {len(snapshot['matches'])} OpenLigaDB games.")
 

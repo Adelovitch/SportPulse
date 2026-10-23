@@ -83,3 +83,10 @@ Le collecteur ne dépend plus seulement des endpoints « prochain / précédent 
 - F1 : vérification des résultats des cinq courses récentes (au lieu de deux) et fenêtre d'affichage de 70 jours pour mieux préserver les grands prix précédents. Les résultats restent soumis à une classification réellement fournie par Jolpica-F1.
 - GitHub Actions : compilation syntaxique Python et `node --check` de tous les fichiers JavaScript avant la suite de tests et la collecte.
 - Ne pas considérer cette phase terminée avant de vérifier une exécution GitHub Actions et le rendu mobile/ordinateur sur la production Cloudflare.
+
+### LOT 2 — Comparaisons descriptives multisports (première version)
+- `compare-multisport.js` ajoute dans Analyse des sélections **pilotes ou constructeurs F1** et **équipes NBA**. Les contrôles restent synchronisés avec la discipline choisie dans Résultats et sont modifiables indépendamment.
+- F1 : position, points et victoires du classement Jolpica-F1 ; pour les pilotes, moyenne des positions seulement sur les courses **archivées avec classification vérifiée**. Ce n'est pas la moyenne de saison si l'échantillon ne contient pas toutes les courses.
+- NBA : matchs terminés réellement recueillis (archive et collecte actuelle) dédupliqués par identifiant ; matchs de l'échantillon, victoires, défaites et points marqués/encaissés par match. **Aucune extrapolation** au classement officiel de saison.
+- Aucune probabilité, cote, pronostic ni résultat fictif. En l'absence de deux participants avec données vérifiées, un état « indisponible » est affiché.
+- La validation complète du JavaScript dans GitHub Actions et la vérification de l'ergonomie en production sont requises avant de considérer ce lot comme validé.

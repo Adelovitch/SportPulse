@@ -52,10 +52,10 @@ def collect_f1(now):
 
 
 def attach_f1_results(matches, now, fetch=get_json):
-    """Enrich only the two most recent past races; never fabricate a result."""
+    """Enrich up to five past races, only when provider returns a classification."""
     completed=[m for m in matches if m.get("eventType")=="race" and datetime.fromisoformat(m["utcDate"].replace("Z","+00:00"))<now]
     completed.sort(key=lambda m:m["utcDate"],reverse=True)
-    for event in completed[:2]:
+    for event in completed[:5]:
         season,round_number=event["id"].split(":")[-2:]
         try:
             response=fetch(f"https://api.jolpi.ca/ergast/f1/{season}/{round_number}/results/?limit=100")
@@ -178,7 +178,7 @@ def collect(now=None):
                 dt = dt.replace(tzinfo=timezone.utc)
         except (ValueError, TypeError):
             continue
-        if lo <= dt <= hi:
+        if (lo <= dt <= hi) or (match.get("sport") == "Formule 1" and now - timedelta(days=70) <= dt <= hi):
             old = by_id.get(match["id"])
             if old is None or match["status"] == "FINISHED" or old["status"] != "FINISHED":
                 by_id[match["id"]] = match

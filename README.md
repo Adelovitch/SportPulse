@@ -38,6 +38,13 @@ Ces tests valident la normalisation, mais pas la disponibilité du fournisseur.
 - La formule gratuite n’autorise pas les données enrichies payantes (composition, statistiques détaillées, longues archives). Attribution du fournisseur à conserver de manière visible conformément à ses conditions.
 - La liste des compétitions tentées ne garantit pas leur accès : vérifier le JSON après la première exécution.
 
+## Historique cumulatif des rencontres (nouveau)
+- `scripts/collect_history.py` conserve dans `data/history.json` les rencontres **de football terminées avec un score numérique validé** provenant des snapshots OpenLigaDB et football-data.org.
+- Déduplication par identifiant de source ; les corrections de score mettent à jour l'entrée sans la dupliquer. Un match disparu d'une fenêtre de collecte **reste dans l'archive**.
+- L'archive a été initialisée à partir des matchs déjà connus (178 résultats au démarrage), puis s'enrichit automatiquement après les collectes. Cela **ne reconstitue pas rétroactivement toute la saison ni toutes les saisons précédentes**.
+- Les fiches d'équipes et le comparateur exploitent ce fichier lorsqu'il est disponible ; l'absence du fichier ne bloque pas l'affichage des résultats récents.
+- Aucun résultat programmé, incomplet ou sans score validé n'est conservé dans l'historique. La source d'origine reste traçable via l'identifiant du match.
+
 ## Prochaines versions
 - Ajouter d'autres compétitions/sports **après vérification des conditions de réutilisation** et de la qualité des données.
 - Construire des prédictions 1/N/2 sur résultats historiques réels, avec séparation chronologique, calibration et évaluation hors échantillon.

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T00:10:57.773061Z",
+  "updatedAt": "2026-10-23T05:01:49.762538Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -89,6 +89,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558588",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "ACF Fiorentina",
+      "utcDate": "2026-10-10T13:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560592",
       "sport": "Football",
       "competition": "Premier League",
@@ -163,6 +174,17 @@
       "utcDate": "2026-10-10T15:15:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558582",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "FC Internazionale Milano",
+      "away": "Parma Calcio 1913",
+      "utcDate": "2026-10-10T16:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org"
     },
     {
@@ -265,6 +287,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558586",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "Frosinone Calcio",
+      "utcDate": "2026-10-10T18:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564702",
       "sport": "Football",
       "competition": "La Liga",
@@ -317,6 +350,17 @@
       "utcDate": "2026-10-11T10:15:00Z",
       "status": "FINISHED",
       "score": "3 – 1",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558585",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Como 1907",
+      "away": "AS Roma",
+      "utcDate": "2026-10-11T10:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org"
     },
     {
@@ -386,6 +430,28 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558581",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Lecce",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-10-11T13:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558583",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SS Lazio",
+      "away": "AC Monza",
+      "utcDate": "2026-10-11T13:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564707",
       "sport": "Football",
       "competition": "La Liga",
@@ -441,6 +507,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558580",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "AC Milan",
+      "utcDate": "2026-10-11T16:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564701",
       "sport": "Football",
       "competition": "La Liga",
@@ -474,6 +551,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558584",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Cagliari Calcio",
+      "away": "Juventus FC",
+      "utcDate": "2026-10-11T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564705",
       "sport": "Football",
       "competition": "La Liga",
@@ -493,6 +581,28 @@
       "utcDate": "2026-10-11T19:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558579",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Venezia FC",
+      "utcDate": "2026-10-12T16:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558587",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Torino FC",
+      "away": "Udinese Calcio",
+      "utcDate": "2026-10-12T18:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org"
     },
     {
@@ -749,6 +859,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558573",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "US Sassuolo Calcio",
+      "utcDate": "2026-10-16T18:45:00Z",
+      "status": "FINISHED",
+      "score": "4 – 2",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564716",
       "sport": "Football",
       "competition": "La Liga",
@@ -779,6 +900,17 @@
       "utcDate": "2026-10-17T12:00:00Z",
       "status": "FINISHED",
       "score": "0 – 1",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558575",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Venezia FC",
+      "away": "SSC Napoli",
+      "utcDate": "2026-10-17T13:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org"
     },
     {
@@ -848,6 +980,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558571",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Bologna FC 1909",
+      "away": "FC Internazionale Milano",
+      "utcDate": "2026-10-17T16:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560607",
       "sport": "Football",
       "competition": "Premier League",
@@ -903,6 +1046,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558572",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AS Roma",
+      "away": "Genoa CFC",
+      "utcDate": "2026-10-17T18:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564711",
       "sport": "Football",
       "competition": "La Liga",
@@ -933,6 +1087,17 @@
       "utcDate": "2026-10-18T10:15:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558574",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Udinese Calcio",
+      "away": "US Lecce",
+      "utcDate": "2026-10-18T10:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
       "provider": "football-data.org"
     },
     {
@@ -1002,6 +1167,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558577",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Como 1907",
+      "utcDate": "2026-10-18T13:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564712",
       "sport": "Football",
       "competition": "La Liga",
@@ -1068,6 +1244,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558569",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "Atalanta BC",
+      "utcDate": "2026-10-18T16:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564714",
       "sport": "Football",
       "competition": "La Liga",
@@ -1112,6 +1299,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558570",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Juventus FC",
+      "away": "SS Lazio",
+      "utcDate": "2026-10-18T18:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564709",
       "sport": "Football",
       "competition": "La Liga",
@@ -1120,6 +1318,28 @@
       "utcDate": "2026-10-18T19:00:00Z",
       "status": "FINISHED",
       "score": "4 – 1",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558576",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "Cagliari Calcio",
+      "utcDate": "2026-10-19T16:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558578",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Torino FC",
+      "utcDate": "2026-10-19T18:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
       "provider": "football-data.org"
     },
     {
@@ -1387,6 +1607,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558567",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Torino FC",
+      "away": "AC Monza",
+      "utcDate": "2026-10-23T18:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560620",
       "sport": "Football",
       "competition": "Premier League",
@@ -1437,6 +1668,28 @@
       "home": "Rayo Vallecano de Madrid",
       "away": "Elche CF",
       "utcDate": "2026-10-24T12:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558560",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Cagliari Calcio",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-10-24T13:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558561",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Como 1907",
+      "away": "US Sassuolo Calcio",
+      "utcDate": "2026-10-24T13:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -1497,6 +1750,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558564",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "AS Roma",
+      "utcDate": "2026-10-24T16:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560617",
       "sport": "Football",
       "competition": "Premier League",
@@ -1552,6 +1816,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558565",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SS Lazio",
+      "away": "Parma Calcio 1913",
+      "utcDate": "2026-10-24T18:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564724",
       "sport": "Football",
       "competition": "La Liga",
@@ -1591,6 +1866,17 @@
       "home": "Fortuna Sittard",
       "away": "SBV Excelsior",
       "utcDate": "2026-10-25T11:15:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558563",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "FC Internazionale Milano",
+      "away": "ACF Fiorentina",
+      "utcDate": "2026-10-25T11:30:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -1678,6 +1964,28 @@
       "competition": "Premier League",
       "home": "Hull City AFC",
       "away": "Brentford FC",
+      "utcDate": "2026-10-25T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558562",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Frosinone Calcio",
+      "utcDate": "2026-10-25T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558568",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "Venezia FC",
       "utcDate": "2026-10-25T14:00:00Z",
       "status": "SCHEDULED",
       "score": null,
@@ -1783,6 +2091,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558566",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Lecce",
+      "away": "Juventus FC",
+      "utcDate": "2026-10-25T17:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564726",
       "sport": "Football",
       "competition": "La Liga",
@@ -1838,6 +2157,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558559",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Udinese Calcio",
+      "away": "AC Milan",
+      "utcDate": "2026-10-25T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564723",
       "sport": "Football",
       "competition": "La Liga",
@@ -1877,6 +2207,116 @@
       "home": "Sevilla FC",
       "away": "CA Osasuna",
       "utcDate": "2026-10-26T20:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558556",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "SS Lazio",
+      "utcDate": "2026-10-27T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558555",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AS Roma",
+      "away": "Cagliari Calcio",
+      "utcDate": "2026-10-27T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558557",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Torino FC",
+      "away": "Como 1907",
+      "utcDate": "2026-10-27T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558549",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-10-28T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558550",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Venezia FC",
+      "away": "FC Internazionale Milano",
+      "utcDate": "2026-10-28T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558553",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Udinese Calcio",
+      "utcDate": "2026-10-28T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558552",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "Juventus FC",
+      "utcDate": "2026-10-28T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558554",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "SSC Napoli",
+      "utcDate": "2026-10-28T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558558",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "US Lecce",
+      "utcDate": "2026-10-29T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558551",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Atalanta BC",
+      "utcDate": "2026-10-29T19:45:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -1943,6 +2383,17 @@
       "home": "Levante UD",
       "away": "Club Atlético de Madrid",
       "utcDate": "2026-10-31T13:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558539",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Bologna FC 1909",
+      "away": "AC Monza",
+      "utcDate": "2026-10-31T14:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -2047,6 +2498,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558542",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Udinese Calcio",
+      "away": "AS Roma",
+      "utcDate": "2026-10-31T17:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560627",
       "sport": "Football",
       "competition": "Premier League",
@@ -2124,6 +2586,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558548",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "FC Internazionale Milano",
+      "utcDate": "2026-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560628",
       "sport": "Football",
       "competition": "Premier League",
@@ -2190,6 +2663,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558543",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Como 1907",
+      "away": "Venezia FC",
+      "utcDate": "2026-11-01T11:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564733",
       "sport": "Football",
       "competition": "La Liga",
@@ -2228,6 +2712,28 @@
       "competition": "Ligue 1",
       "home": "RC Strasbourg Alsace",
       "away": "AJ Auxerre",
+      "utcDate": "2026-11-01T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558544",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "Torino FC",
+      "utcDate": "2026-11-01T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558546",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SS Lazio",
+      "away": "Cagliari Calcio",
       "utcDate": "2026-11-01T14:00:00Z",
       "status": "SCHEDULED",
       "score": null,
@@ -2289,6 +2795,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558540",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Lecce",
+      "away": "Genoa CFC",
+      "utcDate": "2026-11-01T17:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564728",
       "sport": "Football",
       "competition": "La Liga",
@@ -2333,6 +2850,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558547",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Juventus FC",
+      "away": "SSC Napoli",
+      "utcDate": "2026-11-01T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564729",
       "sport": "Football",
       "competition": "La Liga",
@@ -2350,6 +2878,28 @@
       "home": "Sporting Clube de Braga",
       "away": "FC Famalicão",
       "utcDate": "2026-11-01T20:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558541",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "ACF Fiorentina",
+      "utcDate": "2026-11-02T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558545",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Parma Calcio 1913",
+      "utcDate": "2026-11-02T19:45:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -2619,6 +3169,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558537",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Venezia FC",
+      "away": "Udinese Calcio",
+      "utcDate": "2026-11-06T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560634",
       "sport": "Football",
       "competition": "Premier League",
@@ -2669,6 +3230,28 @@
       "home": "Málaga CF",
       "away": "Real Racing Club de Santander",
       "utcDate": "2026-11-07T13:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558532",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Torino FC",
+      "away": "US Lecce",
+      "utcDate": "2026-11-07T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558534",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Cagliari Calcio",
+      "away": "Frosinone Calcio",
+      "utcDate": "2026-11-07T14:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -2740,6 +3323,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558535",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-11-07T17:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:560641",
       "sport": "Football",
       "competition": "Premier League",
@@ -2795,6 +3389,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558531",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AS Roma",
+      "away": "US Sassuolo Calcio",
+      "utcDate": "2026-11-07T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564741",
       "sport": "Football",
       "competition": "La Liga",
@@ -2834,6 +3439,17 @@
       "home": "SC Heerenveen",
       "away": "Feyenoord Rotterdam",
       "utcDate": "2026-11-08T11:15:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558533",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "SS Lazio",
+      "utcDate": "2026-11-08T11:30:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "football-data.org"
@@ -2910,6 +3526,28 @@
       "competition": "Premier League",
       "home": "Brighton & Hove Albion FC",
       "away": "Brentford FC",
+      "utcDate": "2026-11-08T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558536",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "AC Milan",
+      "utcDate": "2026-11-08T14:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558538",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "Atalanta BC",
       "utcDate": "2026-11-08T14:00:00Z",
       "status": "SCHEDULED",
       "score": null,
@@ -3026,6 +3664,17 @@
       "provider": "football-data.org"
     },
     {
+      "id": "football-data:558530",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "FC Internazionale Milano",
+      "away": "Como 1907",
+      "utcDate": "2026-11-08T17:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
       "id": "football-data:564742",
       "sport": "Football",
       "competition": "La Liga",
@@ -3075,6 +3724,17 @@
       "competition": "Ligue 1",
       "home": "Racing Club de Lens",
       "away": "Olympique de Marseille",
+      "utcDate": "2026-11-08T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org"
+    },
+    {
+      "id": "football-data:558529",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Juventus FC",
       "utcDate": "2026-11-08T19:45:00Z",
       "status": "SCHEDULED",
       "score": null,

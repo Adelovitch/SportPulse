@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T20:12:59.262612Z",
+  "updatedAt": "2026-10-23T20:47:45.160259Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3058,6 +3058,18 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/718.png",
       "awayLogo": "https://crests.football-data.org/1912.png"
+    },
+    {
+      "id": "openligadb:83212",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "VfB Stuttgart",
+      "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "utcDate": "2026-10-23T18:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3"
     }
   ]
 }

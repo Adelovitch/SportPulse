@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T20:10:29.718482Z",
+  "updatedAt": "2026-10-23T20:45:19.368985Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -6233,26 +6233,26 @@
         "goalDifference": 1
       },
       {
-        "team": "Racing Club de Lens",
+        "team": "OGC Nice",
         "rank": 8,
+        "played": 8,
+        "logo": "https://crests.football-data.org/522.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 3,
+        "gf": 8,
+        "ga": 10,
+        "points": 11,
+        "goalDifference": -2
+      },
+      {
+        "team": "Racing Club de Lens",
+        "rank": 9,
         "played": 7,
         "logo": "https://crests.football-data.org/546.png",
         "won": 3,
         "drawn": 1,
         "lost": 3,
-        "gf": 14,
-        "ga": 11,
-        "points": 10,
-        "goalDifference": 3
-      },
-      {
-        "team": "Stade Brestois 29",
-        "rank": 8,
-        "played": 8,
-        "logo": "https://crests.football-data.org/512.png",
-        "won": 2,
-        "drawn": 4,
-        "lost": 2,
         "gf": 14,
         "ga": 11,
         "points": 10,
@@ -6272,8 +6272,21 @@
         "goalDifference": 4
       },
       {
-        "team": "Toulouse FC",
+        "team": "Stade Brestois 29",
         "rank": 11,
+        "played": 8,
+        "logo": "https://crests.football-data.org/512.png",
+        "won": 2,
+        "drawn": 3,
+        "lost": 3,
+        "gf": 14,
+        "ga": 12,
+        "points": 9,
+        "goalDifference": 2
+      },
+      {
+        "team": "Toulouse FC",
+        "rank": 12,
         "played": 7,
         "logo": "https://crests.football-data.org/511.png",
         "won": 2,
@@ -6283,19 +6296,6 @@
         "ga": 11,
         "points": 9,
         "goalDifference": 1
-      },
-      {
-        "team": "OGC Nice",
-        "rank": 12,
-        "played": 8,
-        "logo": "https://crests.football-data.org/522.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 7,
-        "ga": 10,
-        "points": 9,
-        "goalDifference": -3
       },
       {
         "team": "AJ Auxerre",
@@ -6987,8 +6987,8 @@
         "won": 4,
         "drawn": 1,
         "lost": 3,
-        "gf": 12,
-        "ga": 10,
+        "gf": 13,
+        "ga": 11,
         "points": 13,
         "goalDifference": 2
       },
@@ -7078,8 +7078,8 @@
         "won": 2,
         "drawn": 1,
         "lost": 5,
-        "gf": 14,
-        "ga": 17,
+        "gf": 15,
+        "ga": 18,
         "points": 7,
         "goalDifference": -3
       },
@@ -8000,21 +8000,34 @@
         "goalDifference": -1
       },
       {
-        "team": "CS Marítimo",
+        "team": "Vitória SC",
         "rank": 11,
+        "played": 9,
+        "logo": "https://crests.football-data.org/5543.png",
+        "won": 2,
+        "drawn": 2,
+        "lost": 5,
+        "gf": 6,
+        "ga": 10,
+        "points": 8,
+        "goalDifference": -4
+      },
+      {
+        "team": "CS Marítimo",
+        "rank": 12,
         "played": 9,
         "logo": "https://crests.football-data.org/5575.png",
         "won": 2,
-        "drawn": 3,
-        "lost": 4,
+        "drawn": 2,
+        "lost": 5,
         "gf": 9,
-        "ga": 14,
-        "points": 9,
-        "goalDifference": -5
+        "ga": 15,
+        "points": 8,
+        "goalDifference": -6
       },
       {
         "team": "Moreirense FC",
-        "rank": 12,
+        "rank": 13,
         "played": 8,
         "logo": "https://crests.football-data.org/583.png",
         "won": 2,
@@ -8027,7 +8040,7 @@
       },
       {
         "team": "FC Famalicão",
-        "rank": 13,
+        "rank": 14,
         "played": 8,
         "logo": "https://crests.football-data.org/5531.png",
         "won": 1,
@@ -8040,7 +8053,7 @@
       },
       {
         "team": "Rio Ave FC",
-        "rank": 14,
+        "rank": 15,
         "played": 8,
         "logo": "https://crests.football-data.org/496.png",
         "won": 2,
@@ -8050,19 +8063,6 @@
         "ga": 17,
         "points": 7,
         "goalDifference": -9
-      },
-      {
-        "team": "Vitória SC",
-        "rank": 15,
-        "played": 9,
-        "logo": "https://crests.football-data.org/5543.png",
-        "won": 1,
-        "drawn": 3,
-        "lost": 5,
-        "gf": 5,
-        "ga": 10,
-        "points": 6,
-        "goalDifference": -5
       },
       {
         "team": "CD Nacional",

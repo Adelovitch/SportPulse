@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-23T20:10:22.223081Z",
+  "updatedAt": "2026-10-23T20:45:13.763678Z",
   "leagues": {
     "Bundesliga": {
       "competition": "Bundesliga",
@@ -594,55 +594,6 @@
           "avgGoalsFor": 1.33
         },
         {
-          "team": "VfB Stuttgart",
-          "played": 6,
-          "won": 2,
-          "drawn": 0,
-          "lost": 4,
-          "gf": 8,
-          "ga": 10,
-          "points": 6,
-          "goalDifference": -2,
-          "form": [
-            {
-              "date": "2026-09-04T18:30:00Z",
-              "opponent": "1. FC Köln",
-              "goalsFor": 4,
-              "goalsAgainst": 1,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-09-12T13:30:00Z",
-              "opponent": "TSG Hoffenheim",
-              "goalsFor": 1,
-              "goalsAgainst": 2,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-09-19T16:30:00Z",
-              "opponent": "Borussia Dortmund",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-10T13:30:00Z",
-              "opponent": "SC Paderborn 07",
-              "goalsFor": 2,
-              "goalsAgainst": 0,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-10-17T13:30:00Z",
-              "opponent": "Hamburger SV",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            }
-          ],
-          "avgGoalsFor": 1.33
-        },
-        {
           "team": "TSG Hoffenheim",
           "played": 6,
           "won": 2,
@@ -690,6 +641,55 @@
             }
           ],
           "avgGoalsFor": 1.83
+        },
+        {
+          "team": "VfB Stuttgart",
+          "played": 7,
+          "won": 2,
+          "drawn": 0,
+          "lost": 5,
+          "gf": 10,
+          "ga": 13,
+          "points": 6,
+          "goalDifference": -3,
+          "form": [
+            {
+              "date": "2026-09-12T13:30:00Z",
+              "opponent": "TSG Hoffenheim",
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-09-19T16:30:00Z",
+              "opponent": "Borussia Dortmund",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-10T13:30:00Z",
+              "opponent": "SC Paderborn 07",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-17T13:30:00Z",
+              "opponent": "Hamburger SV",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-23T18:30:00Z",
+              "opponent": "Borussia Mönchengladbach",
+              "goalsFor": 2,
+              "goalsAgainst": 3,
+              "outcome": "D"
+            }
+          ],
+          "avgGoalsFor": 1.43
         },
         {
           "team": "FC Schalke 04",
@@ -840,22 +840,15 @@
         },
         {
           "team": "Borussia Mönchengladbach",
-          "played": 6,
-          "won": 0,
+          "played": 7,
+          "won": 1,
           "drawn": 0,
           "lost": 6,
-          "gf": 8,
-          "ga": 20,
-          "points": 0,
-          "goalDifference": -12,
+          "gf": 11,
+          "ga": 22,
+          "points": 3,
+          "goalDifference": -11,
           "form": [
-            {
-              "date": "2026-09-05T13:30:00Z",
-              "opponent": "SV 07 Elversberg",
-              "goalsFor": 3,
-              "goalsAgainst": 4,
-              "outcome": "D"
-            },
             {
               "date": "2026-09-12T13:30:00Z",
               "opponent": "SC Freiburg",
@@ -883,9 +876,16 @@
               "goalsFor": 1,
               "goalsAgainst": 2,
               "outcome": "D"
+            },
+            {
+              "date": "2026-10-23T18:30:00Z",
+              "opponent": "VfB Stuttgart",
+              "goalsFor": 3,
+              "goalsAgainst": 2,
+              "outcome": "V"
             }
           ],
-          "avgGoalsFor": 1.33
+          "avgGoalsFor": 1.57
         }
       ],
       "scope": "Classement calculé sur les matchs terminés disponibles (critères simplifiés, non officiel)"

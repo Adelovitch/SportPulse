@@ -60,3 +60,6 @@
 .compareTable td:first-child,.compareTable td:last-child{width:34%;font-weight:650}
 .compareTable .compareMetric{width:32%;color:#a8cfe9;font-weight:500}
 @media(max-width:700px){.compareTable{min-width:450px}}
+
+.compareH2H{margin-top:25px;padding:16px 19px;border:1px solid #34546d;border-radius:12px;background:#10253e}
+.compareH2H h3{font-size:20px;margin:0 0 10px}.compareH2H p{color:#b9cee0}

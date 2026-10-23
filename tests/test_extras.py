@@ -3,7 +3,8 @@ import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 from collect_extras import normalize_f1, normalize_sportsdb, collect_basketball
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
+from unittest.mock import patch
 
 class ExtraTests(unittest.TestCase):
     def test_f1_schedule_not_score(self):
@@ -27,6 +28,16 @@ class ExtraTests(unittest.TestCase):
         items=collect_basketball(datetime(2026,10,23,tzinfo=timezone.utc),fetch=fake)
         self.assertEqual(len(items),1)
         self.assertEqual(items[0]["score"],"96 – 84")
+
+    def test_f1_window_is_wider_than_basketball(self):
+        now=datetime(2026,10,23,tzinfo=timezone.utc)
+        previous=(now-timedelta(days=45)).isoformat().replace("+00:00","Z")
+        f1={"id":"jolpica:f1:2026:12","sport":"Formule 1","competition":"Championnat du monde F1","utcDate":previous,"home":"Grand Prix","away":"Circuit","status":"FINISHED","eventType":"race","classification":[{"position":"1","driverId":"pilot"}],"winner":"Pilote"}
+        nba={"id":"thesportsdb:old","sport":"Basketball","competition":"NBA","utcDate":previous,"home":"A","away":"B","status":"FINISHED","score":"96 – 84"}
+        with patch("collect_extras.collect_f1",return_value=[f1]),patch("collect_extras.collect_basketball",return_value=[nba]):
+            from collect_extras import collect
+            data=collect(now)
+        self.assertEqual([m["id"] for m in data["matches"]],["jolpica:f1:2026:12"])
 
     def test_basketball_missing_teams(self):
         self.assertIsNone(normalize_sportsdb({"idEvent":"1"}))

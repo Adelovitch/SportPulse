@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T19:22:40.455392Z",
+  "updatedAt": "2026-10-23T19:29:18.191055Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -6980,8 +6980,21 @@
         "goalDifference": 4
       },
       {
-        "team": "Cagliari Calcio",
+        "team": "Torino FC",
         "rank": 7,
+        "played": 8,
+        "logo": "https://crests.football-data.org/586.png",
+        "won": 4,
+        "drawn": 1,
+        "lost": 3,
+        "gf": 11,
+        "ga": 9,
+        "points": 13,
+        "goalDifference": 2
+      },
+      {
+        "team": "Cagliari Calcio",
+        "rank": 8,
         "played": 7,
         "logo": "https://crests.football-data.org/104.png",
         "won": 4,
@@ -6991,19 +7004,6 @@
         "ga": 7,
         "points": 13,
         "goalDifference": -1
-      },
-      {
-        "team": "Torino FC",
-        "rank": 8,
-        "played": 8,
-        "logo": "https://crests.football-data.org/586.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 10,
-        "ga": 9,
-        "points": 11,
-        "goalDifference": 1
       },
       {
         "team": "Juventus FC",
@@ -7058,21 +7058,8 @@
         "goalDifference": -3
       },
       {
-        "team": "AC Monza",
-        "rank": 13,
-        "played": 8,
-        "logo": "https://crests.football-data.org/5911.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 13,
-        "ga": 15,
-        "points": 8,
-        "goalDifference": -2
-      },
-      {
         "team": "US Sassuolo Calcio",
-        "rank": 14,
+        "rank": 13,
         "played": 7,
         "logo": "https://crests.football-data.org/471.png",
         "won": 2,
@@ -7082,6 +7069,19 @@
         "ga": 14,
         "points": 8,
         "goalDifference": -2
+      },
+      {
+        "team": "AC Monza",
+        "rank": 14,
+        "played": 8,
+        "logo": "https://crests.football-data.org/5911.png",
+        "won": 2,
+        "drawn": 1,
+        "lost": 5,
+        "gf": 13,
+        "ga": 16,
+        "points": 7,
+        "goalDifference": -3
       },
       {
         "team": "Bologna FC 1909",
@@ -7732,10 +7732,10 @@
         "won": 3,
         "drawn": 5,
         "lost": 2,
-        "gf": 22,
+        "gf": 23,
         "ga": 22,
         "points": 14,
-        "goalDifference": 0
+        "goalDifference": 1
       },
       {
         "team": "SC Heerenveen",
@@ -7843,16 +7843,16 @@
       },
       {
         "team": "Telstar 1963",
-        "rank": 16,
+        "rank": 17,
         "played": 10,
         "logo": "https://crests.football-data.org/1912.png",
         "won": 1,
         "drawn": 3,
         "lost": 6,
         "gf": 11,
-        "ga": 20,
+        "ga": 21,
         "points": 6,
-        "goalDifference": -9
+        "goalDifference": -10
       },
       {
         "team": "Willem II Tilburg",

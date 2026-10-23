@@ -3,7 +3,27 @@
  const el=id=>document.getElementById(id),selector=el('standingsLeague'),body=el('standingsBody'),status=el('standingsStatus'),updated=el('standingsUpdated');
  const make=(tag,value)=>{const n=document.createElement(tag);n.textContent=String(value);return n;};
  const label=name=>name==='Bundesliga'?'Bundesliga · 1re division':name==='2. Bundesliga'?'2. Bundesliga · 2e division':name;
+ const sportSelect=el('standingsSport'),footballPanel=el('footballStandingsContent'),f1Panel=el('f1-championnat'),basketPanel=el('basketStandingsContent'),leagueLabel=el('standingsLeagueLabel');
  let leagues={};
+ function showSport(){
+  const discipline=sportSelect.value;
+  footballPanel.hidden=discipline!=='Football';
+  f1Panel.hidden=discipline!=='Formule 1';
+  basketPanel.hidden=discipline!=='Basketball';
+  leagueLabel.hidden=discipline!=='Football';
+  if(discipline==='Football')render();
+  else status.textContent=discipline==='Formule 1'?'Classements pilotes et constructeurs fournis par Jolpica-F1.':'Classement NBA indisponible via la source actuelle.';
+  if(discipline!=='Football')updated.textContent='';
+ }
+ document.addEventListener('sportpulse:filters',event=>{
+  const {sport,competition}=event.detail||{};
+  if(sport==='Football'||sport==='Formule 1'||sport==='Basketball'){
+   sportSelect.value=sport;
+   if(sport==='Football'&&leagues[competition])selector.value=competition;
+   showSport();
+  }
+ });
+ sportSelect.addEventListener('change',showSport);
  function render(){
   body.replaceChildren();
   const league=leagues[selector.value];
@@ -48,7 +68,7 @@
   selector.replaceChildren();
   names.forEach(name=>{const option=make('option',label(name));option.value=name;selector.append(option);});
   selector.value=names.includes(selected)?selected:(names.includes('Ligue 1')?'Ligue 1':names[0]);
-  render();
+  showSport();
  }).catch(()=>{
   selector.replaceChildren(make('option','Données indisponibles'));
   body.replaceChildren();status.textContent='Classements momentanément indisponibles.';updated.textContent='';

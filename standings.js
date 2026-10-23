@@ -6,13 +6,25 @@
  const sportSelect=el('standingsSport'),footballPanel=el('footballStandingsContent'),f1Panel=el('f1-championnat'),basketPanel=el('basketStandingsContent'),leagueLabel=el('standingsLeagueLabel');
  let leagues={};
  let pendingCompetition=null;
+ let lastFootballCompetition=null;
+ function singleCompetition(value){selector.replaceChildren();const option=document.createElement('option');option.value=value;option.textContent=value;selector.append(option);selector.value=value;}
  function showSport(){
   const discipline=sportSelect.value;
   footballPanel.hidden=discipline!=='Football';
   f1Panel.hidden=discipline!=='Formule 1';
   basketPanel.hidden=discipline!=='Basketball';
-  leagueLabel.hidden=discipline!=='Football';
-  if(discipline==='Football')render();
+  leagueLabel.hidden=false;
+  if(discipline==='Formule 1')singleCompetition('Championnat du monde F1');
+  else if(discipline==='Basketball')singleCompetition('NBA');
+  else {
+   const names=Object.keys(leagues).sort((a,b)=>a.localeCompare(b,'fr'));
+   const wanted=pendingCompetition||lastFootballCompetition||'Ligue 1';
+   selector.replaceChildren();
+   for(const name of names){const option=make('option',label(name));option.value=name;selector.append(option);}
+   if(wanted&&!names.includes(wanted)){const option=make('option',wanted+' · classement indisponible');option.value=wanted;selector.append(option);}
+   selector.value=wanted&&[...selector.options].some(o=>o.value===wanted)?wanted:(names.includes('Ligue 1')?'Ligue 1':names[0]||'');
+   render();
+  }
   else status.textContent=discipline==='Formule 1'?'Classements pilotes et constructeurs fournis par Jolpica-F1.':'Classement NBA indisponible via la source actuelle.';
   if(discipline!=='Football')updated.textContent='';
  }
@@ -21,6 +33,7 @@
   if(sport==='Football'||sport==='Formule 1'||sport==='Basketball'){
    sportSelect.value=sport;
    if(sport==='Football'&&competition&&competition!=='all'){
+    lastFootballCompetition=competition;
     pendingCompetition=competition;
     if(leagues[competition])selector.value=competition;
     else {
@@ -84,5 +97,5 @@
   selector.replaceChildren(make('option','Données indisponibles'));
   body.replaceChildren();status.textContent='Classements momentanément indisponibles.';updated.textContent='';
  });
- selector.addEventListener('change',()=>{pendingCompetition=null;render();});
+ selector.addEventListener('change',()=>{if(sportSelect.value==='Football'){pendingCompetition=null;lastFootballCompetition=selector.value;render();}});
 })();

@@ -162,8 +162,7 @@ def main():
     data = collect()
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     temp = OUTPUT.with_suffix(".tmp")
-    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "
-", encoding="utf-8")
+    temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     os.replace(temp, OUTPUT)
     print("Auxiliary sources:", ", ".join(data["providers"]), "| Events:", len(data["matches"]))
     for warning in data["warnings"]:

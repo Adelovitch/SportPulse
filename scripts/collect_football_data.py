@@ -15,7 +15,8 @@ from urllib.request import Request, urlopen
 BASE = "https://api.football-data.org/v4"
 OUTPUT = Path(__file__).resolve().parents[1] / "data" / "football_data.json"
 COMPETITIONS = {"FL1": "Ligue 1", "PL": "Premier League", "PD": "La Liga",
-                "SA": "Serie A", "CL": "Ligue des champions", "DED": "Eredivisie", "PPL": "Primeira Liga", "BSA": "Série A brésilienne",\n                "WC": "Coupe du monde", "EC": "Championnat d’Europe", "ELC": "Championship"}
+                "SA": "Serie A", "CL": "Ligue des champions", "DED": "Eredivisie", "PPL": "Primeira Liga", "BSA": "Série A brésilienne",
+                "WC": "Coupe du monde", "EC": "Championnat d’Europe", "ELC": "Championship"}
 PAUSE_SECONDS = 7
 
 

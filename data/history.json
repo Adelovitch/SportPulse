@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-24T19:52:14.416488Z",
+  "updatedAt": "2026-10-24T20:59:57.649378Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3308,6 +3308,31 @@
       "utcDate": "2026-10-24T16:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
+    },
+    {
+      "id": "openligadb:83652",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Nürnberg",
+      "away": "1. FC Kaiserslautern",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "utcDate": "2026-10-24T18:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1"
+    },
+    {
+      "id": "football-data:559652",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Racing Club de Lens",
+      "away": "Paris FC",
+      "utcDate": "2026-10-24T18:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/1045.png"
     }
   ]
 }

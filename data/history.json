@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-24T17:39:32.381467Z",
+  "updatedAt": "2026-10-24T19:52:14.416488Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3212,6 +3212,19 @@
       "awayLogo": "https://crests.football-data.org/384.png"
     },
     {
+      "id": "football-data:558561",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Como 1907",
+      "away": "US Sassuolo Calcio",
+      "utcDate": "2026-10-24T13:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7397.png",
+      "awayLogo": "https://crests.football-data.org/471.png"
+    },
+    {
       "id": "openligadb:83211",
       "sport": "Football",
       "competition": "Bundesliga",
@@ -3283,6 +3296,18 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1076.png",
       "awayLogo": "https://crests.football-data.org/63.png"
+    },
+    {
+      "id": "openligadb:83210",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
+      "utcDate": "2026-10-24T16:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0"
     }
   ]
 }

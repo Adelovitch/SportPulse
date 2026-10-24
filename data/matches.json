@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-24T17:36:54.783961Z",
+  "updatedAt": "2026-10-24T19:49:36.664959Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83615",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Nürnberg",
-      "away": "VfL Wolfsburg",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-      "utcDate": "2026-10-10T18:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 4"
-    },
     {
       "id": "openligadb:83608",
       "sport": "Football",
@@ -436,8 +424,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-10-24T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 0"
     },
     {
       "id": "openligadb:83652",
@@ -856,6 +844,18 @@
       "homeLogo": "https://i.imgur.com/v0tkpNx.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-11-07T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83681",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Hertha BSC",
+      "away": "VfL Wolfsburg",
+      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "utcDate": "2026-11-07T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

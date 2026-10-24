@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 256,
+  "totalMatches": 258,
   "seasons": {
     "2026-2027": {
-      "count": 256,
+      "count": 258,
       "competitions": {
         "2. Bundesliga": {
           "count": 23,
@@ -36,7 +36,7 @@
           ]
         },
         "Bundesliga": {
-          "count": 24,
+          "count": 25,
           "matchIds": [
             "openligadb:83192",
             "openligadb:83193",
@@ -56,6 +56,7 @@
             "openligadb:83207",
             "openligadb:83208",
             "openligadb:83209",
+            "openligadb:83210",
             "openligadb:83211",
             "openligadb:83212",
             "openligadb:83215",
@@ -267,8 +268,9 @@
           ]
         },
         "Serie A": {
-          "count": 21,
+          "count": 22,
           "matchIds": [
+            "football-data:558561",
             "football-data:558567",
             "football-data:558569",
             "football-data:558570",

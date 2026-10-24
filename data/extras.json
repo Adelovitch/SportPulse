@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-24T20:57:24.133722Z",
+  "updatedAt": "2026-10-24T22:24:55.033417Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -990,20 +990,6 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/54uzhw1759234398.jpg"
     },
     {
-      "id": "thesportsdb:2601692",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Sacramento Kings",
-      "away": "Portland Trail Blazers",
-      "utcDate": "2026-10-24T02:00:00Z",
-      "status": "FINISHED",
-      "score": "120 – 128",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/kb9e8j1759233962.jpg"
-    },
-    {
       "id": "thesportsdb:2601693",
       "sport": "Basketball",
       "competition": "NBA",
@@ -1016,6 +1002,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zkvw3x1759234574.jpg"
+    },
+    {
+      "id": "thesportsdb:2601694",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Brooklyn Nets",
+      "utcDate": "2026-10-24T23:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zs6n0w1759234276.jpg"
     },
     {
       "id": "thesportsdb:2601697",

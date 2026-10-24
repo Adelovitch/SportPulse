@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-24T11:14:21.982542Z",
+  "updatedAt": "2026-10-24T14:26:56.493455Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,240 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:560593",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Arsenal FC",
-      "away": "Leeds United FC",
-      "utcDate": "2026-10-10T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/57.png",
-      "awayLogo": "https://crests.football-data.org/341.png"
-    },
-    {
-      "id": "football-data:561857",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "West Bromwich Albion FC",
-      "away": "Birmingham City FC",
-      "utcDate": "2026-10-10T11:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/74.png",
-      "awayLogo": "https://crests.football-data.org/332.png"
-    },
-    {
-      "id": "football-data:561860",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Swansea City AFC",
-      "away": "Norwich City FC",
-      "utcDate": "2026-10-10T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/72.png",
-      "awayLogo": "https://crests.football-data.org/68.png"
-    },
-    {
-      "id": "football-data:561863",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Charlton Athletic FC",
-      "away": "Bristol City FC",
-      "utcDate": "2026-10-10T11:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/348.png",
-      "awayLogo": "https://crests.football-data.org/387.png"
-    },
-    {
-      "id": "football-data:564698",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "Athletic Club",
-      "utcDate": "2026-10-10T12:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/87.png",
-      "awayLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": "football-data:558588",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Genoa CFC",
-      "away": "ACF Fiorentina",
-      "utcDate": "2026-10-10T13:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/107.png",
-      "awayLogo": "https://crests.football-data.org/99.png"
-    },
-    {
-      "id": "football-data:560592",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Sunderland AFC",
-      "away": "Brighton & Hove Albion FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/71.png",
-      "awayLogo": "https://crests.football-data.org/397.png"
-    },
-    {
-      "id": "football-data:560595",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Chelsea FC",
-      "away": "AFC Bournemouth",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "5 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/61.png",
-      "awayLogo": "https://crests.football-data.org/bournemouth.png"
-    },
-    {
-      "id": "football-data:560599",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Ipswich Town FC",
-      "away": "Fulham FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/349.png",
-      "awayLogo": "https://crests.football-data.org/63.png"
-    },
-    {
-      "id": "football-data:560601",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Aston Villa FC",
-      "away": "Brentford FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/58.png",
-      "awayLogo": "https://crests.football-data.org/402.png"
-    },
-    {
-      "id": "football-data:561858",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Sheffield United FC",
-      "away": "Lincoln City FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/356.png",
-      "awayLogo": "https://crests.football-data.org/1126.png"
-    },
-    {
-      "id": "football-data:561861",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Watford FC",
-      "away": "Burnley FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 4",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/346.png",
-      "awayLogo": "https://crests.football-data.org/328.png"
-    },
-    {
-      "id": "football-data:561864",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Derby County FC",
-      "away": "Wrexham AFC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/342.png",
-      "awayLogo": "https://crests.football-data.org/404.png"
-    },
-    {
-      "id": "football-data:561865",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Blackburn Rovers FC",
-      "away": "Cardiff City FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/59.png",
-      "awayLogo": "https://crests.football-data.org/715.png"
-    },
-    {
-      "id": "football-data:561866",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Bolton Wanderers FC",
-      "away": "Stoke City FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/60.png",
-      "awayLogo": "https://crests.football-data.org/70.png"
-    },
-    {
-      "id": "football-data:561867",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Preston North End FC",
-      "away": "Millwall FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1081.png",
-      "awayLogo": "https://crests.football-data.org/384.png"
-    },
-    {
-      "id": "football-data:561868",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Middlesbrough FC",
-      "away": "Wolverhampton Wanderers FC",
-      "utcDate": "2026-10-10T14:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/343.png",
-      "awayLogo": "https://crests.football-data.org/76.png"
-    },
-    {
-      "id": "football-data:564699",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Deportivo Alavés",
-      "away": "Club Atlético de Madrid",
-      "utcDate": "2026-10-10T14:15:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/263.png",
-      "awayLogo": "https://crests.football-data.org/78.png"
-    },
     {
       "id": "football-data:558880",
       "sport": "Football",
@@ -2687,8 +2453,8 @@
       "home": "Portsmouth FC",
       "away": "Millwall FC",
       "utcDate": "2026-10-24T11:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/325.png",
       "awayLogo": "https://crests.football-data.org/384.png"
@@ -6380,28 +6146,28 @@
       {
         "team": "Manchester City FC",
         "rank": 1,
-        "played": 7,
+        "played": 8,
         "logo": "https://crests.football-data.org/65.png",
         "won": 7,
         "drawn": 0,
-        "lost": 0,
-        "gf": 19,
-        "ga": 7,
+        "lost": 1,
+        "gf": 20,
+        "ga": 9,
         "points": 21,
-        "goalDifference": 12
+        "goalDifference": 11
       },
       {
         "team": "Arsenal FC",
         "rank": 2,
-        "played": 7,
+        "played": 8,
         "logo": "https://crests.football-data.org/57.png",
-        "won": 6,
+        "won": 7,
         "drawn": 0,
         "lost": 1,
-        "gf": 11,
+        "gf": 12,
         "ga": 5,
-        "points": 18,
-        "goalDifference": 6
+        "points": 21,
+        "goalDifference": 7
       },
       {
         "team": "Brighton & Hove Albion FC",
@@ -6443,8 +6209,21 @@
         "goalDifference": 1
       },
       {
-        "team": "Brentford FC",
+        "team": "Aston Villa FC",
         "rank": 6,
+        "played": 8,
+        "logo": "https://crests.football-data.org/58.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 3,
+        "gf": 9,
+        "ga": 12,
+        "points": 11,
+        "goalDifference": -3
+      },
+      {
+        "team": "Brentford FC",
+        "rank": 7,
         "played": 7,
         "logo": "https://crests.football-data.org/402.png",
         "won": 2,
@@ -6457,7 +6236,7 @@
       },
       {
         "team": "Leeds United FC",
-        "rank": 7,
+        "rank": 8,
         "played": 7,
         "logo": "https://crests.football-data.org/341.png",
         "won": 2,
@@ -6470,20 +6249,20 @@
       },
       {
         "team": "Everton FC",
-        "rank": 8,
-        "played": 7,
+        "rank": 9,
+        "played": 8,
         "logo": "https://crests.football-data.org/62.png",
         "won": 2,
         "drawn": 4,
-        "lost": 1,
+        "lost": 2,
         "gf": 8,
-        "ga": 7,
+        "ga": 8,
         "points": 10,
-        "goalDifference": 1
+        "goalDifference": 0
       },
       {
         "team": "Ipswich Town FC",
-        "rank": 9,
+        "rank": 10,
         "played": 8,
         "logo": "https://crests.football-data.org/349.png",
         "won": 3,
@@ -6496,7 +6275,7 @@
       },
       {
         "team": "Hull City AFC",
-        "rank": 10,
+        "rank": 11,
         "played": 7,
         "logo": "https://crests.football-data.org/322.png",
         "won": 2,
@@ -6509,7 +6288,7 @@
       },
       {
         "team": "Newcastle United FC",
-        "rank": 11,
+        "rank": 12,
         "played": 7,
         "logo": "https://crests.football-data.org/67.png",
         "won": 2,
@@ -6517,19 +6296,6 @@
         "lost": 3,
         "gf": 10,
         "ga": 14,
-        "points": 8,
-        "goalDifference": -4
-      },
-      {
-        "team": "Aston Villa FC",
-        "rank": 12,
-        "played": 7,
-        "logo": "https://crests.football-data.org/58.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 7,
-        "ga": 11,
         "points": 8,
         "goalDifference": -4
       },
@@ -6560,8 +6326,34 @@
         "goalDifference": -8
       },
       {
-        "team": "AFC Bournemouth",
+        "team": "Coventry City FC",
         "rank": 15,
+        "played": 8,
+        "logo": "https://crests.football-data.org/1076.png",
+        "won": 2,
+        "drawn": 1,
+        "lost": 5,
+        "gf": 6,
+        "ga": 14,
+        "points": 7,
+        "goalDifference": -8
+      },
+      {
+        "team": "Fulham FC",
+        "rank": 16,
+        "played": 8,
+        "logo": "https://crests.football-data.org/63.png",
+        "won": 1,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 7,
+        "ga": 10,
+        "points": 6,
+        "goalDifference": -3
+      },
+      {
+        "team": "AFC Bournemouth",
+        "rank": 17,
         "played": 7,
         "logo": "https://crests.football-data.org/bournemouth.png",
         "won": 1,
@@ -6574,7 +6366,7 @@
       },
       {
         "team": "Nottingham Forest FC",
-        "rank": 16,
+        "rank": 18,
         "played": 8,
         "logo": "https://crests.football-data.org/351.png",
         "won": 1,
@@ -6587,7 +6379,7 @@
       },
       {
         "team": "Tottenham Hotspur FC",
-        "rank": 16,
+        "rank": 18,
         "played": 7,
         "logo": "https://crests.football-data.org/73.png",
         "won": 1,
@@ -6597,32 +6389,6 @@
         "ga": 10,
         "points": 6,
         "goalDifference": -4
-      },
-      {
-        "team": "Coventry City FC",
-        "rank": 18,
-        "played": 7,
-        "logo": "https://crests.football-data.org/1076.png",
-        "won": 2,
-        "drawn": 0,
-        "lost": 5,
-        "gf": 6,
-        "ga": 14,
-        "points": 6,
-        "goalDifference": -8
-      },
-      {
-        "team": "Fulham FC",
-        "rank": 19,
-        "played": 7,
-        "logo": "https://crests.football-data.org/63.png",
-        "won": 1,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 7,
-        "ga": 10,
-        "points": 5,
-        "goalDifference": -3
       },
       {
         "team": "Sunderland AFC",
@@ -6783,8 +6549,21 @@
         "goalDifference": -2
       },
       {
-        "team": "Villarreal CF",
+        "team": "Elche CF",
         "rank": 12,
+        "played": 10,
+        "logo": "https://crests.football-data.org/285.png",
+        "won": 2,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 14,
+        "ga": 17,
+        "points": 10,
+        "goalDifference": -3
+      },
+      {
+        "team": "Villarreal CF",
+        "rank": 13,
         "played": 9,
         "logo": "https://crests.football-data.org/94.png",
         "won": 2,
@@ -6796,8 +6575,21 @@
         "goalDifference": 0
       },
       {
+        "team": "RCD Espanyol de Barcelona",
+        "rank": 14,
+        "played": 10,
+        "logo": "https://crests.football-data.org/80.png",
+        "won": 2,
+        "drawn": 3,
+        "lost": 5,
+        "gf": 11,
+        "ga": 12,
+        "points": 9,
+        "goalDifference": -1
+      },
+      {
         "team": "Athletic Club",
-        "rank": 13,
+        "rank": 15,
         "played": 8,
         "logo": "https://crests.football-data.org/77.png",
         "won": 2,
@@ -6809,21 +6601,8 @@
         "goalDifference": -1
       },
       {
-        "team": "Rayo Vallecano de Madrid",
-        "rank": 14,
-        "played": 8,
-        "logo": "https://crests.football-data.org/87.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 12,
-        "ga": 17,
-        "points": 9,
-        "goalDifference": -5
-      },
-      {
         "team": "Getafe CF",
-        "rank": 15,
+        "rank": 16,
         "played": 9,
         "logo": "https://crests.football-data.org/82.png",
         "won": 2,
@@ -6835,43 +6614,30 @@
         "goalDifference": -6
       },
       {
-        "team": "RCD Espanyol de Barcelona",
-        "rank": 16,
+        "team": "Rayo Vallecano de Madrid",
+        "rank": 17,
         "played": 9,
-        "logo": "https://crests.football-data.org/80.png",
+        "logo": "https://crests.football-data.org/87.png",
         "won": 2,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 11,
-        "ga": 12,
-        "points": 8,
-        "goalDifference": -1
+        "drawn": 3,
+        "lost": 4,
+        "gf": 12,
+        "ga": 20,
+        "points": 9,
+        "goalDifference": -8
       },
       {
         "team": "Real Racing Club de Santander",
-        "rank": 17,
-        "played": 9,
+        "rank": 18,
+        "played": 10,
         "logo": "https://crests.football-data.org/5335.png",
         "won": 2,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 5,
         "gf": 13,
         "ga": 25,
-        "points": 8,
+        "points": 9,
         "goalDifference": -12
-      },
-      {
-        "team": "Elche CF",
-        "rank": 18,
-        "played": 9,
-        "logo": "https://crests.football-data.org/285.png",
-        "won": 1,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 11,
-        "ga": 17,
-        "points": 7,
-        "goalDifference": -6
       },
       {
         "team": "Valencia CF",
@@ -6941,8 +6707,21 @@
         "goalDifference": 13
       },
       {
-        "team": "AC Milan",
+        "team": "Como 1907",
         "rank": 4,
+        "played": 8,
+        "logo": "https://crests.football-data.org/7397.png",
+        "won": 5,
+        "drawn": 2,
+        "lost": 1,
+        "gf": 14,
+        "ga": 7,
+        "points": 17,
+        "goalDifference": 7
+      },
+      {
+        "team": "AC Milan",
+        "rank": 5,
         "played": 7,
         "logo": "https://crests.football-data.org/98.png",
         "won": 4,
@@ -6952,19 +6731,6 @@
         "ga": 7,
         "points": 15,
         "goalDifference": 7
-      },
-      {
-        "team": "Como 1907",
-        "rank": 5,
-        "played": 7,
-        "logo": "https://crests.football-data.org/7397.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 1,
-        "gf": 12,
-        "ga": 7,
-        "points": 14,
-        "goalDifference": 5
       },
       {
         "team": "Frosinone Calcio",
@@ -6995,15 +6761,15 @@
       {
         "team": "Cagliari Calcio",
         "rank": 8,
-        "played": 7,
+        "played": 8,
         "logo": "https://crests.football-data.org/104.png",
         "won": 4,
         "drawn": 1,
-        "lost": 2,
+        "lost": 3,
         "gf": 6,
-        "ga": 7,
+        "ga": 8,
         "points": 13,
-        "goalDifference": -1
+        "goalDifference": -2
       },
       {
         "team": "Juventus FC",
@@ -7058,21 +6824,34 @@
         "goalDifference": -3
       },
       {
-        "team": "US Sassuolo Calcio",
+        "team": "Bologna FC 1909",
         "rank": 13,
-        "played": 7,
+        "played": 8,
+        "logo": "https://crests.football-data.org/103.png",
+        "won": 2,
+        "drawn": 2,
+        "lost": 4,
+        "gf": 7,
+        "ga": 10,
+        "points": 8,
+        "goalDifference": -3
+      },
+      {
+        "team": "US Sassuolo Calcio",
+        "rank": 14,
+        "played": 8,
         "logo": "https://crests.football-data.org/471.png",
         "won": 2,
         "drawn": 2,
-        "lost": 3,
+        "lost": 4,
         "gf": 12,
-        "ga": 14,
+        "ga": 16,
         "points": 8,
-        "goalDifference": -2
+        "goalDifference": -4
       },
       {
         "team": "AC Monza",
-        "rank": 14,
+        "rank": 15,
         "played": 8,
         "logo": "https://crests.football-data.org/5911.png",
         "won": 2,
@@ -7082,19 +6861,6 @@
         "ga": 18,
         "points": 7,
         "goalDifference": -3
-      },
-      {
-        "team": "Bologna FC 1909",
-        "rank": 15,
-        "played": 7,
-        "logo": "https://crests.football-data.org/103.png",
-        "won": 1,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 6,
-        "ga": 10,
-        "points": 5,
-        "goalDifference": -4
       },
       {
         "team": "Udinese Calcio",
@@ -8368,8 +8134,21 @@
     ],
     "Championship": [
       {
-        "team": "Swansea City AFC",
+        "team": "Middlesbrough FC",
         "rank": 1,
+        "played": 12,
+        "logo": "https://crests.football-data.org/343.png",
+        "won": 7,
+        "drawn": 4,
+        "lost": 1,
+        "gf": 27,
+        "ga": 17,
+        "points": 25,
+        "goalDifference": 10
+      },
+      {
+        "team": "Swansea City AFC",
+        "rank": 2,
         "played": 11,
         "logo": "https://crests.football-data.org/72.png",
         "won": 7,
@@ -8382,7 +8161,7 @@
       },
       {
         "team": "West Ham United FC",
-        "rank": 2,
+        "rank": 3,
         "played": 11,
         "logo": "https://crests.football-data.org/563.png",
         "won": 6,
@@ -8392,19 +8171,6 @@
         "ga": 12,
         "points": 22,
         "goalDifference": 18
-      },
-      {
-        "team": "Middlesbrough FC",
-        "rank": 3,
-        "played": 11,
-        "logo": "https://crests.football-data.org/343.png",
-        "won": 6,
-        "drawn": 4,
-        "lost": 1,
-        "gf": 22,
-        "ga": 16,
-        "points": 22,
-        "goalDifference": 6
       },
       {
         "team": "Birmingham City FC",
@@ -8459,8 +8225,21 @@
         "goalDifference": 3
       },
       {
-        "team": "Southampton FC",
+        "team": "Portsmouth FC",
         "rank": 8,
+        "played": 12,
+        "logo": "https://crests.football-data.org/325.png",
+        "won": 5,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 16,
+        "ga": 15,
+        "points": 18,
+        "goalDifference": 1
+      },
+      {
+        "team": "Southampton FC",
+        "rank": 9,
         "played": 11,
         "logo": "https://crests.football-data.org/340.png",
         "won": 6,
@@ -8473,7 +8252,7 @@
       },
       {
         "team": "Queens Park Rangers FC",
-        "rank": 9,
+        "rank": 10,
         "played": 11,
         "logo": "https://crests.football-data.org/69.png",
         "won": 4,
@@ -8485,8 +8264,21 @@
         "goalDifference": 3
       },
       {
+        "team": "Sheffield United FC",
+        "rank": 11,
+        "played": 12,
+        "logo": "https://crests.football-data.org/356.png",
+        "won": 4,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 16,
+        "ga": 15,
+        "points": 16,
+        "goalDifference": 1
+      },
+      {
         "team": "Blackburn Rovers FC",
-        "rank": 10,
+        "rank": 12,
         "played": 11,
         "logo": "https://crests.football-data.org/59.png",
         "won": 4,
@@ -8498,43 +8290,17 @@
         "goalDifference": 1
       },
       {
-        "team": "Sheffield United FC",
-        "rank": 11,
-        "played": 11,
-        "logo": "https://crests.football-data.org/356.png",
-        "won": 4,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 15,
-        "ga": 14,
-        "points": 15,
-        "goalDifference": 1
-      },
-      {
         "team": "Millwall FC",
-        "rank": 12,
-        "played": 11,
+        "rank": 13,
+        "played": 12,
         "logo": "https://crests.football-data.org/384.png",
         "won": 4,
         "drawn": 3,
-        "lost": 4,
-        "gf": 18,
-        "ga": 18,
+        "lost": 5,
+        "gf": 19,
+        "ga": 20,
         "points": 15,
-        "goalDifference": 0
-      },
-      {
-        "team": "Portsmouth FC",
-        "rank": 13,
-        "played": 11,
-        "logo": "https://crests.football-data.org/325.png",
-        "won": 4,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 14,
-        "ga": 14,
-        "points": 15,
-        "goalDifference": 0
+        "goalDifference": -1
       },
       {
         "team": "Wrexham AFC",
@@ -8550,21 +8316,8 @@
         "goalDifference": -1
       },
       {
-        "team": "Bolton Wanderers FC",
-        "rank": 15,
-        "played": 11,
-        "logo": "https://crests.football-data.org/60.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 15,
-        "ga": 18,
-        "points": 14,
-        "goalDifference": -3
-      },
-      {
         "team": "Bristol City FC",
-        "rank": 16,
+        "rank": 15,
         "played": 11,
         "logo": "https://crests.football-data.org/387.png",
         "won": 4,
@@ -8576,21 +8329,47 @@
         "goalDifference": -3
       },
       {
+        "team": "Bolton Wanderers FC",
+        "rank": 16,
+        "played": 12,
+        "logo": "https://crests.football-data.org/60.png",
+        "won": 4,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 16,
+        "ga": 23,
+        "points": 14,
+        "goalDifference": -7
+      },
+      {
         "team": "Charlton Athletic FC",
         "rank": 17,
-        "played": 11,
+        "played": 12,
         "logo": "https://crests.football-data.org/348.png",
         "won": 3,
         "drawn": 5,
-        "lost": 3,
-        "gf": 10,
-        "ga": 15,
+        "lost": 4,
+        "gf": 11,
+        "ga": 18,
         "points": 14,
-        "goalDifference": -5
+        "goalDifference": -7
+      },
+      {
+        "team": "Norwich City FC",
+        "rank": 18,
+        "played": 12,
+        "logo": "https://crests.football-data.org/68.png",
+        "won": 4,
+        "drawn": 0,
+        "lost": 8,
+        "gf": 20,
+        "ga": 22,
+        "points": 12,
+        "goalDifference": -2
       },
       {
         "team": "Lincoln City FC",
-        "rank": 18,
+        "rank": 19,
         "played": 11,
         "logo": "https://crests.football-data.org/1126.png",
         "won": 3,
@@ -8603,7 +8382,7 @@
       },
       {
         "team": "Cardiff City FC",
-        "rank": 19,
+        "rank": 20,
         "played": 11,
         "logo": "https://crests.football-data.org/715.png",
         "won": 2,
@@ -8616,7 +8395,7 @@
       },
       {
         "team": "Watford FC",
-        "rank": 20,
+        "rank": 21,
         "played": 11,
         "logo": "https://crests.football-data.org/346.png",
         "won": 3,
@@ -8626,19 +8405,6 @@
         "ga": 19,
         "points": 11,
         "goalDifference": -9
-      },
-      {
-        "team": "Norwich City FC",
-        "rank": 21,
-        "played": 11,
-        "logo": "https://crests.football-data.org/68.png",
-        "won": 3,
-        "drawn": 0,
-        "lost": 8,
-        "gf": 17,
-        "ga": 21,
-        "points": 9,
-        "goalDifference": -4
       },
       {
         "team": "Burnley FC",
@@ -8656,14 +8422,14 @@
       {
         "team": "Derby County FC",
         "rank": 23,
-        "played": 11,
+        "played": 12,
         "logo": "https://crests.football-data.org/342.png",
         "won": 1,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 7,
-        "gf": 9,
-        "ga": 20,
-        "points": 6,
+        "gf": 10,
+        "ga": 21,
+        "points": 7,
         "goalDifference": -11
       },
       {

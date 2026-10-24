@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-24T14:29:25.717064Z",
+  "updatedAt": "2026-10-24T16:06:23.560299Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3210,6 +3210,66 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/325.png",
       "awayLogo": "https://crests.football-data.org/384.png"
+    },
+    {
+      "id": "openligadb:83211",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "RB Leipzig",
+      "away": "SV 07 Elversberg",
+      "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "utcDate": "2026-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0"
+    },
+    {
+      "id": "openligadb:83215",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Augsburg",
+      "away": "1. FC Union Berlin",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "utcDate": "2026-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1"
+    },
+    {
+      "id": "openligadb:83216",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "1. FSV Mainz 05",
+      "away": "SV Werder Bremen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "utcDate": "2026-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3"
+    },
+    {
+      "id": "openligadb:83217",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "1. FC Köln",
+      "away": "FC Schalke 04",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "utcDate": "2026-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0"
+    },
+    {
+      "id": "openligadb:83218",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SC Paderborn 07",
+      "away": "Hamburger SV",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "utcDate": "2026-10-24T13:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0"
     }
   ]
 }

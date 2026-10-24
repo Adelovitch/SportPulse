@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-24T04:46:34.164961Z",
+  "updatedAt": "2026-10-24T10:51:48.316378Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -968,8 +968,8 @@
       "home": "San Antonio Spurs",
       "away": "Houston Rockets",
       "utcDate": "2026-10-24T01:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "110 – 114",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
@@ -982,8 +982,8 @@
       "home": "Utah Jazz",
       "away": "New Orleans Pelicans",
       "utcDate": "2026-10-24T01:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "120 – 119",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-23T22:29:21.382207Z",
+  "updatedAt": "2026-10-24T01:08:53.611807Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2609,8 +2609,8 @@
       "home": "Bolton Wanderers FC",
       "away": "Middlesbrough FC",
       "utcDate": "2026-10-23T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 5",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/60.png",
       "awayLogo": "https://crests.football-data.org/343.png"
@@ -2635,8 +2635,8 @@
       "home": "Cruzeiro EC",
       "away": "Clube do Remo",
       "utcDate": "2026-10-23T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1771.png",
       "awayLogo": "https://crests.football-data.org/4287.png"
@@ -8132,8 +8132,21 @@
         "goalDifference": 32
       },
       {
-        "team": "CA Paranaense",
+        "team": "Cruzeiro EC",
         "rank": 3,
+        "played": 32,
+        "logo": "https://crests.football-data.org/1771.png",
+        "won": 16,
+        "drawn": 6,
+        "lost": 10,
+        "gf": 51,
+        "ga": 46,
+        "points": 54,
+        "goalDifference": 5
+      },
+      {
+        "team": "CA Paranaense",
+        "rank": 4,
         "played": 31,
         "logo": "https://crests.football-data.org/1768.png",
         "won": 15,
@@ -8143,19 +8156,6 @@
         "ga": 37,
         "points": 53,
         "goalDifference": 12
-      },
-      {
-        "team": "Cruzeiro EC",
-        "rank": 4,
-        "played": 31,
-        "logo": "https://crests.football-data.org/1771.png",
-        "won": 15,
-        "drawn": 6,
-        "lost": 10,
-        "gf": 50,
-        "ga": 46,
-        "points": 51,
-        "goalDifference": 4
       },
       {
         "team": "Fluminense FC",
@@ -8342,15 +8342,15 @@
       {
         "team": "Clube do Remo",
         "rank": 19,
-        "played": 31,
+        "played": 32,
         "logo": "https://crests.football-data.org/4287.png",
         "won": 5,
         "drawn": 11,
-        "lost": 15,
+        "lost": 16,
         "gf": 34,
-        "ga": 49,
+        "ga": 50,
         "points": 26,
-        "goalDifference": -15
+        "goalDifference": -16
       },
       {
         "team": "Chapecoense AF",

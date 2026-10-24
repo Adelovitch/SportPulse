@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 244,
+  "totalMatches": 246,
   "seasons": {
     "2026-2027": {
-      "count": 244,
+      "count": 246,
       "competitions": {
         "2. Bundesliga": {
           "count": 20,
@@ -57,7 +57,7 @@
           ]
         },
         "Championship": {
-          "count": 37,
+          "count": 38,
           "matchIds": [
             "football-data:561826",
             "football-data:561857",
@@ -95,7 +95,8 @@
             "football-data:561889",
             "football-data:561890",
             "football-data:561891",
-            "football-data:561892"
+            "football-data:561892",
+            "football-data:561894"
           ]
         },
         "Eredivisie": {
@@ -282,7 +283,7 @@
           ]
         },
         "Série A brésilienne": {
-          "count": 20,
+          "count": 21,
           "matchIds": [
             "football-data:555030",
             "football-data:555031",
@@ -303,7 +304,8 @@
             "football-data:555046",
             "football-data:555047",
             "football-data:555048",
-            "football-data:555049"
+            "football-data:555049",
+            "football-data:555052"
           ]
         }
       }

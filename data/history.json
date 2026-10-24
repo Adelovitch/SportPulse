@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-23T22:31:50.099024Z",
+  "updatedAt": "2026-10-24T01:11:23.112666Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3111,6 +3111,19 @@
       "awayLogo": "https://crests.football-data.org/351.png"
     },
     {
+      "id": "football-data:561894",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bolton Wanderers FC",
+      "away": "Middlesbrough FC",
+      "utcDate": "2026-10-23T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 5",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/60.png",
+      "awayLogo": "https://crests.football-data.org/343.png"
+    },
+    {
       "id": "football-data:564719",
       "sport": "Football",
       "competition": "La Liga",
@@ -3135,6 +3148,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5543.png",
       "awayLogo": "https://crests.football-data.org/5575.png"
+    },
+    {
+      "id": "football-data:555052",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Cruzeiro EC",
+      "away": "Clube do Remo",
+      "utcDate": "2026-10-23T23:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1771.png",
+      "awayLogo": "https://crests.football-data.org/4287.png"
     }
   ]
 }

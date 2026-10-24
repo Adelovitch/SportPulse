@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-24T16:06:23.560299Z",
+  "updatedAt": "2026-10-24T17:39:32.381467Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3270,6 +3270,19 @@
       "utcDate": "2026-10-24T13:30:00Z",
       "status": "FINISHED",
       "score": "1 – 0"
+    },
+    {
+      "id": "football-data:560618",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Coventry City FC",
+      "away": "Fulham FC",
+      "utcDate": "2026-10-24T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1076.png",
+      "awayLogo": "https://crests.football-data.org/63.png"
     }
   ]
 }

@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-24T16:03:39.792473Z",
+  "updatedAt": "2026-10-24T17:36:54.783961Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83193",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "RB Leipzig",
-      "away": "Eintracht Frankfurt",
-      "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
-      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
-      "utcDate": "2026-10-10T16:30:00Z",
-      "status": "FINISHED",
-      "score": "6 – 0"
-    },
     {
       "id": "openligadb:83615",
       "sport": "Football",
@@ -856,6 +844,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-11-07T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83230",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "utcDate": "2026-11-07T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

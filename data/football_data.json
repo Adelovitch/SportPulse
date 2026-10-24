@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-24T16:03:49.448676Z",
+  "updatedAt": "2026-10-24T17:37:01.852202Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,58 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:560600",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Manchester United FC",
-      "away": "Tottenham Hotspur FC",
-      "utcDate": "2026-10-10T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/66.png",
-      "awayLogo": "https://crests.football-data.org/73.png"
-    },
-    {
-      "id": "football-data:564700",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "FC Barcelona",
-      "away": "Getafe CF",
-      "utcDate": "2026-10-10T16:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/81.png",
-      "awayLogo": "https://crests.football-data.org/82.png"
-    },
-    {
-      "id": "football-data:558879",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "home": "Feyenoord Rotterdam",
-      "away": "AZ",
-      "utcDate": "2026-10-10T16:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/675.png",
-      "awayLogo": "https://crests.football-data.org/682.png"
-    },
-    {
-      "id": "football-data:567323",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "CS Marítimo",
-      "away": "FC Porto",
-      "utcDate": "2026-10-10T17:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5575.png",
-      "awayLogo": "https://crests.football-data.org/503.png"
-    },
     {
       "id": "football-data:558877",
       "sport": "Football",
@@ -2479,8 +2427,8 @@
       "home": "Coventry City FC",
       "away": "Fulham FC",
       "utcDate": "2026-10-24T14:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1076.png",
       "awayLogo": "https://crests.football-data.org/63.png"
@@ -6146,14 +6094,14 @@
       {
         "team": "Chelsea FC",
         "rank": 4,
-        "played": 7,
+        "played": 8,
         "logo": "https://crests.football-data.org/61.png",
         "won": 4,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 2,
         "gf": 17,
         "ga": 13,
-        "points": 13,
+        "points": 14,
         "goalDifference": 4
       },
       {
@@ -6287,8 +6235,21 @@
         "goalDifference": 0
       },
       {
-        "team": "Crystal Palace FC",
+        "team": "Tottenham Hotspur FC",
         "rank": 15,
+        "played": 8,
+        "logo": "https://crests.football-data.org/73.png",
+        "won": 1,
+        "drawn": 4,
+        "lost": 3,
+        "gf": 6,
+        "ga": 10,
+        "points": 7,
+        "goalDifference": -4
+      },
+      {
+        "team": "Crystal Palace FC",
+        "rank": 16,
         "played": 7,
         "logo": "https://crests.football-data.org/354.png",
         "won": 2,
@@ -6301,7 +6262,7 @@
       },
       {
         "team": "AFC Bournemouth",
-        "rank": 16,
+        "rank": 17,
         "played": 7,
         "logo": "https://crests.football-data.org/bournemouth.png",
         "won": 1,
@@ -6314,25 +6275,12 @@
       },
       {
         "team": "Nottingham Forest FC",
-        "rank": 17,
+        "rank": 18,
         "played": 8,
         "logo": "https://crests.football-data.org/351.png",
         "won": 1,
         "drawn": 3,
         "lost": 4,
-        "gf": 6,
-        "ga": 10,
-        "points": 6,
-        "goalDifference": -4
-      },
-      {
-        "team": "Tottenham Hotspur FC",
-        "rank": 17,
-        "played": 7,
-        "logo": "https://crests.football-data.org/73.png",
-        "won": 1,
-        "drawn": 3,
-        "lost": 3,
         "gf": 6,
         "ga": 10,
         "points": 6,
@@ -6538,15 +6486,15 @@
       {
         "team": "Villarreal CF",
         "rank": 14,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/94.png",
         "won": 2,
         "drawn": 3,
-        "lost": 4,
+        "lost": 5,
         "gf": 13,
-        "ga": 13,
+        "ga": 14,
         "points": 9,
-        "goalDifference": 0
+        "goalDifference": -1
       },
       {
         "team": "Athletic Club",
@@ -6588,8 +6536,21 @@
         "goalDifference": -8
       },
       {
-        "team": "RCD Espanyol de Barcelona",
+        "team": "Valencia CF",
         "rank": 18,
+        "played": 10,
+        "logo": "https://crests.football-data.org/95.png",
+        "won": 2,
+        "drawn": 3,
+        "lost": 5,
+        "gf": 7,
+        "ga": 15,
+        "points": 9,
+        "goalDifference": -8
+      },
+      {
+        "team": "RCD Espanyol de Barcelona",
+        "rank": 19,
         "played": 10,
         "logo": "https://crests.football-data.org/80.png",
         "won": 2,
@@ -6599,19 +6560,6 @@
         "ga": 14,
         "points": 8,
         "goalDifference": -2
-      },
-      {
-        "team": "Valencia CF",
-        "rank": 19,
-        "played": 9,
-        "logo": "https://crests.football-data.org/95.png",
-        "won": 1,
-        "drawn": 3,
-        "lost": 5,
-        "gf": 6,
-        "ga": 15,
-        "points": 6,
-        "goalDifference": -9
       },
       {
         "team": "Málaga CF",
@@ -6660,12 +6608,12 @@
         "played": 8,
         "logo": "https://crests.football-data.org/100.png",
         "won": 5,
-        "drawn": 3,
-        "lost": 0,
-        "gf": 16,
-        "ga": 3,
-        "points": 18,
-        "goalDifference": 13
+        "drawn": 2,
+        "lost": 1,
+        "gf": 17,
+        "ga": 5,
+        "points": 17,
+        "goalDifference": 12
       },
       {
         "team": "Como 1907",
@@ -6707,8 +6655,21 @@
         "goalDifference": 4
       },
       {
-        "team": "Torino FC",
+        "team": "SSC Napoli",
         "rank": 7,
+        "played": 8,
+        "logo": "https://crests.football-data.org/113.png",
+        "won": 4,
+        "drawn": 1,
+        "lost": 3,
+        "gf": 12,
+        "ga": 8,
+        "points": 13,
+        "goalDifference": 4
+      },
+      {
+        "team": "Torino FC",
+        "rank": 8,
         "played": 8,
         "logo": "https://crests.football-data.org/586.png",
         "won": 4,
@@ -6721,7 +6682,7 @@
       },
       {
         "team": "Cagliari Calcio",
-        "rank": 8,
+        "rank": 9,
         "played": 8,
         "logo": "https://crests.football-data.org/104.png",
         "won": 4,
@@ -6731,19 +6692,6 @@
         "ga": 9,
         "points": 13,
         "goalDifference": -3
-      },
-      {
-        "team": "SSC Napoli",
-        "rank": 9,
-        "played": 8,
-        "logo": "https://crests.football-data.org/113.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 10,
-        "ga": 7,
-        "points": 11,
-        "goalDifference": 3
       },
       {
         "team": "Juventus FC",
@@ -7478,21 +7426,34 @@
         "goalDifference": 4
       },
       {
-        "team": "FC Utrecht",
+        "team": "SC Cambuur-Leeuwarden",
         "rank": 10,
+        "played": 10,
+        "logo": "https://crests.football-data.org/1909.png",
+        "won": 3,
+        "drawn": 3,
+        "lost": 4,
+        "gf": 16,
+        "ga": 21,
+        "points": 12,
+        "goalDifference": -5
+      },
+      {
+        "team": "FC Utrecht",
+        "rank": 11,
         "played": 10,
         "logo": "https://crests.football-data.org/676.png",
         "won": 3,
         "drawn": 3,
         "lost": 4,
-        "gf": 16,
-        "ga": 26,
+        "gf": 17,
+        "ga": 27,
         "points": 12,
         "goalDifference": -10
       },
       {
         "team": "SBV Excelsior",
-        "rank": 11,
+        "rank": 12,
         "played": 9,
         "logo": "https://crests.football-data.org/670.png",
         "won": 3,
@@ -7505,7 +7466,7 @@
       },
       {
         "team": "NEC",
-        "rank": 12,
+        "rank": 13,
         "played": 9,
         "logo": "https://crests.football-data.org/1915.png",
         "won": 2,
@@ -7518,7 +7479,7 @@
       },
       {
         "team": "Sparta Rotterdam",
-        "rank": 13,
+        "rank": 14,
         "played": 9,
         "logo": "https://crests.football-data.org/6806.png",
         "won": 2,
@@ -7530,19 +7491,6 @@
         "goalDifference": -6
       },
       {
-        "team": "SC Cambuur-Leeuwarden",
-        "rank": 14,
-        "played": 9,
-        "logo": "https://crests.football-data.org/1909.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 13,
-        "ga": 21,
-        "points": 9,
-        "goalDifference": -8
-      },
-      {
         "team": "PEC Zwolle",
         "rank": 15,
         "played": 10,
@@ -7550,8 +7498,8 @@
         "won": 2,
         "drawn": 2,
         "lost": 6,
-        "gf": 10,
-        "ga": 22,
+        "gf": 11,
+        "ga": 23,
         "points": 8,
         "goalDifference": -12
       },
@@ -7584,15 +7532,15 @@
       {
         "team": "Willem II Tilburg",
         "rank": 18,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/672.png",
         "won": 0,
         "drawn": 2,
-        "lost": 7,
+        "lost": 8,
         "gf": 9,
-        "ga": 26,
+        "ga": 29,
         "points": 2,
-        "goalDifference": -17
+        "goalDifference": -20
       }
     ],
     "Primeira Liga": [
@@ -7651,15 +7599,15 @@
       {
         "team": "FC Arouca",
         "rank": 5,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/712.png",
-        "won": 4,
+        "won": 5,
         "drawn": 2,
         "lost": 2,
-        "gf": 11,
+        "gf": 12,
         "ga": 7,
-        "points": 14,
-        "goalDifference": 4
+        "points": 17,
+        "goalDifference": 5
       },
       {
         "team": "Gil Vicente FC",
@@ -7690,15 +7638,15 @@
       {
         "team": "FC Alverca",
         "rank": 8,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/7822.png",
         "won": 3,
         "drawn": 2,
-        "lost": 3,
+        "lost": 4,
         "gf": 13,
-        "ga": 12,
+        "ga": 13,
         "points": 11,
-        "goalDifference": 1
+        "goalDifference": 0
       },
       {
         "team": "Sporting Clube de Braga",
@@ -7722,9 +7670,9 @@
         "drawn": 4,
         "lost": 3,
         "gf": 14,
-        "ga": 16,
+        "ga": 17,
         "points": 10,
-        "goalDifference": -2
+        "goalDifference": -3
       },
       {
         "team": "Vitória SC",
@@ -7799,10 +7747,10 @@
         "won": 2,
         "drawn": 1,
         "lost": 6,
-        "gf": 4,
+        "gf": 5,
         "ga": 17,
         "points": 7,
-        "goalDifference": -13
+        "goalDifference": -12
       },
       {
         "team": "CD Nacional",

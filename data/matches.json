@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-25T14:17:33.200449Z",
+  "updatedAt": "2026-10-25T16:32:45.995200Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83195",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "SC Freiburg",
-      "away": "FC Schalke 04",
-      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-      "utcDate": "2026-10-11T15:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83632",
       "sport": "Football",
@@ -400,8 +388,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-10-25T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 0"
     },
     {
       "id": "openligadb:83660",
@@ -412,8 +400,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "utcDate": "2026-10-25T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 0"
     },
     {
       "id": "openligadb:83661",
@@ -424,8 +412,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "awayLogo": "https://i.imgur.com/pwuVbKr.png",
       "utcDate": "2026-10-25T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 0"
     },
     {
       "id": "openligadb:83213",
@@ -436,8 +424,8 @@
       "homeLogo": "https://i.imgur.com/gF0PfEl.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "utcDate": "2026-10-25T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 0"
     },
     {
       "id": "openligadb:83214",
@@ -844,6 +832,30 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-11-08T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83235",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "1. FC Köln",
+      "away": "Bayer 04 Leverkusen",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "utcDate": "2026-11-08T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83232",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SC Freiburg",
+      "away": "1. FC Union Berlin",
+      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
+      "awayLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "utcDate": "2026-11-08T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-25T20:57:40.631629Z",
+  "updatedAt": "2026-10-25T22:28:38.110969Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -833,20 +833,6 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/96dr361759234092.jpg"
     },
     {
-      "id": "thesportsdb:2601700",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Phoenix Suns",
-      "away": "Golden State Warriors",
-      "utcDate": "2026-10-25T02:00:00Z",
-      "status": "FINISHED",
-      "score": "131 – 122",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zpu2c41759234186.jpg"
-    },
-    {
       "id": "jolpica:f1:2026:18",
       "sport": "Formule 1",
       "competition": "Championnat du monde F1",
@@ -859,18 +845,32 @@
       "provider": "Jolpica-F1"
     },
     {
-      "id": "thesportsdb:2601701",
+      "id": "thesportsdb:2601702",
       "sport": "Basketball",
       "competition": "NBA",
-      "home": "Utah Jazz",
-      "away": "Los Angeles Lakers",
-      "utcDate": "2026-10-25T21:00:00Z",
+      "home": "Brooklyn Nets",
+      "away": "Indiana Pacers",
+      "utcDate": "2026-10-25T22:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/xqcook1759233576.jpg"
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/nn55hi1759234253.jpg"
+    },
+    {
+      "id": "thesportsdb:2601703",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Los Angeles Clippers",
+      "utcDate": "2026-10-25T23:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/jlno191759233562.jpg"
     },
     {
       "id": "thesportsdb:2601707",

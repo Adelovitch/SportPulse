@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-25T20:57:45.767380Z",
+  "updatedAt": "2026-10-25T22:28:42.635722Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2622,8 +2622,8 @@
       "home": "AZ",
       "away": "FC Twente '65",
       "utcDate": "2026-10-25T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/682.png",
       "awayLogo": "https://crests.football-data.org/666.png"
@@ -2635,8 +2635,8 @@
       "home": "Udinese Calcio",
       "away": "AC Milan",
       "utcDate": "2026-10-25T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/115.png",
       "awayLogo": "https://crests.football-data.org/98.png"
@@ -2648,8 +2648,8 @@
       "home": "FC Barcelona",
       "away": "Real Madrid CF",
       "utcDate": "2026-10-25T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/81.png",
       "awayLogo": "https://crests.football-data.org/86.png"
@@ -5815,8 +5815,8 @@
         "won": 9,
         "drawn": 0,
         "lost": 1,
-        "gf": 39,
-        "ga": 10,
+        "gf": 40,
+        "ga": 11,
         "points": 27,
         "goalDifference": 29
       },
@@ -5841,8 +5841,8 @@
         "won": 8,
         "drawn": 0,
         "lost": 2,
-        "gf": 24,
-        "ga": 9,
+        "gf": 25,
+        "ga": 10,
         "points": 24,
         "goalDifference": 15
       },
@@ -6116,10 +6116,10 @@
         "won": 5,
         "drawn": 3,
         "lost": 0,
-        "gf": 15,
+        "gf": 16,
         "ga": 7,
         "points": 18,
-        "goalDifference": 8
+        "goalDifference": 9
       },
       {
         "team": "Como 1907",
@@ -6286,9 +6286,9 @@
         "drawn": 1,
         "lost": 6,
         "gf": 9,
-        "ga": 17,
+        "ga": 18,
         "points": 4,
-        "goalDifference": -8
+        "goalDifference": -9
       },
       {
         "team": "ACF Fiorentina",
@@ -6841,28 +6841,28 @@
         "goalDifference": 15
       },
       {
-        "team": "AZ",
+        "team": "FC Twente '65",
         "rank": 4,
+        "played": 10,
+        "logo": "https://crests.football-data.org/666.png",
+        "won": 6,
+        "drawn": 2,
+        "lost": 2,
+        "gf": 19,
+        "ga": 10,
+        "points": 20,
+        "goalDifference": 9
+      },
+      {
+        "team": "AZ",
+        "rank": 5,
         "played": 10,
         "logo": "https://crests.football-data.org/682.png",
         "won": 6,
         "drawn": 2,
         "lost": 2,
         "gf": 20,
-        "ga": 11,
-        "points": 20,
-        "goalDifference": 9
-      },
-      {
-        "team": "FC Twente '65",
-        "rank": 5,
-        "played": 10,
-        "logo": "https://crests.football-data.org/666.png",
-        "won": 6,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 18,
-        "ga": 10,
+        "ga": 12,
         "points": 20,
         "goalDifference": 8
       },
@@ -7069,12 +7069,12 @@
         "played": 9,
         "logo": "https://crests.football-data.org/498.png",
         "won": 5,
-        "drawn": 4,
-        "lost": 0,
-        "gf": 20,
-        "ga": 9,
-        "points": 19,
-        "goalDifference": 11
+        "drawn": 3,
+        "lost": 1,
+        "gf": 21,
+        "ga": 11,
+        "points": 18,
+        "goalDifference": 10
       },
       {
         "team": "CD Santa Clara",
@@ -7107,13 +7107,13 @@
         "rank": 6,
         "played": 9,
         "logo": "https://crests.football-data.org/5527.png",
-        "won": 4,
-        "drawn": 3,
+        "won": 5,
+        "drawn": 2,
         "lost": 2,
-        "gf": 11,
-        "ga": 10,
-        "points": 15,
-        "goalDifference": 1
+        "gf": 13,
+        "ga": 11,
+        "points": 17,
+        "goalDifference": 2
       },
       {
         "team": "Gil Vicente FC",

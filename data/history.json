@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-25T20:02:43.389429Z",
+  "updatedAt": "2026-10-25T21:00:16.493427Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4095,6 +4095,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/92.png",
       "awayLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": "football-data:567330",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Rio Ave FC",
+      "away": "FC Famalicão",
+      "utcDate": "2026-10-25T18:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/496.png",
+      "awayLogo": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "id": "football-data:567334",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "CD Nacional",
+      "away": "Sporting Clube de Braga",
+      "utcDate": "2026-10-25T18:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5529.png",
+      "awayLogo": "https://crests.football-data.org/5613.png"
     }
   ]
 }

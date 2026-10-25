@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-25T20:00:18.475600Z",
+  "updatedAt": "2026-10-25T20:57:45.767380Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,45 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555035",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "CR Flamengo",
-      "away": "Fluminense FC",
-      "utcDate": "2026-10-11T20:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1783.png",
-      "awayLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": "football-data:555036",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Grêmio FBPA",
-      "away": "SC Internacional",
-      "utcDate": "2026-10-11T20:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1767.png",
-      "awayLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": "football-data:555037",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "SE Palmeiras",
-      "away": "SC Corinthians Paulista",
-      "utcDate": "2026-10-11T20:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1769.png",
-      "awayLogo": "https://crests.football-data.org/1779.png"
-    },
     {
       "id": "football-data:555031",
       "sport": "Football",
@@ -2635,8 +2596,8 @@
       "home": "Rio Ave FC",
       "away": "FC Famalicão",
       "utcDate": "2026-10-25T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 4",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/496.png",
       "awayLogo": "https://crests.football-data.org/5531.png"
@@ -2648,8 +2609,8 @@
       "home": "CD Nacional",
       "away": "Sporting Clube de Braga",
       "utcDate": "2026-10-25T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5529.png",
       "awayLogo": "https://crests.football-data.org/5613.png"
@@ -5852,12 +5813,12 @@
         "played": 10,
         "logo": "https://crests.football-data.org/81.png",
         "won": 9,
-        "drawn": 1,
-        "lost": 0,
+        "drawn": 0,
+        "lost": 1,
         "gf": 39,
-        "ga": 9,
-        "points": 28,
-        "goalDifference": 30
+        "ga": 10,
+        "points": 27,
+        "goalDifference": 29
       },
       {
         "team": "Club Atlético de Madrid",
@@ -5877,13 +5838,13 @@
         "rank": 3,
         "played": 10,
         "logo": "https://crests.football-data.org/86.png",
-        "won": 7,
-        "drawn": 1,
+        "won": 8,
+        "drawn": 0,
         "lost": 2,
-        "gf": 23,
+        "gf": 24,
         "ga": 9,
-        "points": 22,
-        "goalDifference": 14
+        "points": 24,
+        "goalDifference": 15
       },
       {
         "team": "Real Betis Balompié",
@@ -6867,21 +6828,8 @@
         "goalDifference": 16
       },
       {
-        "team": "AZ",
-        "rank": 3,
-        "played": 10,
-        "logo": "https://crests.football-data.org/682.png",
-        "won": 6,
-        "drawn": 3,
-        "lost": 1,
-        "gf": 20,
-        "ga": 10,
-        "points": 21,
-        "goalDifference": 10
-      },
-      {
         "team": "PSV",
-        "rank": 4,
+        "rank": 3,
         "played": 10,
         "logo": "https://crests.football-data.org/674.png",
         "won": 6,
@@ -6893,17 +6841,30 @@
         "goalDifference": 15
       },
       {
+        "team": "AZ",
+        "rank": 4,
+        "played": 10,
+        "logo": "https://crests.football-data.org/682.png",
+        "won": 6,
+        "drawn": 2,
+        "lost": 2,
+        "gf": 20,
+        "ga": 11,
+        "points": 20,
+        "goalDifference": 9
+      },
+      {
         "team": "FC Twente '65",
         "rank": 5,
         "played": 10,
         "logo": "https://crests.football-data.org/666.png",
-        "won": 5,
-        "drawn": 3,
+        "won": 6,
+        "drawn": 2,
         "lost": 2,
-        "gf": 17,
+        "gf": 18,
         "ga": 10,
-        "points": 18,
-        "goalDifference": 7
+        "points": 20,
+        "goalDifference": 8
       },
       {
         "team": "Fortuna Sittard",
@@ -7105,14 +7066,14 @@
       {
         "team": "Sporting Clube de Portugal",
         "rank": 3,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/498.png",
         "won": 5,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 0,
         "gf": 20,
         "ga": 9,
-        "points": 18,
+        "points": 19,
         "goalDifference": 11
       },
       {
@@ -7144,14 +7105,14 @@
       {
         "team": "Académico de Viseu FC",
         "rank": 6,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/5527.png",
         "won": 4,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 2,
         "gf": 11,
         "ga": 10,
-        "points": 14,
+        "points": 15,
         "goalDifference": 1
       },
       {

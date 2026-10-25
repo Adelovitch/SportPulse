@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-24T22:27:24.406289Z",
+  "updatedAt": "2026-10-25T00:30:18.157906Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3337,6 +3337,19 @@
       "awayLogo": "https://crests.football-data.org/80.png"
     },
     {
+      "id": "football-data:558862",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Utrecht",
+      "away": "PEC Zwolle",
+      "utcDate": "2026-10-24T14:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/676.png",
+      "awayLogo": "https://crests.football-data.org/684.png"
+    },
+    {
       "id": "openligadb:83210",
       "sport": "Football",
       "competition": "Bundesliga",
@@ -3398,6 +3411,71 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/680.png",
       "awayLogo": "https://crests.football-data.org/673.png"
+    },
+    {
+      "id": "football-data:555054",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Internacional",
+      "away": "Botafogo FR",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6684.png",
+      "awayLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": "football-data:555055",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Mirassol FC",
+      "away": "São Paulo FC",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4364.png",
+      "awayLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": "football-data:555059",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Vitória",
+      "away": "CA Paranaense",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1782.png",
+      "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "football-data:555056",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SE Palmeiras",
+      "away": "RB Bragantino",
+      "utcDate": "2026-10-24T21:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1769.png",
+      "awayLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": "football-data:555058",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Vasco da Gama",
+      "away": "SC Corinthians Paulista",
+      "utcDate": "2026-10-24T21:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1780.png",
+      "awayLogo": "https://crests.football-data.org/1779.png"
     }
   ]
 }

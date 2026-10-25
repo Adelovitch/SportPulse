@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-24T22:24:58.461378Z",
+  "updatedAt": "2026-10-25T00:27:45.552837Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,19 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555038",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "São Paulo FC",
-      "away": "EC Vitória",
-      "utcDate": "2026-10-11T00:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1776.png",
-      "awayLogo": "https://crests.football-data.org/1782.png"
-    },
     {
       "id": "football-data:558876",
       "sport": "Football",
@@ -2219,8 +2206,8 @@
       "home": "Portsmouth FC",
       "away": "Millwall FC",
       "utcDate": "2026-10-24T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/325.png",
       "awayLogo": "https://crests.football-data.org/384.png"
@@ -2323,8 +2310,8 @@
       "home": "Stoke City FC",
       "away": "Bristol City FC",
       "utcDate": "2026-10-24T14:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/70.png",
       "awayLogo": "https://crests.football-data.org/387.png"
@@ -2362,8 +2349,8 @@
       "home": "West Ham United FC",
       "away": "Southampton FC",
       "utcDate": "2026-10-24T14:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 3",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/563.png",
       "awayLogo": "https://crests.football-data.org/340.png"
@@ -2401,8 +2388,8 @@
       "home": "Real Racing Club de Santander",
       "away": "RCD Espanyol de Barcelona",
       "utcDate": "2026-10-24T14:15:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5335.png",
       "awayLogo": "https://crests.football-data.org/80.png"
@@ -2414,8 +2401,8 @@
       "home": "FC Utrecht",
       "away": "PEC Zwolle",
       "utcDate": "2026-10-24T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/676.png",
       "awayLogo": "https://crests.football-data.org/684.png"
@@ -2570,8 +2557,8 @@
       "home": "SC Internacional",
       "away": "Botafogo FR",
       "utcDate": "2026-10-24T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6684.png",
       "awayLogo": "https://crests.football-data.org/1770.png"
@@ -2583,8 +2570,8 @@
       "home": "Mirassol FC",
       "away": "São Paulo FC",
       "utcDate": "2026-10-24T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4364.png",
       "awayLogo": "https://crests.football-data.org/1776.png"
@@ -2596,8 +2583,8 @@
       "home": "EC Vitória",
       "away": "CA Paranaense",
       "utcDate": "2026-10-24T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1782.png",
       "awayLogo": "https://crests.football-data.org/1768.png"
@@ -2609,8 +2596,8 @@
       "home": "SE Palmeiras",
       "away": "RB Bragantino",
       "utcDate": "2026-10-24T21:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1769.png",
       "awayLogo": "https://crests.football-data.org/4286.png"
@@ -2622,8 +2609,8 @@
       "home": "CR Vasco da Gama",
       "away": "SC Corinthians Paulista",
       "utcDate": "2026-10-24T21:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1780.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
@@ -7638,8 +7625,21 @@
     ],
     "Série A brésilienne": [
       {
-        "team": "CR Flamengo",
+        "team": "SE Palmeiras",
         "rank": 1,
+        "played": 32,
+        "logo": "https://crests.football-data.org/1769.png",
+        "won": 20,
+        "drawn": 9,
+        "lost": 3,
+        "gf": 56,
+        "ga": 22,
+        "points": 69,
+        "goalDifference": 34
+      },
+      {
+        "team": "CR Flamengo",
+        "rank": 2,
         "played": 31,
         "logo": "https://crests.football-data.org/1783.png",
         "won": 20,
@@ -7649,19 +7649,6 @@
         "ga": 25,
         "points": 67,
         "goalDifference": 36
-      },
-      {
-        "team": "SE Palmeiras",
-        "rank": 2,
-        "played": 32,
-        "logo": "https://crests.football-data.org/1769.png",
-        "won": 19,
-        "drawn": 10,
-        "lost": 3,
-        "gf": 54,
-        "ga": 22,
-        "points": 67,
-        "goalDifference": 32
       },
       {
         "team": "Cruzeiro EC",
@@ -7692,15 +7679,15 @@
       {
         "team": "Fluminense FC",
         "rank": 5,
-        "played": 31,
+        "played": 32,
         "logo": "https://crests.football-data.org/1765.png",
         "won": 14,
         "drawn": 9,
-        "lost": 8,
-        "gf": 49,
-        "ga": 39,
+        "lost": 9,
+        "gf": 50,
+        "ga": 41,
         "points": 51,
-        "goalDifference": 10
+        "goalDifference": 9
       },
       {
         "team": "CA Mineiro",
@@ -7760,12 +7747,12 @@
         "played": 32,
         "logo": "https://crests.football-data.org/4286.png",
         "won": 11,
-        "drawn": 9,
-        "lost": 12,
+        "drawn": 8,
+        "lost": 13,
         "gf": 39,
-        "ga": 36,
-        "points": 42,
-        "goalDifference": 3
+        "ga": 38,
+        "points": 41,
+        "goalDifference": 1
       },
       {
         "team": "Botafogo FR",
@@ -7801,8 +7788,8 @@
         "won": 10,
         "drawn": 8,
         "lost": 13,
-        "gf": 37,
-        "ga": 43,
+        "gf": 39,
+        "ga": 45,
         "points": 38,
         "goalDifference": -6
       },
@@ -7853,8 +7840,8 @@
         "won": 8,
         "drawn": 9,
         "lost": 15,
-        "gf": 32,
-        "ga": 40,
+        "gf": 34,
+        "ga": 42,
         "points": 33,
         "goalDifference": -8
       },
@@ -7887,15 +7874,15 @@
       {
         "team": "Chapecoense AF",
         "rank": 20,
-        "played": 30,
+        "played": 31,
         "logo": "https://crests.football-data.org/1772_large.png",
-        "won": 3,
+        "won": 4,
         "drawn": 9,
         "lost": 18,
-        "gf": 30,
-        "ga": 62,
-        "points": 18,
-        "goalDifference": -32
+        "gf": 32,
+        "ga": 63,
+        "points": 21,
+        "goalDifference": -31
       }
     ],
     "Championship": [

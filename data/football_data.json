@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-25T16:32:56.368702Z",
+  "updatedAt": "2026-10-25T17:43:01.604484Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,19 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:567320",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "Sport Lisboa e Benfica",
-      "away": "Vitória SC",
-      "utcDate": "2026-10-11T17:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1903.png",
-      "awayLogo": "https://crests.football-data.org/5543.png"
-    },
     {
       "id": "football-data:559671",
       "sport": "Football",
@@ -2570,8 +2557,8 @@
       "home": "RC Celta de Vigo",
       "away": "Real Betis Balompié",
       "utcDate": "2026-10-25T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/558.png",
       "awayLogo": "https://crests.football-data.org/90.png"
@@ -2583,8 +2570,8 @@
       "home": "GD Estoril Praia",
       "away": "Moreirense FC",
       "utcDate": "2026-10-25T15:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/582.png",
       "awayLogo": "https://crests.football-data.org/583.png"
@@ -5427,8 +5414,21 @@
   "tables": {
     "Ligue 1": [
       {
-        "team": "Lille OSC",
+        "team": "Stade Rennais FC 1901",
         "rank": 1,
+        "played": 8,
+        "logo": "https://crests.football-data.org/529.png",
+        "won": 5,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 18,
+        "ga": 14,
+        "points": 16,
+        "goalDifference": 4
+      },
+      {
+        "team": "Lille OSC",
+        "rank": 2,
         "played": 8,
         "logo": "https://crests.football-data.org/521.png",
         "won": 4,
@@ -5441,7 +5441,7 @@
       },
       {
         "team": "AS Monaco FC",
-        "rank": 2,
+        "rank": 3,
         "played": 8,
         "logo": "https://crests.football-data.org/548.png",
         "won": 4,
@@ -5454,7 +5454,7 @@
       },
       {
         "team": "Olympique Lyonnais",
-        "rank": 3,
+        "rank": 4,
         "played": 7,
         "logo": "https://crests.football-data.org/523.png",
         "won": 4,
@@ -5467,7 +5467,7 @@
       },
       {
         "team": "Paris Saint-Germain FC",
-        "rank": 4,
+        "rank": 5,
         "played": 7,
         "logo": "https://crests.football-data.org/524.png",
         "won": 4,
@@ -5480,7 +5480,7 @@
       },
       {
         "team": "Paris FC",
-        "rank": 5,
+        "rank": 6,
         "played": 8,
         "logo": "https://crests.football-data.org/1045.png",
         "won": 4,
@@ -5490,19 +5490,6 @@
         "ga": 9,
         "points": 14,
         "goalDifference": 4
-      },
-      {
-        "team": "Stade Rennais FC 1901",
-        "rank": 6,
-        "played": 8,
-        "logo": "https://crests.football-data.org/529.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 15,
-        "ga": 14,
-        "points": 14,
-        "goalDifference": 1
       },
       {
         "team": "Racing Club de Lens",
@@ -5525,10 +5512,10 @@
         "won": 4,
         "drawn": 0,
         "lost": 4,
-        "gf": 15,
+        "gf": 18,
         "ga": 10,
         "points": 12,
-        "goalDifference": 5
+        "goalDifference": 8
       },
       {
         "team": "FC Lorient",
@@ -5577,8 +5564,8 @@
         "won": 3,
         "drawn": 1,
         "lost": 4,
-        "gf": 11,
-        "ga": 17,
+        "gf": 12,
+        "ga": 18,
         "points": 10,
         "goalDifference": -6
       },
@@ -5596,21 +5583,8 @@
         "goalDifference": 2
       },
       {
-        "team": "RC Strasbourg Alsace",
-        "rank": 14,
-        "played": 8,
-        "logo": "https://crests.football-data.org/576.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 4,
-        "gf": 12,
-        "ga": 15,
-        "points": 8,
-        "goalDifference": -3
-      },
-      {
         "team": "Angers SCO",
-        "rank": 15,
+        "rank": 14,
         "played": 8,
         "logo": "https://crests.football-data.org/532.png",
         "won": 2,
@@ -5623,16 +5597,29 @@
       },
       {
         "team": "Le Mans FC",
-        "rank": 16,
+        "rank": 15,
         "played": 8,
         "logo": "https://crests.football-data.org/535.png",
         "won": 1,
         "drawn": 4,
         "lost": 3,
-        "gf": 10,
-        "ga": 15,
+        "gf": 11,
+        "ga": 16,
         "points": 7,
         "goalDifference": -5
+      },
+      {
+        "team": "RC Strasbourg Alsace",
+        "rank": 16,
+        "played": 8,
+        "logo": "https://crests.football-data.org/576.png",
+        "won": 2,
+        "drawn": 1,
+        "lost": 5,
+        "gf": 12,
+        "ga": 18,
+        "points": 7,
+        "goalDifference": -6
       },
       {
         "team": "ES Troyes AC",
@@ -5656,9 +5643,9 @@
         "drawn": 2,
         "lost": 6,
         "gf": 5,
-        "ga": 12,
+        "ga": 15,
         "points": 2,
-        "goalDifference": -7
+        "goalDifference": -10
       }
     ],
     "Premier League": [
@@ -5979,15 +5966,15 @@
       {
         "team": "Real Sociedad de Fútbol",
         "rank": 5,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/92.png",
-        "won": 5,
+        "won": 6,
         "drawn": 1,
         "lost": 3,
-        "gf": 17,
+        "gf": 18,
         "ga": 17,
-        "points": 16,
-        "goalDifference": 0
+        "points": 19,
+        "goalDifference": 1
       },
       {
         "team": "Sevilla FC",
@@ -6096,15 +6083,15 @@
       {
         "team": "Levante UD",
         "rank": 14,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/88.png",
         "won": 2,
         "drawn": 4,
-        "lost": 3,
+        "lost": 4,
         "gf": 15,
-        "ga": 17,
+        "ga": 18,
         "points": 10,
-        "goalDifference": -2
+        "goalDifference": -3
       },
       {
         "team": "Elche CF",
@@ -6265,8 +6252,21 @@
         "goalDifference": 4
       },
       {
-        "team": "Torino FC",
+        "team": "Juventus FC",
         "rank": 7,
+        "played": 8,
+        "logo": "https://crests.football-data.org/109.png",
+        "won": 4,
+        "drawn": 2,
+        "lost": 2,
+        "gf": 10,
+        "ga": 8,
+        "points": 14,
+        "goalDifference": 2
+      },
+      {
+        "team": "Torino FC",
+        "rank": 8,
         "played": 8,
         "logo": "https://crests.football-data.org/586.png",
         "won": 4,
@@ -6279,7 +6279,7 @@
       },
       {
         "team": "Cagliari Calcio",
-        "rank": 8,
+        "rank": 9,
         "played": 8,
         "logo": "https://crests.football-data.org/104.png",
         "won": 4,
@@ -6292,7 +6292,7 @@
       },
       {
         "team": "SSC Napoli",
-        "rank": 9,
+        "rank": 10,
         "played": 8,
         "logo": "https://crests.football-data.org/113.png",
         "won": 3,
@@ -6302,19 +6302,6 @@
         "ga": 10,
         "points": 11,
         "goalDifference": 3
-      },
-      {
-        "team": "Juventus FC",
-        "rank": 10,
-        "played": 7,
-        "logo": "https://crests.football-data.org/109.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 9,
-        "ga": 8,
-        "points": 11,
-        "goalDifference": 1
       },
       {
         "team": "Atalanta BC",
@@ -6332,15 +6319,15 @@
       {
         "team": "US Lecce",
         "rank": 12,
-        "played": 7,
+        "played": 8,
         "logo": "https://crests.football-data.org/5890.png",
         "won": 3,
         "drawn": 0,
-        "lost": 4,
+        "lost": 5,
         "gf": 9,
-        "ga": 12,
+        "ga": 13,
         "points": 9,
-        "goalDifference": -3
+        "goalDifference": -4
       },
       {
         "team": "Bologna FC 1909",
@@ -6939,8 +6926,8 @@
         "won": 6,
         "drawn": 3,
         "lost": 1,
-        "gf": 28,
-        "ga": 12,
+        "gf": 29,
+        "ga": 13,
         "points": 21,
         "goalDifference": 16
       },
@@ -7095,8 +7082,8 @@
         "won": 2,
         "drawn": 3,
         "lost": 5,
-        "gf": 16,
-        "ga": 23,
+        "gf": 17,
+        "ga": 24,
         "points": 9,
         "goalDifference": -7
       },
@@ -7280,9 +7267,9 @@
         "drawn": 2,
         "lost": 4,
         "gf": 11,
-        "ga": 15,
+        "ga": 16,
         "points": 11,
-        "goalDifference": -4
+        "goalDifference": -5
       },
       {
         "team": "CF Estrela da Amadora",
@@ -7383,10 +7370,10 @@
         "won": 0,
         "drawn": 2,
         "lost": 7,
-        "gf": 4,
+        "gf": 5,
         "ga": 15,
         "points": 2,
-        "goalDifference": -11
+        "goalDifference": -10
       }
     ],
     "Série A brésilienne": [

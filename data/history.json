@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-25T16:35:26.983985Z",
+  "updatedAt": "2026-10-25T17:45:26.763834Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3940,6 +3940,32 @@
       "utcDate": "2026-10-25T14:30:00Z",
       "status": "FINISHED",
       "score": "3 – 0"
+    },
+    {
+      "id": "football-data:564725",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "RC Celta de Vigo",
+      "away": "Real Betis Balompié",
+      "utcDate": "2026-10-25T15:15:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/558.png",
+      "awayLogo": "https://crests.football-data.org/90.png"
+    },
+    {
+      "id": "football-data:567336",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "GD Estoril Praia",
+      "away": "Moreirense FC",
+      "utcDate": "2026-10-25T15:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/582.png",
+      "awayLogo": "https://crests.football-data.org/583.png"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-25T04:56:36.119249Z",
+  "updatedAt": "2026-10-25T11:47:18.289959Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3402,6 +3402,19 @@
       "awayLogo": "https://crests.football-data.org/684.png"
     },
     {
+      "id": "football-data:567337",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "CF Estrela da Amadora",
+      "away": "Casa Pia AC",
+      "utcDate": "2026-10-24T14:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/9136.png",
+      "awayLogo": "https://crests.football-data.org/6618.png"
+    },
+    {
       "id": "football-data:558564",
       "sport": "Football",
       "competition": "Serie A",
@@ -3464,6 +3477,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/672.png",
       "awayLogo": "https://crests.football-data.org/1909.png"
+    },
+    {
+      "id": "football-data:567333",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "FC Alverca",
+      "away": "FC Arouca",
+      "utcDate": "2026-10-24T17:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7822.png",
+      "awayLogo": "https://crests.football-data.org/712.png"
     },
     {
       "id": "openligadb:83652",
@@ -3567,6 +3593,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1782.png",
       "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "football-data:567335",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Gil Vicente FC",
+      "away": "FC Porto",
+      "utcDate": "2026-10-24T19:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5533.png",
+      "awayLogo": "https://crests.football-data.org/503.png"
     },
     {
       "id": "football-data:555056",

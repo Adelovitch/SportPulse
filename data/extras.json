@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-25T17:42:58.256562Z",
+  "updatedAt": "2026-10-25T20:00:07.939340Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -25,167 +25,10 @@
       "home": "Italian Grand Prix",
       "away": "Autodromo Nazionale di Monza",
       "utcDate": "2026-09-06T13:00:00Z",
-      "status": "FINISHED",
+      "status": "SCHEDULED",
       "score": null,
       "eventType": "race",
-      "provider": "Jolpica-F1",
-      "classification": [
-        {
-          "position": "1",
-          "driver": "Andrea Kimi Antonelli",
-          "driverId": "antonelli",
-          "team": "Mercedes",
-          "points": "25"
-        },
-        {
-          "position": "2",
-          "driver": "George Russell",
-          "driverId": "russell",
-          "team": "Mercedes",
-          "points": "18"
-        },
-        {
-          "position": "3",
-          "driver": "Max Verstappen",
-          "driverId": "max_verstappen",
-          "team": "Red Bull",
-          "points": "15"
-        },
-        {
-          "position": "4",
-          "driver": "Lando Norris",
-          "driverId": "norris",
-          "team": "McLaren",
-          "points": "12"
-        },
-        {
-          "position": "5",
-          "driver": "Oscar Piastri",
-          "driverId": "piastri",
-          "team": "McLaren",
-          "points": "10"
-        },
-        {
-          "position": "6",
-          "driver": "Lewis Hamilton",
-          "driverId": "hamilton",
-          "team": "Ferrari",
-          "points": "8"
-        },
-        {
-          "position": "7",
-          "driver": "Pierre Gasly",
-          "driverId": "gasly",
-          "team": "Alpine F1 Team",
-          "points": "6"
-        },
-        {
-          "position": "8",
-          "driver": "Arvid Lindblad",
-          "driverId": "arvid_lindblad",
-          "team": "RB F1 Team",
-          "points": "4"
-        },
-        {
-          "position": "9",
-          "driver": "Franco Colapinto",
-          "driverId": "colapinto",
-          "team": "Alpine F1 Team",
-          "points": "2"
-        },
-        {
-          "position": "10",
-          "driver": "Yuki Tsunoda",
-          "driverId": "tsunoda",
-          "team": "RB F1 Team",
-          "points": "1"
-        },
-        {
-          "position": "11",
-          "driver": "Gabriel Bortoleto",
-          "driverId": "bortoleto",
-          "team": "Audi",
-          "points": "0"
-        },
-        {
-          "position": "12",
-          "driver": "Nico Hülkenberg",
-          "driverId": "hulkenberg",
-          "team": "Audi",
-          "points": "0"
-        },
-        {
-          "position": "13",
-          "driver": "Carlos Sainz",
-          "driverId": "sainz",
-          "team": "Williams",
-          "points": "0"
-        },
-        {
-          "position": "14",
-          "driver": "Liam Lawson",
-          "driverId": "lawson",
-          "team": "Red Bull",
-          "points": "0"
-        },
-        {
-          "position": "15",
-          "driver": "Oliver Bearman",
-          "driverId": "bearman",
-          "team": "Haas F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "16",
-          "driver": "Esteban Ocon",
-          "driverId": "ocon",
-          "team": "Haas F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "17",
-          "driver": "Alexander Albon",
-          "driverId": "albon",
-          "team": "Williams",
-          "points": "0"
-        },
-        {
-          "position": "18",
-          "driver": "Sergio Pérez",
-          "driverId": "perez",
-          "team": "Cadillac F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "19",
-          "driver": "Valtteri Bottas",
-          "driverId": "bottas",
-          "team": "Cadillac F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "20",
-          "driver": "Lance Stroll",
-          "driverId": "stroll",
-          "team": "Aston Martin",
-          "points": "0"
-        },
-        {
-          "position": "21",
-          "driver": "Fernando Alonso",
-          "driverId": "alonso",
-          "team": "Aston Martin",
-          "points": "0"
-        },
-        {
-          "position": "22",
-          "driver": "Charles Leclerc",
-          "driverId": "leclerc",
-          "team": "Ferrari",
-          "points": "0"
-        }
-      ],
-      "winner": "Andrea Kimi Antonelli"
+      "provider": "Jolpica-F1"
     },
     {
       "id": "jolpica:f1:2026:14",

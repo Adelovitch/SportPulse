@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-25T17:42:56.096601Z",
+  "updatedAt": "2026-10-25T20:00:05.632796Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -436,8 +436,8 @@
       "homeLogo": "https://i.imgur.com/r3mvi0h.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "utcDate": "2026-10-25T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 3"
     },
     {
       "id": "openligadb:83671",
@@ -856,6 +856,18 @@
       "homeLogo": "https://i.imgur.com/r3mvi0h.png",
       "awayLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "utcDate": "2026-11-08T16:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83231",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "TSG Hoffenheim",
+      "away": "FC Schalke 04",
+      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "utcDate": "2026-11-08T18:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

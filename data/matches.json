@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-25T11:44:35.354710Z",
+  "updatedAt": "2026-10-25T14:17:33.200449Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83199",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "1. FC Köln",
-      "away": "Borussia Mönchengladbach",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
-      "utcDate": "2026-10-11T13:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83195",
       "sport": "Football",
@@ -820,6 +808,42 @@
       "homeLogo": "https://i.imgur.com/apFwbYZ.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-11-07T19:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83678",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83683",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "Karlsruher SC",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83686",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Magdeburg",
+      "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

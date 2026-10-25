@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-25T00:27:40.827437Z",
+  "updatedAt": "2026-10-25T04:54:02.156789Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -948,32 +948,32 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/54uzhw1759234398.jpg"
     },
     {
-      "id": "thesportsdb:2601698",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Dallas Mavericks",
-      "away": "San Antonio Spurs",
-      "utcDate": "2026-10-25T00:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/08xaft1759234184.jpg"
-    },
-    {
       "id": "thesportsdb:2601697",
       "sport": "Basketball",
       "competition": "NBA",
       "home": "Chicago Bulls",
       "away": "Washington Wizards",
       "utcDate": "2026-10-25T00:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "120 – 124",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4xuax21759233367.jpg"
+    },
+    {
+      "id": "thesportsdb:2601698",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "San Antonio Spurs",
+      "utcDate": "2026-10-25T00:00:00Z",
+      "status": "FINISHED",
+      "score": "106 – 122",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/08xaft1759234184.jpg"
     },
     {
       "id": "thesportsdb:2601696",
@@ -982,12 +982,26 @@
       "home": "Atlanta Hawks",
       "away": "Houston Rockets",
       "utcDate": "2026-10-25T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "114 – 121",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/96dr361759234092.jpg"
+    },
+    {
+      "id": "thesportsdb:2601700",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Golden State Warriors",
+      "utcDate": "2026-10-25T02:00:00Z",
+      "status": "FINISHED",
+      "score": "131 – 122",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zpu2c41759234186.jpg"
     },
     {
       "id": "jolpica:f1:2026:18",
@@ -1000,6 +1014,20 @@
       "score": null,
       "eventType": "race",
       "provider": "Jolpica-F1"
+    },
+    {
+      "id": "thesportsdb:2601701",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Utah Jazz",
+      "away": "Los Angeles Lakers",
+      "utcDate": "2026-10-25T21:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/xqcook1759233576.jpg"
     },
     {
       "id": "thesportsdb:2601707",

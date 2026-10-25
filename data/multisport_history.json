@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-24T10:54:20.537176Z",
+  "updatedAt": "2026-10-25T04:56:36.039290Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1029,6 +1029,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/kb9e8j1759233962.jpg"
+    },
+    {
+      "id": "thesportsdb:2601697",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "utcDate": "2026-10-25T00:00:00Z",
+      "status": "FINISHED",
+      "score": "120 – 124",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4xuax21759233367.jpg"
+    },
+    {
+      "id": "thesportsdb:2601698",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "San Antonio Spurs",
+      "utcDate": "2026-10-25T00:00:00Z",
+      "status": "FINISHED",
+      "score": "106 – 122",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/08xaft1759234184.jpg"
+    },
+    {
+      "id": "thesportsdb:2601696",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Houston Rockets",
+      "utcDate": "2026-10-25T00:30:00Z",
+      "status": "FINISHED",
+      "score": "114 – 121",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/96dr361759234092.jpg"
+    },
+    {
+      "id": "thesportsdb:2601700",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Golden State Warriors",
+      "utcDate": "2026-10-25T02:00:00Z",
+      "status": "FINISHED",
+      "score": "131 – 122",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zpu2c41759234186.jpg"
     }
   ]
 }

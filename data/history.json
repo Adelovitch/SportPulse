@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-25T00:30:18.157906Z",
+  "updatedAt": "2026-10-25T04:56:36.119249Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3199,6 +3199,19 @@
       "score": "6 – 1"
     },
     {
+      "id": "football-data:560614",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Aston Villa FC",
+      "away": "Manchester City FC",
+      "utcDate": "2026-10-24T11:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/58.png",
+      "awayLogo": "https://crests.football-data.org/65.png"
+    },
+    {
       "id": "football-data:561904",
       "sport": "Football",
       "competition": "Championship",
@@ -3210,6 +3223,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/325.png",
       "awayLogo": "https://crests.football-data.org/384.png"
+    },
+    {
+      "id": "football-data:564718",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Rayo Vallecano de Madrid",
+      "away": "Elche CF",
+      "utcDate": "2026-10-24T12:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/87.png",
+      "awayLogo": "https://crests.football-data.org/285.png"
+    },
+    {
+      "id": "football-data:558560",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Cagliari Calcio",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-10-24T13:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/104.png",
+      "awayLogo": "https://crests.football-data.org/103.png"
     },
     {
       "id": "football-data:558561",
@@ -3285,6 +3324,19 @@
       "score": "1 – 0"
     },
     {
+      "id": "football-data:560616",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Arsenal FC",
+      "away": "Everton FC",
+      "utcDate": "2026-10-24T14:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/57.png",
+      "awayLogo": "https://crests.football-data.org/62.png"
+    },
+    {
       "id": "football-data:560618",
       "sport": "Football",
       "competition": "Premier League",
@@ -3350,6 +3402,45 @@
       "awayLogo": "https://crests.football-data.org/684.png"
     },
     {
+      "id": "football-data:558564",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "AS Roma",
+      "utcDate": "2026-10-24T16:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/113.png",
+      "awayLogo": "https://crests.football-data.org/100.png"
+    },
+    {
+      "id": "football-data:560617",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Chelsea FC",
+      "away": "Tottenham Hotspur FC",
+      "utcDate": "2026-10-24T16:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/61.png",
+      "awayLogo": "https://crests.football-data.org/73.png"
+    },
+    {
+      "id": "football-data:564722",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Valencia CF",
+      "away": "Villarreal CF",
+      "utcDate": "2026-10-24T16:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/95.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
+    },
+    {
       "id": "openligadb:83210",
       "sport": "Football",
       "competition": "Bundesliga",
@@ -3387,6 +3478,19 @@
       "score": "0 – 1"
     },
     {
+      "id": "football-data:558565",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SS Lazio",
+      "away": "Parma Calcio 1913",
+      "utcDate": "2026-10-24T18:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/110.png",
+      "awayLogo": "https://crests.football-data.org/112.png"
+    },
+    {
       "id": "football-data:559652",
       "sport": "Football",
       "competition": "Ligue 1",
@@ -3411,6 +3515,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/680.png",
       "awayLogo": "https://crests.football-data.org/673.png"
+    },
+    {
+      "id": "football-data:564724",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Club Atlético de Madrid",
+      "away": "RC Deportivo La Coruña",
+      "utcDate": "2026-10-24T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/78.png",
+      "awayLogo": "https://crests.football-data.org/560.png"
     },
     {
       "id": "football-data:555054",

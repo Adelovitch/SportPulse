@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-26T00:46:32.737383Z",
+  "updatedAt": "2026-10-26T13:19:16.163363Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -3736,6 +3736,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1780.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": "football-data:555050",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Chapecoense AF",
+      "away": "Fluminense FC",
+      "utcDate": "2026-10-24T22:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1772_large.png",
+      "awayLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": "football-data:555057",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Santos FC",
+      "away": "EC Bahia",
+      "utcDate": "2026-10-25T01:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6685.png",
+      "awayLogo": "https://crests.football-data.org/1777.png"
     },
     {
       "id": "football-data:558859",

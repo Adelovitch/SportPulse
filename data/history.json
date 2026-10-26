@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-25T22:31:10.926781Z",
+  "updatedAt": "2026-10-26T00:46:32.737383Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4160,6 +4160,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/81.png",
       "awayLogo": "https://crests.football-data.org/86.png"
+    },
+    {
+      "id": "football-data:567332",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Sporting Clube de Portugal",
+      "away": "Académico de Viseu FC",
+      "utcDate": "2026-10-25T20:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/498.png",
+      "awayLogo": "https://crests.football-data.org/5527.png"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-25T04:56:36.039290Z",
+  "updatedAt": "2026-10-26T00:46:32.662515Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1085,6 +1085,175 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zpu2c41759234186.jpg"
+    },
+    {
+      "id": "jolpica:f1:2026:18",
+      "sport": "Formule 1",
+      "competition": "Championnat du monde F1",
+      "home": "United States Grand Prix",
+      "away": "Circuit of the Americas",
+      "utcDate": "2026-10-25T20:00:00Z",
+      "status": "FINISHED",
+      "score": null,
+      "eventType": "race",
+      "provider": "Jolpica-F1",
+      "classification": [
+        {
+          "position": "1",
+          "driver": "Andrea Kimi Antonelli",
+          "driverId": "antonelli",
+          "team": "Mercedes",
+          "points": "25"
+        },
+        {
+          "position": "2",
+          "driver": "Charles Leclerc",
+          "driverId": "leclerc",
+          "team": "Ferrari",
+          "points": "18"
+        },
+        {
+          "position": "3",
+          "driver": "Max Verstappen",
+          "driverId": "max_verstappen",
+          "team": "Red Bull",
+          "points": "15"
+        },
+        {
+          "position": "4",
+          "driver": "Lewis Hamilton",
+          "driverId": "hamilton",
+          "team": "Ferrari",
+          "points": "12"
+        },
+        {
+          "position": "5",
+          "driver": "Lando Norris",
+          "driverId": "norris",
+          "team": "McLaren",
+          "points": "10"
+        },
+        {
+          "position": "6",
+          "driver": "Isack Hadjar",
+          "driverId": "hadjar",
+          "team": "Red Bull",
+          "points": "8"
+        },
+        {
+          "position": "7",
+          "driver": "Oscar Piastri",
+          "driverId": "piastri",
+          "team": "McLaren",
+          "points": "6"
+        },
+        {
+          "position": "8",
+          "driver": "George Russell",
+          "driverId": "russell",
+          "team": "Mercedes",
+          "points": "4"
+        },
+        {
+          "position": "9",
+          "driver": "Liam Lawson",
+          "driverId": "lawson",
+          "team": "RB F1 Team",
+          "points": "2"
+        },
+        {
+          "position": "10",
+          "driver": "Pierre Gasly",
+          "driverId": "gasly",
+          "team": "Alpine F1 Team",
+          "points": "1"
+        },
+        {
+          "position": "11",
+          "driver": "Nico Hülkenberg",
+          "driverId": "hulkenberg",
+          "team": "Audi",
+          "points": "0"
+        },
+        {
+          "position": "12",
+          "driver": "Arvid Lindblad",
+          "driverId": "arvid_lindblad",
+          "team": "RB F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "13",
+          "driver": "Gabriel Bortoleto",
+          "driverId": "bortoleto",
+          "team": "Audi",
+          "points": "0"
+        },
+        {
+          "position": "14",
+          "driver": "Esteban Ocon",
+          "driverId": "ocon",
+          "team": "Haas F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "15",
+          "driver": "Lance Stroll",
+          "driverId": "stroll",
+          "team": "Aston Martin",
+          "points": "0"
+        },
+        {
+          "position": "16",
+          "driver": "Fernando Alonso",
+          "driverId": "alonso",
+          "team": "Aston Martin",
+          "points": "0"
+        },
+        {
+          "position": "17",
+          "driver": "Alexander Albon",
+          "driverId": "albon",
+          "team": "Williams",
+          "points": "0"
+        },
+        {
+          "position": "18",
+          "driver": "Carlos Sainz",
+          "driverId": "sainz",
+          "team": "Williams",
+          "points": "0"
+        },
+        {
+          "position": "19",
+          "driver": "Sergio Pérez",
+          "driverId": "perez",
+          "team": "Cadillac F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "20",
+          "driver": "Valtteri Bottas",
+          "driverId": "bottas",
+          "team": "Cadillac F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "21",
+          "driver": "Franco Colapinto",
+          "driverId": "colapinto",
+          "team": "Alpine F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "22",
+          "driver": "Oliver Bearman",
+          "driverId": "bearman",
+          "team": "Haas F1 Team",
+          "points": "0"
+        }
+      ],
+      "winner": "Andrea Kimi Antonelli"
     }
   ]
 }

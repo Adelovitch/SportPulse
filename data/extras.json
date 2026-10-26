@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-26T00:44:01.878355Z",
+  "updatedAt": "2026-10-26T04:57:46.251802Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -960,28 +960,14 @@
       "winner": "Andrea Kimi Antonelli"
     },
     {
-      "id": "thesportsdb:2601706",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Philadelphia 76ers",
-      "away": "Detroit Pistons",
-      "utcDate": "2026-10-25T23:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/e410901759234761.jpg"
-    },
-    {
       "id": "thesportsdb:2601707",
       "sport": "Basketball",
       "competition": "NBA",
       "home": "Sacramento Kings",
       "away": "Memphis Grizzlies",
       "utcDate": "2026-10-26T01:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "112 – 123",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",

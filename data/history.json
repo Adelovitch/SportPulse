@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-26T21:56:29.593489Z",
+  "updatedAt": "2026-10-26T22:48:08.042670Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4225,6 +4225,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/524.png",
       "awayLogo": "https://crests.football-data.org/523.png"
+    },
+    {
+      "id": "football-data:564721",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Sevilla FC",
+      "away": "CA Osasuna",
+      "utcDate": "2026-10-26T20:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/559.png",
+      "awayLogo": "https://crests.football-data.org/79.png"
     }
   ]
 }

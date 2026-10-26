@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-26T13:19:16.163363Z",
+  "updatedAt": "2026-10-26T21:56:29.593489Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4199,6 +4199,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/498.png",
       "awayLogo": "https://crests.football-data.org/5527.png"
+    },
+    {
+      "id": "football-data:567331",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "CD Santa Clara",
+      "away": "Sport Lisboa e Benfica",
+      "utcDate": "2026-10-26T18:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5530.png",
+      "awayLogo": "https://crests.football-data.org/1903.png"
+    },
+    {
+      "id": "football-data:559648",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Paris Saint-Germain FC",
+      "away": "Olympique Lyonnais",
+      "utcDate": "2026-10-26T19:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/524.png",
+      "awayLogo": "https://crests.football-data.org/523.png"
     }
   ]
 }

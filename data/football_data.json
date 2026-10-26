@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-26T13:16:47.324362Z",
+  "updatedAt": "2026-10-26T21:54:00.105310Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,84 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:558579",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Atalanta BC",
-      "away": "Venezia FC",
-      "utcDate": "2026-10-12T16:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/102.png",
-      "awayLogo": "https://crests.football-data.org/454.png"
-    },
-    {
-      "id": "football-data:558587",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Torino FC",
-      "away": "Udinese Calcio",
-      "utcDate": "2026-10-12T18:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/586.png",
-      "awayLogo": "https://crests.football-data.org/115.png"
-    },
-    {
-      "id": "football-data:560597",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Coventry City FC",
-      "away": "Newcastle United FC",
-      "utcDate": "2026-10-12T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1076.png",
-      "awayLogo": "https://crests.football-data.org/67.png"
-    },
-    {
-      "id": "football-data:564704",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Levante UD",
-      "away": "Sevilla FC",
-      "utcDate": "2026-10-12T19:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/88.png",
-      "awayLogo": "https://crests.football-data.org/559.png"
-    },
-    {
-      "id": "football-data:555034",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Coritiba FBC",
-      "away": "Botafogo FR",
-      "utcDate": "2026-10-12T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/4241.png",
-      "awayLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": "football-data:567325",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "FC Famalicão",
-      "away": "FC Alverca",
-      "utcDate": "2026-10-12T19:15:00Z",
-      "status": "FINISHED",
-      "score": "1 – 4",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5531.png",
-      "awayLogo": "https://crests.football-data.org/7822.png"
-    },
     {
       "id": "football-data:555033",
       "sport": "Football",
@@ -2349,8 +2271,8 @@
       "home": "AS Monaco FC",
       "away": "Lille OSC",
       "utcDate": "2026-10-25T14:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/548.png",
       "awayLogo": "https://crests.football-data.org/521.png"
@@ -2479,8 +2401,8 @@
       "home": "Olympique de Marseille",
       "away": "Le Havre AC",
       "utcDate": "2026-10-25T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "4 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/516.png",
       "awayLogo": "https://crests.football-data.org/533.png"
@@ -2492,8 +2414,8 @@
       "home": "Stade Rennais FC 1901",
       "away": "RC Strasbourg Alsace",
       "utcDate": "2026-10-25T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/529.png",
       "awayLogo": "https://crests.football-data.org/576.png"
@@ -2505,8 +2427,8 @@
       "home": "Angers SCO",
       "away": "FC Lorient",
       "utcDate": "2026-10-25T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/532.png",
       "awayLogo": "https://crests.football-data.org/525.png"
@@ -2518,8 +2440,8 @@
       "home": "Toulouse FC",
       "away": "ES Troyes AC",
       "utcDate": "2026-10-25T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/511.png",
       "awayLogo": "https://crests.football-data.org/531.png"
@@ -2531,8 +2453,8 @@
       "home": "AJ Auxerre",
       "away": "Le Mans FC",
       "utcDate": "2026-10-25T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/519.png",
       "awayLogo": "https://crests.football-data.org/535.png"
@@ -2661,8 +2583,8 @@
       "home": "CD Santa Clara",
       "away": "Sport Lisboa e Benfica",
       "utcDate": "2026-10-26T18:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5530.png",
       "awayLogo": "https://crests.football-data.org/1903.png"
@@ -2674,8 +2596,8 @@
       "home": "Paris Saint-Germain FC",
       "away": "Olympique Lyonnais",
       "utcDate": "2026-10-26T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/524.png",
       "awayLogo": "https://crests.football-data.org/523.png"
@@ -5297,8 +5219,21 @@
   "tables": {
     "Ligue 1": [
       {
-        "team": "Stade Rennais FC 1901",
+        "team": "Paris Saint-Germain FC",
         "rank": 1,
+        "played": 8,
+        "logo": "https://crests.football-data.org/524.png",
+        "won": 5,
+        "drawn": 2,
+        "lost": 1,
+        "gf": 16,
+        "ga": 9,
+        "points": 17,
+        "goalDifference": 7
+      },
+      {
+        "team": "Stade Rennais FC 1901",
+        "rank": 2,
         "played": 8,
         "logo": "https://crests.football-data.org/529.png",
         "won": 5,
@@ -5311,7 +5246,7 @@
       },
       {
         "team": "Lille OSC",
-        "rank": 2,
+        "rank": 3,
         "played": 8,
         "logo": "https://crests.football-data.org/521.png",
         "won": 4,
@@ -5324,7 +5259,7 @@
       },
       {
         "team": "AS Monaco FC",
-        "rank": 3,
+        "rank": 4,
         "played": 8,
         "logo": "https://crests.football-data.org/548.png",
         "won": 4,
@@ -5337,29 +5272,16 @@
       },
       {
         "team": "Olympique Lyonnais",
-        "rank": 4,
-        "played": 7,
+        "rank": 5,
+        "played": 8,
         "logo": "https://crests.football-data.org/523.png",
         "won": 4,
         "drawn": 2,
-        "lost": 1,
+        "lost": 2,
         "gf": 13,
-        "ga": 5,
+        "ga": 7,
         "points": 14,
-        "goalDifference": 8
-      },
-      {
-        "team": "Paris Saint-Germain FC",
-        "rank": 5,
-        "played": 7,
-        "logo": "https://crests.football-data.org/524.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 1,
-        "gf": 14,
-        "ga": 9,
-        "points": 14,
-        "goalDifference": 5
+        "goalDifference": 6
       },
       {
         "team": "Paris FC",
@@ -5862,15 +5784,15 @@
       {
         "team": "Sevilla FC",
         "rank": 6,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/559.png",
-        "won": 4,
+        "won": 5,
         "drawn": 2,
         "lost": 3,
-        "gf": 14,
+        "gf": 16,
         "ga": 16,
-        "points": 14,
-        "goalDifference": -2
+        "points": 17,
+        "goalDifference": 0
       },
       {
         "team": "Deportivo Alavés",
@@ -5940,15 +5862,15 @@
       {
         "team": "CA Osasuna",
         "rank": 12,
-        "played": 9,
+        "played": 10,
         "logo": "https://crests.football-data.org/79.png",
         "won": 3,
         "drawn": 2,
-        "lost": 4,
+        "lost": 5,
         "gf": 10,
-        "ga": 18,
+        "ga": 20,
         "points": 11,
-        "goalDifference": -8
+        "goalDifference": -10
       },
       {
         "team": "Real Racing Club de Santander",
@@ -7040,15 +6962,15 @@
       {
         "team": "Sport Lisboa e Benfica",
         "rank": 2,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/1903.png",
-        "won": 6,
+        "won": 7,
         "drawn": 1,
         "lost": 1,
-        "gf": 24,
-        "ga": 7,
-        "points": 19,
-        "goalDifference": 17
+        "gf": 26,
+        "ga": 8,
+        "points": 22,
+        "goalDifference": 18
       },
       {
         "team": "Sporting Clube de Portugal",
@@ -7066,15 +6988,15 @@
       {
         "team": "CD Santa Clara",
         "rank": 4,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/5530.png",
         "won": 5,
         "drawn": 3,
-        "lost": 0,
-        "gf": 12,
-        "ga": 4,
+        "lost": 1,
+        "gf": 13,
+        "ga": 6,
         "points": 18,
-        "goalDifference": 8
+        "goalDifference": 7
       },
       {
         "team": "FC Arouca",

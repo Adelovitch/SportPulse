@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "totalEvents": 24,
+  "totalEvents": 29,
   "sports": {
     "Basketball": {
-      "count": 18,
+      "count": 23,
       "seasons": {
         "2026-2027": {
-          "count": 18,
+          "count": 23,
           "competitions": {
             "NBA": {
-              "count": 18,
+              "count": 23,
               "eventIds": [
                 "thesportsdb:2601667",
                 "thesportsdb:2601668",
@@ -29,7 +29,12 @@
                 "thesportsdb:2601697",
                 "thesportsdb:2601698",
                 "thesportsdb:2601700",
-                "thesportsdb:2601707"
+                "thesportsdb:2601707",
+                "thesportsdb:2601708",
+                "thesportsdb:2601712",
+                "thesportsdb:2601713",
+                "thesportsdb:2601714",
+                "thesportsdb:2601716"
               ]
             }
           }

@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 332,
+  "totalMatches": 335,
   "seasons": {
     "2026-2027": {
-      "count": 332,
+      "count": 335,
       "competitions": {
         "2. Bundesliga": {
           "count": 27,
@@ -325,8 +325,11 @@
           ]
         },
         "Serie A": {
-          "count": 30,
+          "count": 33,
           "matchIds": [
+            "football-data:558555",
+            "football-data:558556",
+            "football-data:558557",
             "football-data:558559",
             "football-data:558560",
             "football-data:558561",

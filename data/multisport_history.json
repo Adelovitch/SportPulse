@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-28T05:56:59.303891Z",
+  "updatedAt": "2026-10-28T13:13:39.558248Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1366,6 +1366,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/i93uhs1759234309.jpg"
+    },
+    {
+      "id": "thesportsdb:2601720",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Portland Trail Blazers",
+      "utcDate": "2026-10-28T03:00:00Z",
+      "status": "FINISHED",
+      "score": "129 – 136",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/tkbzec1759233067.jpg"
     }
   ]
 }

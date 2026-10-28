@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-28T05:54:10.303425Z",
+  "updatedAt": "2026-10-28T13:11:04.740165Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -994,8 +994,8 @@
       "home": "Los Angeles Lakers",
       "away": "Portland Trail Blazers",
       "utcDate": "2026-10-28T03:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "129 – 136",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",

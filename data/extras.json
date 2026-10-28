@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-27T22:23:17.425998Z",
+  "updatedAt": "2026-10-28T01:45:16.087368Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -707,48 +707,6 @@
       "winner": "Max Verstappen"
     },
     {
-      "id": "thesportsdb:2601697",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Chicago Bulls",
-      "away": "Washington Wizards",
-      "utcDate": "2026-10-25T00:00:00Z",
-      "status": "FINISHED",
-      "score": "120 – 124",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4xuax21759233367.jpg"
-    },
-    {
-      "id": "thesportsdb:2601698",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Dallas Mavericks",
-      "away": "San Antonio Spurs",
-      "utcDate": "2026-10-25T00:00:00Z",
-      "status": "FINISHED",
-      "score": "106 – 122",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/08xaft1759234184.jpg"
-    },
-    {
-      "id": "thesportsdb:2601696",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Atlanta Hawks",
-      "away": "Houston Rockets",
-      "utcDate": "2026-10-25T00:30:00Z",
-      "status": "FINISHED",
-      "score": "114 – 121",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/96dr361759234092.jpg"
-    },
-    {
       "id": "jolpica:f1:2026:18",
       "sport": "Formule 1",
       "competition": "Championnat du monde F1",
@@ -1002,32 +960,18 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/cyaqcx1759234609.jpg"
     },
     {
-      "id": "thesportsdb:2601716",
+      "id": "thesportsdb:2601719",
       "sport": "Basketball",
       "competition": "NBA",
-      "home": "Denver Nuggets",
-      "away": "Golden State Warriors",
-      "utcDate": "2026-10-27T02:00:00Z",
-      "status": "FINISHED",
-      "score": "114 – 134",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/63d10j1759234706.jpg"
-    },
-    {
-      "id": "thesportsdb:2601717",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Boston Celtics",
-      "away": "Brooklyn Nets",
-      "utcDate": "2026-10-27T23:30:00Z",
+      "home": "San Antonio Spurs",
+      "away": "Sacramento Kings",
+      "utcDate": "2026-10-28T00:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/esjvsh1759234383.jpg"
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/i93uhs1759234309.jpg"
     },
     {
       "id": "thesportsdb:2601718",
@@ -1042,20 +986,6 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/l5dwzf1759234281.jpg"
-    },
-    {
-      "id": "thesportsdb:2601719",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "San Antonio Spurs",
-      "away": "Sacramento Kings",
-      "utcDate": "2026-10-28T00:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/i93uhs1759234309.jpg"
     },
     {
       "id": "thesportsdb:2601720",
@@ -1112,6 +1042,48 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/kq00ds1759234060.jpg"
+    },
+    {
+      "id": "thesportsdb:2601734",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Sacramento Kings",
+      "utcDate": "2026-10-30T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/p89q7r1759234231.jpg"
+    },
+    {
+      "id": "thesportsdb:2601735",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Portland Trail Blazers",
+      "away": "Memphis Grizzlies",
+      "utcDate": "2026-10-30T02:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c70t1o1759234214.jpg"
+    },
+    {
+      "id": "thesportsdb:2601736",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Washington Wizards",
+      "away": "Charlotte Hornets",
+      "utcDate": "2026-10-30T23:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/d23n7m1759234323.jpg"
     },
     {
       "id": "jolpica:f1:2026:19",

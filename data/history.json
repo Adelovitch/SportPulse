@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-28T20:27:06.981191Z",
+  "updatedAt": "2026-10-28T22:43:53.551665Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4342,6 +4342,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/112.png",
       "awayLogo": "https://crests.football-data.org/115.png"
+    },
+    {
+      "id": "football-data:558552",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "Juventus FC",
+      "utcDate": "2026-10-28T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/107.png",
+      "awayLogo": "https://crests.football-data.org/109.png"
+    },
+    {
+      "id": "football-data:558554",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "SSC Napoli",
+      "utcDate": "2026-10-28T19:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5911.png",
+      "awayLogo": "https://crests.football-data.org/113.png"
     }
   ]
 }

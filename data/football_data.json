@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T20:24:40.539665Z",
+  "updatedAt": "2026-10-28T22:41:22.776824Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2310,8 +2310,8 @@
       "home": "Genoa CFC",
       "away": "Juventus FC",
       "utcDate": "2026-10-28T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/107.png",
       "awayLogo": "https://crests.football-data.org/109.png"
@@ -2323,8 +2323,8 @@
       "home": "AC Monza",
       "away": "SSC Napoli",
       "utcDate": "2026-10-28T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 4",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5911.png",
       "awayLogo": "https://crests.football-data.org/113.png"
@@ -5758,8 +5758,21 @@
         "goalDifference": 7
       },
       {
-        "team": "Frosinone Calcio",
+        "team": "SSC Napoli",
         "rank": 6,
+        "played": 9,
+        "logo": "https://crests.football-data.org/113.png",
+        "won": 4,
+        "drawn": 2,
+        "lost": 3,
+        "gf": 17,
+        "ga": 11,
+        "points": 14,
+        "goalDifference": 6
+      },
+      {
+        "team": "Frosinone Calcio",
+        "rank": 7,
         "played": 8,
         "logo": "https://crests.football-data.org/470.png",
         "won": 4,
@@ -5767,19 +5780,6 @@
         "lost": 2,
         "gf": 17,
         "ga": 13,
-        "points": 14,
-        "goalDifference": 4
-      },
-      {
-        "team": "SSC Napoli",
-        "rank": 7,
-        "played": 9,
-        "logo": "https://crests.football-data.org/113.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 14,
-        "ga": 10,
         "points": 14,
         "goalDifference": 4
       },
@@ -5895,10 +5895,10 @@
         "won": 2,
         "drawn": 1,
         "lost": 6,
-        "gf": 15,
-        "ga": 19,
+        "gf": 16,
+        "ga": 22,
         "points": 7,
-        "goalDifference": -4
+        "goalDifference": -6
       },
       {
         "team": "Udinese Calcio",
@@ -6912,14 +6912,14 @@
       {
         "team": "SE Palmeiras",
         "rank": 2,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1769.png",
         "won": 20,
-        "drawn": 9,
+        "drawn": 10,
         "lost": 3,
         "gf": 56,
         "ga": 22,
-        "points": 69,
+        "points": 70,
         "goalDifference": 34
       },
       {
@@ -6951,14 +6951,14 @@
       {
         "team": "Fluminense FC",
         "rank": 5,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1765.png",
         "won": 14,
-        "drawn": 9,
+        "drawn": 10,
         "lost": 9,
         "gf": 50,
         "ga": 41,
-        "points": 51,
+        "points": 52,
         "goalDifference": 9
       },
       {
@@ -6990,14 +6990,14 @@
       {
         "team": "Santos FC",
         "rank": 8,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/6685.png",
         "won": 12,
-        "drawn": 10,
+        "drawn": 11,
         "lost": 10,
         "gf": 49,
         "ga": 47,
-        "points": 46,
+        "points": 47,
         "goalDifference": 2
       },
       {
@@ -7016,14 +7016,14 @@
       {
         "team": "RB Bragantino",
         "rank": 10,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/4286.png",
         "won": 11,
-        "drawn": 8,
+        "drawn": 9,
         "lost": 13,
         "gf": 39,
         "ga": 38,
-        "points": 41,
+        "points": 42,
         "goalDifference": 1
       },
       {
@@ -7094,14 +7094,14 @@
       {
         "team": "SC Internacional",
         "rank": 16,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/6684.png",
         "won": 8,
-        "drawn": 11,
+        "drawn": 12,
         "lost": 13,
         "gf": 36,
         "ga": 40,
-        "points": 35,
+        "points": 36,
         "goalDifference": -4
       },
       {
@@ -7146,14 +7146,14 @@
       {
         "team": "Chapecoense AF",
         "rank": 20,
-        "played": 31,
+        "played": 32,
         "logo": "https://crests.football-data.org/1772_large.png",
         "won": 4,
-        "drawn": 9,
+        "drawn": 10,
         "lost": 18,
         "gf": 32,
         "ga": 63,
-        "points": 21,
+        "points": 22,
         "goalDifference": -31
       }
     ],

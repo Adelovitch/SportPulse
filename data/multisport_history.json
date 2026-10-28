@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-27T05:17:37.060082Z",
+  "updatedAt": "2026-10-28T05:56:59.303891Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1338,6 +1338,34 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/63d10j1759234706.jpg"
+    },
+    {
+      "id": "thesportsdb:2601718",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "New York Knicks",
+      "away": "Detroit Pistons",
+      "utcDate": "2026-10-28T00:00:00Z",
+      "status": "FINISHED",
+      "score": "111 – 97",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/l5dwzf1759234281.jpg"
+    },
+    {
+      "id": "thesportsdb:2601719",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Sacramento Kings",
+      "utcDate": "2026-10-28T00:00:00Z",
+      "status": "FINISHED",
+      "score": "130 – 103",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/i93uhs1759234309.jpg"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T19:14:58.885183Z",
+  "updatedAt": "2026-10-29T22:50:54.340318Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2401,8 +2401,8 @@
       "home": "Frosinone Calcio",
       "away": "US Lecce",
       "utcDate": "2026-10-29T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "5 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/470.png",
       "awayLogo": "https://crests.football-data.org/5890.png"
@@ -2414,8 +2414,8 @@
       "home": "ACF Fiorentina",
       "away": "Atalanta BC",
       "utcDate": "2026-10-29T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/99.png",
       "awayLogo": "https://crests.football-data.org/102.png"
@@ -5765,8 +5765,8 @@
         "won": 5,
         "drawn": 2,
         "lost": 2,
-        "gf": 21,
-        "ga": 13,
+        "gf": 22,
+        "ga": 14,
         "points": 17,
         "goalDifference": 8
       },
@@ -5838,14 +5838,14 @@
       {
         "team": "Atalanta BC",
         "rank": 12,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/102.png",
         "won": 3,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 4,
-        "gf": 14,
-        "ga": 15,
-        "points": 10,
+        "gf": 16,
+        "ga": 17,
+        "points": 11,
         "goalDifference": -1
       },
       {
@@ -5869,8 +5869,8 @@
         "won": 3,
         "drawn": 0,
         "lost": 6,
-        "gf": 9,
-        "ga": 18,
+        "gf": 10,
+        "ga": 19,
         "points": 9,
         "goalDifference": -9
       },
@@ -5914,8 +5914,21 @@
         "goalDifference": -9
       },
       {
-        "team": "Parma Calcio 1913",
+        "team": "ACF Fiorentina",
         "rank": 18,
+        "played": 9,
+        "logo": "https://crests.football-data.org/99.png",
+        "won": 1,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 11,
+        "ga": 21,
+        "points": 5,
+        "goalDifference": -10
+      },
+      {
+        "team": "Parma Calcio 1913",
+        "rank": 19,
         "played": 9,
         "logo": "https://crests.football-data.org/112.png",
         "won": 1,
@@ -5924,19 +5937,6 @@
         "gf": 5,
         "ga": 15,
         "points": 5,
-        "goalDifference": -10
-      },
-      {
-        "team": "ACF Fiorentina",
-        "rank": 19,
-        "played": 8,
-        "logo": "https://crests.football-data.org/99.png",
-        "won": 1,
-        "drawn": 1,
-        "lost": 6,
-        "gf": 9,
-        "ga": 19,
-        "points": 4,
         "goalDifference": -10
       },
       {
@@ -6925,15 +6925,15 @@
       {
         "team": "Cruzeiro EC",
         "rank": 3,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1771.png",
-        "won": 16,
+        "won": 17,
         "drawn": 6,
         "lost": 10,
-        "gf": 51,
+        "gf": 52,
         "ga": 46,
-        "points": 54,
-        "goalDifference": 5
+        "points": 57,
+        "goalDifference": 6
       },
       {
         "team": "CA Paranaense",
@@ -6977,15 +6977,15 @@
       {
         "team": "CA Mineiro",
         "rank": 7,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1766.png",
         "won": 14,
         "drawn": 8,
-        "lost": 10,
+        "lost": 11,
         "gf": 44,
-        "ga": 38,
+        "ga": 39,
         "points": 50,
-        "goalDifference": 6
+        "goalDifference": 5
       },
       {
         "team": "Santos FC",

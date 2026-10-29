@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-29T06:01:09.322299Z",
+  "updatedAt": "2026-10-29T22:53:26.767090Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4433,6 +4433,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4287.png",
       "awayLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": "football-data:558558",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "US Lecce",
+      "utcDate": "2026-10-29T17:30:00Z",
+      "status": "FINISHED",
+      "score": "5 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/470.png",
+      "awayLogo": "https://crests.football-data.org/5890.png"
+    },
+    {
+      "id": "football-data:558551",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Atalanta BC",
+      "utcDate": "2026-10-29T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/99.png",
+      "awayLogo": "https://crests.football-data.org/102.png"
     }
   ]
 }

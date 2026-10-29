@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T22:50:54.340318Z",
+  "updatedAt": "2026-10-29T23:26:36.827460Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -6899,14 +6899,14 @@
       {
         "team": "CR Flamengo",
         "rank": 1,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1783.png",
         "won": 21,
-        "drawn": 7,
+        "drawn": 8,
         "lost": 4,
-        "gf": 64,
-        "ga": 27,
-        "points": 70,
+        "gf": 65,
+        "ga": 28,
+        "points": 71,
         "goalDifference": 37
       },
       {
@@ -7027,8 +7027,21 @@
         "goalDifference": 0
       },
       {
-        "team": "Botafogo FR",
+        "team": "CR Vasco da Gama",
         "rank": 11,
+        "played": 32,
+        "logo": "https://crests.football-data.org/1780.png",
+        "won": 10,
+        "drawn": 9,
+        "lost": 13,
+        "gf": 40,
+        "ga": 46,
+        "points": 39,
+        "goalDifference": -6
+      },
+      {
+        "team": "Botafogo FR",
+        "rank": 12,
         "played": 33,
         "logo": "https://crests.football-data.org/1770.png",
         "won": 10,
@@ -7041,7 +7054,7 @@
       },
       {
         "team": "Coritiba FBC",
-        "rank": 12,
+        "rank": 13,
         "played": 32,
         "logo": "https://crests.football-data.org/4241.png",
         "won": 10,
@@ -7051,19 +7064,6 @@
         "ga": 50,
         "points": 39,
         "goalDifference": -12
-      },
-      {
-        "team": "CR Vasco da Gama",
-        "rank": 13,
-        "played": 31,
-        "logo": "https://crests.football-data.org/1780.png",
-        "won": 10,
-        "drawn": 8,
-        "lost": 13,
-        "gf": 39,
-        "ga": 45,
-        "points": 38,
-        "goalDifference": -6
       },
       {
         "team": "EC Vitória",

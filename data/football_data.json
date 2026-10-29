@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T13:17:18.103476Z",
+  "updatedAt": "2026-10-29T19:14:58.885183Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -5758,8 +5758,21 @@
         "goalDifference": 7
       },
       {
-        "team": "SSC Napoli",
+        "team": "Frosinone Calcio",
         "rank": 6,
+        "played": 9,
+        "logo": "https://crests.football-data.org/470.png",
+        "won": 5,
+        "drawn": 2,
+        "lost": 2,
+        "gf": 21,
+        "ga": 13,
+        "points": 17,
+        "goalDifference": 8
+      },
+      {
+        "team": "SSC Napoli",
+        "rank": 7,
         "played": 9,
         "logo": "https://crests.football-data.org/113.png",
         "won": 4,
@@ -5769,19 +5782,6 @@
         "ga": 11,
         "points": 14,
         "goalDifference": 6
-      },
-      {
-        "team": "Frosinone Calcio",
-        "rank": 7,
-        "played": 8,
-        "logo": "https://crests.football-data.org/470.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 17,
-        "ga": 13,
-        "points": 14,
-        "goalDifference": 4
       },
       {
         "team": "Juventus FC",
@@ -5864,15 +5864,15 @@
       {
         "team": "US Lecce",
         "rank": 14,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/5890.png",
         "won": 3,
         "drawn": 0,
-        "lost": 5,
+        "lost": 6,
         "gf": 9,
-        "ga": 14,
+        "ga": 18,
         "points": 9,
-        "goalDifference": -5
+        "goalDifference": -9
       },
       {
         "team": "US Sassuolo Calcio",

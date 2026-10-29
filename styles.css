@@ -73,3 +73,15 @@
 
 /* Respect semantic visibility on sport-dependent panels and filters. */
 [hidden]{display:none!important}
+
+/* SPORTPULSE 2.1 — lightweight native dialog, accessible on mobile */
+.matchDetailButton{margin-top:12px;cursor:pointer}
+.sportDetail{width:min(760px,94vw);max-height:86vh;overflow:auto;border:1px solid #406686;border-radius:16px;padding:24px;background:#10253e;color:#e8f0fb;box-shadow:0 22px 80px #0009}
+.sportDetail::backdrop{background:#020a18bf}
+.detailTop{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.detailTop h2{margin:0;font-size:clamp(20px,4vw,29px)}
+.sportDetail p{color:#c5d4e7;line-height:1.6}
+.detailTable{width:100%;border-collapse:collapse;font-size:14px}
+.detailTable th,.detailTable td{padding:9px 7px;text-align:left;border-bottom:1px solid #36506a}
+.sportDetail ol{padding-left:22px;line-height:1.8}
+@media(max-width:600px){.sportDetail{padding:14px}.detailTable{font-size:12px}.detailTable th,.detailTable td{padding:6px 4px}}

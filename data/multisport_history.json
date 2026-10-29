@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-28T13:13:39.558248Z",
+  "updatedAt": "2026-10-29T06:01:09.246988Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1380,6 +1380,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/tkbzec1759233067.jpg"
+    },
+    {
+      "id": "thesportsdb:2601726",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Chicago Bulls",
+      "away": "New York Knicks",
+      "utcDate": "2026-10-29T00:00:00Z",
+      "status": "FINISHED",
+      "score": "127 – 133",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/7k9t521759234328.jpg"
+    },
+    {
+      "id": "thesportsdb:2601727",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Houston Rockets",
+      "utcDate": "2026-10-29T00:00:00Z",
+      "status": "FINISHED",
+      "score": "100 – 132",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/sd9c591759233209.jpg"
+    },
+    {
+      "id": "thesportsdb:2601728",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Golden State Warriors",
+      "utcDate": "2026-10-29T00:00:00Z",
+      "status": "FINISHED",
+      "score": "114 – 119",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/kq00ds1759234060.jpg"
+    },
+    {
+      "id": "thesportsdb:2601732",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Los Angeles Clippers",
+      "away": "Los Angeles Lakers",
+      "utcDate": "2026-10-29T02:30:00Z",
+      "status": "FINISHED",
+      "score": "87 – 103",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/rmfyvc1759234013.jpg"
     }
   ]
 }

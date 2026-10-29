@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-28T22:43:53.551665Z",
+  "updatedAt": "2026-10-29T06:01:09.322299Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4368,6 +4368,71 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5911.png",
       "awayLogo": "https://crests.football-data.org/113.png"
+    },
+    {
+      "id": "football-data:555062",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "RB Bragantino",
+      "away": "Chapecoense AF",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4286.png",
+      "awayLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": "football-data:555065",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Fluminense FC",
+      "away": "SC Internacional",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1765.png",
+      "awayLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": "football-data:555068",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Santos FC",
+      "away": "SE Palmeiras",
+      "utcDate": "2026-10-28T22:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6685.png",
+      "awayLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": "football-data:555061",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Bahia",
+      "away": "São Paulo FC",
+      "utcDate": "2026-10-29T00:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1777.png",
+      "awayLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": "football-data:555067",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Clube do Remo",
+      "away": "Botafogo FR",
+      "utcDate": "2026-10-29T00:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4287.png",
+      "awayLogo": "https://crests.football-data.org/1770.png"
     }
   ]
 }

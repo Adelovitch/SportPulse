@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-29T00:12:55.695559Z",
+  "updatedAt": "2026-10-29T05:58:36.481062Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2336,8 +2336,8 @@
       "home": "RB Bragantino",
       "away": "Chapecoense AF",
       "utcDate": "2026-10-28T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4286.png",
       "awayLogo": "https://crests.football-data.org/1772_large.png"
@@ -2349,8 +2349,8 @@
       "home": "Fluminense FC",
       "away": "SC Internacional",
       "utcDate": "2026-10-28T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1765.png",
       "awayLogo": "https://crests.football-data.org/6684.png"
@@ -2362,8 +2362,8 @@
       "home": "Santos FC",
       "away": "SE Palmeiras",
       "utcDate": "2026-10-28T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6685.png",
       "awayLogo": "https://crests.football-data.org/1769.png"
@@ -2375,8 +2375,8 @@
       "home": "EC Bahia",
       "away": "São Paulo FC",
       "utcDate": "2026-10-29T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1777.png",
       "awayLogo": "https://crests.football-data.org/1776.png"
@@ -2388,8 +2388,8 @@
       "home": "Clube do Remo",
       "away": "Botafogo FR",
       "utcDate": "2026-10-29T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4287.png",
       "awayLogo": "https://crests.football-data.org/1770.png"
@@ -6953,17 +6953,30 @@
         "rank": 5,
         "played": 33,
         "logo": "https://crests.football-data.org/1765.png",
-        "won": 14,
+        "won": 15,
         "drawn": 9,
-        "lost": 10,
-        "gf": 50,
+        "lost": 9,
+        "gf": 52,
         "ga": 42,
-        "points": 51,
-        "goalDifference": 8
+        "points": 54,
+        "goalDifference": 10
+      },
+      {
+        "team": "EC Bahia",
+        "rank": 6,
+        "played": 33,
+        "logo": "https://crests.football-data.org/1777.png",
+        "won": 14,
+        "drawn": 11,
+        "lost": 8,
+        "gf": 48,
+        "ga": 42,
+        "points": 53,
+        "goalDifference": 6
       },
       {
         "team": "CA Mineiro",
-        "rank": 6,
+        "rank": 7,
         "played": 32,
         "logo": "https://crests.football-data.org/1766.png",
         "won": 14,
@@ -6973,19 +6986,6 @@
         "ga": 38,
         "points": 50,
         "goalDifference": 6
-      },
-      {
-        "team": "EC Bahia",
-        "rank": 7,
-        "played": 32,
-        "logo": "https://crests.football-data.org/1777.png",
-        "won": 13,
-        "drawn": 11,
-        "lost": 8,
-        "gf": 45,
-        "ga": 40,
-        "points": 50,
-        "goalDifference": 5
       },
       {
         "team": "Santos FC",
@@ -7008,36 +7008,36 @@
         "won": 12,
         "drawn": 8,
         "lost": 13,
-        "gf": 41,
+        "gf": 42,
         "ga": 38,
         "points": 44,
-        "goalDifference": 3
+        "goalDifference": 4
       },
       {
         "team": "São Paulo FC",
         "rank": 10,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1776.png",
         "won": 12,
         "drawn": 7,
-        "lost": 13,
-        "gf": 37,
-        "ga": 36,
+        "lost": 14,
+        "gf": 39,
+        "ga": 39,
         "points": 43,
-        "goalDifference": 1
+        "goalDifference": 0
       },
       {
         "team": "Botafogo FR",
         "rank": 11,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1770.png",
         "won": 10,
         "drawn": 9,
-        "lost": 13,
-        "gf": 44,
-        "ga": 51,
+        "lost": 14,
+        "gf": 45,
+        "ga": 53,
         "points": 39,
-        "goalDifference": -7
+        "goalDifference": -8
       },
       {
         "team": "Coritiba FBC",
@@ -7079,21 +7079,8 @@
         "goalDifference": -11
       },
       {
-        "team": "SC Internacional",
-        "rank": 15,
-        "played": 33,
-        "logo": "https://crests.football-data.org/6684.png",
-        "won": 9,
-        "drawn": 11,
-        "lost": 13,
-        "gf": 37,
-        "ga": 40,
-        "points": 38,
-        "goalDifference": -3
-      },
-      {
         "team": "Mirassol FC",
-        "rank": 16,
+        "rank": 15,
         "played": 32,
         "logo": "https://crests.football-data.org/4364.png",
         "won": 9,
@@ -7103,6 +7090,19 @@
         "ga": 45,
         "points": 37,
         "goalDifference": -8
+      },
+      {
+        "team": "SC Internacional",
+        "rank": 16,
+        "played": 33,
+        "logo": "https://crests.football-data.org/6684.png",
+        "won": 8,
+        "drawn": 11,
+        "lost": 14,
+        "gf": 37,
+        "ga": 42,
+        "points": 35,
+        "goalDifference": -5
       },
       {
         "team": "Grêmio FBPA",
@@ -7133,15 +7133,15 @@
       {
         "team": "Clube do Remo",
         "rank": 19,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/4287.png",
-        "won": 5,
+        "won": 6,
         "drawn": 11,
         "lost": 16,
-        "gf": 34,
-        "ga": 50,
-        "points": 26,
-        "goalDifference": -16
+        "gf": 36,
+        "ga": 51,
+        "points": 29,
+        "goalDifference": -15
       },
       {
         "team": "Chapecoense AF",
@@ -7152,9 +7152,9 @@
         "drawn": 9,
         "lost": 19,
         "gf": 32,
-        "ga": 65,
+        "ga": 66,
         "points": 21,
-        "goalDifference": -33
+        "goalDifference": -34
       }
     ],
     "Championship": [

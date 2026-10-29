@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-28T22:41:22.776824Z",
+  "updatedAt": "2026-10-29T00:12:55.695559Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -6954,12 +6954,12 @@
         "played": 33,
         "logo": "https://crests.football-data.org/1765.png",
         "won": 14,
-        "drawn": 10,
-        "lost": 9,
+        "drawn": 9,
+        "lost": 10,
         "gf": 50,
-        "ga": 41,
-        "points": 52,
-        "goalDifference": 9
+        "ga": 42,
+        "points": 51,
+        "goalDifference": 8
       },
       {
         "team": "CA Mineiro",
@@ -7001,8 +7001,21 @@
         "goalDifference": 2
       },
       {
-        "team": "São Paulo FC",
+        "team": "RB Bragantino",
         "rank": 9,
+        "played": 33,
+        "logo": "https://crests.football-data.org/4286.png",
+        "won": 12,
+        "drawn": 8,
+        "lost": 13,
+        "gf": 41,
+        "ga": 38,
+        "points": 44,
+        "goalDifference": 3
+      },
+      {
+        "team": "São Paulo FC",
+        "rank": 10,
         "played": 32,
         "logo": "https://crests.football-data.org/1776.png",
         "won": 12,
@@ -7011,19 +7024,6 @@
         "gf": 37,
         "ga": 36,
         "points": 43,
-        "goalDifference": 1
-      },
-      {
-        "team": "RB Bragantino",
-        "rank": 10,
-        "played": 33,
-        "logo": "https://crests.football-data.org/4286.png",
-        "won": 11,
-        "drawn": 9,
-        "lost": 13,
-        "gf": 39,
-        "ga": 38,
-        "points": 42,
         "goalDifference": 1
       },
       {
@@ -7079,8 +7079,21 @@
         "goalDifference": -11
       },
       {
-        "team": "Mirassol FC",
+        "team": "SC Internacional",
         "rank": 15,
+        "played": 33,
+        "logo": "https://crests.football-data.org/6684.png",
+        "won": 9,
+        "drawn": 11,
+        "lost": 13,
+        "gf": 37,
+        "ga": 40,
+        "points": 38,
+        "goalDifference": -3
+      },
+      {
+        "team": "Mirassol FC",
+        "rank": 16,
         "played": 32,
         "logo": "https://crests.football-data.org/4364.png",
         "won": 9,
@@ -7090,19 +7103,6 @@
         "ga": 45,
         "points": 37,
         "goalDifference": -8
-      },
-      {
-        "team": "SC Internacional",
-        "rank": 16,
-        "played": 33,
-        "logo": "https://crests.football-data.org/6684.png",
-        "won": 8,
-        "drawn": 12,
-        "lost": 13,
-        "gf": 36,
-        "ga": 40,
-        "points": 36,
-        "goalDifference": -4
       },
       {
         "team": "Grêmio FBPA",
@@ -7149,12 +7149,12 @@
         "played": 32,
         "logo": "https://crests.football-data.org/1772_large.png",
         "won": 4,
-        "drawn": 10,
-        "lost": 18,
+        "drawn": 9,
+        "lost": 19,
         "gf": 32,
-        "ga": 63,
-        "points": 22,
-        "goalDifference": -31
+        "ga": 65,
+        "points": 21,
+        "goalDifference": -33
       }
     ],
     "Championship": [

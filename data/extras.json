@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-10-28T22:41:17.581011Z",
+  "updatedAt": "2026-10-29T00:12:50.301282Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:12",
@@ -876,48 +876,6 @@
       "winner": "Andrea Kimi Antonelli"
     },
     {
-      "id": "thesportsdb:2601707",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Sacramento Kings",
-      "away": "Memphis Grizzlies",
-      "utcDate": "2026-10-26T01:00:00Z",
-      "status": "FINISHED",
-      "score": "112 – 123",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/heq9kc1759234173.jpg"
-    },
-    {
-      "id": "thesportsdb:2601708",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Charlotte Hornets",
-      "away": "Washington Wizards",
-      "utcDate": "2026-10-26T23:00:00Z",
-      "status": "FINISHED",
-      "score": "110 – 103",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4ewm101759234031.jpg"
-    },
-    {
-      "id": "thesportsdb:2601709",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Cleveland Cavaliers",
-      "away": "Minnesota Timberwolves",
-      "utcDate": "2026-10-26T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/zpv33n1759233859.jpg"
-    },
-    {
       "id": "thesportsdb:2601712",
       "sport": "Basketball",
       "competition": "NBA",
@@ -1002,18 +960,18 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/tkbzec1759233067.jpg"
     },
     {
-      "id": "thesportsdb:2601721",
+      "id": "thesportsdb:2601729",
       "sport": "Basketball",
       "competition": "NBA",
-      "home": "Indiana Pacers",
-      "away": "Philadelphia 76ers",
-      "utcDate": "2026-10-28T23:00:00Z",
+      "home": "New Orleans Pelicans",
+      "away": "Denver Nuggets",
+      "utcDate": "2026-10-29T00:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/a8mvss1759234338.jpg"
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/6un5su1759233899.jpg"
     },
     {
       "id": "thesportsdb:2601726",
@@ -1058,6 +1016,20 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/kq00ds1759234060.jpg"
     },
     {
+      "id": "thesportsdb:2601730",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Utah Jazz",
+      "away": "San Antonio Spurs",
+      "utcDate": "2026-10-29T01:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/bdlw781759234010.jpg"
+    },
+    {
       "id": "thesportsdb:2601733",
       "sport": "Basketball",
       "competition": "NBA",
@@ -1098,6 +1070,48 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c70t1o1759234214.jpg"
+    },
+    {
+      "id": "thesportsdb:2601741",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Los Angeles Clippers",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/lafjur1759234219.jpg"
+    },
+    {
+      "id": "thesportsdb:2601742",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Houston Rockets",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4azkmt1759233775.jpg"
+    },
+    {
+      "id": "thesportsdb:2601743",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Indiana Pacers",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/3sf8iy1759233688.jpg"
     },
     {
       "id": "jolpica:f1:2026:19",

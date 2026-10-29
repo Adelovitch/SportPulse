@@ -90,3 +90,11 @@ Le collecteur ne dépend plus seulement des endpoints « prochain / précédent 
 - NBA : matchs terminés réellement recueillis (archive et collecte actuelle) dédupliqués par identifiant ; matchs de l'échantillon, victoires, défaites et points marqués/encaissés par match. **Aucune extrapolation** au classement officiel de saison.
 - Aucune probabilité, cote, pronostic ni résultat fictif. En l'absence de deux participants avec données vérifiées, un état « indisponible » est affiché.
 - La validation complète du JavaScript dans GitHub Actions et la vérification de l'ergonomie en production sont requises avant de considérer ce lot comme validé.
+
+### LOT 2.1 — fiches détaillées des rencontres (29 octobre 2026)
+- Chaque carte Résultats propose un bouton **Voir la fiche** qui ouvre une fenêtre native `<dialog>`, refermable au clavier (Échap) ou par le bouton Fermer. Responsive sans framework ni requêtes supplémentaires aux fournisseurs depuis le navigateur.
+- **Football :** affiche le match, le score confirmé ou son absence, le fournisseur et jusqu'à cinq confrontations directes réellement présentes dans `data/history.json`.
+- **NBA :** même approche avec `data/multisport_history.json` et `data/extras.json` ; aucun score par quart-temps artificiel.
+- **F1 :** quand la course est archivée avec une `classification` vérifiée, affiche vainqueur et tableau des pilotes/écuries/points ; sinon un message d'indisponibilité.
+- Contrôles structurels dans `tests/test_match_detail.py`, complétés par la vérification syntaxique JavaScript existante du workflow.
+- À confirmer : nouvelle exécution GitHub Actions sur ce commit et test fonctionnel du dialogue sur la version Cloudflare.

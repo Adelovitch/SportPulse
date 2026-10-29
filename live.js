@@ -64,7 +64,10 @@
       const teams=make('div','teams');
       teams.append(teamName(m.home||'Événement',m.homeLogo),make('strong','',m.eventType==='race'?'🏁':(m.score||'–')),teamName(m.away||'Lieu inconnu',m.awayLogo));
       const foot=make('div','matchbottom');foot.append(make('span','',m.eventType==='race'?(m.status==='FINISHED'&&m.winner?'Terminé · Vainqueur : '+m.winner:'Grand Prix (calendrier / résultat non confirmé)'):(m.status==='FINISHED'?'Terminé':'Programmé / résultat non confirmé')),make('span','tag',m.sport||'Sport'));
-      card.append(top,teams,foot);target.append(card);
+      const detailButton=make('button','resetbtn matchDetailButton','Voir la fiche →');
+      detailButton.type='button';detailButton.setAttribute('aria-label','Voir la fiche de '+(m.home||'la rencontre'));
+      detailButton.addEventListener('click',()=>document.dispatchEvent(new CustomEvent('sportpulse:open-match',{detail:{match:m}})));
+      card.append(top,teams,foot,detailButton);target.append(card);
     }
   }
   const syncStandings=()=>document.dispatchEvent(new CustomEvent('sportpulse:filters',{detail:{sport:sport.value,competition:competition.value}}));

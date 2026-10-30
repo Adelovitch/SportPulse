@@ -1,10 +1,9 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T02:59:16.841107Z",
+  "updatedAt": "2026-10-30T05:59:31.638256Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
-    "La Liga",
     "Serie A",
     "Ligue des champions",
     "Eredivisie",
@@ -53,19 +52,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/470.png",
       "awayLogo": "https://crests.football-data.org/471.png"
-    },
-    {
-      "id": "football-data:564716",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RC Deportivo La Coruña",
-      "away": "Levante UD",
-      "utcDate": "2026-10-16T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/560.png",
-      "awayLogo": "https://crests.football-data.org/88.png"
     },
     {
       "id": "football-data:561883",
@@ -144,19 +130,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/346.png",
       "awayLogo": "https://crests.football-data.org/348.png"
-    },
-    {
-      "id": "football-data:564710",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RCD Espanyol de Barcelona",
-      "away": "Club Atlético de Madrid",
-      "utcDate": "2026-10-17T12:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/80.png",
-      "awayLogo": "https://crests.football-data.org/78.png"
     },
     {
       "id": "football-data:558575",
@@ -315,19 +288,6 @@
       "awayLogo": "https://crests.football-data.org/1081.png"
     },
     {
-      "id": "football-data:564708",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Villarreal CF",
-      "away": "Elche CF",
-      "utcDate": "2026-10-17T14:15:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/94.png",
-      "awayLogo": "https://crests.football-data.org/285.png"
-    },
-    {
       "id": "football-data:558871",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -380,19 +340,6 @@
       "awayLogo": "https://crests.football-data.org/58.png"
     },
     {
-      "id": "football-data:564713",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Betis Balompié",
-      "away": "FC Barcelona",
-      "utcDate": "2026-10-17T16:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 5",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/90.png",
-      "awayLogo": "https://crests.football-data.org/81.png"
-    },
-    {
       "id": "football-data:558869",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -443,19 +390,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/100.png",
       "awayLogo": "https://crests.football-data.org/107.png"
-    },
-    {
-      "id": "football-data:564711",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Valencia CF",
-      "away": "Athletic Club",
-      "utcDate": "2026-10-17T19:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/95.png",
-      "awayLogo": "https://crests.football-data.org/77.png"
     },
     {
       "id": "football-data:558868",
@@ -549,19 +483,6 @@
       "awayLogo": "https://crests.football-data.org/5890.png"
     },
     {
-      "id": "football-data:564715",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "CA Osasuna",
-      "away": "Real Racing Club de Santander",
-      "utcDate": "2026-10-18T12:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/79.png",
-      "awayLogo": "https://crests.football-data.org/5335.png"
-    },
-    {
       "id": "football-data:558865",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -638,19 +559,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/99.png",
       "awayLogo": "https://crests.football-data.org/7397.png"
-    },
-    {
-      "id": "football-data:564712",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RC Celta de Vigo",
-      "away": "Deportivo Alavés",
-      "utcDate": "2026-10-18T14:15:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/558.png",
-      "awayLogo": "https://crests.football-data.org/263.png"
     },
     {
       "id": "football-data:558864",
@@ -731,19 +639,6 @@
       "awayLogo": "https://crests.football-data.org/102.png"
     },
     {
-      "id": "football-data:564714",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Málaga CF",
-      "away": "Real Sociedad de Fútbol",
-      "utcDate": "2026-10-18T16:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 5",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/84.png",
-      "awayLogo": "https://crests.football-data.org/92.png"
-    },
-    {
       "id": "football-data:558866",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -794,19 +689,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/109.png",
       "awayLogo": "https://crests.football-data.org/110.png"
-    },
-    {
-      "id": "football-data:564709",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Madrid CF",
-      "away": "Sevilla FC",
-      "utcDate": "2026-10-18T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/86.png",
-      "awayLogo": "https://crests.football-data.org/559.png"
     },
     {
       "id": "football-data:555045",
@@ -898,19 +780,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/73.png",
       "awayLogo": "https://crests.football-data.org/1076.png"
-    },
-    {
-      "id": "football-data:564717",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Getafe CF",
-      "away": "Rayo Vallecano de Madrid",
-      "utcDate": "2026-10-19T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/82.png",
-      "awayLogo": "https://crests.football-data.org/87.png"
     },
     {
       "id": "football-data:567271",
@@ -1095,19 +964,6 @@
       "awayLogo": "https://crests.football-data.org/610.png"
     },
     {
-      "id": "football-data:564685",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "utcDate": "2026-10-21T18:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/88.png",
-      "awayLogo": "https://crests.football-data.org/77.png"
-    },
-    {
       "id": "football-data:575370",
       "sport": "Football",
       "competition": "Ligue des champions",
@@ -1251,19 +1107,6 @@
       "awayLogo": "https://crests.football-data.org/351.png"
     },
     {
-      "id": "football-data:564719",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Deportivo Alavés",
-      "away": "Málaga CF",
-      "utcDate": "2026-10-23T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/263.png",
-      "awayLogo": "https://crests.football-data.org/84.png"
-    },
-    {
       "id": "football-data:561894",
       "sport": "Football",
       "competition": "Championship",
@@ -1353,19 +1196,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/325.png",
       "awayLogo": "https://crests.football-data.org/384.png"
-    },
-    {
-      "id": "football-data:564718",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "Elche CF",
-      "utcDate": "2026-10-24T12:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/87.png",
-      "awayLogo": "https://crests.football-data.org/285.png"
     },
     {
       "id": "football-data:558560",
@@ -1524,19 +1354,6 @@
       "awayLogo": "https://crests.football-data.org/346.png"
     },
     {
-      "id": "football-data:564727",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "RCD Espanyol de Barcelona",
-      "utcDate": "2026-10-24T14:15:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5335.png",
-      "awayLogo": "https://crests.football-data.org/80.png"
-    },
-    {
       "id": "football-data:558862",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -1589,19 +1406,6 @@
       "awayLogo": "https://crests.football-data.org/73.png"
     },
     {
-      "id": "football-data:564722",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Valencia CF",
-      "away": "Villarreal CF",
-      "utcDate": "2026-10-24T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/95.png",
-      "awayLogo": "https://crests.football-data.org/94.png"
-    },
-    {
       "id": "football-data:558861",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -1652,19 +1456,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/110.png",
       "awayLogo": "https://crests.football-data.org/112.png"
-    },
-    {
-      "id": "football-data:564724",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Club Atlético de Madrid",
-      "away": "RC Deportivo La Coruña",
-      "utcDate": "2026-10-24T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/78.png",
-      "awayLogo": "https://crests.football-data.org/560.png"
     },
     {
       "id": "football-data:558860",
@@ -1810,19 +1601,6 @@
       "awayLogo": "https://crests.football-data.org/99.png"
     },
     {
-      "id": "football-data:564720",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Athletic Club",
-      "away": "Getafe CF",
-      "utcDate": "2026-10-25T13:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/77.png",
-      "awayLogo": "https://crests.football-data.org/82.png"
-    },
-    {
       "id": "football-data:558857",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -1938,19 +1716,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/107.png",
       "awayLogo": "https://crests.football-data.org/454.png"
-    },
-    {
-      "id": "football-data:564725",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RC Celta de Vigo",
-      "away": "Real Betis Balompié",
-      "utcDate": "2026-10-25T15:15:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/558.png",
-      "awayLogo": "https://crests.football-data.org/90.png"
     },
     {
       "id": "football-data:567336",
@@ -2070,19 +1835,6 @@
       "awayLogo": "https://crests.football-data.org/109.png"
     },
     {
-      "id": "football-data:564726",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Sociedad de Fútbol",
-      "away": "Levante UD",
-      "utcDate": "2026-10-25T17:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/92.png",
-      "awayLogo": "https://crests.football-data.org/88.png"
-    },
-    {
       "id": "football-data:567330",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -2135,19 +1887,6 @@
       "awayLogo": "https://crests.football-data.org/98.png"
     },
     {
-      "id": "football-data:564723",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "FC Barcelona",
-      "away": "Real Madrid CF",
-      "utcDate": "2026-10-25T20:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/81.png",
-      "awayLogo": "https://crests.football-data.org/86.png"
-    },
-    {
       "id": "football-data:567332",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -2185,19 +1924,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/524.png",
       "awayLogo": "https://crests.football-data.org/523.png"
-    },
-    {
-      "id": "football-data:564721",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Sevilla FC",
-      "away": "CA Osasuna",
-      "utcDate": "2026-10-26T20:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/559.png",
-      "awayLogo": "https://crests.football-data.org/79.png"
     },
     {
       "id": "football-data:555051",
@@ -2486,19 +2212,6 @@
       "awayLogo": "https://crests.football-data.org/529.png"
     },
     {
-      "id": "football-data:564737",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Villarreal CF",
-      "away": "RCD Espanyol de Barcelona",
-      "utcDate": "2026-10-30T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/94.png",
-      "awayLogo": "https://crests.football-data.org/80.png"
-    },
-    {
       "id": "football-data:561916",
       "sport": "Football",
       "competition": "Championship",
@@ -2601,19 +2314,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1126.png",
       "awayLogo": "https://crests.football-data.org/332.png"
-    },
-    {
-      "id": "football-data:564730",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Levante UD",
-      "away": "Club Atlético de Madrid",
-      "utcDate": "2026-10-31T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/88.png",
-      "awayLogo": "https://crests.football-data.org/78.png"
     },
     {
       "id": "football-data:558539",
@@ -2798,19 +2498,6 @@
       "awayLogo": "https://crests.football-data.org/69.png"
     },
     {
-      "id": "football-data:564735",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Rayo Vallecano de Madrid",
-      "away": "RC Celta de Vigo",
-      "utcDate": "2026-10-31T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/87.png",
-      "awayLogo": "https://crests.football-data.org/558.png"
-    },
-    {
       "id": "football-data:558854",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -2861,19 +2548,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/73.png",
       "awayLogo": "https://crests.football-data.org/354.png"
-    },
-    {
-      "id": "football-data:564736",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Betis Balompié",
-      "away": "Málaga CF",
-      "utcDate": "2026-10-31T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/90.png",
-      "awayLogo": "https://crests.football-data.org/84.png"
     },
     {
       "id": "football-data:558852",
@@ -2954,19 +2628,6 @@
       "awayLogo": "https://crests.football-data.org/63.png"
     },
     {
-      "id": "football-data:564732",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "FC Barcelona",
-      "away": "Deportivo Alavés",
-      "utcDate": "2026-10-31T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/81.png",
-      "awayLogo": "https://crests.football-data.org/263.png"
-    },
-    {
       "id": "football-data:558850",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -3032,19 +2693,6 @@
       "awayLogo": "https://crests.football-data.org/454.png"
     },
     {
-      "id": "football-data:564733",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Getafe CF",
-      "away": "Sevilla FC",
-      "utcDate": "2026-11-01T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/82.png",
-      "awayLogo": "https://crests.football-data.org/559.png"
-    },
-    {
       "id": "football-data:558848",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -3108,19 +2756,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/110.png",
       "awayLogo": "https://crests.football-data.org/104.png"
-    },
-    {
-      "id": "football-data:564734",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Racing Club de Santander",
-      "away": "Real Madrid CF",
-      "utcDate": "2026-11-01T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5335.png",
-      "awayLogo": "https://crests.football-data.org/86.png"
     },
     {
       "id": "football-data:567341",
@@ -3201,19 +2836,6 @@
       "awayLogo": "https://crests.football-data.org/107.png"
     },
     {
-      "id": "football-data:564728",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Elche CF",
-      "away": "Valencia CF",
-      "utcDate": "2026-11-01T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/285.png",
-      "awayLogo": "https://crests.football-data.org/95.png"
-    },
-    {
       "id": "football-data:567340",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -3264,19 +2886,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/109.png",
       "awayLogo": "https://crests.football-data.org/113.png"
-    },
-    {
-      "id": "football-data:564729",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Athletic Club",
-      "away": "Real Sociedad de Fútbol",
-      "utcDate": "2026-11-01T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/77.png",
-      "awayLogo": "https://crests.football-data.org/92.png"
     },
     {
       "id": "football-data:567339",
@@ -3342,19 +2951,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/67.png",
       "awayLogo": "https://crests.football-data.org/62.png"
-    },
-    {
-      "id": "football-data:564731",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RC Deportivo La Coruña",
-      "away": "CA Osasuna",
-      "utcDate": "2026-11-02T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/560.png",
-      "awayLogo": "https://crests.football-data.org/79.png"
     },
     {
       "id": "football-data:567342",
@@ -3942,19 +3538,6 @@
       "awayLogo": "https://crests.football-data.org/1076.png"
     },
     {
-      "id": "football-data:564740",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Sevilla FC",
-      "away": "Deportivo Alavés",
-      "utcDate": "2026-11-06T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/559.png",
-      "awayLogo": "https://crests.football-data.org/263.png"
-    },
-    {
       "id": "football-data:561932",
       "sport": "Football",
       "competition": "Championship",
@@ -4044,19 +3627,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/387.png",
       "awayLogo": "https://crests.football-data.org/68.png"
-    },
-    {
-      "id": "football-data:564744",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Málaga CF",
-      "away": "Real Racing Club de Santander",
-      "utcDate": "2026-11-07T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/84.png",
-      "awayLogo": "https://crests.football-data.org/5335.png"
     },
     {
       "id": "football-data:558532",
@@ -4215,19 +3785,6 @@
       "awayLogo": "https://crests.football-data.org/72.png"
     },
     {
-      "id": "football-data:564745",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RCD Espanyol de Barcelona",
-      "away": "RC Deportivo La Coruña",
-      "utcDate": "2026-11-07T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/80.png",
-      "awayLogo": "https://crests.football-data.org/560.png"
-    },
-    {
       "id": "football-data:558844",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -4293,19 +3850,6 @@
       "awayLogo": "https://crests.football-data.org/65.png"
     },
     {
-      "id": "football-data:564739",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "CA Osasuna",
-      "away": "Athletic Club",
-      "utcDate": "2026-11-07T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/79.png",
-      "awayLogo": "https://crests.football-data.org/77.png"
-    },
-    {
       "id": "football-data:558841",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -4358,19 +3902,6 @@
       "awayLogo": "https://crests.football-data.org/471.png"
     },
     {
-      "id": "football-data:564741",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Valencia CF",
-      "away": "Real Madrid CF",
-      "utcDate": "2026-11-07T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/95.png",
-      "awayLogo": "https://crests.football-data.org/86.png"
-    },
-    {
       "id": "football-data:558843",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -4421,19 +3952,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/113.png",
       "awayLogo": "https://crests.football-data.org/110.png"
-    },
-    {
-      "id": "football-data:564738",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Elche CF",
-      "away": "Real Betis Balompié",
-      "utcDate": "2026-11-08T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/285.png",
-      "awayLogo": "https://crests.football-data.org/90.png"
     },
     {
       "id": "football-data:558839",
@@ -4538,19 +4056,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5911.png",
       "awayLogo": "https://crests.football-data.org/102.png"
-    },
-    {
-      "id": "football-data:564743",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Real Sociedad de Fútbol",
-      "away": "Rayo Vallecano de Madrid",
-      "utcDate": "2026-11-08T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/92.png",
-      "awayLogo": "https://crests.football-data.org/87.png"
     },
     {
       "id": "football-data:567348",
@@ -4683,32 +4188,6 @@
       "awayLogo": "https://crests.football-data.org/7397.png"
     },
     {
-      "id": "football-data:564742",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RC Celta de Vigo",
-      "away": "Levante UD",
-      "utcDate": "2026-11-08T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/558.png",
-      "awayLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": "football-data:564747",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Villarreal CF",
-      "away": "Getafe CF",
-      "utcDate": "2026-11-08T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/94.png",
-      "awayLogo": "https://crests.football-data.org/82.png"
-    },
-    {
       "id": "football-data:567349",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -4759,19 +4238,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/99.png",
       "awayLogo": "https://crests.football-data.org/109.png"
-    },
-    {
-      "id": "football-data:564746",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Club Atlético de Madrid",
-      "away": "FC Barcelona",
-      "utcDate": "2026-11-08T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/78.png",
-      "awayLogo": "https://crests.football-data.org/81.png"
     },
     {
       "id": "football-data:567354",
@@ -5427,268 +4893,6 @@
         "ga": 14,
         "points": 5,
         "goalDifference": -8
-      }
-    ],
-    "La Liga": [
-      {
-        "team": "FC Barcelona",
-        "rank": 1,
-        "played": 10,
-        "logo": "https://crests.football-data.org/81.png",
-        "won": 9,
-        "drawn": 0,
-        "lost": 1,
-        "gf": 40,
-        "ga": 11,
-        "points": 27,
-        "goalDifference": 29
-      },
-      {
-        "team": "Club Atlético de Madrid",
-        "rank": 2,
-        "played": 10,
-        "logo": "https://crests.football-data.org/78.png",
-        "won": 8,
-        "drawn": 1,
-        "lost": 1,
-        "gf": 20,
-        "ga": 8,
-        "points": 25,
-        "goalDifference": 12
-      },
-      {
-        "team": "Real Madrid CF",
-        "rank": 3,
-        "played": 10,
-        "logo": "https://crests.football-data.org/86.png",
-        "won": 8,
-        "drawn": 0,
-        "lost": 2,
-        "gf": 25,
-        "ga": 10,
-        "points": 24,
-        "goalDifference": 15
-      },
-      {
-        "team": "Real Betis Balompié",
-        "rank": 4,
-        "played": 10,
-        "logo": "https://crests.football-data.org/90.png",
-        "won": 6,
-        "drawn": 2,
-        "lost": 2,
-        "gf": 16,
-        "ga": 14,
-        "points": 20,
-        "goalDifference": 2
-      },
-      {
-        "team": "Real Sociedad de Fútbol",
-        "rank": 5,
-        "played": 10,
-        "logo": "https://crests.football-data.org/92.png",
-        "won": 6,
-        "drawn": 1,
-        "lost": 3,
-        "gf": 19,
-        "ga": 18,
-        "points": 19,
-        "goalDifference": 1
-      },
-      {
-        "team": "Sevilla FC",
-        "rank": 6,
-        "played": 10,
-        "logo": "https://crests.football-data.org/559.png",
-        "won": 5,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 16,
-        "ga": 16,
-        "points": 17,
-        "goalDifference": 0
-      },
-      {
-        "team": "Deportivo Alavés",
-        "rank": 7,
-        "played": 10,
-        "logo": "https://crests.football-data.org/263.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 14,
-        "ga": 11,
-        "points": 12,
-        "goalDifference": 3
-      },
-      {
-        "team": "Athletic Club",
-        "rank": 8,
-        "played": 9,
-        "logo": "https://crests.football-data.org/77.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 3,
-        "gf": 12,
-        "ga": 9,
-        "points": 12,
-        "goalDifference": 3
-      },
-      {
-        "team": "RC Celta de Vigo",
-        "rank": 9,
-        "played": 10,
-        "logo": "https://crests.football-data.org/558.png",
-        "won": 2,
-        "drawn": 6,
-        "lost": 2,
-        "gf": 10,
-        "ga": 7,
-        "points": 12,
-        "goalDifference": 3
-      },
-      {
-        "team": "Villarreal CF",
-        "rank": 10,
-        "played": 10,
-        "logo": "https://crests.football-data.org/94.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 15,
-        "ga": 14,
-        "points": 12,
-        "goalDifference": 1
-      },
-      {
-        "team": "RC Deportivo La Coruña",
-        "rank": 11,
-        "played": 10,
-        "logo": "https://crests.football-data.org/560.png",
-        "won": 2,
-        "drawn": 5,
-        "lost": 3,
-        "gf": 13,
-        "ga": 13,
-        "points": 11,
-        "goalDifference": 0
-      },
-      {
-        "team": "CA Osasuna",
-        "rank": 12,
-        "played": 10,
-        "logo": "https://crests.football-data.org/79.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 10,
-        "ga": 20,
-        "points": 11,
-        "goalDifference": -10
-      },
-      {
-        "team": "Real Racing Club de Santander",
-        "rank": 13,
-        "played": 10,
-        "logo": "https://crests.football-data.org/5335.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 5,
-        "gf": 15,
-        "ga": 26,
-        "points": 11,
-        "goalDifference": -11
-      },
-      {
-        "team": "Levante UD",
-        "rank": 14,
-        "played": 10,
-        "logo": "https://crests.football-data.org/88.png",
-        "won": 2,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 16,
-        "ga": 19,
-        "points": 10,
-        "goalDifference": -3
-      },
-      {
-        "team": "Elche CF",
-        "rank": 15,
-        "played": 10,
-        "logo": "https://crests.football-data.org/285.png",
-        "won": 2,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 14,
-        "ga": 17,
-        "points": 10,
-        "goalDifference": -3
-      },
-      {
-        "team": "Rayo Vallecano de Madrid",
-        "rank": 16,
-        "played": 9,
-        "logo": "https://crests.football-data.org/87.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 4,
-        "gf": 12,
-        "ga": 20,
-        "points": 9,
-        "goalDifference": -8
-      },
-      {
-        "team": "Getafe CF",
-        "rank": 17,
-        "played": 10,
-        "logo": "https://crests.football-data.org/82.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 5,
-        "gf": 5,
-        "ga": 15,
-        "points": 9,
-        "goalDifference": -10
-      },
-      {
-        "team": "RCD Espanyol de Barcelona",
-        "rank": 18,
-        "played": 10,
-        "logo": "https://crests.football-data.org/80.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 6,
-        "gf": 12,
-        "ga": 14,
-        "points": 8,
-        "goalDifference": -2
-      },
-      {
-        "team": "Valencia CF",
-        "rank": 19,
-        "played": 10,
-        "logo": "https://crests.football-data.org/95.png",
-        "won": 1,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 7,
-        "ga": 17,
-        "points": 6,
-        "goalDifference": -10
-      },
-      {
-        "team": "Málaga CF",
-        "rank": 20,
-        "played": 10,
-        "logo": "https://crests.football-data.org/84.png",
-        "won": 0,
-        "drawn": 5,
-        "lost": 5,
-        "gf": 7,
-        "ga": 19,
-        "points": 5,
-        "goalDifference": -12
       }
     ],
     "Serie A": [
@@ -7472,5 +6676,7 @@
       }
     ]
   },
-  "warnings": []
+  "warnings": [
+    "PD: URLError"
+  ]
 }

@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-30T13:09:13.870483Z",
+  "updatedAt": "2026-10-30T21:04:23.129197Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83632",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Holstein Kiel",
-      "away": "Hertha BSC",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
-      "awayLogo": "https://i.imgur.com/apFwbYZ.png",
-      "utcDate": "2026-10-16T16:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0"
-    },
-    {
-      "id": "openligadb:83641",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Energie Cottbus",
-      "away": "1. FC Nürnberg",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
-      "utcDate": "2026-10-16T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1"
-    },
-    {
-      "id": "openligadb:83203",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Eintracht Frankfurt",
-      "away": "1. FC Köln",
-      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-      "utcDate": "2026-10-16T18:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0"
-    },
     {
       "id": "openligadb:83626",
       "sport": "Football",
@@ -448,8 +412,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "utcDate": "2026-10-30T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 1"
     },
     {
       "id": "openligadb:83674",
@@ -460,8 +424,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
       "utcDate": "2026-10-30T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 2"
     },
     {
       "id": "openligadb:83227",

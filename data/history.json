@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-30T03:01:44.923275Z",
+  "updatedAt": "2026-10-30T21:06:55.108543Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4498,6 +4498,56 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1767.png",
       "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "openligadb:83671",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "DSC Arminia Bielefeld",
+      "away": "Eintracht Braunschweig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "utcDate": "2026-10-30T17:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1"
+    },
+    {
+      "id": "openligadb:83674",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Energie Cottbus",
+      "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "utcDate": "2026-10-30T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2"
+    },
+    {
+      "id": "football-data:559644",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Le Havre AC",
+      "away": "Paris Saint-Germain FC",
+      "utcDate": "2026-10-30T18:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 5",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/533.png",
+      "awayLogo": "https://crests.football-data.org/524.png"
+    },
+    {
+      "id": "football-data:559646",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "OGC Nice",
+      "away": "Stade Rennais FC 1901",
+      "utcDate": "2026-10-30T18:00:00Z",
+      "status": "FINISHED",
+      "score": "5 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/522.png",
+      "awayLogo": "https://crests.football-data.org/529.png"
     }
   ]
 }

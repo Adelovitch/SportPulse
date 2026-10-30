@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-29T22:53:26.767090Z",
+  "updatedAt": "2026-10-30T03:01:44.923275Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4459,6 +4459,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/99.png",
       "awayLogo": "https://crests.football-data.org/102.png"
+    },
+    {
+      "id": "football-data:555060",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Mineiro",
+      "away": "Cruzeiro EC",
+      "utcDate": "2026-10-29T22:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1766.png",
+      "awayLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": "football-data:555069",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Vasco da Gama",
+      "away": "CR Flamengo",
+      "utcDate": "2026-10-29T23:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1780.png",
+      "awayLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": "football-data:555066",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Grêmio FBPA",
+      "away": "CA Paranaense",
+      "utcDate": "2026-10-30T00:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1767.png",
+      "awayLogo": "https://crests.football-data.org/1768.png"
     }
   ]
 }

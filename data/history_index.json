@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 354,
+  "totalMatches": 358,
   "seasons": {
     "2026-2027": {
-      "count": 354,
+      "count": 358,
       "competitions": {
         "2. Bundesliga": {
           "count": 29,
@@ -42,7 +42,7 @@
           ]
         },
         "Bundesliga": {
-          "count": 27,
+          "count": 28,
           "matchIds": [
             "openligadb:83192",
             "openligadb:83193",
@@ -70,7 +70,8 @@
             "openligadb:83215",
             "openligadb:83216",
             "openligadb:83217",
-            "openligadb:83218"
+            "openligadb:83218",
+            "openligadb:83227"
           ]
         },
         "Championship": {
@@ -160,7 +161,7 @@
           ]
         },
         "La Liga": {
-          "count": 30,
+          "count": 31,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -191,12 +192,14 @@
             "football-data:564724",
             "football-data:564725",
             "football-data:564726",
-            "football-data:564727"
+            "football-data:564727",
+            "football-data:564737"
           ]
         },
         "Ligue 1": {
-          "count": 29,
+          "count": 30,
           "matchIds": [
+            "football-data:559639",
             "football-data:559644",
             "football-data:559646",
             "football-data:559648",
@@ -305,7 +308,7 @@
           ]
         },
         "Primeira Liga": {
-          "count": 19,
+          "count": 20,
           "matchIds": [
             "football-data:567271",
             "football-data:567320",
@@ -325,7 +328,8 @@
             "football-data:567334",
             "football-data:567335",
             "football-data:567336",
-            "football-data:567337"
+            "football-data:567337",
+            "football-data:567344"
           ]
         },
         "Serie A": {

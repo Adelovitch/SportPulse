@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T21:04:29.688016Z",
+  "updatedAt": "2026-10-30T22:28:07.716973Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2427,8 +2427,8 @@
       "home": "Villarreal CF",
       "away": "RCD Espanyol de Barcelona",
       "utcDate": "2026-10-30T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/94.png",
       "awayLogo": "https://crests.football-data.org/80.png"
@@ -2453,8 +2453,8 @@
       "home": "Lille OSC",
       "away": "Racing Club de Lens",
       "utcDate": "2026-10-30T20:05:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/521.png",
       "awayLogo": "https://crests.football-data.org/546.png"
@@ -2466,8 +2466,8 @@
       "home": "Casa Pia AC",
       "away": "Sporting Clube de Portugal",
       "utcDate": "2026-10-30T20:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6618.png",
       "awayLogo": "https://crests.football-data.org/498.png"
@@ -4911,13 +4911,13 @@
         "rank": 2,
         "played": 9,
         "logo": "https://crests.football-data.org/521.png",
-        "won": 4,
-        "drawn": 4,
+        "won": 5,
+        "drawn": 3,
         "lost": 1,
-        "gf": 11,
+        "gf": 12,
         "ga": 6,
-        "points": 16,
-        "goalDifference": 5
+        "points": 18,
+        "goalDifference": 6
       },
       {
         "team": "Stade Rennais FC 1901",
@@ -4959,21 +4959,8 @@
         "goalDifference": 6
       },
       {
-        "team": "Racing Club de Lens",
-        "rank": 6,
-        "played": 9,
-        "logo": "https://crests.football-data.org/546.png",
-        "won": 4,
-        "drawn": 2,
-        "lost": 3,
-        "gf": 16,
-        "ga": 12,
-        "points": 14,
-        "goalDifference": 4
-      },
-      {
         "team": "Paris FC",
-        "rank": 7,
+        "rank": 6,
         "played": 8,
         "logo": "https://crests.football-data.org/1045.png",
         "won": 4,
@@ -4986,7 +4973,7 @@
       },
       {
         "team": "OGC Nice",
-        "rank": 8,
+        "rank": 7,
         "played": 9,
         "logo": "https://crests.football-data.org/522.png",
         "won": 4,
@@ -4996,6 +4983,19 @@
         "ga": 12,
         "points": 14,
         "goalDifference": 1
+      },
+      {
+        "team": "Racing Club de Lens",
+        "rank": 8,
+        "played": 9,
+        "logo": "https://crests.football-data.org/546.png",
+        "won": 4,
+        "drawn": 1,
+        "lost": 4,
+        "gf": 16,
+        "ga": 13,
+        "points": 13,
+        "goalDifference": 3
       },
       {
         "team": "Olympique de Marseille",
@@ -5470,21 +5470,8 @@
         "goalDifference": 0
       },
       {
-        "team": "Villarreal CF",
-        "rank": 7,
-        "played": 11,
-        "logo": "https://crests.football-data.org/94.png",
-        "won": 3,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 15,
-        "ga": 14,
-        "points": 13,
-        "goalDifference": 1
-      },
-      {
         "team": "Deportivo Alavés",
-        "rank": 8,
+        "rank": 7,
         "played": 10,
         "logo": "https://crests.football-data.org/263.png",
         "won": 3,
@@ -5497,7 +5484,7 @@
       },
       {
         "team": "Athletic Club",
-        "rank": 9,
+        "rank": 8,
         "played": 9,
         "logo": "https://crests.football-data.org/77.png",
         "won": 3,
@@ -5510,7 +5497,7 @@
       },
       {
         "team": "RC Celta de Vigo",
-        "rank": 10,
+        "rank": 9,
         "played": 10,
         "logo": "https://crests.football-data.org/558.png",
         "won": 2,
@@ -5520,6 +5507,19 @@
         "ga": 7,
         "points": 12,
         "goalDifference": 3
+      },
+      {
+        "team": "Villarreal CF",
+        "rank": 10,
+        "played": 11,
+        "logo": "https://crests.football-data.org/94.png",
+        "won": 3,
+        "drawn": 3,
+        "lost": 5,
+        "gf": 15,
+        "ga": 15,
+        "points": 12,
+        "goalDifference": 0
       },
       {
         "team": "RC Deportivo La Coruña",
@@ -5535,8 +5535,21 @@
         "goalDifference": 0
       },
       {
-        "team": "CA Osasuna",
+        "team": "RCD Espanyol de Barcelona",
         "rank": 12,
+        "played": 11,
+        "logo": "https://crests.football-data.org/80.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 13,
+        "ga": 14,
+        "points": 11,
+        "goalDifference": -1
+      },
+      {
+        "team": "CA Osasuna",
+        "rank": 13,
         "played": 10,
         "logo": "https://crests.football-data.org/79.png",
         "won": 3,
@@ -5549,7 +5562,7 @@
       },
       {
         "team": "Real Racing Club de Santander",
-        "rank": 13,
+        "rank": 14,
         "played": 10,
         "logo": "https://crests.football-data.org/5335.png",
         "won": 3,
@@ -5562,7 +5575,7 @@
       },
       {
         "team": "Levante UD",
-        "rank": 14,
+        "rank": 15,
         "played": 10,
         "logo": "https://crests.football-data.org/88.png",
         "won": 2,
@@ -5575,7 +5588,7 @@
       },
       {
         "team": "Elche CF",
-        "rank": 15,
+        "rank": 16,
         "played": 10,
         "logo": "https://crests.football-data.org/285.png",
         "won": 2,
@@ -5585,19 +5598,6 @@
         "ga": 17,
         "points": 10,
         "goalDifference": -3
-      },
-      {
-        "team": "RCD Espanyol de Barcelona",
-        "rank": 16,
-        "played": 11,
-        "logo": "https://crests.football-data.org/80.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 12,
-        "ga": 14,
-        "points": 9,
-        "goalDifference": -2
       },
       {
         "team": "Rayo Vallecano de Madrid",
@@ -6655,10 +6655,10 @@
         "won": 6,
         "drawn": 3,
         "lost": 1,
-        "gf": 22,
+        "gf": 23,
         "ga": 11,
         "points": 21,
-        "goalDifference": 11
+        "goalDifference": 12
       },
       {
         "team": "CD Santa Clara",
@@ -6838,9 +6838,9 @@
         "drawn": 1,
         "lost": 7,
         "gf": 5,
-        "ga": 18,
+        "ga": 19,
         "points": 7,
-        "goalDifference": -13
+        "goalDifference": -14
       },
       {
         "team": "GD Estoril Praia",

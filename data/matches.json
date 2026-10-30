@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-30T21:04:23.129197Z",
+  "updatedAt": "2026-10-30T22:27:57.386218Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -436,8 +436,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "utcDate": "2026-10-30T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "4 – 1"
     },
     {
       "id": "openligadb:83663",

@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-30T13:09:16.165577Z",
+  "updatedAt": "2026-10-30T22:27:59.894358Z",
   "leagues": {
     "Bundesliga": {
       "competition": "Bundesliga",
@@ -202,6 +202,55 @@
           "avgGoalsFor": 2.29
         },
         {
+          "team": "SV 07 Elversberg",
+          "played": 8,
+          "won": 4,
+          "drawn": 1,
+          "lost": 3,
+          "gf": 16,
+          "ga": 16,
+          "points": 13,
+          "goalDifference": 0,
+          "form": [
+            {
+              "date": "2026-09-20T15:30:00Z",
+              "opponent": "FC Schalke 04",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-10-10T13:30:00Z",
+              "opponent": "1. FC Union Berlin",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-17T13:30:00Z",
+              "opponent": "FC Augsburg",
+              "goalsFor": 4,
+              "goalsAgainst": 3,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-24T13:30:00Z",
+              "opponent": "RB Leipzig",
+              "goalsFor": 0,
+              "goalsAgainst": 4,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-30T19:30:00Z",
+              "opponent": "1. FSV Mainz 05",
+              "goalsFor": 4,
+              "goalsAgainst": 1,
+              "outcome": "V"
+            }
+          ],
+          "avgGoalsFor": 2.0
+        },
+        {
           "team": "RB Leipzig",
           "played": 7,
           "won": 4,
@@ -301,22 +350,15 @@
         },
         {
           "team": "1. FSV Mainz 05",
-          "played": 7,
+          "played": 8,
           "won": 3,
           "drawn": 1,
-          "lost": 3,
-          "gf": 16,
-          "ga": 13,
+          "lost": 4,
+          "gf": 17,
+          "ga": 17,
           "points": 10,
-          "goalDifference": 3,
+          "goalDifference": 0,
           "form": [
-            {
-              "date": "2026-09-12T13:30:00Z",
-              "opponent": "Eintracht Frankfurt",
-              "goalsFor": 1,
-              "goalsAgainst": 3,
-              "outcome": "D"
-            },
             {
               "date": "2026-09-19T13:30:00Z",
               "opponent": "Borussia Mönchengladbach",
@@ -344,58 +386,16 @@
               "goalsFor": 2,
               "goalsAgainst": 3,
               "outcome": "D"
-            }
-          ],
-          "avgGoalsFor": 2.29
-        },
-        {
-          "team": "SV 07 Elversberg",
-          "played": 7,
-          "won": 3,
-          "drawn": 1,
-          "lost": 3,
-          "gf": 12,
-          "ga": 15,
-          "points": 10,
-          "goalDifference": -3,
-          "form": [
+            },
             {
-              "date": "2026-09-13T15:30:00Z",
-              "opponent": "FC Bayern München",
+              "date": "2026-10-30T19:30:00Z",
+              "opponent": "SV 07 Elversberg",
               "goalsFor": 1,
-              "goalsAgainst": 2,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-09-20T15:30:00Z",
-              "opponent": "FC Schalke 04",
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-10-10T13:30:00Z",
-              "opponent": "1. FC Union Berlin",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-17T13:30:00Z",
-              "opponent": "FC Augsburg",
-              "goalsFor": 4,
-              "goalsAgainst": 3,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-10-24T13:30:00Z",
-              "opponent": "RB Leipzig",
-              "goalsFor": 0,
               "goalsAgainst": 4,
               "outcome": "D"
             }
           ],
-          "avgGoalsFor": 1.71
+          "avgGoalsFor": 2.12
         },
         {
           "team": "FC Augsburg",
@@ -1188,6 +1188,55 @@
           "avgGoalsFor": 1.78
         },
         {
+          "team": "DSC Arminia Bielefeld",
+          "played": 10,
+          "won": 4,
+          "drawn": 2,
+          "lost": 4,
+          "gf": 16,
+          "ga": 15,
+          "points": 14,
+          "goalDifference": 1,
+          "form": [
+            {
+              "date": "2026-09-20T11:30:00Z",
+              "opponent": "1. FC Heidenheim 1846",
+              "goalsFor": 2,
+              "goalsAgainst": 2,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-10-11T11:30:00Z",
+              "opponent": "VfL Bochum",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-18T11:30:00Z",
+              "opponent": "VfL Osnabrück",
+              "goalsFor": 2,
+              "goalsAgainst": 1,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-24T11:00:00Z",
+              "opponent": "Hertha BSC",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-30T17:30:00Z",
+              "opponent": "Eintracht Braunschweig",
+              "goalsFor": 3,
+              "goalsAgainst": 1,
+              "outcome": "V"
+            }
+          ],
+          "avgGoalsFor": 1.6
+        },
+        {
           "team": "FC St. Pauli",
           "played": 9,
           "won": 2,
@@ -1286,121 +1335,65 @@
           "avgGoalsFor": 1.56
         },
         {
-          "team": "DSC Arminia Bielefeld",
-          "played": 9,
+          "team": "VfL Bochum",
+          "played": 10,
           "won": 3,
           "drawn": 2,
-          "lost": 4,
-          "gf": 13,
-          "ga": 14,
+          "lost": 5,
+          "gf": 8,
+          "ga": 11,
           "points": 11,
-          "goalDifference": -1,
+          "goalDifference": -3,
           "form": [
             {
-              "date": "2026-09-11T16:30:00Z",
-              "opponent": "SV Darmstadt 98",
+              "date": "2026-09-20T11:30:00Z",
+              "opponent": "Hannover 96",
               "goalsFor": 1,
               "goalsAgainst": 2,
               "outcome": "D"
-            },
-            {
-              "date": "2026-09-20T11:30:00Z",
-              "opponent": "1. FC Heidenheim 1846",
-              "goalsFor": 2,
-              "goalsAgainst": 2,
-              "outcome": "N"
             },
             {
               "date": "2026-10-11T11:30:00Z",
-              "opponent": "VfL Bochum",
-              "goalsFor": 1,
-              "goalsAgainst": 0,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-10-18T11:30:00Z",
-              "opponent": "VfL Osnabrück",
-              "goalsFor": 2,
-              "goalsAgainst": 1,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-10-24T11:00:00Z",
-              "opponent": "Hertha BSC",
+              "opponent": "DSC Arminia Bielefeld",
               "goalsFor": 0,
               "goalsAgainst": 1,
               "outcome": "D"
-            }
-          ],
-          "avgGoalsFor": 1.44
-        },
-        {
-          "team": "Eintracht Braunschweig",
-          "played": 9,
-          "won": 3,
-          "drawn": 1,
-          "lost": 5,
-          "gf": 15,
-          "ga": 15,
-          "points": 10,
-          "goalDifference": 0,
-          "form": [
-            {
-              "date": "2026-09-12T11:00:00Z",
-              "opponent": "Dynamo Dresden",
-              "goalsFor": 2,
-              "goalsAgainst": 2,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-09-19T11:00:00Z",
-              "opponent": "1. FC Kaiserslautern",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-09T16:30:00Z",
-              "opponent": "Holstein Kiel",
-              "goalsFor": 1,
-              "goalsAgainst": 0,
-              "outcome": "V"
             },
             {
               "date": "2026-10-17T11:00:00Z",
-              "opponent": "SpVgg Greuther Fürth",
+              "opponent": "1. FC Kaiserslautern",
               "goalsFor": 0,
               "goalsAgainst": 2,
               "outcome": "D"
             },
             {
-              "date": "2026-10-25T12:30:00Z",
-              "opponent": "Hannover 96",
+              "date": "2026-10-23T16:30:00Z",
+              "opponent": "VfL Wolfsburg",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-10-30T17:30:00Z",
+              "opponent": "Energie Cottbus",
               "goalsFor": 2,
-              "goalsAgainst": 0,
+              "goalsAgainst": 1,
               "outcome": "V"
             }
           ],
-          "avgGoalsFor": 1.67
+          "avgGoalsFor": 0.8
         },
         {
           "team": "Energie Cottbus",
-          "played": 9,
+          "played": 10,
           "won": 2,
           "drawn": 4,
-          "lost": 3,
-          "gf": 17,
-          "ga": 18,
+          "lost": 4,
+          "gf": 18,
+          "ga": 20,
           "points": 10,
-          "goalDifference": -1,
+          "goalDifference": -2,
           "form": [
-            {
-              "date": "2026-09-13T11:30:00Z",
-              "opponent": "Karlsruher SC",
-              "goalsFor": 3,
-              "goalsAgainst": 0,
-              "outcome": "V"
-            },
             {
               "date": "2026-09-20T11:30:00Z",
               "opponent": "FC St. Pauli",
@@ -1428,9 +1421,65 @@
               "goalsFor": 1,
               "goalsAgainst": 1,
               "outcome": "N"
+            },
+            {
+              "date": "2026-10-30T17:30:00Z",
+              "opponent": "VfL Bochum",
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "outcome": "D"
             }
           ],
-          "avgGoalsFor": 1.89
+          "avgGoalsFor": 1.8
+        },
+        {
+          "team": "Eintracht Braunschweig",
+          "played": 10,
+          "won": 3,
+          "drawn": 1,
+          "lost": 6,
+          "gf": 16,
+          "ga": 18,
+          "points": 10,
+          "goalDifference": -2,
+          "form": [
+            {
+              "date": "2026-09-19T11:00:00Z",
+              "opponent": "1. FC Kaiserslautern",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-09T16:30:00Z",
+              "opponent": "Holstein Kiel",
+              "goalsFor": 1,
+              "goalsAgainst": 0,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-17T11:00:00Z",
+              "opponent": "SpVgg Greuther Fürth",
+              "goalsFor": 0,
+              "goalsAgainst": 2,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-25T12:30:00Z",
+              "opponent": "Hannover 96",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "outcome": "V"
+            },
+            {
+              "date": "2026-10-30T17:30:00Z",
+              "opponent": "DSC Arminia Bielefeld",
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "outcome": "D"
+            }
+          ],
+          "avgGoalsFor": 1.6
         },
         {
           "team": "SpVgg Greuther Fürth",
@@ -1529,55 +1578,6 @@
             }
           ],
           "avgGoalsFor": 1.11
-        },
-        {
-          "team": "VfL Bochum",
-          "played": 9,
-          "won": 2,
-          "drawn": 2,
-          "lost": 5,
-          "gf": 6,
-          "ga": 10,
-          "points": 8,
-          "goalDifference": -4,
-          "form": [
-            {
-              "date": "2026-09-12T11:00:00Z",
-              "opponent": "SpVgg Greuther Fürth",
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-09-20T11:30:00Z",
-              "opponent": "Hannover 96",
-              "goalsFor": 1,
-              "goalsAgainst": 2,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-11T11:30:00Z",
-              "opponent": "DSC Arminia Bielefeld",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-17T11:00:00Z",
-              "opponent": "1. FC Kaiserslautern",
-              "goalsFor": 0,
-              "goalsAgainst": 2,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-23T16:30:00Z",
-              "opponent": "VfL Wolfsburg",
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "outcome": "N"
-            }
-          ],
-          "avgGoalsFor": 0.67
         },
         {
           "team": "Dynamo Dresden",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-30T06:01:54.836416Z",
+  "updatedAt": "2026-10-31T05:57:44.280668Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1478,6 +1478,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c70t1o1759234214.jpg"
+    },
+    {
+      "id": "thesportsdb:2601741",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Los Angeles Clippers",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "FINISHED",
+      "score": "127 – 101",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/lafjur1759234219.jpg"
+    },
+    {
+      "id": "thesportsdb:2601742",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Houston Rockets",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "FINISHED",
+      "score": "116 – 111",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4azkmt1759233775.jpg"
+    },
+    {
+      "id": "thesportsdb:2601743",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Indiana Pacers",
+      "utcDate": "2026-10-31T00:00:00Z",
+      "status": "FINISHED",
+      "score": "145 – 125",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/3sf8iy1759233688.jpg"
+    },
+    {
+      "id": "thesportsdb:2601745",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Denver Nuggets",
+      "utcDate": "2026-10-31T02:00:00Z",
+      "status": "FINISHED",
+      "score": "120 – 127",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/btkc8u1759234652.jpg"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T00:43:32.950243Z",
+  "updatedAt": "2026-10-31T05:55:16.022031Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2466,8 +2466,8 @@
       "home": "SC Corinthians Paulista",
       "away": "Mirassol FC",
       "utcDate": "2026-10-30T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1779.png",
       "awayLogo": "https://crests.football-data.org/4364.png"
@@ -7048,9 +7048,9 @@
         "drawn": 10,
         "lost": 14,
         "gf": 37,
-        "ga": 46,
+        "ga": 47,
         "points": 37,
-        "goalDifference": -9
+        "goalDifference": -10
       },
       {
         "team": "SC Corinthians Paulista",
@@ -7060,10 +7060,10 @@
         "won": 9,
         "drawn": 9,
         "lost": 15,
-        "gf": 35,
+        "gf": 36,
         "ga": 42,
         "points": 36,
-        "goalDifference": -7
+        "goalDifference": -6
       },
       {
         "team": "SC Internacional",

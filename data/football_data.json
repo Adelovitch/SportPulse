@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-30T22:28:07.716973Z",
+  "updatedAt": "2026-10-31T00:43:32.950243Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,19 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555047",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Mirassol FC",
-      "away": "SC Internacional",
-      "utcDate": "2026-10-16T23:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/4364.png",
-      "awayLogo": "https://crests.football-data.org/6684.png"
-    },
     {
       "id": "football-data:560603",
       "sport": "Football",
@@ -7055,19 +7042,32 @@
       {
         "team": "Mirassol FC",
         "rank": 16,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/4364.png",
         "won": 9,
         "drawn": 10,
-        "lost": 13,
+        "lost": 14,
         "gf": 37,
-        "ga": 45,
+        "ga": 46,
         "points": 37,
-        "goalDifference": -8
+        "goalDifference": -9
+      },
+      {
+        "team": "SC Corinthians Paulista",
+        "rank": 17,
+        "played": 33,
+        "logo": "https://crests.football-data.org/1779.png",
+        "won": 9,
+        "drawn": 9,
+        "lost": 15,
+        "gf": 35,
+        "ga": 42,
+        "points": 36,
+        "goalDifference": -7
       },
       {
         "team": "SC Internacional",
-        "rank": 17,
+        "rank": 18,
         "played": 33,
         "logo": "https://crests.football-data.org/6684.png",
         "won": 8,
@@ -7077,19 +7077,6 @@
         "ga": 42,
         "points": 35,
         "goalDifference": -5
-      },
-      {
-        "team": "SC Corinthians Paulista",
-        "rank": 18,
-        "played": 32,
-        "logo": "https://crests.football-data.org/1779.png",
-        "won": 8,
-        "drawn": 9,
-        "lost": 15,
-        "gf": 34,
-        "ga": 42,
-        "points": 33,
-        "goalDifference": -8
       },
       {
         "team": "Clube do Remo",

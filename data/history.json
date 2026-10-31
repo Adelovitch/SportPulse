@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-31T20:43:59.657299Z",
+  "updatedAt": "2026-10-31T21:45:15.596473Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5071,6 +5071,31 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/674.png",
       "awayLogo": "https://crests.football-data.org/672.png"
+    },
+    {
+      "id": "football-data:555064",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Coritiba FBC",
+      "away": "EC Vitória",
+      "utcDate": "2026-10-31T19:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4241.png",
+      "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": "openligadb:83669",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Karlsruher SC",
+      "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "utcDate": "2026-10-31T19:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1"
     }
   ]
 }

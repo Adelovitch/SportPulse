@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-10-31T05:57:44.280668Z",
+  "updatedAt": "2026-10-31T21:45:15.537161Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1534,6 +1534,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/btkc8u1759234652.jpg"
+    },
+    {
+      "id": "thesportsdb:2601746",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Utah Jazz",
+      "away": "Portland Trail Blazers",
+      "utcDate": "2026-10-31T19:00:00Z",
+      "status": "FINISHED",
+      "score": "90 – 112",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/gya7rr1759234272.jpg"
     }
   ]
 }

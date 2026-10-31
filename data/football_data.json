@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T20:41:34.546632Z",
+  "updatedAt": "2026-10-31T21:42:47.777193Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555043",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Botafogo FR",
-      "away": "Chapecoense AF",
-      "utcDate": "2026-10-17T21:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1770.png",
-      "awayLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": "football-data:555041",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "CA Mineiro",
-      "away": "Coritiba FBC",
-      "utcDate": "2026-10-17T21:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1766.png",
-      "awayLogo": "https://crests.football-data.org/4241.png"
-    },
     {
       "id": "football-data:555040",
       "sport": "Football",
@@ -2154,8 +2128,8 @@
       "home": "Levante UD",
       "away": "Club Atlético de Madrid",
       "utcDate": "2026-10-31T13:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 2",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/88.png",
       "awayLogo": "https://crests.football-data.org/78.png"
@@ -2349,8 +2323,8 @@
       "home": "Rayo Vallecano de Madrid",
       "away": "RC Celta de Vigo",
       "utcDate": "2026-10-31T15:15:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/87.png",
       "awayLogo": "https://crests.football-data.org/558.png"
@@ -2362,8 +2336,8 @@
       "home": "Feyenoord Rotterdam",
       "away": "Fortuna Sittard",
       "utcDate": "2026-10-31T15:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/675.png",
       "awayLogo": "https://crests.football-data.org/1920.png"
@@ -2414,8 +2388,8 @@
       "home": "Real Betis Balompié",
       "away": "Málaga CF",
       "utcDate": "2026-10-31T17:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/90.png",
       "awayLogo": "https://crests.football-data.org/84.png"
@@ -2427,8 +2401,8 @@
       "home": "SC Heerenveen",
       "away": "NEC",
       "utcDate": "2026-10-31T17:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/673.png",
       "awayLogo": "https://crests.football-data.org/1915.png"
@@ -2440,8 +2414,8 @@
       "home": "PSV",
       "away": "Willem II Tilburg",
       "utcDate": "2026-10-31T17:45:00Z",
-      "status": "FINISHED",
-      "score": "7 – 0",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/674.png",
       "awayLogo": "https://crests.football-data.org/672.png"
@@ -2453,8 +2427,8 @@
       "home": "Coritiba FBC",
       "away": "EC Vitória",
       "utcDate": "2026-10-31T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4241.png",
       "awayLogo": "https://crests.football-data.org/1782.png"
@@ -5187,10 +5161,10 @@
         "won": 2,
         "drawn": 2,
         "lost": 5,
-        "gf": 6,
+        "gf": 7,
         "ga": 16,
         "points": 8,
-        "goalDifference": -10
+        "goalDifference": -9
       },
       {
         "team": "RC Strasbourg Alsace",
@@ -5214,9 +5188,9 @@
         "drawn": 4,
         "lost": 4,
         "gf": 11,
-        "ga": 17,
+        "ga": 18,
         "points": 7,
-        "goalDifference": -6
+        "goalDifference": -7
       },
       {
         "team": "Le Havre AC",
@@ -5345,8 +5319,8 @@
         "won": 3,
         "drawn": 3,
         "lost": 3,
-        "gf": 9,
-        "ga": 12,
+        "gf": 10,
+        "ga": 13,
         "points": 12,
         "goalDifference": -3
       },
@@ -5423,8 +5397,8 @@
         "won": 2,
         "drawn": 3,
         "lost": 4,
-        "gf": 8,
-        "ga": 10,
+        "gf": 9,
+        "ga": 11,
         "points": 9,
         "goalDifference": -2
       },
@@ -5503,10 +5477,10 @@
         "won": 10,
         "drawn": 0,
         "lost": 1,
-        "gf": 42,
+        "gf": 45,
         "ga": 11,
         "points": 30,
-        "goalDifference": 31
+        "goalDifference": 34
       },
       {
         "team": "Club Atlético de Madrid",
@@ -5587,21 +5561,8 @@
         "goalDifference": 3
       },
       {
-        "team": "Deportivo Alavés",
-        "rank": 8,
-        "played": 11,
-        "logo": "https://crests.football-data.org/263.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 5,
-        "gf": 14,
-        "ga": 13,
-        "points": 12,
-        "goalDifference": 1
-      },
-      {
         "team": "Villarreal CF",
-        "rank": 9,
+        "rank": 8,
         "played": 11,
         "logo": "https://crests.football-data.org/94.png",
         "won": 3,
@@ -5614,7 +5575,7 @@
       },
       {
         "team": "RC Celta de Vigo",
-        "rank": 10,
+        "rank": 9,
         "played": 11,
         "logo": "https://crests.football-data.org/558.png",
         "won": 2,
@@ -5624,6 +5585,19 @@
         "ga": 10,
         "points": 12,
         "goalDifference": 0
+      },
+      {
+        "team": "Deportivo Alavés",
+        "rank": 10,
+        "played": 11,
+        "logo": "https://crests.football-data.org/263.png",
+        "won": 3,
+        "drawn": 3,
+        "lost": 5,
+        "gf": 14,
+        "ga": 16,
+        "points": 12,
+        "goalDifference": -2
       },
       {
         "team": "Rayo Vallecano de Madrid",
@@ -6601,10 +6575,10 @@
         "won": 4,
         "drawn": 3,
         "lost": 4,
-        "gf": 21,
+        "gf": 23,
         "ga": 22,
         "points": 15,
-        "goalDifference": -1
+        "goalDifference": 1
       },
       {
         "team": "Go Ahead Eagles",
@@ -6615,9 +6589,9 @@
         "drawn": 5,
         "lost": 3,
         "gf": 23,
-        "ga": 25,
+        "ga": 27,
         "points": 14,
-        "goalDifference": -2
+        "goalDifference": -4
       },
       {
         "team": "FC Utrecht",

@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-31T05:55:04.836074Z",
+  "updatedAt": "2026-10-31T12:45:39.649217Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83626",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "VfL Wolfsburg",
-      "away": "1. FC Heidenheim 1846",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-      "utcDate": "2026-10-17T11:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1"
-    },
-    {
-      "id": "openligadb:83628",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Kaiserslautern",
-      "away": "VfL Bochum",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
-      "utcDate": "2026-10-17T11:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0"
-    },
-    {
-      "id": "openligadb:83639",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "SpVgg Greuther Fürth",
-      "away": "Eintracht Braunschweig",
-      "homeLogo": "https://i.imgur.com/pwuVbKr.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
-      "utcDate": "2026-10-17T11:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0"
-    },
     {
       "id": "openligadb:83204",
       "sport": "Football",

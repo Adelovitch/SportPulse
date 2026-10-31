@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-10-31T05:55:16.022031Z",
+  "updatedAt": "2026-10-31T12:45:48.524863Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,71 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:560603",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Everton FC",
-      "away": "Chelsea FC",
-      "utcDate": "2026-10-17T11:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/62.png",
-      "awayLogo": "https://crests.football-data.org/61.png"
-    },
-    {
-      "id": "football-data:561884",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Millwall FC",
-      "away": "Lincoln City FC",
-      "utcDate": "2026-10-17T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/384.png",
-      "awayLogo": "https://crests.football-data.org/1126.png"
-    },
-    {
-      "id": "football-data:561887",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Middlesbrough FC",
-      "away": "Cardiff City FC",
-      "utcDate": "2026-10-17T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/343.png",
-      "awayLogo": "https://crests.football-data.org/715.png"
-    },
-    {
-      "id": "football-data:561889",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Watford FC",
-      "away": "Charlton Athletic FC",
-      "utcDate": "2026-10-17T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/346.png",
-      "awayLogo": "https://crests.football-data.org/348.png"
-    },
-    {
-      "id": "football-data:564710",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "RCD Espanyol de Barcelona",
-      "away": "Club Atlético de Madrid",
-      "utcDate": "2026-10-17T12:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/80.png",
-      "awayLogo": "https://crests.football-data.org/78.png"
-    },
     {
       "id": "football-data:558575",
       "sport": "Football",
@@ -4876,6 +4811,58 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/77.png",
       "awayLogo": "https://crests.football-data.org/80.png"
+    },
+    {
+      "id": "football-data:560643",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Manchester City FC",
+      "away": "Fulham FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/65.png",
+      "awayLogo": "https://crests.football-data.org/63.png"
+    },
+    {
+      "id": "football-data:561941",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Sheffield United FC",
+      "away": "Watford FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/356.png",
+      "awayLogo": "https://crests.football-data.org/346.png"
+    },
+    {
+      "id": "football-data:561944",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Southampton FC",
+      "away": "Derby County FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/340.png",
+      "awayLogo": "https://crests.football-data.org/342.png"
+    },
+    {
+      "id": "football-data:561950",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Millwall FC",
+      "away": "Queens Park Rangers FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/384.png",
+      "awayLogo": "https://crests.football-data.org/69.png"
     }
   ],
   "tables": {
@@ -5171,14 +5158,14 @@
       {
         "team": "Chelsea FC",
         "rank": 5,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/61.png",
         "won": 4,
-        "drawn": 1,
+        "drawn": 2,
         "lost": 3,
         "gf": 17,
         "ga": 15,
-        "points": 13,
+        "points": 14,
         "goalDifference": 2
       },
       {
@@ -5314,14 +5301,14 @@
       {
         "team": "Manchester United FC",
         "rank": 16,
-        "played": 8,
+        "played": 9,
         "logo": "https://crests.football-data.org/66.png",
         "won": 1,
-        "drawn": 4,
+        "drawn": 5,
         "lost": 3,
         "gf": 10,
         "ga": 13,
-        "points": 7,
+        "points": 8,
         "goalDifference": -3
       },
       {
@@ -7224,8 +7211,21 @@
         "goalDifference": 2
       },
       {
-        "team": "Blackburn Rovers FC",
+        "team": "Sheffield United FC",
         "rank": 10,
+        "played": 13,
+        "logo": "https://crests.football-data.org/356.png",
+        "won": 5,
+        "drawn": 4,
+        "lost": 4,
+        "gf": 17,
+        "ga": 15,
+        "points": 19,
+        "goalDifference": 2
+      },
+      {
+        "team": "Blackburn Rovers FC",
+        "rank": 11,
         "played": 12,
         "logo": "https://crests.football-data.org/59.png",
         "won": 5,
@@ -7238,7 +7238,7 @@
       },
       {
         "team": "Portsmouth FC",
-        "rank": 11,
+        "rank": 12,
         "played": 12,
         "logo": "https://crests.football-data.org/325.png",
         "won": 5,
@@ -7247,19 +7247,6 @@
         "gf": 16,
         "ga": 15,
         "points": 18,
-        "goalDifference": 1
-      },
-      {
-        "team": "Sheffield United FC",
-        "rank": 12,
-        "played": 12,
-        "logo": "https://crests.football-data.org/356.png",
-        "won": 4,
-        "drawn": 4,
-        "lost": 4,
-        "gf": 16,
-        "ga": 15,
-        "points": 16,
         "goalDifference": 1
       },
       {
@@ -7317,32 +7304,19 @@
       {
         "team": "Wrexham AFC",
         "rank": 17,
-        "played": 12,
+        "played": 13,
         "logo": "https://crests.football-data.org/404.png",
         "won": 3,
         "drawn": 5,
-        "lost": 4,
+        "lost": 5,
         "gf": 15,
-        "ga": 18,
+        "ga": 19,
         "points": 14,
-        "goalDifference": -3
-      },
-      {
-        "team": "Charlton Athletic FC",
-        "rank": 18,
-        "played": 12,
-        "logo": "https://crests.football-data.org/348.png",
-        "won": 3,
-        "drawn": 5,
-        "lost": 4,
-        "gf": 12,
-        "ga": 18,
-        "points": 14,
-        "goalDifference": -6
+        "goalDifference": -4
       },
       {
         "team": "Bolton Wanderers FC",
-        "rank": 19,
+        "rank": 18,
         "played": 12,
         "logo": "https://crests.football-data.org/60.png",
         "won": 4,
@@ -7350,6 +7324,19 @@
         "lost": 6,
         "gf": 16,
         "ga": 23,
+        "points": 14,
+        "goalDifference": -7
+      },
+      {
+        "team": "Charlton Athletic FC",
+        "rank": 19,
+        "played": 12,
+        "logo": "https://crests.football-data.org/348.png",
+        "won": 3,
+        "drawn": 5,
+        "lost": 4,
+        "gf": 11,
+        "ga": 18,
         "points": 14,
         "goalDifference": -7
       },
@@ -7362,9 +7349,9 @@
         "drawn": 0,
         "lost": 8,
         "gf": 20,
-        "ga": 23,
+        "ga": 22,
         "points": 12,
-        "goalDifference": -3
+        "goalDifference": -2
       },
       {
         "team": "Watford FC",

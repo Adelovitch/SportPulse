@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-31T17:41:48.879067Z",
+  "updatedAt": "2026-10-31T20:43:59.657299Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4981,6 +4981,96 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/675.png",
       "awayLogo": "https://crests.football-data.org/1920.png"
+    },
+    {
+      "id": "football-data:567343",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Moreirense FC",
+      "away": "CF Estrela da Amadora",
+      "utcDate": "2026-10-31T15:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/583.png",
+      "awayLogo": "https://crests.football-data.org/9136.png"
+    },
+    {
+      "id": "football-data:558542",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Udinese Calcio",
+      "away": "AS Roma",
+      "utcDate": "2026-10-31T17:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 5",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/115.png",
+      "awayLogo": "https://crests.football-data.org/100.png"
+    },
+    {
+      "id": "football-data:560627",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Tottenham Hotspur FC",
+      "away": "Crystal Palace FC",
+      "utcDate": "2026-10-31T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/73.png",
+      "awayLogo": "https://crests.football-data.org/354.png"
+    },
+    {
+      "id": "football-data:564736",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Real Betis Balompié",
+      "away": "Málaga CF",
+      "utcDate": "2026-10-31T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/90.png",
+      "awayLogo": "https://crests.football-data.org/84.png"
+    },
+    {
+      "id": "openligadb:83219",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Bayern München",
+      "away": "Borussia Dortmund",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "utcDate": "2026-10-31T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2"
+    },
+    {
+      "id": "football-data:558852",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "SC Heerenveen",
+      "away": "NEC",
+      "utcDate": "2026-10-31T17:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/673.png",
+      "awayLogo": "https://crests.football-data.org/1915.png"
+    },
+    {
+      "id": "football-data:558853",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "PSV",
+      "away": "Willem II Tilburg",
+      "utcDate": "2026-10-31T17:45:00Z",
+      "status": "FINISHED",
+      "score": "7 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/674.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     }
   ]
 }

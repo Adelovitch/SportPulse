@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-10-31T17:39:09.775743Z",
+  "updatedAt": "2026-10-31T20:41:29.871620Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83627",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Hannover 96",
-      "away": "FC St. Pauli",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-      "utcDate": "2026-10-17T18:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1"
-    },
     {
       "id": "openligadb:83629",
       "sport": "Football",
@@ -436,8 +424,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "utcDate": "2026-10-31T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 2"
     },
     {
       "id": "openligadb:83669",

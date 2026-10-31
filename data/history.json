@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-31T21:45:15.596473Z",
+  "updatedAt": "2026-10-31T23:49:49.981531Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5096,6 +5096,97 @@
       "utcDate": "2026-10-31T19:30:00Z",
       "status": "FINISHED",
       "score": "2 – 1"
+    },
+    {
+      "id": "football-data:558548",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "FC Internazionale Milano",
+      "utcDate": "2026-10-31T19:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/98.png",
+      "awayLogo": "https://crests.football-data.org/108.png"
+    },
+    {
+      "id": "football-data:559643",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "ES Troyes AC",
+      "away": "Le Mans FC",
+      "utcDate": "2026-10-31T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/531.png",
+      "awayLogo": "https://crests.football-data.org/535.png"
+    },
+    {
+      "id": "football-data:558850",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "SC Cambuur-Leeuwarden",
+      "away": "Go Ahead Eagles",
+      "utcDate": "2026-10-31T20:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1909.png",
+      "awayLogo": "https://crests.football-data.org/718.png"
+    },
+    {
+      "id": "football-data:558851",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "AFC Ajax",
+      "away": "AZ",
+      "utcDate": "2026-10-31T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/678.png",
+      "awayLogo": "https://crests.football-data.org/682.png"
+    },
+    {
+      "id": "football-data:560628",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Aston Villa FC",
+      "away": "Fulham FC",
+      "utcDate": "2026-10-31T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/58.png",
+      "awayLogo": "https://crests.football-data.org/63.png"
+    },
+    {
+      "id": "football-data:564732",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "FC Barcelona",
+      "away": "Deportivo Alavés",
+      "utcDate": "2026-10-31T20:00:00Z",
+      "status": "FINISHED",
+      "score": "6 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/81.png",
+      "awayLogo": "https://crests.football-data.org/263.png"
+    },
+    {
+      "id": "football-data:567338",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "FC Porto",
+      "away": "GD Estoril Praia",
+      "utcDate": "2026-10-31T20:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/503.png",
+      "awayLogo": "https://crests.football-data.org/582.png"
     }
   ]
 }

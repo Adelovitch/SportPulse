@@ -4,20 +4,8 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-01T06:21:50.117072Z",
+  "updatedAt": "2026-11-01T13:10:49.826953Z",
   "matches": [
-    {
-      "id": "jolpica:f1:2026:12",
-      "sport": "Formule 1",
-      "competition": "Championnat du monde F1",
-      "home": "Dutch Grand Prix",
-      "away": "Circuit Park Zandvoort",
-      "utcDate": "2026-08-23T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "eventType": "race",
-      "provider": "Jolpica-F1"
-    },
     {
       "id": "jolpica:f1:2026:13",
       "sport": "Formule 1",

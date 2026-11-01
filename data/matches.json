@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-01T06:21:44.818422Z",
+  "updatedAt": "2026-11-01T13:10:47.849155Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83629",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Karlsruher SC",
-      "away": "SV Darmstadt 98",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-      "utcDate": "2026-10-18T11:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 0"
-    },
-    {
-      "id": "openligadb:83630",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Dynamo Dresden",
-      "away": "1. FC Magdeburg",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
-      "utcDate": "2026-10-18T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0"
-    },
-    {
-      "id": "openligadb:83635",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "DSC Arminia Bielefeld",
-      "away": "VfL Osnabrück",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
-      "utcDate": "2026-10-18T11:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83202",
       "sport": "Football",

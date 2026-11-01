@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-10-31T23:49:49.981531Z",
+  "updatedAt": "2026-11-01T06:24:29.394851Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -4560,6 +4560,19 @@
       "utcDate": "2026-10-30T19:30:00Z",
       "status": "FINISHED",
       "score": "4 – 1"
+    },
+    {
+      "id": "football-data:561916",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Sheffield United FC",
+      "away": "Wrexham AFC",
+      "utcDate": "2026-10-30T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/356.png",
+      "awayLogo": "https://crests.football-data.org/404.png"
     },
     {
       "id": "football-data:564737",

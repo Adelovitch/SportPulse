@@ -1,7 +1,7 @@
 {
   "source": "Jolpica-F1",
   "season": 2026,
-  "updatedAt": "2026-10-31T21:45:14.696757Z",
+  "updatedAt": "2026-11-01T06:24:28.214512Z",
   "drivers": [
     {
       "position": "1",
@@ -163,6 +163,13 @@
       "points": "0",
       "wins": "0",
       "team": "Cadillac F1 Team"
+    },
+    {
+      "position": "24",
+      "name": "Ryo Hirakawa",
+      "points": "0",
+      "wins": "0",
+      "team": "Haas F1 Team"
     }
   ],
   "constructors": [

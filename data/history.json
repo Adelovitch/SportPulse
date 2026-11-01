@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-01T18:00:43.400109Z",
+  "updatedAt": "2026-11-01T18:30:41.607504Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5391,6 +5391,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/677.png",
       "awayLogo": "https://crests.football-data.org/6806.png"
+    },
+    {
+      "id": "football-data:559640",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Olympique Lyonnais",
+      "away": "Angers SCO",
+      "utcDate": "2026-11-01T16:15:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/523.png",
+      "awayLogo": "https://crests.football-data.org/532.png"
+    },
+    {
+      "id": "football-data:559642",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Paris FC",
+      "away": "AS Monaco FC",
+      "utcDate": "2026-11-01T16:15:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1045.png",
+      "awayLogo": "https://crests.football-data.org/548.png"
     }
   ]
 }

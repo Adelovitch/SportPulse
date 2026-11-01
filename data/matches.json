@@ -1,36 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-01T13:10:47.849155Z",
+  "updatedAt": "2026-11-01T17:58:08.573190Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83202",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Bayer 04 Leverkusen",
-      "away": "SC Freiburg",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
-      "awayLogo": "https://i.imgur.com/r3mvi0h.png",
-      "utcDate": "2026-10-18T13:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
-    {
-      "id": "openligadb:83205",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Borussia Mönchengladbach",
-      "away": "TSG Hoffenheim",
-      "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
-      "awayLogo": "https://i.imgur.com/gF0PfEl.png",
-      "utcDate": "2026-10-18T15:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2"
-    },
     {
       "id": "openligadb:83648",
       "sport": "Football",
@@ -412,8 +388,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-11-01T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 3"
     },
     {
       "id": "openligadb:83665",
@@ -424,8 +400,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-11-01T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 1"
     },
     {
       "id": "openligadb:83673",
@@ -436,8 +412,8 @@
       "homeLogo": "https://i.imgur.com/pwuVbKr.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "utcDate": "2026-11-01T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 0"
     },
     {
       "id": "openligadb:83223",
@@ -448,8 +424,8 @@
       "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
       "utcDate": "2026-11-01T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 1"
     },
     {
       "id": "openligadb:83221",

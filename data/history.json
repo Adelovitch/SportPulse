@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-01T18:30:41.607504Z",
+  "updatedAt": "2026-11-01T22:12:48.060651Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5417,6 +5417,96 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1045.png",
       "awayLogo": "https://crests.football-data.org/548.png"
+    },
+    {
+      "id": "football-data:560631",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Liverpool FC",
+      "away": "Arsenal FC",
+      "utcDate": "2026-11-01T16:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/64.png",
+      "awayLogo": "https://crests.football-data.org/57.png"
+    },
+    {
+      "id": "openligadb:83221",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "Hamburger SV",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "utcDate": "2026-11-01T16:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1"
+    },
+    {
+      "id": "football-data:558540",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Lecce",
+      "away": "Genoa CFC",
+      "utcDate": "2026-11-01T17:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5890.png",
+      "awayLogo": "https://crests.football-data.org/107.png"
+    },
+    {
+      "id": "football-data:567340",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "CS Marítimo",
+      "away": "CD Santa Clara",
+      "utcDate": "2026-11-01T18:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5575.png",
+      "awayLogo": "https://crests.football-data.org/5530.png"
+    },
+    {
+      "id": "football-data:567345",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Académico de Viseu FC",
+      "away": "Rio Ave FC",
+      "utcDate": "2026-11-01T18:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5527.png",
+      "awayLogo": "https://crests.football-data.org/496.png"
+    },
+    {
+      "id": "football-data:558547",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Juventus FC",
+      "away": "SSC Napoli",
+      "utcDate": "2026-11-01T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/109.png",
+      "awayLogo": "https://crests.football-data.org/113.png"
+    },
+    {
+      "id": "football-data:559645",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Olympique de Marseille",
+      "away": "Toulouse FC",
+      "utcDate": "2026-11-01T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/516.png",
+      "awayLogo": "https://crests.football-data.org/511.png"
     }
   ]
 }

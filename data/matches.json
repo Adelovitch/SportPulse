@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-01T18:28:03.003608Z",
+  "updatedAt": "2026-11-01T22:10:08.521928Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -436,8 +436,8 @@
       "homeLogo": "https://i.imgur.com/X8NFkOb.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-11-01T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 1"
     },
     {
       "id": "openligadb:83684",

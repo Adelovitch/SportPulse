@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-01T22:27:08.175476Z",
+  "updatedAt": "2026-11-02T01:50:39.843413Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,19 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555048",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Clube do Remo",
-      "away": "RB Bragantino",
-      "utcDate": "2026-10-18T22:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/4287.png",
-      "awayLogo": "https://crests.football-data.org/4286.png"
-    },
     {
       "id": "football-data:558576",
       "sport": "Football",
@@ -2180,8 +2167,8 @@
       "home": "PEC Zwolle",
       "away": "ADO Den Haag",
       "utcDate": "2026-11-01T11:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/684.png",
       "awayLogo": "https://crests.football-data.org/680.png"
@@ -2219,8 +2206,8 @@
       "home": "Telstar 1963",
       "away": "FC Utrecht",
       "utcDate": "2026-11-01T13:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "4 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1912.png",
       "awayLogo": "https://crests.football-data.org/676.png"
@@ -2232,8 +2219,8 @@
       "home": "SBV Excelsior",
       "away": "FC Twente '65",
       "utcDate": "2026-11-01T13:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 9",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/670.png",
       "awayLogo": "https://crests.football-data.org/666.png"
@@ -2297,8 +2284,8 @@
       "home": "FC Arouca",
       "away": "CD Nacional",
       "utcDate": "2026-11-01T15:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/712.png",
       "awayLogo": "https://crests.football-data.org/5529.png"
@@ -2310,8 +2297,8 @@
       "home": "FC Groningen",
       "away": "Sparta Rotterdam",
       "utcDate": "2026-11-01T15:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/677.png",
       "awayLogo": "https://crests.football-data.org/6806.png"
@@ -2388,8 +2375,8 @@
       "home": "CS Marítimo",
       "away": "CD Santa Clara",
       "utcDate": "2026-11-01T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5575.png",
       "awayLogo": "https://crests.football-data.org/5530.png"
@@ -2401,8 +2388,8 @@
       "home": "Académico de Viseu FC",
       "away": "Rio Ave FC",
       "utcDate": "2026-11-01T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5527.png",
       "awayLogo": "https://crests.football-data.org/496.png"
@@ -2453,8 +2440,8 @@
       "home": "Sporting Clube de Braga",
       "away": "FC Famalicão",
       "utcDate": "2026-11-01T20:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5613.png",
       "awayLogo": "https://crests.football-data.org/5531.png"
@@ -4915,6 +4902,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1765.png",
       "awayLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": "football-data:555094",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "RB Bragantino",
+      "away": "CR Vasco da Gama",
+      "utcDate": "2026-11-22T22:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4286.png",
+      "awayLogo": "https://crests.football-data.org/1780.png"
     }
   ],
   "tables": {

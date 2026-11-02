@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-01T22:27:04.342995Z",
+  "updatedAt": "2026-11-02T01:50:36.217764Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:13",
@@ -707,48 +707,6 @@
       "winner": "Andrea Kimi Antonelli"
     },
     {
-      "id": "thesportsdb:2601733",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Atlanta Hawks",
-      "away": "Cleveland Cavaliers",
-      "utcDate": "2026-10-30T00:00:00Z",
-      "status": "FINISHED",
-      "score": "114 – 111",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/aa71yi1759233429.jpg"
-    },
-    {
-      "id": "thesportsdb:2601734",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "New Orleans Pelicans",
-      "away": "Sacramento Kings",
-      "utcDate": "2026-10-30T00:00:00Z",
-      "status": "FINISHED",
-      "score": "132 – 120",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/p89q7r1759234231.jpg"
-    },
-    {
-      "id": "thesportsdb:2601735",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Portland Trail Blazers",
-      "away": "Memphis Grizzlies",
-      "utcDate": "2026-10-30T02:00:00Z",
-      "status": "FINISHED",
-      "score": "103 – 124",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c70t1o1759234214.jpg"
-    },
-    {
       "id": "thesportsdb:2601741",
       "sport": "Basketball",
       "competition": "NBA",
@@ -839,24 +797,167 @@
       "home": "Mexico City Grand Prix",
       "away": "Autódromo Hermanos Rodríguez",
       "utcDate": "2026-11-01T20:00:00Z",
-      "status": "SCHEDULED",
+      "status": "FINISHED",
       "score": null,
       "eventType": "race",
-      "provider": "Jolpica-F1"
-    },
-    {
-      "id": "thesportsdb:2601754",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Indiana Pacers",
-      "away": "Brooklyn Nets",
-      "utcDate": "2026-11-01T22:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/uco6jo1759233160.jpg"
+      "provider": "Jolpica-F1",
+      "classification": [
+        {
+          "position": "1",
+          "driver": "Max Verstappen",
+          "driverId": "max_verstappen",
+          "team": "Red Bull",
+          "points": "25"
+        },
+        {
+          "position": "2",
+          "driver": "Lewis Hamilton",
+          "driverId": "hamilton",
+          "team": "Ferrari",
+          "points": "18"
+        },
+        {
+          "position": "3",
+          "driver": "Andrea Kimi Antonelli",
+          "driverId": "antonelli",
+          "team": "Mercedes",
+          "points": "15"
+        },
+        {
+          "position": "4",
+          "driver": "Charles Leclerc",
+          "driverId": "leclerc",
+          "team": "Ferrari",
+          "points": "12"
+        },
+        {
+          "position": "5",
+          "driver": "Lando Norris",
+          "driverId": "norris",
+          "team": "McLaren",
+          "points": "10"
+        },
+        {
+          "position": "6",
+          "driver": "George Russell",
+          "driverId": "russell",
+          "team": "Mercedes",
+          "points": "8"
+        },
+        {
+          "position": "7",
+          "driver": "Oscar Piastri",
+          "driverId": "piastri",
+          "team": "McLaren",
+          "points": "6"
+        },
+        {
+          "position": "8",
+          "driver": "Franco Colapinto",
+          "driverId": "colapinto",
+          "team": "Alpine F1 Team",
+          "points": "4"
+        },
+        {
+          "position": "9",
+          "driver": "Liam Lawson",
+          "driverId": "lawson",
+          "team": "RB F1 Team",
+          "points": "2"
+        },
+        {
+          "position": "10",
+          "driver": "Pierre Gasly",
+          "driverId": "gasly",
+          "team": "Alpine F1 Team",
+          "points": "1"
+        },
+        {
+          "position": "11",
+          "driver": "Gabriel Bortoleto",
+          "driverId": "bortoleto",
+          "team": "Audi",
+          "points": "0"
+        },
+        {
+          "position": "12",
+          "driver": "Isack Hadjar",
+          "driverId": "hadjar",
+          "team": "Red Bull",
+          "points": "0"
+        },
+        {
+          "position": "13",
+          "driver": "Ryo Hirakawa",
+          "driverId": "ryo_hirakawa",
+          "team": "Haas F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "14",
+          "driver": "Alexander Albon",
+          "driverId": "albon",
+          "team": "Williams",
+          "points": "0"
+        },
+        {
+          "position": "15",
+          "driver": "Carlos Sainz",
+          "driverId": "sainz",
+          "team": "Williams",
+          "points": "0"
+        },
+        {
+          "position": "16",
+          "driver": "Nico Hülkenberg",
+          "driverId": "hulkenberg",
+          "team": "Audi",
+          "points": "0"
+        },
+        {
+          "position": "17",
+          "driver": "Sergio Pérez",
+          "driverId": "perez",
+          "team": "Cadillac F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "18",
+          "driver": "Arvid Lindblad",
+          "driverId": "arvid_lindblad",
+          "team": "RB F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "19",
+          "driver": "Oliver Bearman",
+          "driverId": "bearman",
+          "team": "Haas F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "20",
+          "driver": "Valtteri Bottas",
+          "driverId": "bottas",
+          "team": "Cadillac F1 Team",
+          "points": "0"
+        },
+        {
+          "position": "21",
+          "driver": "Lance Stroll",
+          "driverId": "stroll",
+          "team": "Aston Martin",
+          "points": "0"
+        },
+        {
+          "position": "22",
+          "driver": "Fernando Alonso",
+          "driverId": "alonso",
+          "team": "Aston Martin",
+          "points": "0"
+        }
+      ],
+      "winner": "Max Verstappen"
     },
     {
       "id": "thesportsdb:2601755",

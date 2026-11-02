@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-01T22:29:34.324849Z",
+  "updatedAt": "2026-11-02T01:53:06.841499Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5533,6 +5533,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/77.png",
       "awayLogo": "https://crests.football-data.org/92.png"
+    },
+    {
+      "id": "football-data:567339",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Sporting Clube de Braga",
+      "away": "FC Famalicão",
+      "utcDate": "2026-11-01T20:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5613.png",
+      "awayLogo": "https://crests.football-data.org/5531.png"
     }
   ]
 }

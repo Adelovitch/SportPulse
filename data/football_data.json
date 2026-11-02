@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T06:23:38.399517Z",
+  "updatedAt": "2026-11-02T19:38:36.722158Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,71 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:558576",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "AC Monza",
-      "away": "Cagliari Calcio",
-      "utcDate": "2026-10-19T16:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5911.png",
-      "awayLogo": "https://crests.football-data.org/104.png"
-    },
-    {
-      "id": "football-data:558578",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Parma Calcio 1913",
-      "away": "Torino FC",
-      "utcDate": "2026-10-19T18:45:00Z",
-      "status": "FINISHED",
-      "score": "0 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/112.png",
-      "awayLogo": "https://crests.football-data.org/586.png"
-    },
-    {
-      "id": "football-data:560606",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Tottenham Hotspur FC",
-      "away": "Coventry City FC",
-      "utcDate": "2026-10-19T19:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/73.png",
-      "awayLogo": "https://crests.football-data.org/1076.png"
-    },
-    {
-      "id": "football-data:564717",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Getafe CF",
-      "away": "Rayo Vallecano de Madrid",
-      "utcDate": "2026-10-19T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/82.png",
-      "awayLogo": "https://crests.football-data.org/87.png"
-    },
-    {
-      "id": "football-data:567271",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "Sporting Clube de Braga",
-      "away": "Gil Vicente FC",
-      "utcDate": "2026-10-19T19:15:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5613.png",
-      "awayLogo": "https://crests.football-data.org/5533.png"
-    },
     {
       "id": "football-data:555044",
       "sport": "Football",
@@ -5862,21 +5797,34 @@
         "goalDifference": -10
       },
       {
-        "team": "US Sassuolo Calcio",
+        "team": "ACF Fiorentina",
         "rank": 15,
-        "played": 9,
-        "logo": "https://crests.football-data.org/471.png",
+        "played": 10,
+        "logo": "https://crests.football-data.org/99.png",
         "won": 2,
         "drawn": 2,
-        "lost": 5,
-        "gf": 14,
-        "ga": 22,
+        "lost": 6,
+        "gf": 15,
+        "ga": 23,
         "points": 8,
         "goalDifference": -8
       },
       {
-        "team": "AC Monza",
+        "team": "US Sassuolo Calcio",
         "rank": 16,
+        "played": 10,
+        "logo": "https://crests.football-data.org/471.png",
+        "won": 2,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 16,
+        "ga": 26,
+        "points": 8,
+        "goalDifference": -10
+      },
+      {
+        "team": "AC Monza",
+        "rank": 17,
         "played": 10,
         "logo": "https://crests.football-data.org/5911.png",
         "won": 2,
@@ -5886,19 +5834,6 @@
         "ga": 24,
         "points": 7,
         "goalDifference": -7
-      },
-      {
-        "team": "ACF Fiorentina",
-        "rank": 17,
-        "played": 9,
-        "logo": "https://crests.football-data.org/99.png",
-        "won": 1,
-        "drawn": 2,
-        "lost": 6,
-        "gf": 11,
-        "ga": 21,
-        "points": 5,
-        "goalDifference": -10
       },
       {
         "team": "Parma Calcio 1913",

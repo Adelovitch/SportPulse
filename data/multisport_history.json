@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-02T01:53:06.774211Z",
+  "updatedAt": "2026-11-02T06:26:08.069526Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1773,6 +1773,34 @@
         }
       ],
       "winner": "Max Verstappen"
+    },
+    {
+      "id": "thesportsdb:2601755",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Los Angeles Clippers",
+      "utcDate": "2026-11-02T01:30:00Z",
+      "status": "FINISHED",
+      "score": "124 – 112",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/jyacn61759234422.jpg"
+    },
+    {
+      "id": "thesportsdb:2601756",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Toronto Raptors",
+      "utcDate": "2026-11-02T02:00:00Z",
+      "status": "FINISHED",
+      "score": "131 – 125",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lct96a1778227205.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/fcs5971759233963.jpg"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-02T01:53:06.841499Z",
+  "updatedAt": "2026-11-02T21:48:55.889794Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5546,6 +5546,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5613.png",
       "awayLogo": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "id": "football-data:558541",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Sassuolo Calcio",
+      "away": "ACF Fiorentina",
+      "utcDate": "2026-11-02T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/471.png",
+      "awayLogo": "https://crests.football-data.org/99.png"
+    },
+    {
+      "id": "football-data:558545",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Atalanta BC",
+      "away": "Parma Calcio 1913",
+      "utcDate": "2026-11-02T19:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/102.png",
+      "awayLogo": "https://crests.football-data.org/112.png"
+    },
+    {
+      "id": "football-data:559641",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "FC Lorient",
+      "away": "Stade Brestois 29",
+      "utcDate": "2026-11-02T19:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/525.png",
+      "awayLogo": "https://crests.football-data.org/512.png"
     }
   ]
 }

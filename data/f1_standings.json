@@ -1,7 +1,7 @@
 {
   "source": "Jolpica-F1",
   "season": 2026,
-  "updatedAt": "2026-11-02T06:26:06.697279Z",
+  "updatedAt": "2026-11-02T21:48:54.952365Z",
   "drivers": [
     {
       "position": "1",
@@ -48,28 +48,28 @@
     {
       "position": "7",
       "name": "Oscar Piastri",
-      "points": "150",
+      "points": "144",
       "wins": "0",
       "team": "McLaren"
     },
     {
       "position": "8",
       "name": "Isack Hadjar",
-      "points": "105",
+      "points": "107",
       "wins": "0",
       "team": "Red Bull"
     },
     {
       "position": "9",
       "name": "Liam Lawson",
-      "points": "79",
+      "points": "83",
       "wins": "0",
       "team": "RB F1 Team, Red Bull"
     },
     {
       "position": "10",
       "name": "Pierre Gasly",
-      "points": "43",
+      "points": "42",
       "wins": "0",
       "team": "Alpine F1 Team"
     },
@@ -83,7 +83,7 @@
     {
       "position": "12",
       "name": "Franco Colapinto",
-      "points": "31",
+      "points": "27",
       "wins": "0",
       "team": "Alpine F1 Team"
     },
@@ -96,15 +96,15 @@
     },
     {
       "position": "14",
-      "name": "Nico Hülkenberg",
-      "points": "13",
+      "name": "Gabriel Bortoleto",
+      "points": "14",
       "wins": "0",
       "team": "Audi"
     },
     {
       "position": "15",
-      "name": "Gabriel Bortoleto",
-      "points": "10",
+      "name": "Nico Hülkenberg",
+      "points": "13",
       "wins": "0",
       "team": "Audi"
     },
@@ -145,24 +145,24 @@
     },
     {
       "position": "21",
+      "name": "Ryo Hirakawa",
+      "points": "1",
+      "wins": "0",
+      "team": "Haas F1 Team"
+    },
+    {
+      "position": "22",
       "name": "Lance Stroll",
       "points": "0",
       "wins": "0",
       "team": "Aston Martin"
     },
     {
-      "position": "22",
+      "position": "23",
       "name": "Valtteri Bottas",
       "points": "0",
       "wins": "0",
       "team": "Cadillac F1 Team"
-    },
-    {
-      "position": "23",
-      "name": "Ryo Hirakawa",
-      "points": "0",
-      "wins": "0",
-      "team": "Haas F1 Team"
     },
     {
       "position": "24",
@@ -190,42 +190,42 @@
     {
       "position": "3",
       "name": "Red Bull",
-      "points": "380",
+      "points": "382",
       "wins": "3",
       "team": null
     },
     {
       "position": "4",
       "name": "McLaren",
-      "points": "371",
+      "points": "365",
       "wins": "2",
       "team": null
     },
     {
       "position": "5",
       "name": "RB F1 Team",
-      "points": "104",
+      "points": "108",
       "wins": "0",
       "team": null
     },
     {
       "position": "6",
       "name": "Alpine F1 Team",
-      "points": "74",
+      "points": "69",
       "wins": "0",
       "team": null
     },
     {
       "position": "7",
       "name": "Haas F1 Team",
-      "points": "30",
+      "points": "31",
       "wins": "0",
       "team": null
     },
     {
       "position": "8",
       "name": "Audi",
-      "points": "23",
+      "points": "27",
       "wins": "0",
       "team": null
     },

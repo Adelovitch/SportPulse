@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 435,
+  "totalMatches": 440,
   "seasons": {
     "2026-2027": {
-      "count": 435,
+      "count": 440,
       "competitions": {
         "2. Bundesliga": {
           "count": 36,
@@ -197,7 +197,7 @@
           ]
         },
         "La Liga": {
-          "count": 39,
+          "count": 40,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -232,6 +232,7 @@
             "football-data:564728",
             "football-data:564729",
             "football-data:564730",
+            "football-data:564731",
             "football-data:564732",
             "football-data:564733",
             "football-data:564734",
@@ -323,7 +324,7 @@
           ]
         },
         "Premier League": {
-          "count": 39,
+          "count": 40,
           "matchIds": [
             "football-data:560592",
             "football-data:560593",
@@ -355,6 +356,7 @@
             "football-data:560619",
             "football-data:560620",
             "football-data:560621",
+            "football-data:560622",
             "football-data:560623",
             "football-data:560624",
             "football-data:560625",
@@ -367,7 +369,7 @@
           ]
         },
         "Primeira Liga": {
-          "count": 26,
+          "count": 28,
           "matchIds": [
             "football-data:567271",
             "football-data:567320",
@@ -392,9 +394,11 @@
             "football-data:567339",
             "football-data:567340",
             "football-data:567341",
+            "football-data:567342",
             "football-data:567343",
             "football-data:567344",
-            "football-data:567345"
+            "football-data:567345",
+            "football-data:567346"
           ]
         },
         "Serie A": {
@@ -453,7 +457,7 @@
           ]
         },
         "Série A brésilienne": {
-          "count": 40,
+          "count": 41,
           "matchIds": [
             "football-data:555030",
             "football-data:555031",
@@ -494,7 +498,8 @@
             "football-data:555066",
             "football-data:555067",
             "football-data:555068",
-            "football-data:555069"
+            "football-data:555069",
+            "football-data:555072"
           ]
         }
       }

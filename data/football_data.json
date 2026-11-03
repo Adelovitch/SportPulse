@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-02T21:46:26.885415Z",
+  "updatedAt": "2026-11-03T01:48:46.739472Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,19 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555044",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "SC Corinthians Paulista",
-      "away": "EC Vitória",
-      "utcDate": "2026-10-19T23:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1779.png",
-      "awayLogo": "https://crests.football-data.org/1782.png"
-    },
     {
       "id": "football-data:575359",
       "sport": "Football",
@@ -2427,8 +2414,8 @@
       "home": "Newcastle United FC",
       "away": "Everton FC",
       "utcDate": "2026-11-02T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/67.png",
       "awayLogo": "https://crests.football-data.org/62.png"
@@ -2440,8 +2427,8 @@
       "home": "RC Deportivo La Coruña",
       "away": "CA Osasuna",
       "utcDate": "2026-11-02T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/560.png",
       "awayLogo": "https://crests.football-data.org/79.png"
@@ -2453,8 +2440,8 @@
       "home": "Sport Lisboa e Benfica",
       "away": "FC Alverca",
       "utcDate": "2026-11-02T20:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1903.png",
       "awayLogo": "https://crests.football-data.org/7822.png"
@@ -2466,8 +2453,8 @@
       "home": "Gil Vicente FC",
       "away": "Vitória SC",
       "utcDate": "2026-11-02T20:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5533.png",
       "awayLogo": "https://crests.football-data.org/5543.png"
@@ -2479,8 +2466,8 @@
       "home": "RB Bragantino",
       "away": "Santos FC",
       "utcDate": "2026-11-02T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4286.png",
       "awayLogo": "https://crests.football-data.org/6685.png"
@@ -4889,6 +4876,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/88.png",
       "awayLogo": "https://crests.football-data.org/285.png"
+    },
+    {
+      "id": "football-data:555097",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Internacional",
+      "away": "EC Vitória",
+      "utcDate": "2026-11-23T22:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6684.png",
+      "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": "football-data:555093",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Botafogo FR",
+      "away": "São Paulo FC",
+      "utcDate": "2026-11-23T23:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1770.png",
+      "awayLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": "football-data:555099",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Santos FC",
+      "away": "Grêmio FBPA",
+      "utcDate": "2026-11-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6685.png",
+      "awayLogo": "https://crests.football-data.org/1767.png"
     }
   ],
   "tables": {
@@ -5483,8 +5509,21 @@
         "goalDifference": 4
       },
       {
-        "team": "Villarreal CF",
+        "team": "RC Deportivo La Coruña",
         "rank": 8,
+        "played": 11,
+        "logo": "https://crests.football-data.org/560.png",
+        "won": 3,
+        "drawn": 5,
+        "lost": 3,
+        "gf": 15,
+        "ga": 14,
+        "points": 14,
+        "goalDifference": 1
+      },
+      {
+        "team": "Villarreal CF",
+        "rank": 9,
         "played": 11,
         "logo": "https://crests.football-data.org/94.png",
         "won": 3,
@@ -5492,19 +5531,6 @@
         "lost": 5,
         "gf": 15,
         "ga": 15,
-        "points": 12,
-        "goalDifference": 0
-      },
-      {
-        "team": "RC Deportivo La Coruña",
-        "rank": 9,
-        "played": 11,
-        "logo": "https://crests.football-data.org/560.png",
-        "won": 2,
-        "drawn": 6,
-        "lost": 3,
-        "gf": 14,
-        "ga": 14,
         "points": 12,
         "goalDifference": 0
       },
@@ -5561,21 +5587,8 @@
         "goalDifference": -8
       },
       {
-        "team": "CA Osasuna",
-        "rank": 14,
-        "played": 11,
-        "logo": "https://crests.football-data.org/79.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 5,
-        "gf": 11,
-        "ga": 21,
-        "points": 12,
-        "goalDifference": -10
-      },
-      {
         "team": "RCD Espanyol de Barcelona",
-        "rank": 15,
+        "rank": 14,
         "played": 11,
         "logo": "https://crests.football-data.org/80.png",
         "won": 3,
@@ -5585,6 +5598,19 @@
         "ga": 14,
         "points": 11,
         "goalDifference": -1
+      },
+      {
+        "team": "CA Osasuna",
+        "rank": 15,
+        "played": 11,
+        "logo": "https://crests.football-data.org/79.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 11,
+        "ga": 22,
+        "points": 11,
+        "goalDifference": -11
       },
       {
         "team": "Real Racing Club de Santander",
@@ -6949,30 +6975,30 @@
         "goalDifference": 5
       },
       {
-        "team": "Santos FC",
+        "team": "RB Bragantino",
         "rank": 8,
-        "played": 33,
+        "played": 34,
+        "logo": "https://crests.football-data.org/4286.png",
+        "won": 13,
+        "drawn": 8,
+        "lost": 13,
+        "gf": 44,
+        "ga": 39,
+        "points": 47,
+        "goalDifference": 5
+      },
+      {
+        "team": "Santos FC",
+        "rank": 9,
+        "played": 34,
         "logo": "https://crests.football-data.org/6685.png",
         "won": 12,
         "drawn": 11,
-        "lost": 10,
-        "gf": 49,
-        "ga": 47,
+        "lost": 11,
+        "gf": 50,
+        "ga": 49,
         "points": 47,
-        "goalDifference": 2
-      },
-      {
-        "team": "RB Bragantino",
-        "rank": 9,
-        "played": 33,
-        "logo": "https://crests.football-data.org/4286.png",
-        "won": 12,
-        "drawn": 8,
-        "lost": 13,
-        "gf": 42,
-        "ga": 38,
-        "points": 44,
-        "goalDifference": 4
+        "goalDifference": 1
       },
       {
         "team": "São Paulo FC",

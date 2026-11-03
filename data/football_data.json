@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-03T06:58:03.846472Z",
+  "updatedAt": "2026-11-03T17:21:39.700043Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:575359",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Sabah FK",
-      "away": "Borussia Dortmund",
-      "utcDate": "2026-10-20T16:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/10233.png",
-      "awayLogo": "https://crests.football-data.org/4.png"
-    },
-    {
-      "id": "football-data:575360",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Fenerbahçe SK",
-      "away": "SK Slavia Praha",
-      "utcDate": "2026-10-20T16:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/613.png",
-      "awayLogo": "https://crests.football-data.org/930.png"
-    },
     {
       "id": "football-data:561826",
       "sport": "Football",

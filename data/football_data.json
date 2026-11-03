@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-03T17:21:39.700043Z",
+  "updatedAt": "2026-11-03T19:35:54.987905Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,110 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:561826",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Wolverhampton Wanderers FC",
-      "away": "Portsmouth FC",
-      "utcDate": "2026-10-20T18:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/76.png",
-      "awayLogo": "https://crests.football-data.org/325.png"
-    },
-    {
-      "id": "football-data:575361",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Manchester City FC",
-      "away": "PAE AEK",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "5 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/65.png",
-      "awayLogo": "https://crests.football-data.org/1899.png"
-    },
-    {
-      "id": "football-data:575362",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "VfB Stuttgart",
-      "away": "Club Atlético de Madrid",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/10.png",
-      "awayLogo": "https://crests.football-data.org/78.png"
-    },
-    {
-      "id": "football-data:575363",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Liverpool FC",
-      "away": "Villarreal CF",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/64.png",
-      "awayLogo": "https://crests.football-data.org/94.png"
-    },
-    {
-      "id": "football-data:575364",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "AS Roma",
-      "away": "ŠK Slovan Bratislava",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/100.png",
-      "awayLogo": "https://crests.football-data.org/7509.png"
-    },
-    {
-      "id": "football-data:575365",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "FC Porto",
-      "away": "PSV",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/503.png",
-      "awayLogo": "https://crests.football-data.org/674.png"
-    },
-    {
-      "id": "football-data:575366",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "SSC Napoli",
-      "away": "FK Bodø/Glimt",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/113.png",
-      "awayLogo": "https://crests.football-data.org/5721.png"
-    },
-    {
-      "id": "football-data:575367",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Paris Saint-Germain FC",
-      "away": "FC Barcelona",
-      "utcDate": "2026-10-20T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/524.png",
-      "awayLogo": "https://crests.football-data.org/81.png"
-    },
     {
       "id": "football-data:575368",
       "sport": "Football",
@@ -4889,6 +4785,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6685.png",
       "awayLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": "football-data:575395",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Galatasaray SK",
+      "away": "Aston Villa FC",
+      "utcDate": "2026-11-24T17:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/610.png",
+      "awayLogo": "https://crests.football-data.org/58.png"
+    },
+    {
+      "id": "football-data:575396",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "FK Bodø/Glimt",
+      "away": "LASK Linz",
+      "utcDate": "2026-11-24T17:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5721.png",
+      "awayLogo": "https://crests.football-data.org/2016.png"
     }
   ],
   "tables": {
@@ -5968,8 +5890,21 @@
         "goalDifference": 5
       },
       {
-        "team": "Real Betis Balompié",
+        "team": "Sporting Clube de Portugal",
         "rank": 5,
+        "played": 4,
+        "logo": "https://crests.football-data.org/498.png",
+        "won": 3,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 8,
+        "ga": 4,
+        "points": 9,
+        "goalDifference": 4
+      },
+      {
+        "team": "Real Betis Balompié",
+        "rank": 6,
         "played": 3,
         "logo": "https://crests.football-data.org/90.png",
         "won": 3,
@@ -5979,19 +5914,6 @@
         "ga": 4,
         "points": 9,
         "goalDifference": 3
-      },
-      {
-        "team": "VfB Stuttgart",
-        "rank": 6,
-        "played": 3,
-        "logo": "https://crests.football-data.org/10.png",
-        "won": 2,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 7,
-        "ga": 2,
-        "points": 7,
-        "goalDifference": 5
       },
       {
         "team": "Arsenal FC",
@@ -6007,8 +5929,21 @@
         "goalDifference": 4
       },
       {
-        "team": "FC Barcelona",
+        "team": "VfB Stuttgart",
         "rank": 8,
+        "played": 4,
+        "logo": "https://crests.football-data.org/10.png",
+        "won": 2,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 7,
+        "ga": 4,
+        "points": 7,
+        "goalDifference": 3
+      },
+      {
+        "team": "FC Barcelona",
+        "rank": 9,
         "played": 3,
         "logo": "https://crests.football-data.org/81.png",
         "won": 2,
@@ -6021,7 +5956,7 @@
       },
       {
         "team": "Como 1907",
-        "rank": 9,
+        "rank": 10,
         "played": 3,
         "logo": "https://crests.football-data.org/7397.png",
         "won": 2,
@@ -6034,7 +5969,7 @@
       },
       {
         "team": "Manchester City FC",
-        "rank": 10,
+        "rank": 11,
         "played": 3,
         "logo": "https://crests.football-data.org/65.png",
         "won": 2,
@@ -6047,7 +5982,7 @@
       },
       {
         "team": "Club Brugge KV",
-        "rank": 11,
+        "rank": 12,
         "played": 3,
         "logo": "https://crests.football-data.org/851.png",
         "won": 2,
@@ -6055,19 +5990,6 @@
         "lost": 1,
         "gf": 9,
         "ga": 6,
-        "points": 6,
-        "goalDifference": 3
-      },
-      {
-        "team": "Sporting Clube de Portugal",
-        "rank": 12,
-        "played": 3,
-        "logo": "https://crests.football-data.org/498.png",
-        "won": 2,
-        "drawn": 0,
-        "lost": 1,
-        "gf": 7,
-        "ga": 4,
         "points": 6,
         "goalDifference": 3
       },
@@ -6085,8 +6007,21 @@
         "goalDifference": 1
       },
       {
-        "team": "FC Bayern München",
+        "team": "Galatasaray SK",
         "rank": 14,
+        "played": 4,
+        "logo": "https://crests.football-data.org/610.png",
+        "won": 2,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 8,
+        "ga": 9,
+        "points": 6,
+        "goalDifference": -1
+      },
+      {
+        "team": "FC Bayern München",
+        "rank": 15,
         "played": 3,
         "logo": "https://crests.football-data.org/5.png",
         "won": 1,
@@ -6099,7 +6034,7 @@
       },
       {
         "team": "AS Roma",
-        "rank": 15,
+        "rank": 16,
         "played": 3,
         "logo": "https://crests.football-data.org/100.png",
         "won": 1,
@@ -6112,7 +6047,7 @@
       },
       {
         "team": "Club Atlético de Madrid",
-        "rank": 16,
+        "rank": 17,
         "played": 3,
         "logo": "https://crests.football-data.org/78.png",
         "won": 1,
@@ -6125,20 +6060,20 @@
       },
       {
         "team": "FK Shakhtar Donetsk",
-        "rank": 17,
-        "played": 3,
+        "rank": 18,
+        "played": 4,
         "logo": "https://crests.football-data.org/1887.png",
         "won": 1,
         "drawn": 1,
-        "lost": 1,
+        "lost": 2,
         "gf": 4,
-        "ga": 3,
+        "ga": 4,
         "points": 4,
-        "goalDifference": 1
+        "goalDifference": 0
       },
       {
         "team": "PSV",
-        "rank": 18,
+        "rank": 19,
         "played": 3,
         "logo": "https://crests.football-data.org/674.png",
         "won": 1,
@@ -6151,7 +6086,7 @@
       },
       {
         "team": "Villarreal CF",
-        "rank": 19,
+        "rank": 20,
         "played": 3,
         "logo": "https://crests.football-data.org/94.png",
         "won": 1,
@@ -6164,7 +6099,7 @@
       },
       {
         "team": "FC Internazionale Milano",
-        "rank": 20,
+        "rank": 21,
         "played": 3,
         "logo": "https://crests.football-data.org/108.png",
         "won": 1,
@@ -6177,7 +6112,7 @@
       },
       {
         "team": "Manchester United FC",
-        "rank": 20,
+        "rank": 21,
         "played": 3,
         "logo": "https://crests.football-data.org/66.png",
         "won": 1,
@@ -6190,7 +6125,7 @@
       },
       {
         "team": "SSC Napoli",
-        "rank": 22,
+        "rank": 23,
         "played": 3,
         "logo": "https://crests.football-data.org/113.png",
         "won": 1,
@@ -6200,19 +6135,6 @@
         "ga": 7,
         "points": 3,
         "goalDifference": -2
-      },
-      {
-        "team": "Galatasaray SK",
-        "rank": 23,
-        "played": 3,
-        "logo": "https://crests.football-data.org/610.png",
-        "won": 1,
-        "drawn": 0,
-        "lost": 2,
-        "gf": 6,
-        "ga": 9,
-        "points": 3,
-        "goalDifference": -3
       },
       {
         "team": "LASK Linz",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-03T22:27:46.379813Z",
+  "updatedAt": "2026-11-04T02:47:28.990961Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5884,6 +5884,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/2016.png",
       "awayLogo": "https://crests.football-data.org/7509.png"
+    },
+    {
+      "id": "football-data:555073",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Chapecoense AF",
+      "away": "Mirassol FC",
+      "utcDate": "2026-11-03T22:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1772_large.png",
+      "awayLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": "football-data:555076",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Internacional",
+      "away": "Coritiba FBC",
+      "utcDate": "2026-11-04T00:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6684.png",
+      "awayLogo": "https://crests.football-data.org/4241.png"
     }
   ]
 }

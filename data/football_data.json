@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-03T22:25:21.279598Z",
+  "updatedAt": "2026-11-04T02:44:57.575428Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2583,8 +2583,8 @@
       "home": "Chapecoense AF",
       "away": "Mirassol FC",
       "utcDate": "2026-11-03T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1772_large.png",
       "awayLogo": "https://crests.football-data.org/4364.png"
@@ -2596,8 +2596,8 @@
       "home": "SC Internacional",
       "away": "Coritiba FBC",
       "utcDate": "2026-11-04T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6684.png",
       "awayLogo": "https://crests.football-data.org/4241.png"
@@ -7107,19 +7107,32 @@
       {
         "team": "Coritiba FBC",
         "rank": 11,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/4241.png",
         "won": 11,
         "drawn": 9,
-        "lost": 13,
+        "lost": 14,
         "gf": 40,
-        "ga": 50,
+        "ga": 51,
         "points": 42,
-        "goalDifference": -10
+        "goalDifference": -11
+      },
+      {
+        "team": "Mirassol FC",
+        "rank": 12,
+        "played": 34,
+        "logo": "https://crests.football-data.org/4364.png",
+        "won": 10,
+        "drawn": 10,
+        "lost": 14,
+        "gf": 39,
+        "ga": 48,
+        "points": 40,
+        "goalDifference": -9
       },
       {
         "team": "Botafogo FR",
-        "rank": 12,
+        "rank": 13,
         "played": 33,
         "logo": "https://crests.football-data.org/1770.png",
         "won": 10,
@@ -7132,7 +7145,7 @@
       },
       {
         "team": "CR Vasco da Gama",
-        "rank": 13,
+        "rank": 14,
         "played": 32,
         "logo": "https://crests.football-data.org/1780.png",
         "won": 10,
@@ -7145,7 +7158,7 @@
       },
       {
         "team": "EC Vitória",
-        "rank": 14,
+        "rank": 15,
         "played": 33,
         "logo": "https://crests.football-data.org/1782.png",
         "won": 10,
@@ -7157,8 +7170,21 @@
         "goalDifference": -13
       },
       {
+        "team": "SC Internacional",
+        "rank": 16,
+        "played": 34,
+        "logo": "https://crests.football-data.org/6684.png",
+        "won": 9,
+        "drawn": 11,
+        "lost": 14,
+        "gf": 38,
+        "ga": 42,
+        "points": 38,
+        "goalDifference": -4
+      },
+      {
         "team": "Grêmio FBPA",
-        "rank": 15,
+        "rank": 17,
         "played": 33,
         "logo": "https://crests.football-data.org/1767.png",
         "won": 9,
@@ -7170,21 +7196,8 @@
         "goalDifference": -7
       },
       {
-        "team": "Mirassol FC",
-        "rank": 16,
-        "played": 33,
-        "logo": "https://crests.football-data.org/4364.png",
-        "won": 9,
-        "drawn": 10,
-        "lost": 14,
-        "gf": 37,
-        "ga": 47,
-        "points": 37,
-        "goalDifference": -10
-      },
-      {
         "team": "SC Corinthians Paulista",
-        "rank": 17,
+        "rank": 18,
         "played": 33,
         "logo": "https://crests.football-data.org/1779.png",
         "won": 9,
@@ -7194,19 +7207,6 @@
         "ga": 42,
         "points": 36,
         "goalDifference": -6
-      },
-      {
-        "team": "SC Internacional",
-        "rank": 18,
-        "played": 33,
-        "logo": "https://crests.football-data.org/6684.png",
-        "won": 8,
-        "drawn": 11,
-        "lost": 14,
-        "gf": 37,
-        "ga": 42,
-        "points": 35,
-        "goalDifference": -5
       },
       {
         "team": "Clube do Remo",
@@ -7224,15 +7224,15 @@
       {
         "team": "Chapecoense AF",
         "rank": 20,
-        "played": 32,
+        "played": 33,
         "logo": "https://crests.football-data.org/1772_large.png",
         "won": 4,
         "drawn": 9,
-        "lost": 19,
-        "gf": 32,
-        "ga": 66,
+        "lost": 20,
+        "gf": 33,
+        "ga": 68,
         "points": 21,
-        "goalDifference": -34
+        "goalDifference": -35
       }
     ],
     "Championship": [

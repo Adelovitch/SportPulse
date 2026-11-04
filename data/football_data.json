@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T06:39:47.653976Z",
+  "updatedAt": "2026-11-04T17:56:44.424283Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:575368",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Como 1907",
-      "away": "Manchester United FC",
-      "utcDate": "2026-10-21T16:45:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/7397.png",
-      "awayLogo": "https://crests.football-data.org/66.png"
-    },
-    {
-      "id": "football-data:575369",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Lille OSC",
-      "away": "Galatasaray SK",
-      "utcDate": "2026-10-21T16:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 4",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/521.png",
-      "awayLogo": "https://crests.football-data.org/610.png"
-    },
     {
       "id": "football-data:564685",
       "sport": "Football",
@@ -5006,6 +4980,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/76.png",
       "awayLogo": "https://crests.football-data.org/342.png"
+    },
+    {
+      "id": "football-data:575404",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Sabah FK",
+      "away": "FC Barcelona",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/10233.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
+    },
+    {
+      "id": "football-data:575405",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "SK Slavia Praha",
+      "away": "Villarreal CF",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/930.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
     }
   ],
   "tables": {
@@ -6046,8 +6046,34 @@
         "goalDifference": 15
       },
       {
-        "team": "FC Barcelona",
+        "team": "Liverpool FC",
         "rank": 2,
+        "played": 4,
+        "logo": "https://crests.football-data.org/64.png",
+        "won": 3,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 12,
+        "ga": 7,
+        "points": 10,
+        "goalDifference": 5
+      },
+      {
+        "team": "Real Madrid CF",
+        "rank": 3,
+        "played": 4,
+        "logo": "https://crests.football-data.org/86.png",
+        "won": 3,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 10,
+        "ga": 5,
+        "points": 10,
+        "goalDifference": 5
+      },
+      {
+        "team": "FC Barcelona",
+        "rank": 4,
         "played": 4,
         "logo": "https://crests.football-data.org/81.png",
         "won": 3,
@@ -6060,7 +6086,7 @@
       },
       {
         "team": "Aston Villa FC",
-        "rank": 3,
+        "rank": 5,
         "played": 4,
         "logo": "https://crests.football-data.org/58.png",
         "won": 3,
@@ -6070,32 +6096,6 @@
         "ga": 6,
         "points": 9,
         "goalDifference": 6
-      },
-      {
-        "team": "Liverpool FC",
-        "rank": 4,
-        "played": 3,
-        "logo": "https://crests.football-data.org/64.png",
-        "won": 3,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 12,
-        "ga": 7,
-        "points": 9,
-        "goalDifference": 5
-      },
-      {
-        "team": "Real Madrid CF",
-        "rank": 5,
-        "played": 3,
-        "logo": "https://crests.football-data.org/86.png",
-        "won": 3,
-        "drawn": 0,
-        "lost": 0,
-        "gf": 10,
-        "ga": 5,
-        "points": 9,
-        "goalDifference": 5
       },
       {
         "team": "Sporting Clube de Portugal",
@@ -6332,8 +6332,21 @@
         "goalDifference": -5
       },
       {
-        "team": "SSC Napoli",
+        "team": "PAE AEK",
         "rank": 24,
+        "played": 4,
+        "logo": "https://crests.football-data.org/1899.png",
+        "won": 1,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 3,
+        "ga": 8,
+        "points": 4,
+        "goalDifference": -5
+      },
+      {
+        "team": "SSC Napoli",
+        "rank": 25,
         "played": 3,
         "logo": "https://crests.football-data.org/113.png",
         "won": 1,
@@ -6346,7 +6359,7 @@
       },
       {
         "team": "Sabah FK",
-        "rank": 25,
+        "rank": 26,
         "played": 3,
         "logo": "https://crests.football-data.org/10233.png",
         "won": 1,
@@ -6359,7 +6372,7 @@
       },
       {
         "team": "Racing Club de Lens",
-        "rank": 26,
+        "rank": 27,
         "played": 3,
         "logo": "https://crests.football-data.org/546.png",
         "won": 1,
@@ -6371,21 +6384,8 @@
         "goalDifference": -4
       },
       {
-        "team": "PAE AEK",
-        "rank": 27,
-        "played": 3,
-        "logo": "https://crests.football-data.org/1899.png",
-        "won": 1,
-        "drawn": 0,
-        "lost": 2,
-        "gf": 3,
-        "ga": 8,
-        "points": 3,
-        "goalDifference": -5
-      },
-      {
         "team": "RB Leipzig",
-        "rank": 27,
+        "rank": 28,
         "played": 3,
         "logo": "https://crests.football-data.org/721.png",
         "won": 1,
@@ -6410,8 +6410,21 @@
         "goalDifference": -6
       },
       {
-        "team": "Feyenoord Rotterdam",
+        "team": "Fenerbahçe SK",
         "rank": 30,
+        "played": 4,
+        "logo": "https://crests.football-data.org/613.png",
+        "won": 0,
+        "drawn": 3,
+        "lost": 1,
+        "gf": 3,
+        "ga": 9,
+        "points": 3,
+        "goalDifference": -6
+      },
+      {
+        "team": "Feyenoord Rotterdam",
+        "rank": 31,
         "played": 4,
         "logo": "https://crests.football-data.org/675.png",
         "won": 1,
@@ -6421,19 +6434,6 @@
         "ga": 11,
         "points": 3,
         "goalDifference": -7
-      },
-      {
-        "team": "Fenerbahçe SK",
-        "rank": 31,
-        "played": 3,
-        "logo": "https://crests.football-data.org/613.png",
-        "won": 0,
-        "drawn": 2,
-        "lost": 1,
-        "gf": 3,
-        "ga": 9,
-        "points": 2,
-        "goalDifference": -6
       },
       {
         "team": "SK Slavia Praha",

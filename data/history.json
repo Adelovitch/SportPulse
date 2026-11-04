@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-04T19:55:28.115848Z",
+  "updatedAt": "2026-11-04T23:37:09.534598Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5936,6 +5936,136 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/613.png",
       "awayLogo": "https://crests.football-data.org/64.png"
+    },
+    {
+      "id": "football-data:561925",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Cardiff City FC",
+      "away": "West Ham United FC",
+      "utcDate": "2026-11-04T19:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/715.png",
+      "awayLogo": "https://crests.football-data.org/563.png"
+    },
+    {
+      "id": "football-data:561927",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Wrexham AFC",
+      "away": "Middlesbrough FC",
+      "utcDate": "2026-11-04T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/404.png",
+      "awayLogo": "https://crests.football-data.org/343.png"
+    },
+    {
+      "id": "football-data:561926",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bristol City FC",
+      "away": "Wolverhampton Wanderers FC",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/387.png",
+      "awayLogo": "https://crests.football-data.org/76.png"
+    },
+    {
+      "id": "football-data:575388",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "RB Leipzig",
+      "away": "Manchester City FC",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/721.png",
+      "awayLogo": "https://crests.football-data.org/65.png"
+    },
+    {
+      "id": "football-data:575389",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "SK Slavia Praha",
+      "away": "Arsenal FC",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/930.png",
+      "awayLogo": "https://crests.football-data.org/57.png"
+    },
+    {
+      "id": "football-data:575390",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "PSV",
+      "away": "Club Brugge KV",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/674.png",
+      "awayLogo": "https://crests.football-data.org/851.png"
+    },
+    {
+      "id": "football-data:575391",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Borussia Dortmund",
+      "away": "Real Betis Balompié",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4.png",
+      "awayLogo": "https://crests.football-data.org/90.png"
+    },
+    {
+      "id": "football-data:575392",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "FC Porto",
+      "away": "SSC Napoli",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/503.png",
+      "awayLogo": "https://crests.football-data.org/113.png"
+    },
+    {
+      "id": "football-data:575393",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Racing Club de Lens",
+      "away": "Como 1907",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 9",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/7397.png"
+    },
+    {
+      "id": "football-data:575394",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Viking FK",
+      "away": "Sabah FK",
+      "utcDate": "2026-11-04T20:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5720.png",
+      "awayLogo": "https://crests.football-data.org/10233.png"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-04T17:56:44.424283Z",
+  "updatedAt": "2026-11-04T19:52:57.360614Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,110 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:564685",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Levante UD",
-      "away": "Athletic Club",
-      "utcDate": "2026-10-21T18:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/88.png",
-      "awayLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": "football-data:575370",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Real Madrid CF",
-      "away": "RB Leipzig",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/86.png",
-      "awayLogo": "https://crests.football-data.org/721.png"
-    },
-    {
-      "id": "football-data:575371",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "FC Internazionale Milano",
-      "away": "FK Shakhtar Donetsk",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/108.png",
-      "awayLogo": "https://crests.football-data.org/1887.png"
-    },
-    {
-      "id": "football-data:575372",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "FC Bayern München",
-      "away": "Arsenal FC",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5.png",
-      "awayLogo": "https://crests.football-data.org/57.png"
-    },
-    {
-      "id": "football-data:575373",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Club Brugge KV",
-      "away": "Racing Club de Lens",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/851.png",
-      "awayLogo": "https://crests.football-data.org/546.png"
-    },
-    {
-      "id": "football-data:575374",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Aston Villa FC",
-      "away": "Viking FK",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/58.png",
-      "awayLogo": "https://crests.football-data.org/5720.png"
-    },
-    {
-      "id": "football-data:575375",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Sporting Clube de Portugal",
-      "away": "LASK Linz",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/498.png",
-      "awayLogo": "https://crests.football-data.org/2016.png"
-    },
-    {
-      "id": "football-data:575376",
-      "sport": "Football",
-      "competition": "Ligue des champions",
-      "home": "Real Betis Balompié",
-      "away": "Feyenoord Rotterdam",
-      "utcDate": "2026-10-21T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/90.png",
-      "awayLogo": "https://crests.football-data.org/675.png"
-    },
     {
       "id": "football-data:558863",
       "sport": "Football",
@@ -2583,8 +2479,8 @@
       "home": "PAE AEK",
       "away": "Real Madrid CF",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1899.png",
       "awayLogo": "https://crests.football-data.org/86.png"
@@ -2596,8 +2492,8 @@
       "home": "Fenerbahçe SK",
       "away": "Liverpool FC",
       "utcDate": "2026-11-04T17:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/613.png",
       "awayLogo": "https://crests.football-data.org/64.png"
@@ -3175,19 +3071,6 @@
       "awayLogo": "https://crests.football-data.org/5527.png"
     },
     {
-      "id": "football-data:559637",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "home": "AJ Auxerre",
-      "away": "Paris FC",
-      "utcDate": "2026-11-07T16:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/519.png",
-      "awayLogo": "https://crests.football-data.org/1045.png"
-    },
-    {
       "id": "football-data:558535",
       "sport": "Football",
       "competition": "Serie A",
@@ -3240,6 +3123,19 @@
       "awayLogo": "https://crests.football-data.org/6806.png"
     },
     {
+      "id": "football-data:559637",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "AJ Auxerre",
+      "away": "Paris FC",
+      "utcDate": "2026-11-07T18:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/519.png",
+      "awayLogo": "https://crests.football-data.org/1045.png"
+    },
+    {
       "id": "football-data:567347",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -3251,19 +3147,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/7822.png",
       "awayLogo": "https://crests.football-data.org/6618.png"
-    },
-    {
-      "id": "football-data:559635",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "home": "Paris Saint-Germain FC",
-      "away": "ES Troyes AC",
-      "utcDate": "2026-11-07T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/524.png",
-      "awayLogo": "https://crests.football-data.org/531.png"
     },
     {
       "id": "football-data:558531",
@@ -3303,6 +3186,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/670.png",
       "awayLogo": "https://crests.football-data.org/718.png"
+    },
+    {
+      "id": "football-data:559635",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Paris Saint-Germain FC",
+      "away": "ES Troyes AC",
+      "utcDate": "2026-11-07T20:05:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/524.png",
+      "awayLogo": "https://crests.football-data.org/531.png"
     },
     {
       "id": "football-data:567350",
@@ -5006,6 +4902,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/930.png",
       "awayLogo": "https://crests.football-data.org/94.png"
+    },
+    {
+      "id": "football-data:561961",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Watford FC",
+      "away": "Blackburn Rovers FC",
+      "utcDate": "2026-11-25T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/346.png",
+      "awayLogo": "https://crests.football-data.org/59.png"
+    },
+    {
+      "id": "football-data:561963",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Bolton Wanderers FC",
+      "away": "West Bromwich Albion FC",
+      "utcDate": "2026-11-25T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/60.png",
+      "awayLogo": "https://crests.football-data.org/74.png"
+    },
+    {
+      "id": "football-data:561964",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Burnley FC",
+      "away": "Birmingham City FC",
+      "utcDate": "2026-11-25T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/328.png",
+      "awayLogo": "https://crests.football-data.org/332.png"
     }
   ],
   "tables": {
@@ -6046,34 +5981,21 @@
         "goalDifference": 15
       },
       {
-        "team": "Liverpool FC",
+        "team": "Real Madrid CF",
         "rank": 2,
         "played": 4,
-        "logo": "https://crests.football-data.org/64.png",
-        "won": 3,
-        "drawn": 1,
-        "lost": 0,
-        "gf": 12,
-        "ga": 7,
-        "points": 10,
-        "goalDifference": 5
-      },
-      {
-        "team": "Real Madrid CF",
-        "rank": 3,
-        "played": 4,
         "logo": "https://crests.football-data.org/86.png",
-        "won": 3,
-        "drawn": 1,
+        "won": 4,
+        "drawn": 0,
         "lost": 0,
-        "gf": 10,
-        "ga": 5,
-        "points": 10,
-        "goalDifference": 5
+        "gf": 13,
+        "ga": 7,
+        "points": 12,
+        "goalDifference": 6
       },
       {
         "team": "FC Barcelona",
-        "rank": 4,
+        "rank": 3,
         "played": 4,
         "logo": "https://crests.football-data.org/81.png",
         "won": 3,
@@ -6086,7 +6008,7 @@
       },
       {
         "team": "Aston Villa FC",
-        "rank": 5,
+        "rank": 4,
         "played": 4,
         "logo": "https://crests.football-data.org/58.png",
         "won": 3,
@@ -6096,6 +6018,19 @@
         "ga": 6,
         "points": 9,
         "goalDifference": 6
+      },
+      {
+        "team": "Liverpool FC",
+        "rank": 5,
+        "played": 4,
+        "logo": "https://crests.football-data.org/64.png",
+        "won": 3,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 14,
+        "ga": 10,
+        "points": 9,
+        "goalDifference": 4
       },
       {
         "team": "Sporting Clube de Portugal",
@@ -6267,8 +6202,21 @@
         "goalDifference": -1
       },
       {
-        "team": "AS Roma",
+        "team": "Fenerbahçe SK",
         "rank": 19,
+        "played": 4,
+        "logo": "https://crests.football-data.org/613.png",
+        "won": 1,
+        "drawn": 2,
+        "lost": 1,
+        "gf": 6,
+        "ga": 11,
+        "points": 5,
+        "goalDifference": -5
+      },
+      {
+        "team": "AS Roma",
+        "rank": 20,
         "played": 4,
         "logo": "https://crests.football-data.org/100.png",
         "won": 1,
@@ -6281,7 +6229,7 @@
       },
       {
         "team": "FK Shakhtar Donetsk",
-        "rank": 20,
+        "rank": 21,
         "played": 4,
         "logo": "https://crests.football-data.org/1887.png",
         "won": 1,
@@ -6294,7 +6242,7 @@
       },
       {
         "team": "PSV",
-        "rank": 21,
+        "rank": 22,
         "played": 3,
         "logo": "https://crests.football-data.org/674.png",
         "won": 1,
@@ -6307,7 +6255,7 @@
       },
       {
         "team": "Club Atlético de Madrid",
-        "rank": 22,
+        "rank": 23,
         "played": 4,
         "logo": "https://crests.football-data.org/78.png",
         "won": 1,
@@ -6320,7 +6268,7 @@
       },
       {
         "team": "FK Bodø/Glimt",
-        "rank": 23,
+        "rank": 24,
         "played": 4,
         "logo": "https://crests.football-data.org/5721.png",
         "won": 1,
@@ -6328,19 +6276,6 @@
         "lost": 2,
         "gf": 4,
         "ga": 9,
-        "points": 4,
-        "goalDifference": -5
-      },
-      {
-        "team": "PAE AEK",
-        "rank": 24,
-        "played": 4,
-        "logo": "https://crests.football-data.org/1899.png",
-        "won": 1,
-        "drawn": 1,
-        "lost": 2,
-        "gf": 3,
-        "ga": 8,
         "points": 4,
         "goalDifference": -5
       },
@@ -6410,15 +6345,15 @@
         "goalDifference": -6
       },
       {
-        "team": "Fenerbahçe SK",
+        "team": "PAE AEK",
         "rank": 30,
         "played": 4,
-        "logo": "https://crests.football-data.org/613.png",
-        "won": 0,
-        "drawn": 3,
-        "lost": 1,
-        "gf": 3,
-        "ga": 9,
+        "logo": "https://crests.football-data.org/1899.png",
+        "won": 1,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 5,
+        "ga": 11,
         "points": 3,
         "goalDifference": -6
       },

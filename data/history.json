@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-04T02:47:28.990961Z",
+  "updatedAt": "2026-11-04T19:55:28.115848Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -5910,6 +5910,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6684.png",
       "awayLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": "football-data:575386",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "PAE AEK",
+      "away": "Real Madrid CF",
+      "utcDate": "2026-11-04T17:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1899.png",
+      "awayLogo": "https://crests.football-data.org/86.png"
+    },
+    {
+      "id": "football-data:575387",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Fenerbahçe SK",
+      "away": "Liverpool FC",
+      "utcDate": "2026-11-04T17:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/613.png",
+      "awayLogo": "https://crests.football-data.org/64.png"
     }
   ]
 }

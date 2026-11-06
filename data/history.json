@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-05T07:01:35.046317Z",
+  "updatedAt": "2026-11-06T07:00:49.985474Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6118,6 +6118,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1776.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": "football-data:555077",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SE Palmeiras",
+      "away": "Clube do Remo",
+      "utcDate": "2026-11-05T22:30:00Z",
+      "status": "FINISHED",
+      "score": "6 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1769.png",
+      "awayLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": "football-data:555074",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Cruzeiro EC",
+      "away": "EC Bahia",
+      "utcDate": "2026-11-06T00:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1771.png",
+      "awayLogo": "https://crests.football-data.org/1777.png"
     }
   ]
 }

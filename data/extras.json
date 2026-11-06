@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-06T00:06:46.585103Z",
+  "updatedAt": "2026-11-06T06:58:13.062740Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:13",
@@ -918,28 +918,14 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/jsqtyr1759234125.jpg"
     },
     {
-      "id": "thesportsdb:2601785",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Los Angeles Clippers",
-      "away": "Miami Heat",
-      "utcDate": "2026-11-05T03:30:00Z",
-      "status": "FINISHED",
-      "score": "116 – 117",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0nev1m1759233146.jpg"
-    },
-    {
       "id": "thesportsdb:2601786",
       "sport": "Basketball",
       "competition": "NBA",
       "home": "Phoenix Suns",
       "away": "Orlando Magic",
       "utcDate": "2026-11-06T02:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "117 – 104",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
@@ -952,8 +938,8 @@
       "home": "Golden State Warriors",
       "away": "Miami Heat",
       "utcDate": "2026-11-06T03:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "120 – 100",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",

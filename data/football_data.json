@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-06T00:06:49.622962Z",
+  "updatedAt": "2026-11-06T06:58:16.793114Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2687,8 +2687,8 @@
       "home": "SE Palmeiras",
       "away": "Clube do Remo",
       "utcDate": "2026-11-05T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "6 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1769.png",
       "awayLogo": "https://crests.football-data.org/4287.png"
@@ -2700,8 +2700,8 @@
       "home": "Cruzeiro EC",
       "away": "EC Bahia",
       "utcDate": "2026-11-06T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1771.png",
       "awayLogo": "https://crests.football-data.org/1777.png"
@@ -7047,23 +7047,23 @@
         "won": 21,
         "drawn": 10,
         "lost": 3,
-        "gf": 61,
+        "gf": 62,
         "ga": 23,
         "points": 73,
-        "goalDifference": 38
+        "goalDifference": 39
       },
       {
         "team": "Cruzeiro EC",
         "rank": 3,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/1771.png",
-        "won": 17,
+        "won": 18,
         "drawn": 6,
         "lost": 10,
-        "gf": 52,
-        "ga": 46,
-        "points": 57,
-        "goalDifference": 6
+        "gf": 55,
+        "ga": 48,
+        "points": 60,
+        "goalDifference": 7
       },
       {
         "team": "Fluminense FC",
@@ -7094,15 +7094,15 @@
       {
         "team": "EC Bahia",
         "rank": 6,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/1777.png",
         "won": 14,
         "drawn": 11,
-        "lost": 8,
-        "gf": 48,
-        "ga": 42,
+        "lost": 9,
+        "gf": 50,
+        "ga": 45,
         "points": 53,
-        "goalDifference": 6
+        "goalDifference": 5
       },
       {
         "team": "CA Mineiro",
@@ -7269,9 +7269,9 @@
         "drawn": 11,
         "lost": 17,
         "gf": 37,
-        "ga": 56,
+        "ga": 57,
         "points": 29,
-        "goalDifference": -19
+        "goalDifference": -20
       },
       {
         "team": "Chapecoense AF",

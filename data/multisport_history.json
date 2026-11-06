@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-05T07:01:34.977141Z",
+  "updatedAt": "2026-11-06T07:00:49.891671Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -1913,6 +1913,34 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0nev1m1759233146.jpg"
+    },
+    {
+      "id": "thesportsdb:2601786",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Orlando Magic",
+      "utcDate": "2026-11-06T02:00:00Z",
+      "status": "FINISHED",
+      "score": "117 – 104",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/6p74k41759234305.jpg"
+    },
+    {
+      "id": "thesportsdb:2601787",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Miami Heat",
+      "utcDate": "2026-11-06T03:00:00Z",
+      "status": "FINISHED",
+      "score": "120 – 100",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/5t8qwf1759233977.jpg"
     }
   ]
 }

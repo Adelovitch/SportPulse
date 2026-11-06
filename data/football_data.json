@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-05T20:04:53.447145Z",
+  "updatedAt": "2026-11-06T00:06:49.622962Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -7042,15 +7042,15 @@
       {
         "team": "SE Palmeiras",
         "rank": 2,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/1769.png",
-        "won": 20,
+        "won": 21,
         "drawn": 10,
         "lost": 3,
-        "gf": 56,
-        "ga": 22,
-        "points": 70,
-        "goalDifference": 34
+        "gf": 61,
+        "ga": 23,
+        "points": 73,
+        "goalDifference": 38
       },
       {
         "team": "Cruzeiro EC",
@@ -7263,15 +7263,15 @@
       {
         "team": "Clube do Remo",
         "rank": 19,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/4287.png",
         "won": 6,
         "drawn": 11,
-        "lost": 16,
-        "gf": 36,
-        "ga": 51,
+        "lost": 17,
+        "gf": 37,
+        "ga": 56,
         "points": 29,
-        "goalDifference": -15
+        "goalDifference": -19
       },
       {
         "team": "Chapecoense AF",

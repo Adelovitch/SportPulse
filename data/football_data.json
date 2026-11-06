@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-06T06:58:16.793114Z",
+  "updatedAt": "2026-11-06T19:30:25.677202Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,84 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:558863",
-      "sport": "Football",
-      "competition": "Eredivisie",
-      "home": "Go Ahead Eagles",
-      "away": "Telstar 1963",
-      "utcDate": "2026-10-23T18:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/718.png",
-      "awayLogo": "https://crests.football-data.org/1912.png"
-    },
-    {
-      "id": "football-data:559654",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "home": "Stade Brestois 29",
-      "away": "OGC Nice",
-      "utcDate": "2026-10-23T18:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/512.png",
-      "awayLogo": "https://crests.football-data.org/522.png"
-    },
-    {
-      "id": "football-data:558567",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Torino FC",
-      "away": "AC Monza",
-      "utcDate": "2026-10-23T18:45:00Z",
-      "status": "FINISHED",
-      "score": "3 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/586.png",
-      "awayLogo": "https://crests.football-data.org/5911.png"
-    },
-    {
-      "id": "football-data:560620",
-      "sport": "Football",
-      "competition": "Premier League",
-      "home": "Ipswich Town FC",
-      "away": "Nottingham Forest FC",
-      "utcDate": "2026-10-23T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/349.png",
-      "awayLogo": "https://crests.football-data.org/351.png"
-    },
-    {
-      "id": "football-data:564719",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Deportivo Alavés",
-      "away": "Málaga CF",
-      "utcDate": "2026-10-23T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/263.png",
-      "awayLogo": "https://crests.football-data.org/84.png"
-    },
-    {
-      "id": "football-data:561894",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Bolton Wanderers FC",
-      "away": "Middlesbrough FC",
-      "utcDate": "2026-10-23T19:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 5",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/60.png",
-      "awayLogo": "https://crests.football-data.org/343.png"
-    },
     {
       "id": "football-data:567329",
       "sport": "Football",
@@ -5058,6 +4980,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1766.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": "football-data:558820",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Groningen",
+      "away": "Willem II Tilburg",
+      "utcDate": "2026-11-27T19:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/677.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     }
   ],
   "tables": {
@@ -6698,8 +6633,21 @@
         "goalDifference": -6
       },
       {
-        "team": "FC Utrecht",
+        "team": "PEC Zwolle",
         "rank": 12,
+        "played": 12,
+        "logo": "https://crests.football-data.org/684.png",
+        "won": 3,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 13,
+        "ga": 24,
+        "points": 12,
+        "goalDifference": -11
+      },
+      {
+        "team": "FC Utrecht",
+        "rank": 13,
         "played": 11,
         "logo": "https://crests.football-data.org/676.png",
         "won": 3,
@@ -6712,7 +6660,7 @@
       },
       {
         "team": "NEC",
-        "rank": 13,
+        "rank": 14,
         "played": 11,
         "logo": "https://crests.football-data.org/1915.png",
         "won": 2,
@@ -6722,19 +6670,6 @@
         "ga": 19,
         "points": 11,
         "goalDifference": -2
-      },
-      {
-        "team": "PEC Zwolle",
-        "rank": 14,
-        "played": 11,
-        "logo": "https://crests.football-data.org/684.png",
-        "won": 3,
-        "drawn": 2,
-        "lost": 6,
-        "gf": 12,
-        "ga": 23,
-        "points": 11,
-        "goalDifference": -11
       },
       {
         "team": "SBV Excelsior",
@@ -6778,14 +6713,14 @@
       {
         "team": "Willem II Tilburg",
         "rank": 18,
-        "played": 11,
+        "played": 12,
         "logo": "https://crests.football-data.org/672.png",
         "won": 0,
-        "drawn": 2,
+        "drawn": 3,
         "lost": 9,
-        "gf": 10,
-        "ga": 39,
-        "points": 2,
+        "gf": 11,
+        "ga": 40,
+        "points": 3,
         "goalDifference": -29
       }
     ],

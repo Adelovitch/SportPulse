@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-06T06:58:08.619010Z",
+  "updatedAt": "2026-11-06T19:30:15.083797Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83648",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "SV Darmstadt 98",
-      "away": "FC St. Pauli",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-      "utcDate": "2026-10-23T16:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0"
-    },
-    {
-      "id": "openligadb:83655",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "VfL Bochum",
-      "away": "VfL Wolfsburg",
-      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-      "utcDate": "2026-10-23T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1"
-    },
-    {
-      "id": "openligadb:83212",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "VfB Stuttgart",
-      "away": "Borussia Mönchengladbach",
-      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
-      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
-      "utcDate": "2026-10-23T18:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 3"
-    },
     {
       "id": "openligadb:83645",
       "sport": "Football",
@@ -448,8 +412,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "awayLogo": "https://i.imgur.com/pwuVbKr.png",
       "utcDate": "2026-11-06T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 0"
     },
     {
       "id": "openligadb:83687",
@@ -460,8 +424,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "utcDate": "2026-11-06T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 0"
     },
     {
       "id": "openligadb:83234",
@@ -652,6 +616,42 @@
       "homeLogo": "https://i.imgur.com/gF0PfEl.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "utcDate": "2026-11-08T18:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83697",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "SV Darmstadt 98",
+      "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83705",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "DSC Arminia Bielefeld",
+      "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83237",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Bayern München",
+      "away": "1. FC Köln",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "utcDate": "2026-11-20T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

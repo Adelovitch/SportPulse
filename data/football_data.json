@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-07T13:15:42.993969Z",
+  "updatedAt": "2026-11-07T13:55:36.343236Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -5808,21 +5808,8 @@
         "goalDifference": -8
       },
       {
-        "team": "Real Racing Club de Santander",
-        "rank": 14,
-        "played": 12,
-        "logo": "https://crests.football-data.org/5335.png",
-        "won": 3,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 15,
-        "ga": 29,
-        "points": 12,
-        "goalDifference": -14
-      },
-      {
         "team": "RCD Espanyol de Barcelona",
-        "rank": 15,
+        "rank": 14,
         "played": 11,
         "logo": "https://crests.football-data.org/80.png",
         "won": 3,
@@ -5835,7 +5822,7 @@
       },
       {
         "team": "CA Osasuna",
-        "rank": 16,
+        "rank": 15,
         "played": 11,
         "logo": "https://crests.football-data.org/79.png",
         "won": 3,
@@ -5845,6 +5832,19 @@
         "ga": 22,
         "points": 11,
         "goalDifference": -11
+      },
+      {
+        "team": "Real Racing Club de Santander",
+        "rank": 16,
+        "played": 12,
+        "logo": "https://crests.football-data.org/5335.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 7,
+        "gf": 15,
+        "ga": 30,
+        "points": 11,
+        "goalDifference": -15
       },
       {
         "team": "Elche CF",
@@ -5890,13 +5890,13 @@
         "rank": 20,
         "played": 12,
         "logo": "https://crests.football-data.org/84.png",
-        "won": 0,
-        "drawn": 6,
+        "won": 1,
+        "drawn": 5,
         "lost": 6,
-        "gf": 8,
+        "gf": 9,
         "ga": 21,
-        "points": 6,
-        "goalDifference": -13
+        "points": 8,
+        "goalDifference": -12
       }
     ],
     "Serie A": [

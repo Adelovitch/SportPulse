@@ -1,36 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-07T13:55:28.980378Z",
+  "updatedAt": "2026-11-07T18:40:34.095354Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83210",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Borussia Dortmund",
-      "away": "Eintracht Frankfurt",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-      "awayLogo": "https://i.imgur.com/X8NFkOb.png",
-      "utcDate": "2026-10-24T16:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0"
-    },
-    {
-      "id": "openligadb:83652",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Nürnberg",
-      "away": "1. FC Kaiserslautern",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-      "utcDate": "2026-10-24T18:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1"
-    },
     {
       "id": "openligadb:83658",
       "sport": "Football",
@@ -352,8 +328,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "utcDate": "2026-11-07T12:00:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 0"
     },
     {
       "id": "openligadb:83685",
@@ -364,8 +340,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "utcDate": "2026-11-07T12:00:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 2"
     },
     {
       "id": "openligadb:83688",
@@ -376,8 +352,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "utcDate": "2026-11-07T12:00:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 1"
     },
     {
       "id": "openligadb:83228",
@@ -388,8 +364,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "utcDate": "2026-11-07T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 1"
     },
     {
       "id": "openligadb:83229",
@@ -400,8 +376,8 @@
       "homeLogo": "https://i.imgur.com/Rpwsjz1.png",
       "awayLogo": "https://i.imgur.com/sdE62e2.png",
       "utcDate": "2026-11-07T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "5 – 2"
     },
     {
       "id": "openligadb:83233",
@@ -412,8 +388,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "utcDate": "2026-11-07T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 2"
     },
     {
       "id": "openligadb:83236",
@@ -424,8 +400,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-11-07T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 2"
     },
     {
       "id": "openligadb:83230",
@@ -592,6 +568,78 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
       "utcDate": "2026-11-21T12:00:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83238",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Bayer 04 Leverkusen",
+      "away": "SC Paderborn 07",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83239",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "TSG Hoffenheim",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://i.imgur.com/gF0PfEl.png",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83241",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "1. FC Union Berlin",
+      "away": "RB Leipzig",
+      "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+      "awayLogo": "https://i.imgur.com/Rpwsjz1.png",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83242",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Borussia Mönchengladbach",
+      "away": "Borussia Dortmund",
+      "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83245",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SV 07 Elversberg",
+      "away": "SC Freiburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/r3mvi0h.png",
+      "utcDate": "2026-11-21T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83244",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Schalke 04",
+      "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
+      "utcDate": "2026-11-21T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

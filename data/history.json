@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-07T18:43:03.031849Z",
+  "updatedAt": "2026-11-07T22:01:08.845901Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6322,6 +6322,19 @@
       "score": "0 – 1"
     },
     {
+      "id": "football-data:560632",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Leeds United FC",
+      "away": "Tottenham Hotspur FC",
+      "utcDate": "2026-11-07T12:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/341.png",
+      "awayLogo": "https://crests.football-data.org/73.png"
+    },
+    {
       "id": "football-data:561933",
       "sport": "Football",
       "competition": "Championship",
@@ -6446,6 +6459,32 @@
       "utcDate": "2026-11-07T14:30:00Z",
       "status": "FINISHED",
       "score": "2 – 2"
+    },
+    {
+      "id": "football-data:560633",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Fulham FC",
+      "away": "Newcastle United FC",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/63.png",
+      "awayLogo": "https://crests.football-data.org/67.png"
+    },
+    {
+      "id": "football-data:560640",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Arsenal FC",
+      "away": "Hull City AFC",
+      "utcDate": "2026-11-07T15:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/57.png",
+      "awayLogo": "https://crests.football-data.org/322.png"
     },
     {
       "id": "football-data:561929",
@@ -6576,6 +6615,121 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1920.png",
       "awayLogo": "https://crests.football-data.org/1912.png"
+    },
+    {
+      "id": "football-data:558535",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Parma Calcio 1913",
+      "away": "Bologna FC 1909",
+      "utcDate": "2026-11-07T17:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/112.png",
+      "awayLogo": "https://crests.football-data.org/103.png"
+    },
+    {
+      "id": "football-data:560641",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Nottingham Forest FC",
+      "away": "Manchester City FC",
+      "utcDate": "2026-11-07T17:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/351.png",
+      "awayLogo": "https://crests.football-data.org/65.png"
+    },
+    {
+      "id": "football-data:564739",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "CA Osasuna",
+      "away": "Athletic Club",
+      "utcDate": "2026-11-07T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/79.png",
+      "awayLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": "openligadb:83230",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "VfB Stuttgart",
+      "away": "SV Werder Bremen",
+      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "utcDate": "2026-11-07T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0"
+    },
+    {
+      "id": "football-data:558841",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "ADO Den Haag",
+      "away": "Sparta Rotterdam",
+      "utcDate": "2026-11-07T17:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/680.png",
+      "awayLogo": "https://crests.football-data.org/6806.png"
+    },
+    {
+      "id": "football-data:559637",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "AJ Auxerre",
+      "away": "Paris FC",
+      "utcDate": "2026-11-07T18:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/519.png",
+      "awayLogo": "https://crests.football-data.org/1045.png"
+    },
+    {
+      "id": "football-data:567347",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "FC Alverca",
+      "away": "Casa Pia AC",
+      "utcDate": "2026-11-07T18:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7822.png",
+      "awayLogo": "https://crests.football-data.org/6618.png"
+    },
+    {
+      "id": "openligadb:83681",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Hertha BSC",
+      "away": "VfL Wolfsburg",
+      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "utcDate": "2026-11-07T19:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1"
+    },
+    {
+      "id": "football-data:558531",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AS Roma",
+      "away": "US Sassuolo Calcio",
+      "utcDate": "2026-11-07T19:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/100.png",
+      "awayLogo": "https://crests.football-data.org/471.png"
     }
   ]
 }

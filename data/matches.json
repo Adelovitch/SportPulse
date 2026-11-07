@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-07T18:40:34.095354Z",
+  "updatedAt": "2026-11-07T21:58:34.756750Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -412,8 +412,8 @@
       "homeLogo": "https://i.imgur.com/v0tkpNx.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-11-07T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 0"
     },
     {
       "id": "openligadb:83681",
@@ -424,8 +424,8 @@
       "homeLogo": "https://i.imgur.com/apFwbYZ.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
       "utcDate": "2026-11-07T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 1"
     },
     {
       "id": "openligadb:83678",
@@ -640,6 +640,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-11-21T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83691",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "FC St. Pauli",
+      "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "utcDate": "2026-11-21T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

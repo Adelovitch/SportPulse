@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-06T20:57:45.594226Z",
+  "updatedAt": "2026-11-07T00:51:36.687763Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:13",
@@ -988,6 +988,20 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c0h2xf1759234489.jpg"
     },
     {
+      "id": "thesportsdb:2601791",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Utah Jazz",
+      "utcDate": "2026-11-07T01:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/f3imeq1759233942.jpg"
+    },
+    {
       "id": "thesportsdb:2601798",
       "sport": "Basketball",
       "competition": "NBA",
@@ -1040,6 +1054,48 @@
       "score": null,
       "eventType": "race",
       "provider": "Jolpica-F1"
+    },
+    {
+      "id": "thesportsdb:2601806",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Utah Jazz",
+      "utcDate": "2026-11-09T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0xn4k51759234591.jpg"
+    },
+    {
+      "id": "thesportsdb:2601807",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Brooklyn Nets",
+      "utcDate": "2026-11-09T00:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/cxya851759233890.jpg"
+    },
+    {
+      "id": "thesportsdb:2601808",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Boston Celtics",
+      "utcDate": "2026-11-09T01:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/6pzblu1759234754.jpg"
     },
     {
       "id": "jolpica:f1:2026:21",

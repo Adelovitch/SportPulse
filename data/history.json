@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-07T00:54:11.974712Z",
+  "updatedAt": "2026-11-07T06:13:50.864782Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6271,6 +6271,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5531.png",
       "awayLogo": "https://crests.football-data.org/712.png"
+    },
+    {
+      "id": "football-data:555079",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Vitória",
+      "away": "Fluminense FC",
+      "utcDate": "2026-11-06T23:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1782.png",
+      "awayLogo": "https://crests.football-data.org/1765.png"
     }
   ]
 }

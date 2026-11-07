@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-07T00:51:42.331691Z",
+  "updatedAt": "2026-11-07T06:11:24.069303Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2596,8 +2596,8 @@
       "home": "Cruzeiro EC",
       "away": "EC Bahia",
       "utcDate": "2026-11-06T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1771.png",
       "awayLogo": "https://crests.football-data.org/1777.png"
@@ -2700,8 +2700,8 @@
       "home": "EC Vitória",
       "away": "Fluminense FC",
       "utcDate": "2026-11-06T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1782.png",
       "awayLogo": "https://crests.football-data.org/1765.png"
@@ -3695,19 +3695,6 @@
       "awayLogo": "https://crests.football-data.org/63.png"
     },
     {
-      "id": "football-data:561941",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Sheffield United FC",
-      "away": "Watford FC",
-      "utcDate": "2026-11-21T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/356.png",
-      "awayLogo": "https://crests.football-data.org/346.png"
-    },
-    {
       "id": "football-data:561944",
       "sport": "Football",
       "competition": "Championship",
@@ -3719,6 +3706,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/340.png",
       "awayLogo": "https://crests.football-data.org/342.png"
+    },
+    {
+      "id": "football-data:561948",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Norwich City FC",
+      "away": "Cardiff City FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/68.png",
+      "awayLogo": "https://crests.football-data.org/715.png"
     },
     {
       "id": "football-data:561950",
@@ -3838,6 +3838,19 @@
       "awayLogo": "https://crests.football-data.org/354.png"
     },
     {
+      "id": "football-data:561941",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Sheffield United FC",
+      "away": "Watford FC",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/356.png",
+      "awayLogo": "https://crests.football-data.org/346.png"
+    },
+    {
       "id": "football-data:561942",
       "sport": "Football",
       "competition": "Championship",
@@ -3888,19 +3901,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/70.png",
       "awayLogo": "https://crests.football-data.org/332.png"
-    },
-    {
-      "id": "football-data:561948",
-      "sport": "Football",
-      "competition": "Championship",
-      "home": "Norwich City FC",
-      "away": "Cardiff City FC",
-      "utcDate": "2026-11-21T15:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/68.png",
-      "awayLogo": "https://crests.football-data.org/715.png"
     },
     {
       "id": "football-data:561949",
@@ -7190,10 +7190,10 @@
         "won": 16,
         "drawn": 9,
         "lost": 9,
-        "gf": 54,
+        "gf": 55,
         "ga": 42,
         "points": 57,
-        "goalDifference": 12
+        "goalDifference": 13
       },
       {
         "team": "CA Paranaense",
@@ -7334,9 +7334,9 @@
         "drawn": 8,
         "lost": 16,
         "gf": 35,
-        "ga": 50,
+        "ga": 51,
         "points": 38,
-        "goalDifference": -15
+        "goalDifference": -16
       },
       {
         "team": "SC Internacional",

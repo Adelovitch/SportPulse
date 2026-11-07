@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-07T21:58:38.460674Z",
+  "updatedAt": "2026-11-07T22:19:29.810969Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:13",
@@ -986,20 +986,6 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c0h2xf1759234489.jpg"
-    },
-    {
-      "id": "thesportsdb:2601796",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Sacramento Kings",
-      "away": "San Antonio Spurs",
-      "utcDate": "2026-11-07T03:00:00Z",
-      "status": "FINISHED",
-      "score": "109 – 124",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/rxfohr1759234582.jpg"
     },
     {
       "id": "thesportsdb:2601797",

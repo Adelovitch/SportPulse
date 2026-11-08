@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-08T13:43:15.162401Z",
+  "updatedAt": "2026-11-08T15:03:53.773096Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6808,6 +6808,55 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/113.png",
       "awayLogo": "https://crests.football-data.org/110.png"
+    },
+    {
+      "id": "openligadb:83678",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2"
+    },
+    {
+      "id": "openligadb:83683",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "Karlsruher SC",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2"
+    },
+    {
+      "id": "openligadb:83686",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Magdeburg",
+      "away": "FC St. Pauli",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "utcDate": "2026-11-08T12:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 1"
+    },
+    {
+      "id": "football-data:564738",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Elche CF",
+      "away": "Real Betis Balompié",
+      "utcDate": "2026-11-08T13:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/285.png",
+      "awayLogo": "https://crests.football-data.org/90.png"
     }
   ]
 }

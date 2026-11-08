@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-08T13:40:33.577793Z",
+  "updatedAt": "2026-11-08T15:01:24.214500Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83213",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "TSG Hoffenheim",
-      "away": "Bayer 04 Leverkusen",
-      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
-      "utcDate": "2026-10-25T14:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0"
-    },
     {
       "id": "openligadb:83214",
       "sport": "Football",
@@ -400,8 +388,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "utcDate": "2026-11-08T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 2"
     },
     {
       "id": "openligadb:83683",
@@ -412,8 +400,8 @@
       "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "utcDate": "2026-11-08T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 2"
     },
     {
       "id": "openligadb:83686",
@@ -424,8 +412,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "utcDate": "2026-11-08T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "4 – 1"
     },
     {
       "id": "openligadb:83235",
@@ -652,6 +640,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-11-22T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83240",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Augsburg",
+      "away": "1. FSV Mainz 05",
+      "homeLogo": "https://i.imgur.com/sdE62e2.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+      "utcDate": "2026-11-22T14:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

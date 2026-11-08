@@ -1,7 +1,7 @@
 {
   "source": "Jolpica-F1",
   "season": 2026,
-  "updatedAt": "2026-11-07T22:01:07.960392Z",
+  "updatedAt": "2026-11-08T06:19:10.116564Z",
   "drivers": [
     {
       "position": "1",
@@ -170,6 +170,13 @@
       "points": "0",
       "wins": "0",
       "team": "Cadillac F1 Team"
+    },
+    {
+      "position": "25",
+      "name": "Rafael Camara",
+      "points": "0",
+      "wins": "0",
+      "team": "Haas F1 Team"
     }
   ],
   "constructors": [

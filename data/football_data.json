@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T22:14:58.661274Z",
+  "updatedAt": "2026-11-08T23:10:56.282331Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2258,8 +2258,8 @@
       "home": "SC Heerenveen",
       "away": "Feyenoord Rotterdam",
       "utcDate": "2026-11-08T11:15:00Z",
-      "status": "FINISHED",
-      "score": "5 – 3",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/673.png",
       "awayLogo": "https://crests.football-data.org/675.png"
@@ -2297,8 +2297,8 @@
       "home": "FC Twente '65",
       "away": "AFC Ajax",
       "utcDate": "2026-11-08T13:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/666.png",
       "awayLogo": "https://crests.football-data.org/678.png"
@@ -2440,8 +2440,8 @@
       "home": "AZ",
       "away": "FC Groningen",
       "utcDate": "2026-11-08T15:45:00Z",
-      "status": "FINISHED",
-      "score": "4 – 3",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/682.png",
       "awayLogo": "https://crests.football-data.org/677.png"
@@ -2453,8 +2453,8 @@
       "home": "SC Cambuur-Leeuwarden",
       "away": "PSV",
       "utcDate": "2026-11-08T15:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 5",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1909.png",
       "awayLogo": "https://crests.football-data.org/674.png"
@@ -2583,8 +2583,8 @@
       "home": "FC Utrecht",
       "away": "NEC",
       "utcDate": "2026-11-08T19:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 3",
+      "status": "SCHEDULED",
+      "score": null,
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/676.png",
       "awayLogo": "https://crests.football-data.org/1915.png"
@@ -2635,8 +2635,8 @@
       "home": "Rio Ave FC",
       "away": "Sporting Clube de Braga",
       "utcDate": "2026-11-08T20:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/496.png",
       "awayLogo": "https://crests.football-data.org/5613.png"
@@ -2648,8 +2648,8 @@
       "home": "CF Estrela da Amadora",
       "away": "Sport Lisboa e Benfica",
       "utcDate": "2026-11-08T20:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/9136.png",
       "awayLogo": "https://crests.football-data.org/1903.png"
@@ -5045,6 +5045,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4364.png",
       "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "football-data:555100",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Mineiro",
+      "away": "CR Vasco da Gama",
+      "utcDate": "2026-11-29T22:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1766.png",
+      "awayLogo": "https://crests.football-data.org/1780.png"
     }
   ],
   "tables": {
@@ -6795,13 +6808,13 @@
         "rank": 2,
         "played": 11,
         "logo": "https://crests.football-data.org/1903.png",
-        "won": 8,
-        "drawn": 2,
+        "won": 9,
+        "drawn": 1,
         "lost": 1,
-        "gf": 29,
+        "gf": 30,
         "ga": 10,
-        "points": 26,
-        "goalDifference": 19
+        "points": 28,
+        "goalDifference": 20
       },
       {
         "team": "Sporting Clube de Portugal",
@@ -6926,12 +6939,12 @@
         "played": 11,
         "logo": "https://crests.football-data.org/9136.png",
         "won": 2,
-        "drawn": 5,
-        "lost": 4,
+        "drawn": 4,
+        "lost": 5,
         "gf": 17,
-        "ga": 21,
-        "points": 11,
-        "goalDifference": -4
+        "ga": 22,
+        "points": 10,
+        "goalDifference": -5
       },
       {
         "team": "CD Nacional",

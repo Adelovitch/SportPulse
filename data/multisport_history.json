@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-08T19:36:04.106943Z",
+  "updatedAt": "2026-11-08T23:13:24.011246Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2110,16 +2110,16 @@
         },
         {
           "position": "7",
-          "driver": "Charles Leclerc",
-          "driverId": "leclerc",
-          "team": "Ferrari",
+          "driver": "Liam Lawson",
+          "driverId": "lawson",
+          "team": "RB F1 Team",
           "points": "6"
         },
         {
           "position": "8",
-          "driver": "Liam Lawson",
-          "driverId": "lawson",
-          "team": "RB F1 Team",
+          "driver": "Charles Leclerc",
+          "driverId": "leclerc",
+          "team": "Ferrari",
           "points": "4"
         },
         {

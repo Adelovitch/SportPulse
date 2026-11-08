@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-08T01:39:07.317790Z",
+  "updatedAt": "2026-11-08T13:43:15.162401Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6782,6 +6782,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/498.png",
       "awayLogo": "https://crests.football-data.org/583.png"
+    },
+    {
+      "id": "football-data:558840",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "SC Heerenveen",
+      "away": "Feyenoord Rotterdam",
+      "utcDate": "2026-11-08T11:15:00Z",
+      "status": "FINISHED",
+      "score": "5 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/673.png",
+      "awayLogo": "https://crests.football-data.org/675.png"
+    },
+    {
+      "id": "football-data:558533",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "SS Lazio",
+      "utcDate": "2026-11-08T11:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/113.png",
+      "awayLogo": "https://crests.football-data.org/110.png"
     }
   ]
 }

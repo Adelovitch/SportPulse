@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-08T19:33:31.665149Z",
+  "updatedAt": "2026-11-08T22:14:54.744387Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:13",
@@ -831,20 +831,6 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/t1qk2g1759233094.jpg"
     },
     {
-      "id": "thesportsdb:2601803",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Portland Trail Blazers",
-      "away": "San Antonio Spurs",
-      "utcDate": "2026-11-08T03:00:00Z",
-      "status": "FINISHED",
-      "score": "103 – 125",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/a9zplw1759233417.jpg"
-    },
-    {
       "id": "jolpica:f1:2026:20",
       "sport": "Formule 1",
       "competition": "Championnat du monde F1",
@@ -1026,6 +1012,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0b1yob1759233672.jpg"
+    },
+    {
+      "id": "thesportsdb:2601805",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Los Angeles Lakers",
+      "utcDate": "2026-11-08T23:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/2mvpm11759234637.jpg"
     },
     {
       "id": "thesportsdb:2601806",

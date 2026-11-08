@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-08T19:36:04.240009Z",
+  "updatedAt": "2026-11-08T22:17:23.762579Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6872,6 +6872,32 @@
       "awayLogo": "https://crests.football-data.org/678.png"
     },
     {
+      "id": "football-data:558536",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Genoa CFC",
+      "away": "AC Milan",
+      "utcDate": "2026-11-08T14:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/107.png",
+      "awayLogo": "https://crests.football-data.org/98.png"
+    },
+    {
+      "id": "football-data:558538",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "Atalanta BC",
+      "utcDate": "2026-11-08T14:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5911.png",
+      "awayLogo": "https://crests.football-data.org/102.png"
+    },
+    {
       "id": "football-data:559636",
       "sport": "Football",
       "competition": "Ligue 1",
@@ -7091,6 +7117,32 @@
       "score": "2 – 0"
     },
     {
+      "id": "football-data:558530",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "FC Internazionale Milano",
+      "away": "Como 1907",
+      "utcDate": "2026-11-08T17:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/108.png",
+      "awayLogo": "https://crests.football-data.org/7397.png"
+    },
+    {
+      "id": "football-data:564742",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "RC Celta de Vigo",
+      "away": "Levante UD",
+      "utcDate": "2026-11-08T17:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/558.png",
+      "awayLogo": "https://crests.football-data.org/88.png"
+    },
+    {
       "id": "football-data:564747",
       "sport": "Football",
       "competition": "La Liga",
@@ -7102,6 +7154,83 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/94.png",
       "awayLogo": "https://crests.football-data.org/82.png"
+    },
+    {
+      "id": "football-data:567349",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Vitória SC",
+      "away": "FC Porto",
+      "utcDate": "2026-11-08T18:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5543.png",
+      "awayLogo": "https://crests.football-data.org/503.png"
+    },
+    {
+      "id": "openligadb:83231",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "TSG Hoffenheim",
+      "away": "FC Schalke 04",
+      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "utcDate": "2026-11-08T18:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1"
+    },
+    {
+      "id": "football-data:558838",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Utrecht",
+      "away": "NEC",
+      "utcDate": "2026-11-08T19:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/676.png",
+      "awayLogo": "https://crests.football-data.org/1915.png"
+    },
+    {
+      "id": "football-data:558529",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "ACF Fiorentina",
+      "away": "Juventus FC",
+      "utcDate": "2026-11-08T19:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/99.png",
+      "awayLogo": "https://crests.football-data.org/109.png"
+    },
+    {
+      "id": "football-data:559630",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Racing Club de Lens",
+      "away": "Olympique de Marseille",
+      "utcDate": "2026-11-08T19:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/516.png"
+    },
+    {
+      "id": "football-data:564746",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Club Atlético de Madrid",
+      "away": "FC Barcelona",
+      "utcDate": "2026-11-08T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/78.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
     }
   ]
 }

@@ -1,68 +1,68 @@
 {
   "source": "Jolpica-F1",
   "season": 2026,
-  "updatedAt": "2026-11-08T13:43:14.932248Z",
+  "updatedAt": "2026-11-08T22:17:22.909760Z",
   "drivers": [
     {
       "position": "1",
       "name": "Andrea Kimi Antonelli",
-      "points": "380",
+      "points": "390",
       "wins": "9",
       "team": "Mercedes"
     },
     {
       "position": "2",
       "name": "Max Verstappen",
-      "points": "261",
+      "points": "279",
       "wins": "3",
       "team": "Red Bull"
     },
     {
       "position": "3",
-      "name": "Lewis Hamilton",
-      "points": "259",
-      "wins": "1",
-      "team": "Ferrari"
-    },
-    {
-      "position": "4",
       "name": "George Russell",
-      "points": "250",
+      "points": "262",
       "wins": "3",
       "team": "Mercedes"
     },
     {
+      "position": "4",
+      "name": "Lewis Hamilton",
+      "points": "261",
+      "wins": "1",
+      "team": "Ferrari"
+    },
+    {
       "position": "5",
       "name": "Charles Leclerc",
-      "points": "245",
+      "points": "251",
       "wins": "1",
       "team": "Ferrari"
     },
     {
       "position": "6",
       "name": "Lando Norris",
-      "points": "221",
-      "wins": "2",
+      "points": "246",
+      "wins": "3",
       "team": "McLaren"
     },
     {
       "position": "7",
       "name": "Oscar Piastri",
-      "points": "144",
+      "points": "152",
       "wins": "0",
       "team": "McLaren"
     },
     {
       "position": "8",
       "name": "Isack Hadjar",
-      "points": "107",
+      "points": "122",
       "wins": "0",
       "team": "Red Bull"
     },
     {
       "position": "9",
       "name": "Liam Lawson",
-      "points": "83",
+      "points": "87",
       "wins": "0",
       "team": "RB F1 Team, Red Bull"
     },
@@ -104,7 +104,7 @@
     {
       "position": "15",
       "name": "Nico Hülkenberg",
-      "points": "13",
+      "points": "14",
       "wins": "0",
       "team": "Audi"
     },
@@ -183,35 +183,35 @@
     {
       "position": "1",
       "name": "Mercedes",
-      "points": "630",
+      "points": "652",
       "wins": "12",
       "team": null
     },
     {
       "position": "2",
       "name": "Ferrari",
-      "points": "504",
+      "points": "512",
       "wins": "2",
       "team": null
     },
     {
       "position": "3",
       "name": "Red Bull",
-      "points": "382",
+      "points": "415",
       "wins": "3",
       "team": null
     },
     {
       "position": "4",
       "name": "McLaren",
-      "points": "365",
-      "wins": "2",
+      "points": "398",
+      "wins": "3",
       "team": null
     },
     {
       "position": "5",
       "name": "RB F1 Team",
-      "points": "108",
+      "points": "112",
       "wins": "0",
       "team": null
     },
@@ -232,7 +232,7 @@
     {
       "position": "8",
       "name": "Audi",
-      "points": "27",
+      "points": "28",
       "wins": "0",
       "team": null
     },

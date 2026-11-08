@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-08T19:33:29.747373Z",
+  "updatedAt": "2026-11-08T22:14:50.644477Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -436,8 +436,8 @@
       "homeLogo": "https://i.imgur.com/gF0PfEl.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "utcDate": "2026-11-08T18:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 1"
     },
     {
       "id": "openligadb:83697",

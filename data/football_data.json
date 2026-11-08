@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-07T22:19:33.754197Z",
+  "updatedAt": "2026-11-08T01:36:41.829267Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555050",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Chapecoense AF",
-      "away": "Fluminense FC",
-      "utcDate": "2026-10-24T22:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1772_large.png",
-      "awayLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": "football-data:555057",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Santos FC",
-      "away": "EC Bahia",
-      "utcDate": "2026-10-25T01:00:00Z",
-      "status": "FINISHED",
-      "score": "1 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/6685.png",
-      "awayLogo": "https://crests.football-data.org/1777.png"
-    },
     {
       "id": "football-data:558859",
       "sport": "Football",
@@ -2310,8 +2284,8 @@
       "home": "Málaga CF",
       "away": "Real Racing Club de Santander",
       "utcDate": "2026-11-07T13:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/84.png",
       "awayLogo": "https://crests.football-data.org/5335.png"
@@ -2479,8 +2453,8 @@
       "home": "RCD Espanyol de Barcelona",
       "away": "RC Deportivo La Coruña",
       "utcDate": "2026-11-07T15:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/80.png",
       "awayLogo": "https://crests.football-data.org/560.png"
@@ -2497,19 +2471,6 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1920.png",
       "awayLogo": "https://crests.football-data.org/1912.png"
-    },
-    {
-      "id": "football-data:567352",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "CD Nacional",
-      "away": "Académico de Viseu FC",
-      "utcDate": "2026-11-07T15:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5529.png",
-      "awayLogo": "https://crests.football-data.org/5527.png"
     },
     {
       "id": "football-data:558535",
@@ -2544,8 +2505,8 @@
       "home": "CA Osasuna",
       "away": "Athletic Club",
       "utcDate": "2026-11-07T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/79.png",
       "awayLogo": "https://crests.football-data.org/77.png"
@@ -2570,8 +2531,8 @@
       "home": "AJ Auxerre",
       "away": "Paris FC",
       "utcDate": "2026-11-07T18:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/519.png",
       "awayLogo": "https://crests.football-data.org/1045.png"
@@ -2609,8 +2570,8 @@
       "home": "Valencia CF",
       "away": "Real Madrid CF",
       "utcDate": "2026-11-07T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/95.png",
       "awayLogo": "https://crests.football-data.org/86.png"
@@ -2635,8 +2596,8 @@
       "home": "Paris Saint-Germain FC",
       "away": "ES Troyes AC",
       "utcDate": "2026-11-07T20:05:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/524.png",
       "awayLogo": "https://crests.football-data.org/531.png"
@@ -2648,11 +2609,24 @@
       "home": "Sporting Clube de Portugal",
       "away": "Moreirense FC",
       "utcDate": "2026-11-07T20:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/498.png",
       "awayLogo": "https://crests.football-data.org/583.png"
+    },
+    {
+      "id": "football-data:567348",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "GD Estoril Praia",
+      "away": "CS Marítimo",
+      "utcDate": "2026-11-08T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/582.png",
+      "awayLogo": "https://crests.football-data.org/5575.png"
     },
     {
       "id": "football-data:558840",
@@ -2811,19 +2785,6 @@
       "awayLogo": "https://crests.football-data.org/87.png"
     },
     {
-      "id": "football-data:567348",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "GD Estoril Praia",
-      "away": "CS Marítimo",
-      "utcDate": "2026-11-08T15:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/582.png",
-      "awayLogo": "https://crests.football-data.org/5575.png"
-    },
-    {
       "id": "football-data:567351",
       "sport": "Football",
       "competition": "Primeira Liga",
@@ -2835,6 +2796,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/5530.png",
       "awayLogo": "https://crests.football-data.org/5533.png"
+    },
+    {
+      "id": "football-data:567352",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "CD Nacional",
+      "away": "Académico de Viseu FC",
+      "utcDate": "2026-11-08T15:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5529.png",
+      "awayLogo": "https://crests.football-data.org/5527.png"
     },
     {
       "id": "football-data:558837",
@@ -6921,21 +6895,8 @@
         "goalDifference": 9
       },
       {
-        "team": "Académico de Viseu FC",
-        "rank": 5,
-        "played": 11,
-        "logo": "https://crests.football-data.org/5527.png",
-        "won": 6,
-        "drawn": 3,
-        "lost": 2,
-        "gf": 15,
-        "ga": 12,
-        "points": 21,
-        "goalDifference": 3
-      },
-      {
         "team": "FC Arouca",
-        "rank": 6,
+        "rank": 5,
         "played": 11,
         "logo": "https://crests.football-data.org/712.png",
         "won": 6,
@@ -6945,6 +6906,19 @@
         "ga": 8,
         "points": 20,
         "goalDifference": 5
+      },
+      {
+        "team": "Académico de Viseu FC",
+        "rank": 6,
+        "played": 10,
+        "logo": "https://crests.football-data.org/5527.png",
+        "won": 6,
+        "drawn": 2,
+        "lost": 2,
+        "gf": 15,
+        "ga": 12,
+        "points": 20,
+        "goalDifference": 3
       },
       {
         "team": "Gil Vicente FC",
@@ -7038,21 +7012,8 @@
         "goalDifference": 0
       },
       {
-        "team": "CD Nacional",
-        "rank": 14,
-        "played": 11,
-        "logo": "https://crests.football-data.org/5529.png",
-        "won": 2,
-        "drawn": 2,
-        "lost": 7,
-        "gf": 10,
-        "ga": 19,
-        "points": 8,
-        "goalDifference": -9
-      },
-      {
         "team": "CS Marítimo",
-        "rank": 15,
+        "rank": 14,
         "played": 10,
         "logo": "https://crests.football-data.org/5575.png",
         "won": 2,
@@ -7065,7 +7026,7 @@
       },
       {
         "team": "Casa Pia AC",
-        "rank": 16,
+        "rank": 15,
         "played": 11,
         "logo": "https://crests.football-data.org/6618.png",
         "won": 2,
@@ -7075,6 +7036,19 @@
         "ga": 20,
         "points": 8,
         "goalDifference": -14
+      },
+      {
+        "team": "CD Nacional",
+        "rank": 16,
+        "played": 10,
+        "logo": "https://crests.football-data.org/5529.png",
+        "won": 2,
+        "drawn": 1,
+        "lost": 7,
+        "gf": 10,
+        "ga": 19,
+        "points": 7,
+        "goalDifference": -9
       },
       {
         "team": "Rio Ave FC",

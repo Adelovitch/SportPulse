@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-07T22:21:59.877697Z",
+  "updatedAt": "2026-11-08T01:39:07.317790Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -6743,6 +6743,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/670.png",
       "awayLogo": "https://crests.football-data.org/718.png"
+    },
+    {
+      "id": "football-data:564741",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Valencia CF",
+      "away": "Real Madrid CF",
+      "utcDate": "2026-11-07T20:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/95.png",
+      "awayLogo": "https://crests.football-data.org/86.png"
+    },
+    {
+      "id": "football-data:559635",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Paris Saint-Germain FC",
+      "away": "ES Troyes AC",
+      "utcDate": "2026-11-07T20:05:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/524.png",
+      "awayLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": "football-data:567350",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Sporting Clube de Portugal",
+      "away": "Moreirense FC",
+      "utcDate": "2026-11-07T20:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/498.png",
+      "awayLogo": "https://crests.football-data.org/583.png"
     }
   ]
 }

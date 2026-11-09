@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-09T06:49:45.836371Z",
+  "updatedAt": "2026-11-09T22:29:25.712338Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,45 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:567331",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "CD Santa Clara",
-      "away": "Sport Lisboa e Benfica",
-      "utcDate": "2026-10-26T18:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5530.png",
-      "awayLogo": "https://crests.football-data.org/1903.png"
-    },
-    {
-      "id": "football-data:559648",
-      "sport": "Football",
-      "competition": "Ligue 1",
-      "home": "Paris Saint-Germain FC",
-      "away": "Olympique Lyonnais",
-      "utcDate": "2026-10-26T19:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/524.png",
-      "awayLogo": "https://crests.football-data.org/523.png"
-    },
-    {
-      "id": "football-data:564721",
-      "sport": "Football",
-      "competition": "La Liga",
-      "home": "Sevilla FC",
-      "away": "CA Osasuna",
-      "utcDate": "2026-10-26T20:00:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/559.png",
-      "awayLogo": "https://crests.football-data.org/79.png"
-    },
     {
       "id": "football-data:555051",
       "sport": "Football",
@@ -5058,6 +5019,71 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1766.png",
       "awayLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": "football-data:558516",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "US Lecce",
+      "away": "Atalanta BC",
+      "utcDate": "2026-11-30T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5890.png",
+      "awayLogo": "https://crests.football-data.org/102.png"
+    },
+    {
+      "id": "football-data:558510",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Cagliari Calcio",
+      "away": "AC Milan",
+      "utcDate": "2026-11-30T19:45:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/104.png",
+      "awayLogo": "https://crests.football-data.org/98.png"
+    },
+    {
+      "id": "football-data:564763",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "RCD Espanyol de Barcelona",
+      "away": "Getafe CF",
+      "utcDate": "2026-11-30T20:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/80.png",
+      "awayLogo": "https://crests.football-data.org/82.png"
+    },
+    {
+      "id": "football-data:567359",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Casa Pia AC",
+      "away": "Sporting Clube de Braga",
+      "utcDate": "2026-11-30T20:15:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6618.png",
+      "awayLogo": "https://crests.football-data.org/5613.png"
+    },
+    {
+      "id": "football-data:567360",
+      "sport": "Football",
+      "competition": "Primeira Liga",
+      "home": "Sport Lisboa e Benfica",
+      "away": "FC Famalicão",
+      "utcDate": "2026-11-30T20:15:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1903.png",
+      "awayLogo": "https://crests.football-data.org/5531.png"
     }
   ],
   "tables": {

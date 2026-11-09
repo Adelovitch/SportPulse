@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-08T23:10:56.282331Z",
+  "updatedAt": "2026-11-09T02:48:41.238923Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -2258,8 +2258,8 @@
       "home": "SC Heerenveen",
       "away": "Feyenoord Rotterdam",
       "utcDate": "2026-11-08T11:15:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "5 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/673.png",
       "awayLogo": "https://crests.football-data.org/675.png"
@@ -2297,8 +2297,8 @@
       "home": "FC Twente '65",
       "away": "AFC Ajax",
       "utcDate": "2026-11-08T13:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/666.png",
       "awayLogo": "https://crests.football-data.org/678.png"
@@ -2440,8 +2440,8 @@
       "home": "AZ",
       "away": "FC Groningen",
       "utcDate": "2026-11-08T15:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "4 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/682.png",
       "awayLogo": "https://crests.football-data.org/677.png"
@@ -2453,8 +2453,8 @@
       "home": "SC Cambuur-Leeuwarden",
       "away": "PSV",
       "utcDate": "2026-11-08T15:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 5",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1909.png",
       "awayLogo": "https://crests.football-data.org/674.png"
@@ -2583,8 +2583,8 @@
       "home": "FC Utrecht",
       "away": "NEC",
       "utcDate": "2026-11-08T19:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 3",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/676.png",
       "awayLogo": "https://crests.football-data.org/1915.png"

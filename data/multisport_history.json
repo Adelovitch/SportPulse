@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-08T23:13:24.011246Z",
+  "updatedAt": "2026-11-09T06:52:16.545811Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2222,6 +2222,62 @@
         }
       ],
       "winner": "Lando Norris"
+    },
+    {
+      "id": "thesportsdb:2601806",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Utah Jazz",
+      "utcDate": "2026-11-09T00:00:00Z",
+      "status": "FINISHED",
+      "score": "115 – 100",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0xn4k51759234591.jpg"
+    },
+    {
+      "id": "thesportsdb:2601807",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Brooklyn Nets",
+      "utcDate": "2026-11-09T00:30:00Z",
+      "status": "FINISHED",
+      "score": "130 – 93",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/cxya851759233890.jpg"
+    },
+    {
+      "id": "thesportsdb:2601808",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Boston Celtics",
+      "utcDate": "2026-11-09T01:00:00Z",
+      "status": "FINISHED",
+      "score": "97 – 117",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/6pzblu1759234754.jpg"
+    },
+    {
+      "id": "thesportsdb:2601810",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Miami Heat",
+      "utcDate": "2026-11-09T02:00:00Z",
+      "status": "FINISHED",
+      "score": "108 – 114",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/a08ww21759233989.jpg"
     }
   ]
 }

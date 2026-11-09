@@ -1,7 +1,7 @@
 {
   "source": "Jolpica-F1",
   "season": 2026,
-  "updatedAt": "2026-11-08T22:17:22.909760Z",
+  "updatedAt": "2026-11-09T06:52:15.920747Z",
   "drivers": [
     {
       "position": "1",
@@ -34,7 +34,7 @@
     {
       "position": "5",
       "name": "Charles Leclerc",
-      "points": "251",
+      "points": "249",
       "wins": "1",
       "team": "Ferrari"
     },
@@ -62,7 +62,7 @@
     {
       "position": "9",
       "name": "Liam Lawson",
-      "points": "87",
+      "points": "89",
       "wins": "0",
       "team": "RB F1 Team, Red Bull"
     },
@@ -190,7 +190,7 @@
     {
       "position": "2",
       "name": "Ferrari",
-      "points": "512",
+      "points": "510",
       "wins": "2",
       "team": null
     },
@@ -211,7 +211,7 @@
     {
       "position": "5",
       "name": "RB F1 Team",
-      "points": "112",
+      "points": "114",
       "wins": "0",
       "team": null
     },

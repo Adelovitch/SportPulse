@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-09T06:52:16.545811Z",
+  "updatedAt": "2026-11-10T07:31:16.260506Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2278,6 +2278,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/a08ww21759233989.jpg"
+    },
+    {
+      "id": "thesportsdb:2601811",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Los Angeles Lakers",
+      "utcDate": "2026-11-10T00:00:00Z",
+      "status": "FINISHED",
+      "score": "114 – 124",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/lbwof81759233199.jpg"
+    },
+    {
+      "id": "thesportsdb:2601812",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Cleveland Cavaliers",
+      "utcDate": "2026-11-10T00:00:00Z",
+      "status": "FINISHED",
+      "score": "124 – 112",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/h1xcm41759234294.jpg"
+    },
+    {
+      "id": "thesportsdb:2601813",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Washington Wizards",
+      "utcDate": "2026-11-10T00:00:00Z",
+      "status": "FINISHED",
+      "score": "122 – 111",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/y3qaj01759234176.jpg"
+    },
+    {
+      "id": "thesportsdb:2601818",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Golden State Warriors",
+      "away": "New Orleans Pelicans",
+      "utcDate": "2026-11-10T03:00:00Z",
+      "status": "FINISHED",
+      "score": "138 – 87",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/n9dfz31759233447.jpg"
     }
   ]
 }

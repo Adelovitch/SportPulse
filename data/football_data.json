@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-09T22:29:25.712338Z",
+  "updatedAt": "2026-11-10T07:28:44.950433Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555051",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Coritiba FBC",
-      "away": "Grêmio FBPA",
-      "utcDate": "2026-10-26T22:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/4241.png",
-      "awayLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": "football-data:555053",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "CR Flamengo",
-      "away": "CA Mineiro",
-      "utcDate": "2026-10-26T23:00:00Z",
-      "status": "FINISHED",
-      "score": "3 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1783.png",
-      "awayLogo": "https://crests.football-data.org/1766.png"
-    },
     {
       "id": "football-data:558556",
       "sport": "Football",

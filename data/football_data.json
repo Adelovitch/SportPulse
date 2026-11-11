@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-10T19:50:56.892096Z",
+  "updatedAt": "2026-11-11T00:36:16.767048Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -5019,6 +5019,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1903.png",
       "awayLogo": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "id": "football-data:560668",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Coventry City FC",
+      "away": "Ipswich Town FC",
+      "utcDate": "2026-12-01T20:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1076.png",
+      "awayLogo": "https://crests.football-data.org/349.png"
     }
   ],
   "tables": {

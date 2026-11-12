@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-12T07:23:30.392282Z",
+  "updatedAt": "2026-11-12T20:05:50.356863Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:558558",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "Frosinone Calcio",
-      "away": "US Lecce",
-      "utcDate": "2026-10-29T17:30:00Z",
-      "status": "FINISHED",
-      "score": "5 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/470.png",
-      "awayLogo": "https://crests.football-data.org/5890.png"
-    },
-    {
-      "id": "football-data:558551",
-      "sport": "Football",
-      "competition": "Serie A",
-      "home": "ACF Fiorentina",
-      "away": "Atalanta BC",
-      "utcDate": "2026-10-29T19:45:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/99.png",
-      "awayLogo": "https://crests.football-data.org/102.png"
-    },
     {
       "id": "football-data:555060",
       "sport": "Football",
@@ -5149,6 +5123,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1780.png",
       "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": "football-data:560662",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Tottenham Hotspur FC",
+      "away": "Fulham FC",
+      "utcDate": "2026-12-03T20:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/73.png",
+      "awayLogo": "https://crests.football-data.org/63.png"
     }
   ],
   "tables": {

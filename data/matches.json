@@ -1,48 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-13T06:55:15.498370Z",
+  "updatedAt": "2026-11-13T19:50:48.887495Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83671",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "DSC Arminia Bielefeld",
-      "away": "Eintracht Braunschweig",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
-      "utcDate": "2026-10-30T17:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1"
-    },
-    {
-      "id": "openligadb:83674",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Energie Cottbus",
-      "away": "VfL Bochum",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
-      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
-      "utcDate": "2026-10-30T17:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2"
-    },
-    {
-      "id": "openligadb:83227",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "SV 07 Elversberg",
-      "away": "1. FSV Mainz 05",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-      "utcDate": "2026-10-30T19:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1"
-    },
     {
       "id": "openligadb:83663",
       "sport": "Football",
@@ -652,6 +616,42 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-11-22T16:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83707",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "utcDate": "2026-11-27T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83709",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "SV Darmstadt 98",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "utcDate": "2026-11-27T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83253",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SV Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
+      "utcDate": "2026-11-27T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

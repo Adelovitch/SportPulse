@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-13T06:57:52.783670Z",
+  "updatedAt": "2026-11-14T06:43:21.861521Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2502,6 +2502,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/umszji1759234485.jpg"
+    },
+    {
+      "id": "thesportsdb:2601839",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Indiana Pacers",
+      "away": "New York Knicks",
+      "utcDate": "2026-11-14T00:00:00Z",
+      "status": "FINISHED",
+      "score": "106 – 104",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/cp8t2h1759234534.jpg"
+    },
+    {
+      "id": "thesportsdb:2601840",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Orlando Magic",
+      "away": "Milwaukee Bucks",
+      "utcDate": "2026-11-14T00:00:00Z",
+      "status": "FINISHED",
+      "score": "107 – 99",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/k9kbck1759234250.jpg"
+    },
+    {
+      "id": "thesportsdb:2601841",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Atlanta Hawks",
+      "utcDate": "2026-11-14T01:00:00Z",
+      "status": "FINISHED",
+      "score": "125 – 117",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/ecw05n1759233055.jpg"
+    },
+    {
+      "id": "thesportsdb:2601847",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Los Angeles Clippers",
+      "away": "Oklahoma City Thunder",
+      "utcDate": "2026-11-14T03:30:00Z",
+      "status": "FINISHED",
+      "score": "113 – 112",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c3gk491759233155.jpg"
     }
   ]
 }

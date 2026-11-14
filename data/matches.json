@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-14T18:15:35.275173Z",
+  "updatedAt": "2026-11-14T22:36:11.898954Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83669",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Karlsruher SC",
-      "away": "1. FC Heidenheim 1846",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-      "utcDate": "2026-10-31T19:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83664",
       "sport": "Football",
@@ -640,6 +628,18 @@
       "homeLogo": "https://i.imgur.com/v0tkpNx.png",
       "awayLogo": "https://i.imgur.com/X8NFkOb.png",
       "utcDate": "2026-11-28T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83722",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Osnabrück",
+      "away": "Hannover 96",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "utcDate": "2026-11-28T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

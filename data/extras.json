@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-15T19:52:36.313466Z",
+  "updatedAt": "2026-11-15T23:55:37.076065Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:14",
@@ -1002,32 +1002,18 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/qkgrui1759233871.jpg"
     },
     {
-      "id": "thesportsdb:2601853",
+      "id": "thesportsdb:2601858",
       "sport": "Basketball",
       "competition": "NBA",
-      "home": "Philadelphia 76ers",
-      "away": "Indiana Pacers",
-      "utcDate": "2026-11-15T18:00:00Z",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "utcDate": "2026-11-15T23:00:00Z",
       "status": "SCHEDULED",
       "score": null,
       "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/88l4951759233971.jpg"
-    },
-    {
-      "id": "thesportsdb:2601854",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Phoenix Suns",
-      "away": "Los Angeles Lakers",
-      "utcDate": "2026-11-15T21:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/2om2z81759234377.jpg"
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/lct96a1778227205.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/5kbfva1759234430.jpg"
     },
     {
       "id": "thesportsdb:2601859",

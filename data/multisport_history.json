@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-14T06:43:21.861521Z",
+  "updatedAt": "2026-11-15T06:48:42.182086Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2558,6 +2558,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/c3gk491759233155.jpg"
+    },
+    {
+      "id": "thesportsdb:2601848",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Denver Nuggets",
+      "utcDate": "2026-11-15T00:00:00Z",
+      "status": "FINISHED",
+      "score": "108 – 116",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/6un5su1759233899.jpg"
+    },
+    {
+      "id": "thesportsdb:2601849",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Dallas Mavericks",
+      "utcDate": "2026-11-15T00:30:00Z",
+      "status": "FINISHED",
+      "score": "127 – 117",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/eajddt1759234554.jpg"
+    },
+    {
+      "id": "thesportsdb:2601850",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Brooklyn Nets",
+      "utcDate": "2026-11-15T01:00:00Z",
+      "status": "FINISHED",
+      "score": "129 – 110",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/hkafe61739948361.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/qkgrui1759233871.jpg"
+    },
+    {
+      "id": "thesportsdb:2601852",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Chicago Bulls",
+      "utcDate": "2026-11-15T01:00:00Z",
+      "status": "FINISHED",
+      "score": "106 – 117",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/xfdj341759234009.jpg"
     }
   ]
 }

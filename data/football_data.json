@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-14T22:36:18.090631Z",
+  "updatedAt": "2026-11-14T23:59:52.142617Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -1803,8 +1803,8 @@
       "home": "Mirassol FC",
       "away": "CA Mineiro",
       "utcDate": "2026-11-14T21:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4364.png",
       "awayLogo": "https://crests.football-data.org/1766.png"
@@ -7144,8 +7144,21 @@
         "goalDifference": -7
       },
       {
-        "team": "Coritiba FBC",
+        "team": "CR Vasco da Gama",
         "rank": 12,
+        "played": 34,
+        "logo": "https://crests.football-data.org/1780.png",
+        "won": 11,
+        "drawn": 9,
+        "lost": 14,
+        "gf": 43,
+        "ga": 50,
+        "points": 42,
+        "goalDifference": -7
+      },
+      {
+        "team": "Coritiba FBC",
+        "rank": 13,
         "played": 34,
         "logo": "https://crests.football-data.org/4241.png",
         "won": 11,
@@ -7155,19 +7168,6 @@
         "ga": 51,
         "points": 42,
         "goalDifference": -11
-      },
-      {
-        "team": "CR Vasco da Gama",
-        "rank": 13,
-        "played": 33,
-        "logo": "https://crests.football-data.org/1780.png",
-        "won": 11,
-        "drawn": 8,
-        "lost": 14,
-        "gf": 43,
-        "ga": 50,
-        "points": 41,
-        "goalDifference": -7
       },
       {
         "team": "Mirassol FC",
@@ -7250,14 +7250,14 @@
       {
         "team": "Chapecoense AF",
         "rank": 20,
-        "played": 33,
+        "played": 34,
         "logo": "https://crests.football-data.org/1772_large.png",
         "won": 4,
-        "drawn": 9,
+        "drawn": 10,
         "lost": 20,
         "gf": 33,
         "ga": 68,
-        "points": 21,
+        "points": 22,
         "goalDifference": -35
       }
     ],

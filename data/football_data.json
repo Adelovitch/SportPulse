@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-17T21:03:51.654926Z",
+  "updatedAt": "2026-11-18T07:40:49.468853Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555073",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Chapecoense AF",
-      "away": "Mirassol FC",
-      "utcDate": "2026-11-03T22:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1772_large.png",
-      "awayLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": "football-data:555076",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "SC Internacional",
-      "away": "Coritiba FBC",
-      "utcDate": "2026-11-04T00:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/6684.png",
-      "awayLogo": "https://crests.football-data.org/4241.png"
-    },
     {
       "id": "football-data:575386",
       "sport": "Football",

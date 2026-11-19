@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-19T07:39:53.217862Z",
+  "updatedAt": "2026-11-19T20:49:28.686400Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7309,6 +7309,58 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4287.png",
       "awayLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": "football-data:555082",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Cruzeiro EC",
+      "away": "SE Palmeiras",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1771.png",
+      "awayLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": "football-data:555083",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Flamengo",
+      "away": "CA Paranaense",
+      "utcDate": "2026-11-18T23:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1783.png",
+      "awayLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": "football-data:555080",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Corinthians Paulista",
+      "away": "Botafogo FR",
+      "utcDate": "2026-11-19T00:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1779.png",
+      "awayLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": "football-data:555084",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Grêmio FBPA",
+      "away": "EC Bahia",
+      "utcDate": "2026-11-19T00:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1767.png",
+      "awayLogo": "https://crests.football-data.org/1777.png"
     }
   ]
 }

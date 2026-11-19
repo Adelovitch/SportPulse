@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-18T07:43:16.941082Z",
+  "updatedAt": "2026-11-19T07:39:53.135207Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2768,6 +2768,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/orhwzq1759233930.jpg"
+    },
+    {
+      "id": "thesportsdb:2601875",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Memphis Grizzlies",
+      "utcDate": "2026-11-19T00:00:00Z",
+      "status": "FINISHED",
+      "score": "121 – 124",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/8xi6hs1759233284.jpg"
+    },
+    {
+      "id": "thesportsdb:2601876",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Houston Rockets",
+      "utcDate": "2026-11-19T00:00:00Z",
+      "status": "FINISHED",
+      "score": "104 – 119",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/vjsffh1759234143.jpg"
+    },
+    {
+      "id": "thesportsdb:2601877",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Milwaukee Bucks",
+      "utcDate": "2026-11-19T00:00:00Z",
+      "status": "FINISHED",
+      "score": "137 – 130",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/0x87kq1759234527.jpg"
+    },
+    {
+      "id": "thesportsdb:2601886",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Phoenix Suns",
+      "utcDate": "2026-11-19T03:00:00Z",
+      "status": "FINISHED",
+      "score": "107 – 128",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/4vdpcb1759234437.jpg"
     }
   ]
 }

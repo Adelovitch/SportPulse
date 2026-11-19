@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-15T06:48:42.252590Z",
+  "updatedAt": "2026-11-19T07:39:53.217862Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7283,6 +7283,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1772_large.png",
       "awayLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": "football-data:555081",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Coritiba FBC",
+      "away": "Santos FC",
+      "utcDate": "2026-11-18T22:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4241.png",
+      "awayLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": "football-data:555086",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Clube do Remo",
+      "away": "Chapecoense AF",
+      "utcDate": "2026-11-18T23:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4287.png",
+      "awayLogo": "https://crests.football-data.org/1772_large.png"
     }
   ]
 }

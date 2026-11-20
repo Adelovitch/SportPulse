@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-20T03:02:58.688146Z",
+  "updatedAt": "2026-11-20T20:32:46.906644Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7400,6 +7400,30 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1776.png",
       "awayLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": "openligadb:83697",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "SV Darmstadt 98",
+      "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1"
+    },
+    {
+      "id": "openligadb:83705",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "DSC Arminia Bielefeld",
+      "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "utcDate": "2026-11-20T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2"
     }
   ]
 }

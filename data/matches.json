@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-20T19:11:46.715794Z",
+  "updatedAt": "2026-11-20T20:30:11.555394Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83234",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "Hamburger SV",
-      "away": "Borussia Mönchengladbach",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-      "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
-      "utcDate": "2026-11-06T19:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 1"
-    },
     {
       "id": "openligadb:83682",
       "sport": "Football",
@@ -208,8 +196,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 1"
     },
     {
       "id": "openligadb:83705",
@@ -220,8 +208,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "utcDate": "2026-11-20T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 2"
     },
     {
       "id": "openligadb:83237",
@@ -652,6 +640,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "utcDate": "2026-12-04T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83255",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Bayern München",
+      "away": "SC Paderborn 07",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+      "utcDate": "2026-12-04T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

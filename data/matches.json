@@ -1,36 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-20T07:28:35.583985Z",
+  "updatedAt": "2026-11-20T19:11:46.715794Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83684",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Dynamo Dresden",
-      "away": "SpVgg Greuther Fürth",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
-      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
-      "utcDate": "2026-11-06T17:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 0"
-    },
-    {
-      "id": "openligadb:83687",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Eintracht Braunschweig",
-      "away": "Energie Cottbus",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
-      "utcDate": "2026-11-06T17:30:00Z",
-      "status": "FINISHED",
-      "score": "0 – 0"
-    },
     {
       "id": "openligadb:83234",
       "sport": "Football",
@@ -652,6 +628,30 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "utcDate": "2026-11-29T18:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83741",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "DSC Arminia Bielefeld",
+      "away": "Dynamo Dresden",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
+      "utcDate": "2026-12-04T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83742",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Energie Cottbus",
+      "away": "VfL Osnabrück",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
+      "utcDate": "2026-12-04T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

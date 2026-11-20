@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-19T20:46:55.812259Z",
+  "updatedAt": "2026-11-20T03:00:31.733742Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:555077",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "SE Palmeiras",
-      "away": "Clube do Remo",
-      "utcDate": "2026-11-05T22:30:00Z",
-      "status": "FINISHED",
-      "score": "6 – 1",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1769.png",
-      "awayLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": "football-data:555074",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "Cruzeiro EC",
-      "away": "EC Bahia",
-      "utcDate": "2026-11-06T00:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 2",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1771.png",
-      "awayLogo": "https://crests.football-data.org/1777.png"
-    },
     {
       "id": "football-data:558845",
       "sport": "Football",
@@ -1049,8 +1023,8 @@
       "home": "CR Vasco da Gama",
       "away": "SC Internacional",
       "utcDate": "2026-11-19T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1780.png",
       "awayLogo": "https://crests.football-data.org/6684.png"
@@ -1062,8 +1036,8 @@
       "home": "EC Vitória",
       "away": "RB Bragantino",
       "utcDate": "2026-11-19T22:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "2 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1782.png",
       "awayLogo": "https://crests.football-data.org/4286.png"
@@ -1075,8 +1049,8 @@
       "home": "São Paulo FC",
       "away": "Fluminense FC",
       "utcDate": "2026-11-20T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1776.png",
       "awayLogo": "https://crests.football-data.org/1765.png"
@@ -7003,15 +6977,15 @@
       {
         "team": "Fluminense FC",
         "rank": 4,
-        "played": 34,
+        "played": 35,
         "logo": "https://crests.football-data.org/1765.png",
-        "won": 16,
+        "won": 17,
         "drawn": 9,
         "lost": 9,
-        "gf": 55,
+        "gf": 56,
         "ga": 42,
-        "points": 57,
-        "goalDifference": 13
+        "points": 60,
+        "goalDifference": 14
       },
       {
         "team": "CA Paranaense",
@@ -7068,41 +7042,41 @@
       {
         "team": "RB Bragantino",
         "rank": 9,
-        "played": 34,
+        "played": 35,
         "logo": "https://crests.football-data.org/4286.png",
         "won": 13,
         "drawn": 8,
-        "lost": 13,
-        "gf": 44,
-        "ga": 39,
-        "points": 47,
-        "goalDifference": 5
-      },
-      {
-        "team": "São Paulo FC",
-        "rank": 10,
-        "played": 34,
-        "logo": "https://crests.football-data.org/1776.png",
-        "won": 12,
-        "drawn": 8,
         "lost": 14,
-        "gf": 39,
-        "ga": 39,
-        "points": 44,
-        "goalDifference": 0
+        "gf": 45,
+        "ga": 41,
+        "points": 47,
+        "goalDifference": 4
       },
       {
         "team": "CR Vasco da Gama",
-        "rank": 11,
-        "played": 34,
+        "rank": 10,
+        "played": 35,
         "logo": "https://crests.football-data.org/1780.png",
-        "won": 12,
+        "won": 13,
         "drawn": 8,
         "lost": 14,
-        "gf": 45,
-        "ga": 50,
+        "gf": 47,
+        "ga": 51,
+        "points": 47,
+        "goalDifference": -4
+      },
+      {
+        "team": "São Paulo FC",
+        "rank": 11,
+        "played": 35,
+        "logo": "https://crests.football-data.org/1776.png",
+        "won": 12,
+        "drawn": 8,
+        "lost": 15,
+        "gf": 39,
+        "ga": 40,
         "points": 44,
-        "goalDifference": -5
+        "goalDifference": -1
       },
       {
         "team": "Botafogo FR",
@@ -7131,8 +7105,21 @@
         "goalDifference": -12
       },
       {
-        "team": "Mirassol FC",
+        "team": "EC Vitória",
         "rank": 14,
+        "played": 35,
+        "logo": "https://crests.football-data.org/1782.png",
+        "won": 11,
+        "drawn": 8,
+        "lost": 16,
+        "gf": 37,
+        "ga": 52,
+        "points": 41,
+        "goalDifference": -15
+      },
+      {
+        "team": "Mirassol FC",
+        "rank": 15,
         "played": 35,
         "logo": "https://crests.football-data.org/4364.png",
         "won": 10,
@@ -7145,7 +7132,7 @@
       },
       {
         "team": "SC Corinthians Paulista",
-        "rank": 15,
+        "rank": 16,
         "played": 35,
         "logo": "https://crests.football-data.org/1779.png",
         "won": 10,
@@ -7157,30 +7144,17 @@
         "goalDifference": -2
       },
       {
-        "team": "EC Vitória",
-        "rank": 16,
-        "played": 34,
-        "logo": "https://crests.football-data.org/1782.png",
-        "won": 10,
-        "drawn": 8,
-        "lost": 16,
-        "gf": 35,
-        "ga": 51,
-        "points": 38,
-        "goalDifference": -16
-      },
-      {
         "team": "SC Internacional",
         "rank": 17,
-        "played": 34,
+        "played": 35,
         "logo": "https://crests.football-data.org/6684.png",
         "won": 9,
         "drawn": 11,
-        "lost": 14,
-        "gf": 38,
-        "ga": 42,
+        "lost": 15,
+        "gf": 39,
+        "ga": 44,
         "points": 38,
-        "goalDifference": -4
+        "goalDifference": -5
       },
       {
         "team": "Grêmio FBPA",

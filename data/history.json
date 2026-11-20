@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-19T20:49:28.686400Z",
+  "updatedAt": "2026-11-20T03:02:58.688146Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7361,6 +7361,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1767.png",
       "awayLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": "football-data:555088",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CR Vasco da Gama",
+      "away": "SC Internacional",
+      "utcDate": "2026-11-19T22:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1780.png",
+      "awayLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": "football-data:555089",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Vitória",
+      "away": "RB Bragantino",
+      "utcDate": "2026-11-19T22:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1782.png",
+      "awayLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": "football-data:555087",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "São Paulo FC",
+      "away": "Fluminense FC",
+      "utcDate": "2026-11-20T00:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1776.png",
+      "awayLogo": "https://crests.football-data.org/1765.png"
     }
   ]
 }

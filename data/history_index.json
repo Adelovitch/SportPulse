@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 613,
+  "totalMatches": 621,
   "seasons": {
     "2026-2027": {
-      "count": 613,
+      "count": 621,
       "competitions": {
         "2. Bundesliga": {
-          "count": 50,
+          "count": 51,
           "matchIds": [
             "openligadb:83608",
             "openligadb:83609",
@@ -56,6 +56,7 @@
             "openligadb:83687",
             "openligadb:83688",
             "openligadb:83689",
+            "openligadb:83691",
             "openligadb:83694",
             "openligadb:83697",
             "openligadb:83699",
@@ -220,9 +221,11 @@
           ]
         },
         "Eredivisie": {
-          "count": 46,
+          "count": 48,
           "matchIds": [
+            "football-data:558831",
             "football-data:558833",
+            "football-data:558835",
             "football-data:558837",
             "football-data:558838",
             "football-data:558839",
@@ -271,7 +274,7 @@
           ]
         },
         "La Liga": {
-          "count": 53,
+          "count": 54,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -325,13 +328,15 @@
             "football-data:564747",
             "football-data:564748",
             "football-data:564751",
-            "football-data:564755"
+            "football-data:564755",
+            "football-data:564756"
           ]
         },
         "Ligue 1": {
-          "count": 47,
+          "count": 48,
           "matchIds": [
             "football-data:559622",
+            "football-data:559623",
             "football-data:559628",
             "football-data:559630",
             "football-data:559631",
@@ -440,7 +445,7 @@
           ]
         },
         "Premier League": {
-          "count": 56,
+          "count": 57,
           "matchIds": [
             "football-data:560592",
             "football-data:560593",
@@ -497,7 +502,8 @@
             "football-data:560644",
             "football-data:560647",
             "football-data:560648",
-            "football-data:560650"
+            "football-data:560650",
+            "football-data:560651"
           ]
         },
         "Primeira Liga": {
@@ -542,10 +548,11 @@
           ]
         },
         "Serie A": {
-          "count": 63,
+          "count": 64,
           "matchIds": [
             "football-data:558525",
             "football-data:558526",
+            "football-data:558527",
             "football-data:558528",
             "football-data:558529",
             "football-data:558530",
@@ -610,7 +617,7 @@
           ]
         },
         "Série A brésilienne": {
-          "count": 61,
+          "count": 62,
           "matchIds": [
             "football-data:554942",
             "football-data:555030",
@@ -672,7 +679,8 @@
             "football-data:555086",
             "football-data:555087",
             "football-data:555088",
-            "football-data:555089"
+            "football-data:555089",
+            "football-data:555098"
           ]
         }
       }

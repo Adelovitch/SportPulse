@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-21T19:26:54.052073Z",
+  "updatedAt": "2026-11-21T21:44:47.039843Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83681",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "Hertha BSC",
-      "away": "VfL Wolfsburg",
-      "homeLogo": "https://i.imgur.com/apFwbYZ.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-      "utcDate": "2026-11-07T19:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83678",
       "sport": "Football",
@@ -244,8 +232,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
       "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
       "utcDate": "2026-11-21T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 0"
     },
     {
       "id": "openligadb:83698",
@@ -664,6 +652,18 @@
       "homeLogo": "https://i.imgur.com/X8NFkOb.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "utcDate": "2026-12-05T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83731",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Hannover 96",
+      "away": "Hertha BSC",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "awayLogo": "https://i.imgur.com/apFwbYZ.png",
+      "utcDate": "2026-12-05T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

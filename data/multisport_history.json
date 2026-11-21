@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-21T07:25:32.030567Z",
+  "updatedAt": "2026-11-21T21:47:21.489446Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -2936,6 +2936,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/d8uoxw1714254511.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/8kyi081759234416.jpg"
+    },
+    {
+      "id": "thesportsdb:2601900",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Milwaukee Bucks",
+      "utcDate": "2026-11-21T18:00:00Z",
+      "status": "FINISHED",
+      "score": "132 – 132",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/olhug01621594702.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/110d2h1759234066.jpg"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-21T19:29:36.647682Z",
+  "updatedAt": "2026-11-21T21:47:21.576196Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7859,6 +7859,32 @@
       "awayLogo": "https://crests.football-data.org/100.png"
     },
     {
+      "id": "football-data:560651",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Newcastle United FC",
+      "away": "Arsenal FC",
+      "utcDate": "2026-11-21T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/67.png",
+      "awayLogo": "https://crests.football-data.org/57.png"
+    },
+    {
+      "id": "football-data:564756",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Sevilla FC",
+      "away": "Real Betis Balompié",
+      "utcDate": "2026-11-21T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/559.png",
+      "awayLogo": "https://crests.football-data.org/90.png"
+    },
+    {
       "id": "openligadb:83244",
       "sport": "Football",
       "competition": "Bundesliga",
@@ -7869,6 +7895,83 @@
       "utcDate": "2026-11-21T17:30:00Z",
       "status": "FINISHED",
       "score": "0 – 0"
+    },
+    {
+      "id": "football-data:558831",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "Feyenoord Rotterdam",
+      "away": "SBV Excelsior",
+      "utcDate": "2026-11-21T17:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/675.png",
+      "awayLogo": "https://crests.football-data.org/670.png"
+    },
+    {
+      "id": "football-data:558835",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Utrecht",
+      "away": "SC Cambuur-Leeuwarden",
+      "utcDate": "2026-11-21T17:45:00Z",
+      "status": "FINISHED",
+      "score": "2 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/676.png",
+      "awayLogo": "https://crests.football-data.org/1909.png"
+    },
+    {
+      "id": "football-data:555098",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SE Palmeiras",
+      "away": "CR Flamengo",
+      "utcDate": "2026-11-21T19:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1769.png",
+      "awayLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": "openligadb:83691",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "FC St. Pauli",
+      "away": "VfL Bochum",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "utcDate": "2026-11-21T19:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0"
+    },
+    {
+      "id": "football-data:558527",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SSC Napoli",
+      "away": "Torino FC",
+      "utcDate": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/113.png",
+      "awayLogo": "https://crests.football-data.org/586.png"
+    },
+    {
+      "id": "football-data:559623",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Racing Club de Lens",
+      "away": "Toulouse FC",
+      "utcDate": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/546.png",
+      "awayLogo": "https://crests.football-data.org/511.png"
     }
   ]
 }

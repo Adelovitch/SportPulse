@@ -1,28 +1,21 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-20T20:30:13.580719Z",
+  "updatedAt": "2026-11-21T07:23:01.819162Z",
   "leagues": {
     "Bundesliga": {
       "competition": "Bundesliga",
       "teams": [
         {
           "team": "FC Bayern München",
-          "played": 9,
+          "played": 10,
           "won": 6,
-          "drawn": 3,
+          "drawn": 4,
           "lost": 0,
-          "gf": 29,
-          "ga": 9,
-          "points": 21,
+          "gf": 30,
+          "ga": 10,
+          "points": 22,
           "goalDifference": 20,
           "form": [
-            {
-              "date": "2026-10-10T13:30:00Z",
-              "opponent": "FC Augsburg",
-              "goalsFor": 2,
-              "goalsAgainst": 2,
-              "outcome": "N"
-            },
             {
               "date": "2026-10-17T16:30:00Z",
               "opponent": "RB Leipzig",
@@ -50,9 +43,16 @@
               "goalsFor": 2,
               "goalsAgainst": 1,
               "outcome": "V"
+            },
+            {
+              "date": "2026-11-20T19:30:00Z",
+              "opponent": "1. FC Köln",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "outcome": "N"
             }
           ],
-          "avgGoalsFor": 3.22
+          "avgGoalsFor": 3.0
         },
         {
           "team": "Borussia Dortmund",
@@ -643,6 +643,55 @@
           "avgGoalsFor": 0.89
         },
         {
+          "team": "1. FC Köln",
+          "played": 10,
+          "won": 2,
+          "drawn": 4,
+          "lost": 4,
+          "gf": 11,
+          "ga": 15,
+          "points": 10,
+          "goalDifference": -4,
+          "form": [
+            {
+              "date": "2026-10-16T18:30:00Z",
+              "opponent": "Eintracht Frankfurt",
+              "goalsFor": 0,
+              "goalsAgainst": 1,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-10-24T13:30:00Z",
+              "opponent": "FC Schalke 04",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-11-01T14:30:00Z",
+              "opponent": "1. FC Union Berlin",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-11-08T14:30:00Z",
+              "opponent": "Bayer 04 Leverkusen",
+              "goalsFor": 1,
+              "goalsAgainst": 2,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-11-20T19:30:00Z",
+              "opponent": "FC Bayern München",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "outcome": "N"
+            }
+          ],
+          "avgGoalsFor": 1.1
+        },
+        {
           "team": "FC Augsburg",
           "played": 9,
           "won": 2,
@@ -690,55 +739,6 @@
             }
           ],
           "avgGoalsFor": 2.22
-        },
-        {
-          "team": "1. FC Köln",
-          "played": 9,
-          "won": 2,
-          "drawn": 3,
-          "lost": 4,
-          "gf": 10,
-          "ga": 14,
-          "points": 9,
-          "goalDifference": -4,
-          "form": [
-            {
-              "date": "2026-10-11T13:30:00Z",
-              "opponent": "Borussia Mönchengladbach",
-              "goalsFor": 2,
-              "goalsAgainst": 1,
-              "outcome": "V"
-            },
-            {
-              "date": "2026-10-16T18:30:00Z",
-              "opponent": "Eintracht Frankfurt",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-10-24T13:30:00Z",
-              "opponent": "FC Schalke 04",
-              "goalsFor": 0,
-              "goalsAgainst": 0,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-11-01T14:30:00Z",
-              "opponent": "1. FC Union Berlin",
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-11-08T14:30:00Z",
-              "opponent": "Bayer 04 Leverkusen",
-              "goalsFor": 1,
-              "goalsAgainst": 2,
-              "outcome": "D"
-            }
-          ],
-          "avgGoalsFor": 1.11
         },
         {
           "team": "1. FC Union Berlin",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-21T00:55:43.320373Z",
+  "updatedAt": "2026-11-21T16:18:21.272966Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7462,6 +7462,120 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/77.png",
       "awayLogo": "https://crests.football-data.org/80.png"
+    },
+    {
+      "id": "openligadb:83689",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Wolfsburg",
+      "away": "Holstein Kiel",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
+      "utcDate": "2026-11-21T12:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0"
+    },
+    {
+      "id": "openligadb:83694",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "Hannover 96",
+      "away": "SpVgg Greuther Fürth",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+      "awayLogo": "https://i.imgur.com/pwuVbKr.png",
+      "utcDate": "2026-11-21T12:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1"
+    },
+    {
+      "id": "openligadb:83699",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Nürnberg",
+      "away": "Eintracht Braunschweig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "utcDate": "2026-11-21T12:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2"
+    },
+    {
+      "id": "football-data:561944",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Southampton FC",
+      "away": "Derby County FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/340.png",
+      "awayLogo": "https://crests.football-data.org/342.png"
+    },
+    {
+      "id": "football-data:561948",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Norwich City FC",
+      "away": "Cardiff City FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/68.png",
+      "awayLogo": "https://crests.football-data.org/715.png"
+    },
+    {
+      "id": "football-data:561950",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Millwall FC",
+      "away": "Queens Park Rangers FC",
+      "utcDate": "2026-11-21T12:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/384.png",
+      "awayLogo": "https://crests.football-data.org/69.png"
+    },
+    {
+      "id": "football-data:564755",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Deportivo Alavés",
+      "away": "RC Deportivo La Coruña",
+      "utcDate": "2026-11-21T13:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/263.png",
+      "awayLogo": "https://crests.football-data.org/560.png"
+    },
+    {
+      "id": "football-data:558525",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Como 1907",
+      "away": "Cagliari Calcio",
+      "utcDate": "2026-11-21T14:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/7397.png",
+      "awayLogo": "https://crests.football-data.org/104.png"
+    },
+    {
+      "id": "football-data:558528",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "SS Lazio",
+      "away": "US Lecce",
+      "utcDate": "2026-11-21T14:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/110.png",
+      "awayLogo": "https://crests.football-data.org/5890.png"
     }
   ]
 }

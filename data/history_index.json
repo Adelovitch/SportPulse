@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 581,
+  "totalMatches": 590,
   "seasons": {
     "2026-2027": {
-      "count": 581,
+      "count": 590,
       "competitions": {
         "2. Bundesliga": {
-          "count": 47,
+          "count": 50,
           "matchIds": [
             "openligadb:83608",
             "openligadb:83609",
@@ -55,7 +55,10 @@
             "openligadb:83686",
             "openligadb:83687",
             "openligadb:83688",
+            "openligadb:83689",
+            "openligadb:83694",
             "openligadb:83697",
+            "openligadb:83699",
             "openligadb:83705"
           ]
         },
@@ -111,7 +114,7 @@
           ]
         },
         "Championship": {
-          "count": 85,
+          "count": 88,
           "matchIds": [
             "football-data:561826",
             "football-data:561857",
@@ -197,7 +200,10 @@
             "football-data:561937",
             "football-data:561938",
             "football-data:561939",
-            "football-data:561940"
+            "football-data:561940",
+            "football-data:561944",
+            "football-data:561948",
+            "football-data:561950"
           ]
         },
         "Eredivisie": {
@@ -251,7 +257,7 @@
           ]
         },
         "La Liga": {
-          "count": 51,
+          "count": 52,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -303,7 +309,8 @@
             "football-data:564745",
             "football-data:564746",
             "football-data:564747",
-            "football-data:564748"
+            "football-data:564748",
+            "football-data:564755"
           ]
         },
         "Ligue 1": {
@@ -513,8 +520,10 @@
           ]
         },
         "Serie A": {
-          "count": 60,
+          "count": 62,
           "matchIds": [
+            "football-data:558525",
+            "football-data:558528",
             "football-data:558529",
             "football-data:558530",
             "football-data:558531",

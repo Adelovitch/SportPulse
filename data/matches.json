@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-21T16:15:43.904980Z",
+  "updatedAt": "2026-11-21T19:26:54.052073Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83230",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "VfB Stuttgart",
-      "away": "SV Werder Bremen",
-      "homeLogo": "https://i.imgur.com/v0tkpNx.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-      "utcDate": "2026-11-07T17:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0"
-    },
     {
       "id": "openligadb:83681",
       "sport": "Football",
@@ -184,8 +172,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
       "utcDate": "2026-11-21T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "4 – 0"
     },
     {
       "id": "openligadb:83239",
@@ -196,8 +184,8 @@
       "homeLogo": "https://i.imgur.com/X8NFkOb.png",
       "awayLogo": "https://i.imgur.com/gF0PfEl.png",
       "utcDate": "2026-11-21T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 0"
     },
     {
       "id": "openligadb:83241",
@@ -208,8 +196,8 @@
       "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "awayLogo": "https://i.imgur.com/Rpwsjz1.png",
       "utcDate": "2026-11-21T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 5"
     },
     {
       "id": "openligadb:83242",
@@ -220,8 +208,8 @@
       "homeLogo": "https://i.imgur.com/KSIk0Eu.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
       "utcDate": "2026-11-21T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 1"
     },
     {
       "id": "openligadb:83245",
@@ -232,8 +220,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "awayLogo": "https://i.imgur.com/r3mvi0h.png",
       "utcDate": "2026-11-21T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 1"
     },
     {
       "id": "openligadb:83244",
@@ -244,8 +232,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
       "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-11-21T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 0"
     },
     {
       "id": "openligadb:83691",
@@ -664,6 +652,18 @@
       "homeLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-12-05T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83259",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Eintracht Frankfurt",
+      "away": "SV Werder Bremen",
+      "homeLogo": "https://i.imgur.com/X8NFkOb.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "utcDate": "2026-12-05T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

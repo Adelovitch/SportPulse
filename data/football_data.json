@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-20T20:30:19.633285Z",
+  "updatedAt": "2026-11-21T00:53:15.690590Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -15,32 +15,6 @@
     "Championship"
   ],
   "matches": [
-    {
-      "id": "football-data:567353",
-      "sport": "Football",
-      "competition": "Primeira Liga",
-      "home": "FC Famalicão",
-      "away": "FC Arouca",
-      "utcDate": "2026-11-06T20:45:00Z",
-      "status": "FINISHED",
-      "score": "1 – 0",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/5531.png",
-      "awayLogo": "https://crests.football-data.org/712.png"
-    },
-    {
-      "id": "football-data:555079",
-      "sport": "Football",
-      "competition": "Série A brésilienne",
-      "home": "EC Vitória",
-      "away": "Fluminense FC",
-      "utcDate": "2026-11-06T23:00:00Z",
-      "status": "FINISHED",
-      "score": "0 – 3",
-      "provider": "football-data.org",
-      "homeLogo": "https://crests.football-data.org/1782.png",
-      "awayLogo": "https://crests.football-data.org/1765.png"
-    },
     {
       "id": "football-data:560632",
       "sport": "Football",
@@ -984,8 +958,8 @@
       "home": "ES Troyes AC",
       "away": "Le Havre AC",
       "utcDate": "2026-11-20T19:45:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/531.png",
       "awayLogo": "https://crests.football-data.org/533.png"
@@ -997,8 +971,8 @@
       "home": "Athletic Club",
       "away": "RCD Espanyol de Barcelona",
       "utcDate": "2026-11-20T20:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "0 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/77.png",
       "awayLogo": "https://crests.football-data.org/80.png"
@@ -5102,8 +5076,21 @@
         "goalDifference": 1
       },
       {
-        "team": "RC Strasbourg Alsace",
+        "team": "ES Troyes AC",
         "rank": 13,
+        "played": 11,
+        "logo": "https://crests.football-data.org/531.png",
+        "won": 3,
+        "drawn": 2,
+        "lost": 6,
+        "gf": 10,
+        "ga": 18,
+        "points": 11,
+        "goalDifference": -8
+      },
+      {
+        "team": "RC Strasbourg Alsace",
+        "rank": 14,
         "played": 10,
         "logo": "https://crests.football-data.org/576.png",
         "won": 3,
@@ -5116,7 +5103,7 @@
       },
       {
         "team": "AJ Auxerre",
-        "rank": 14,
+        "rank": 15,
         "played": 10,
         "logo": "https://crests.football-data.org/519.png",
         "won": 3,
@@ -5126,19 +5113,6 @@
         "ga": 24,
         "points": 10,
         "goalDifference": -11
-      },
-      {
-        "team": "ES Troyes AC",
-        "rank": 15,
-        "played": 11,
-        "logo": "https://crests.football-data.org/531.png",
-        "won": 2,
-        "drawn": 3,
-        "lost": 6,
-        "gf": 8,
-        "ga": 18,
-        "points": 9,
-        "goalDifference": -10
       },
       {
         "team": "Le Mans FC",
@@ -5172,12 +5146,12 @@
         "played": 11,
         "logo": "https://crests.football-data.org/533.png",
         "won": 0,
-        "drawn": 3,
-        "lost": 8,
+        "drawn": 2,
+        "lost": 9,
         "gf": 10,
-        "ga": 23,
-        "points": 3,
-        "goalDifference": -13
+        "ga": 25,
+        "points": 2,
+        "goalDifference": -15
       }
     ],
     "Premier League": [
@@ -5527,12 +5501,12 @@
         "played": 12,
         "logo": "https://crests.football-data.org/77.png",
         "won": 4,
-        "drawn": 5,
-        "lost": 3,
+        "drawn": 4,
+        "lost": 4,
         "gf": 15,
-        "ga": 11,
-        "points": 17,
-        "goalDifference": 4
+        "ga": 12,
+        "points": 16,
+        "goalDifference": 3
       },
       {
         "team": "Villarreal CF",
@@ -5561,8 +5535,21 @@
         "goalDifference": 1
       },
       {
-        "team": "Real Racing Club de Santander",
+        "team": "RCD Espanyol de Barcelona",
         "rank": 10,
+        "played": 13,
+        "logo": "https://crests.football-data.org/80.png",
+        "won": 4,
+        "drawn": 3,
+        "lost": 6,
+        "gf": 14,
+        "ga": 14,
+        "points": 15,
+        "goalDifference": 0
+      },
+      {
+        "team": "Real Racing Club de Santander",
+        "rank": 11,
         "played": 12,
         "logo": "https://crests.football-data.org/5335.png",
         "won": 4,
@@ -5575,7 +5562,7 @@
       },
       {
         "team": "RC Celta de Vigo",
-        "rank": 11,
+        "rank": 12,
         "played": 12,
         "logo": "https://crests.football-data.org/558.png",
         "won": 2,
@@ -5585,19 +5572,6 @@
         "ga": 10,
         "points": 13,
         "goalDifference": 0
-      },
-      {
-        "team": "RCD Espanyol de Barcelona",
-        "rank": 12,
-        "played": 13,
-        "logo": "https://crests.football-data.org/80.png",
-        "won": 3,
-        "drawn": 4,
-        "lost": 6,
-        "gf": 13,
-        "ga": 14,
-        "points": 13,
-        "goalDifference": -1
       },
       {
         "team": "Deportivo Alavés",

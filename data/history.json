@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-20T20:32:46.906644Z",
+  "updatedAt": "2026-11-21T00:55:43.320373Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7424,6 +7424,44 @@
       "utcDate": "2026-11-20T17:30:00Z",
       "status": "FINISHED",
       "score": "1 – 2"
+    },
+    {
+      "id": "openligadb:83237",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Bayern München",
+      "away": "1. FC Köln",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+      "utcDate": "2026-11-20T19:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1"
+    },
+    {
+      "id": "football-data:559622",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "ES Troyes AC",
+      "away": "Le Havre AC",
+      "utcDate": "2026-11-20T19:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/531.png",
+      "awayLogo": "https://crests.football-data.org/533.png"
+    },
+    {
+      "id": "football-data:564748",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Athletic Club",
+      "away": "RCD Espanyol de Barcelona",
+      "utcDate": "2026-11-20T20:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/77.png",
+      "awayLogo": "https://crests.football-data.org/80.png"
     }
   ]
 }

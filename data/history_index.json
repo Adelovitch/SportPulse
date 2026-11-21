@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 578,
+  "totalMatches": 581,
   "seasons": {
     "2026-2027": {
-      "count": 578,
+      "count": 581,
       "competitions": {
         "2. Bundesliga": {
           "count": 47,
@@ -60,7 +60,7 @@
           ]
         },
         "Bundesliga": {
-          "count": 45,
+          "count": 46,
           "matchIds": [
             "openligadb:83192",
             "openligadb:83193",
@@ -106,7 +106,8 @@
             "openligadb:83233",
             "openligadb:83234",
             "openligadb:83235",
-            "openligadb:83236"
+            "openligadb:83236",
+            "openligadb:83237"
           ]
         },
         "Championship": {
@@ -250,7 +251,7 @@
           ]
         },
         "La Liga": {
-          "count": 50,
+          "count": 51,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -301,12 +302,14 @@
             "football-data:564744",
             "football-data:564745",
             "football-data:564746",
-            "football-data:564747"
+            "football-data:564747",
+            "football-data:564748"
           ]
         },
         "Ligue 1": {
-          "count": 45,
+          "count": 46,
           "matchIds": [
+            "football-data:559622",
             "football-data:559630",
             "football-data:559631",
             "football-data:559632",

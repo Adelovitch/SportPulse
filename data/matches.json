@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-20T20:30:11.555394Z",
+  "updatedAt": "2026-11-21T00:53:08.651915Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -220,8 +220,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
       "utcDate": "2026-11-20T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "1 – 1"
     },
     {
       "id": "openligadb:83689",

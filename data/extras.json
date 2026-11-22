@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-22T19:49:15.640457Z",
+  "updatedAt": "2026-11-22T22:26:02.668177Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:15",
@@ -833,20 +833,6 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/ob5ufb1759234433.jpg"
     },
     {
-      "id": "thesportsdb:2601905",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Sacramento Kings",
-      "away": "Boston Celtics",
-      "utcDate": "2026-11-22T03:00:00Z",
-      "status": "FINISHED",
-      "score": "97 – 96",
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/oisms91759233745.jpg"
-    },
-    {
       "id": "jolpica:f1:2026:21",
       "sport": "Formule 1",
       "competition": "Championnat du monde F1",
@@ -1028,6 +1014,20 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/437oiu1759233320.jpg"
+    },
+    {
+      "id": "thesportsdb:2601907",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Miami Heat",
+      "away": "Oklahoma City Thunder",
+      "utcDate": "2026-11-22T23:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/b9tye31778226616.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/1fjuy71759233948.jpg"
     },
     {
       "id": "thesportsdb:2601908",

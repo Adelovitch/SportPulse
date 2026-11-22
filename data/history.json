@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-22T17:05:58.742469Z",
+  "updatedAt": "2026-11-22T19:51:50.304875Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8140,6 +8140,19 @@
       "score": "0 – 4"
     },
     {
+      "id": "football-data:564749",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "FC Barcelona",
+      "away": "Villarreal CF",
+      "utcDate": "2026-11-22T13:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/81.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
+    },
+    {
       "id": "football-data:558830",
       "sport": "Football",
       "competition": "Eredivisie",
@@ -8205,6 +8218,19 @@
       "awayLogo": "https://crests.football-data.org/532.png"
     },
     {
+      "id": "football-data:560646",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Hull City AFC",
+      "away": "Brighton & Hove Albion FC",
+      "utcDate": "2026-11-22T14:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/322.png",
+      "awayLogo": "https://crests.football-data.org/397.png"
+    },
+    {
       "id": "openligadb:83240",
       "sport": "Football",
       "competition": "Bundesliga",
@@ -8215,6 +8241,96 @@
       "utcDate": "2026-11-22T14:30:00Z",
       "status": "FINISHED",
       "score": "3 – 1"
+    },
+    {
+      "id": "football-data:564750",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Real Racing Club de Santander",
+      "away": "Real Sociedad de Fútbol",
+      "utcDate": "2026-11-22T15:15:00Z",
+      "status": "FINISHED",
+      "score": "3 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5335.png",
+      "awayLogo": "https://crests.football-data.org/92.png"
+    },
+    {
+      "id": "football-data:558829",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "Go Ahead Eagles",
+      "away": "Fortuna Sittard",
+      "utcDate": "2026-11-22T15:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/718.png",
+      "awayLogo": "https://crests.football-data.org/1920.png"
+    },
+    {
+      "id": "football-data:559626",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "FC Lorient",
+      "away": "Stade Rennais FC 1901",
+      "utcDate": "2026-11-22T16:15:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/525.png",
+      "awayLogo": "https://crests.football-data.org/529.png"
+    },
+    {
+      "id": "football-data:560645",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Liverpool FC",
+      "away": "Manchester United FC",
+      "utcDate": "2026-11-22T16:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/64.png",
+      "awayLogo": "https://crests.football-data.org/66.png"
+    },
+    {
+      "id": "openligadb:83243",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SV Werder Bremen",
+      "away": "Hamburger SV",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "utcDate": "2026-11-22T16:30:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0"
+    },
+    {
+      "id": "football-data:558523",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Milan",
+      "away": "Frosinone Calcio",
+      "utcDate": "2026-11-22T17:00:00Z",
+      "status": "FINISHED",
+      "score": "5 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/98.png",
+      "awayLogo": "https://crests.football-data.org/470.png"
+    },
+    {
+      "id": "football-data:564752",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "CA Osasuna",
+      "away": "Málaga CF",
+      "utcDate": "2026-11-22T17:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/79.png",
+      "awayLogo": "https://crests.football-data.org/84.png"
     }
   ]
 }

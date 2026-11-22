@@ -1,24 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-22T17:03:28.934545Z",
+  "updatedAt": "2026-11-22T19:49:11.097827Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83231",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "TSG Hoffenheim",
-      "away": "FC Schalke 04",
-      "homeLogo": "https://i.imgur.com/gF0PfEl.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-      "utcDate": "2026-11-08T18:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 1"
-    },
     {
       "id": "openligadb:83697",
       "sport": "Football",
@@ -232,8 +220,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
       "utcDate": "2026-11-22T16:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "4 – 0"
     },
     {
       "id": "openligadb:83707",

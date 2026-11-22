@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "totalEvents": 126,
+  "totalEvents": 127,
   "sports": {
     "Basketball": {
       "count": 118,
@@ -137,13 +137,13 @@
       }
     },
     "Formule 1": {
-      "count": 8,
+      "count": 9,
       "seasons": {
         "2026": {
-          "count": 8,
+          "count": 9,
           "competitions": {
             "Championnat du monde F1": {
-              "count": 8,
+              "count": 9,
               "eventIds": [
                 "jolpica:f1:2026:13",
                 "jolpica:f1:2026:14",
@@ -152,7 +152,8 @@
                 "jolpica:f1:2026:17",
                 "jolpica:f1:2026:18",
                 "jolpica:f1:2026:19",
-                "jolpica:f1:2026:20"
+                "jolpica:f1:2026:20",
+                "jolpica:f1:2026:21"
               ]
             }
           }

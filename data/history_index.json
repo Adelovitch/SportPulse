@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 629,
+  "totalMatches": 640,
   "seasons": {
     "2026-2027": {
-      "count": 629,
+      "count": 640,
       "competitions": {
         "2. Bundesliga": {
-          "count": 51,
+          "count": 54,
           "matchIds": [
             "openligadb:83608",
             "openligadb:83609",
@@ -59,12 +59,15 @@
             "openligadb:83691",
             "openligadb:83694",
             "openligadb:83697",
+            "openligadb:83698",
             "openligadb:83699",
-            "openligadb:83705"
+            "openligadb:83702",
+            "openligadb:83705",
+            "openligadb:83706"
           ]
         },
         "Bundesliga": {
-          "count": 52,
+          "count": 53,
           "matchIds": [
             "openligadb:83192",
             "openligadb:83193",
@@ -114,6 +117,7 @@
             "openligadb:83237",
             "openligadb:83238",
             "openligadb:83239",
+            "openligadb:83240",
             "openligadb:83241",
             "openligadb:83242",
             "openligadb:83244",
@@ -221,13 +225,16 @@
           ]
         },
         "Eredivisie": {
-          "count": 50,
+          "count": 53,
           "matchIds": [
+            "football-data:558828",
+            "football-data:558830",
             "football-data:558831",
             "football-data:558832",
             "football-data:558833",
             "football-data:558834",
             "football-data:558835",
+            "football-data:558836",
             "football-data:558837",
             "football-data:558838",
             "football-data:558839",
@@ -336,12 +343,13 @@
           ]
         },
         "Ligue 1": {
-          "count": 51,
+          "count": 52,
           "matchIds": [
             "football-data:559621",
             "football-data:559622",
             "football-data:559623",
             "football-data:559624",
+            "football-data:559625",
             "football-data:559627",
             "football-data:559628",
             "football-data:559630",
@@ -554,8 +562,11 @@
           ]
         },
         "Serie A": {
-          "count": 64,
+          "count": 67,
           "matchIds": [
+            "football-data:558521",
+            "football-data:558522",
+            "football-data:558524",
             "football-data:558525",
             "football-data:558526",
             "football-data:558527",

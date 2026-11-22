@@ -1,72 +1,12 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-22T07:03:37.171261Z",
+  "updatedAt": "2026-11-22T17:03:28.934545Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
     "2. Bundesliga"
   ],
   "matches": [
-    {
-      "id": "openligadb:83678",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Heidenheim 1846",
-      "away": "Hannover 96",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-      "utcDate": "2026-11-08T12:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 2"
-    },
-    {
-      "id": "openligadb:83683",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "VfL Bochum",
-      "away": "Karlsruher SC",
-      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
-      "utcDate": "2026-11-08T12:30:00Z",
-      "status": "FINISHED",
-      "score": "3 – 2"
-    },
-    {
-      "id": "openligadb:83686",
-      "sport": "Football",
-      "competition": "2. Bundesliga",
-      "home": "1. FC Magdeburg",
-      "away": "FC St. Pauli",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-      "utcDate": "2026-11-08T12:30:00Z",
-      "status": "FINISHED",
-      "score": "4 – 1"
-    },
-    {
-      "id": "openligadb:83235",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "1. FC Köln",
-      "away": "Bayer 04 Leverkusen",
-      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
-      "utcDate": "2026-11-08T14:30:00Z",
-      "status": "FINISHED",
-      "score": "1 – 2"
-    },
-    {
-      "id": "openligadb:83232",
-      "sport": "Football",
-      "competition": "Bundesliga",
-      "home": "SC Freiburg",
-      "away": "1. FC Union Berlin",
-      "homeLogo": "https://i.imgur.com/r3mvi0h.png",
-      "awayLogo": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-      "utcDate": "2026-11-08T16:30:00Z",
-      "status": "FINISHED",
-      "score": "2 – 0"
-    },
     {
       "id": "openligadb:83231",
       "sport": "Football",
@@ -244,8 +184,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
       "utcDate": "2026-11-22T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 2"
     },
     {
       "id": "openligadb:83702",
@@ -256,8 +196,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karlsruher_SC_Logo_2.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
       "utcDate": "2026-11-22T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 0"
     },
     {
       "id": "openligadb:83706",
@@ -268,8 +208,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
       "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-11-22T12:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "0 – 4"
     },
     {
       "id": "openligadb:83240",
@@ -280,8 +220,8 @@
       "homeLogo": "https://i.imgur.com/sdE62e2.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
       "utcDate": "2026-11-22T14:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 1"
     },
     {
       "id": "openligadb:83243",
@@ -664,6 +604,66 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
       "awayLogo": "https://i.imgur.com/apFwbYZ.png",
       "utcDate": "2026-12-05T19:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83726",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Wolfsburg",
+      "away": "1. FC Magdeburg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "utcDate": "2026-12-06T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83729",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "FC St. Pauli",
+      "away": "1. FC Heidenheim 1846",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "utcDate": "2026-12-06T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83732",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "SV Darmstadt 98",
+      "away": "Eintracht Braunschweig",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+      "utcDate": "2026-12-06T12:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83262",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "FC Schalke 04",
+      "away": "Borussia Dortmund",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+      "utcDate": "2026-12-06T14:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83263",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "SV 07 Elversberg",
+      "away": "VfB Stuttgart",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
+      "awayLogo": "https://i.imgur.com/v0tkpNx.png",
+      "utcDate": "2026-12-06T16:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

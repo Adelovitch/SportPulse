@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-21T19:26:56.892442Z",
+  "updatedAt": "2026-11-22T07:03:39.966515Z",
   "leagues": {
     "Bundesliga": {
       "competition": "Bundesliga",
@@ -1237,6 +1237,55 @@
           "avgGoalsFor": 1.67
         },
         {
+          "team": "FC St. Pauli",
+          "played": 12,
+          "won": 3,
+          "drawn": 6,
+          "lost": 3,
+          "gf": 15,
+          "ga": 16,
+          "points": 15,
+          "goalDifference": -1,
+          "form": [
+            {
+              "date": "2026-10-17T18:30:00Z",
+              "opponent": "Hannover 96",
+              "goalsFor": 1,
+              "goalsAgainst": 1,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-10-23T16:30:00Z",
+              "opponent": "SV Darmstadt 98",
+              "goalsFor": 0,
+              "goalsAgainst": 0,
+              "outcome": "N"
+            },
+            {
+              "date": "2026-11-01T12:30:00Z",
+              "opponent": "1. FC Nürnberg",
+              "goalsFor": 1,
+              "goalsAgainst": 3,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-11-08T12:30:00Z",
+              "opponent": "1. FC Magdeburg",
+              "goalsFor": 1,
+              "goalsAgainst": 4,
+              "outcome": "D"
+            },
+            {
+              "date": "2026-11-21T19:30:00Z",
+              "opponent": "VfL Bochum",
+              "goalsFor": 2,
+              "goalsAgainst": 0,
+              "outcome": "V"
+            }
+          ],
+          "avgGoalsFor": 1.25
+        },
+        {
           "team": "Hannover 96",
           "played": 12,
           "won": 4,
@@ -1336,22 +1385,15 @@
         },
         {
           "team": "VfL Bochum",
-          "played": 11,
+          "played": 12,
           "won": 4,
           "drawn": 2,
-          "lost": 5,
+          "lost": 6,
           "gf": 11,
-          "ga": 13,
+          "ga": 15,
           "points": 14,
-          "goalDifference": -2,
+          "goalDifference": -4,
           "form": [
-            {
-              "date": "2026-10-11T11:30:00Z",
-              "opponent": "DSC Arminia Bielefeld",
-              "goalsFor": 0,
-              "goalsAgainst": 1,
-              "outcome": "D"
-            },
             {
               "date": "2026-10-17T11:00:00Z",
               "opponent": "1. FC Kaiserslautern",
@@ -1379,58 +1421,16 @@
               "goalsFor": 3,
               "goalsAgainst": 2,
               "outcome": "V"
-            }
-          ],
-          "avgGoalsFor": 1.0
-        },
-        {
-          "team": "FC St. Pauli",
-          "played": 11,
-          "won": 2,
-          "drawn": 6,
-          "lost": 3,
-          "gf": 13,
-          "ga": 16,
-          "points": 12,
-          "goalDifference": -3,
-          "form": [
-            {
-              "date": "2026-10-11T11:30:00Z",
-              "opponent": "Karlsruher SC",
-              "goalsFor": 2,
-              "goalsAgainst": 0,
-              "outcome": "V"
             },
             {
-              "date": "2026-10-17T18:30:00Z",
-              "opponent": "Hannover 96",
-              "goalsFor": 1,
-              "goalsAgainst": 1,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-10-23T16:30:00Z",
-              "opponent": "SV Darmstadt 98",
+              "date": "2026-11-21T19:30:00Z",
+              "opponent": "FC St. Pauli",
               "goalsFor": 0,
-              "goalsAgainst": 0,
-              "outcome": "N"
-            },
-            {
-              "date": "2026-11-01T12:30:00Z",
-              "opponent": "1. FC Nürnberg",
-              "goalsFor": 1,
-              "goalsAgainst": 3,
-              "outcome": "D"
-            },
-            {
-              "date": "2026-11-08T12:30:00Z",
-              "opponent": "1. FC Magdeburg",
-              "goalsFor": 1,
-              "goalsAgainst": 4,
+              "goalsAgainst": 2,
               "outcome": "D"
             }
           ],
-          "avgGoalsFor": 1.18
+          "avgGoalsFor": 0.92
         },
         {
           "team": "SpVgg Greuther Fürth",

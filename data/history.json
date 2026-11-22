@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-22T01:44:15.873739Z",
+  "updatedAt": "2026-11-22T07:06:18.515504Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8063,6 +8063,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1777.png",
       "awayLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": "football-data:555095",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Chapecoense AF",
+      "away": "Cruzeiro EC",
+      "utcDate": "2026-11-22T00:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1772_large.png",
+      "awayLogo": "https://crests.football-data.org/1771.png"
     }
   ]
 }

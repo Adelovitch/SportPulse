@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-22T01:41:47.759813Z",
+  "updatedAt": "2026-11-22T07:03:42.529220Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:14",
@@ -37,167 +37,10 @@
       "home": "Bahrain Grand Prix in Malaysia",
       "away": "Sepang International Circuit",
       "utcDate": "2026-10-04T07:00:00Z",
-      "status": "FINISHED",
+      "status": "SCHEDULED",
       "score": null,
       "eventType": "race",
-      "provider": "Jolpica-F1",
-      "classification": [
-        {
-          "position": "1",
-          "driver": "Max Verstappen",
-          "driverId": "max_verstappen",
-          "team": "Red Bull",
-          "points": "25"
-        },
-        {
-          "position": "2",
-          "driver": "Andrea Kimi Antonelli",
-          "driverId": "antonelli",
-          "team": "Mercedes",
-          "points": "18"
-        },
-        {
-          "position": "3",
-          "driver": "Lewis Hamilton",
-          "driverId": "hamilton",
-          "team": "Ferrari",
-          "points": "15"
-        },
-        {
-          "position": "4",
-          "driver": "Charles Leclerc",
-          "driverId": "leclerc",
-          "team": "Ferrari",
-          "points": "12"
-        },
-        {
-          "position": "5",
-          "driver": "Isack Hadjar",
-          "driverId": "hadjar",
-          "team": "Red Bull",
-          "points": "10"
-        },
-        {
-          "position": "6",
-          "driver": "Oscar Piastri",
-          "driverId": "piastri",
-          "team": "McLaren",
-          "points": "8"
-        },
-        {
-          "position": "7",
-          "driver": "Liam Lawson",
-          "driverId": "lawson",
-          "team": "RB F1 Team",
-          "points": "6"
-        },
-        {
-          "position": "8",
-          "driver": "Fernando Alonso",
-          "driverId": "alonso",
-          "team": "Aston Martin",
-          "points": "4"
-        },
-        {
-          "position": "9",
-          "driver": "Lando Norris",
-          "driverId": "norris",
-          "team": "McLaren",
-          "points": "2"
-        },
-        {
-          "position": "10",
-          "driver": "Arvid Lindblad",
-          "driverId": "arvid_lindblad",
-          "team": "RB F1 Team",
-          "points": "1"
-        },
-        {
-          "position": "11",
-          "driver": "Nico Hülkenberg",
-          "driverId": "hulkenberg",
-          "team": "Audi",
-          "points": "0"
-        },
-        {
-          "position": "12",
-          "driver": "Lance Stroll",
-          "driverId": "stroll",
-          "team": "Aston Martin",
-          "points": "0"
-        },
-        {
-          "position": "13",
-          "driver": "Franco Colapinto",
-          "driverId": "colapinto",
-          "team": "Alpine F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "14",
-          "driver": "Oliver Bearman",
-          "driverId": "bearman",
-          "team": "Haas F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "15",
-          "driver": "Esteban Ocon",
-          "driverId": "ocon",
-          "team": "Haas F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "16",
-          "driver": "Pierre Gasly",
-          "driverId": "gasly",
-          "team": "Alpine F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "17",
-          "driver": "Carlos Sainz",
-          "driverId": "sainz",
-          "team": "Williams",
-          "points": "0"
-        },
-        {
-          "position": "18",
-          "driver": "Gabriel Bortoleto",
-          "driverId": "bortoleto",
-          "team": "Audi",
-          "points": "0"
-        },
-        {
-          "position": "19",
-          "driver": "Sergio Pérez",
-          "driverId": "perez",
-          "team": "Cadillac F1 Team",
-          "points": "0"
-        },
-        {
-          "position": "20",
-          "driver": "George Russell",
-          "driverId": "russell",
-          "team": "Mercedes",
-          "points": "0"
-        },
-        {
-          "position": "21",
-          "driver": "Alexander Albon",
-          "driverId": "albon",
-          "team": "Williams",
-          "points": "0"
-        },
-        {
-          "position": "22",
-          "driver": "Valtteri Bottas",
-          "driverId": "bottas",
-          "team": "Cadillac F1 Team",
-          "points": "0"
-        }
-      ],
-      "winner": "Max Verstappen"
+      "provider": "Jolpica-F1"
     },
     {
       "id": "jolpica:f1:2026:17",
@@ -966,26 +809,12 @@
       "home": "New York Knicks",
       "away": "Portland Trail Blazers",
       "utcDate": "2026-11-22T00:30:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "97 – 96",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/ts92t21759234104.jpg"
-    },
-    {
-      "id": "thesportsdb:2601904",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "San Antonio Spurs",
-      "away": "New Orleans Pelicans",
-      "utcDate": "2026-11-22T01:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/50lt0o1759234043.jpg"
     },
     {
       "id": "thesportsdb:2601902",
@@ -994,8 +823,8 @@
       "home": "Dallas Mavericks",
       "away": "Los Angeles Clippers",
       "utcDate": "2026-11-22T01:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "110 – 100",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
@@ -1008,8 +837,8 @@
       "home": "Minnesota Timberwolves",
       "away": "Memphis Grizzlies",
       "utcDate": "2026-11-22T01:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "104 – 95",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/v44qp21778197640.png",
@@ -1022,8 +851,8 @@
       "home": "Sacramento Kings",
       "away": "Boston Celtics",
       "utcDate": "2026-11-22T03:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "97 – 96",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
@@ -1040,6 +869,20 @@
       "score": null,
       "eventType": "race",
       "provider": "Jolpica-F1"
+    },
+    {
+      "id": "thesportsdb:2601906",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Detroit Pistons",
+      "utcDate": "2026-11-22T20:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/7o1noy1778226315.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/437oiu1759233320.jpg"
     },
     {
       "id": "thesportsdb:2601908",

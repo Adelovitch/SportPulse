@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-22T01:41:50.812599Z",
+  "updatedAt": "2026-11-22T07:03:46.744831Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -1088,8 +1088,8 @@
       "home": "Chapecoense AF",
       "away": "Cruzeiro EC",
       "utcDate": "2026-11-22T00:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 2",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1772_large.png",
       "awayLogo": "https://crests.football-data.org/1771.png"
@@ -7018,13 +7018,13 @@
         "rank": 3,
         "played": 36,
         "logo": "https://crests.football-data.org/1771.png",
-        "won": 19,
-        "drawn": 7,
+        "won": 20,
+        "drawn": 6,
         "lost": 10,
-        "gf": 58,
+        "gf": 59,
         "ga": 50,
-        "points": 64,
-        "goalDifference": 8
+        "points": 66,
+        "goalDifference": 9
       },
       {
         "team": "Fluminense FC",
@@ -7240,12 +7240,12 @@
         "played": 36,
         "logo": "https://crests.football-data.org/1772_large.png",
         "won": 4,
-        "drawn": 10,
-        "lost": 22,
+        "drawn": 9,
+        "lost": 23,
         "gf": 34,
-        "ga": 73,
-        "points": 22,
-        "goalDifference": -39
+        "ga": 74,
+        "points": 21,
+        "goalDifference": -40
       }
     ],
     "Championship": [

@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 621,
+  "totalMatches": 628,
   "seasons": {
     "2026-2027": {
-      "count": 621,
+      "count": 628,
       "competitions": {
         "2. Bundesliga": {
           "count": 51,
@@ -221,10 +221,12 @@
           ]
         },
         "Eredivisie": {
-          "count": 48,
+          "count": 50,
           "matchIds": [
             "football-data:558831",
+            "football-data:558832",
             "football-data:558833",
+            "football-data:558834",
             "football-data:558835",
             "football-data:558837",
             "football-data:558838",
@@ -274,7 +276,7 @@
           ]
         },
         "La Liga": {
-          "count": 54,
+          "count": 55,
           "matchIds": [
             "football-data:564685",
             "football-data:564699",
@@ -328,15 +330,19 @@
             "football-data:564747",
             "football-data:564748",
             "football-data:564751",
+            "football-data:564754",
             "football-data:564755",
             "football-data:564756"
           ]
         },
         "Ligue 1": {
-          "count": 48,
+          "count": 51,
           "matchIds": [
+            "football-data:559621",
             "football-data:559622",
             "football-data:559623",
+            "football-data:559624",
+            "football-data:559627",
             "football-data:559628",
             "football-data:559630",
             "football-data:559631",
@@ -617,7 +623,7 @@
           ]
         },
         "Série A brésilienne": {
-          "count": 62,
+          "count": 63,
           "matchIds": [
             "football-data:554942",
             "football-data:555030",
@@ -680,6 +686,7 @@
             "football-data:555087",
             "football-data:555088",
             "football-data:555089",
+            "football-data:555092",
             "football-data:555098"
           ]
         }

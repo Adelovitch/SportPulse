@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-21T21:47:21.576196Z",
+  "updatedAt": "2026-11-22T01:44:15.873739Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7961,6 +7961,19 @@
       "awayLogo": "https://crests.football-data.org/586.png"
     },
     {
+      "id": "football-data:559621",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "AS Monaco FC",
+      "away": "AJ Auxerre",
+      "utcDate": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/548.png",
+      "awayLogo": "https://crests.football-data.org/519.png"
+    },
+    {
       "id": "football-data:559623",
       "sport": "Football",
       "competition": "Ligue 1",
@@ -7972,6 +7985,84 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/546.png",
       "awayLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": "football-data:559624",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "Lille OSC",
+      "away": "Olympique Lyonnais",
+      "utcDate": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/521.png",
+      "awayLogo": "https://crests.football-data.org/523.png"
+    },
+    {
+      "id": "football-data:559627",
+      "sport": "Football",
+      "competition": "Ligue 1",
+      "home": "RC Strasbourg Alsace",
+      "away": "Stade Brestois 29",
+      "utcDate": "2026-11-21T19:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/576.png",
+      "awayLogo": "https://crests.football-data.org/512.png"
+    },
+    {
+      "id": "football-data:558832",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "Telstar 1963",
+      "away": "PEC Zwolle",
+      "utcDate": "2026-11-21T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1912.png",
+      "awayLogo": "https://crests.football-data.org/684.png"
+    },
+    {
+      "id": "football-data:558834",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Groningen",
+      "away": "SC Heerenveen",
+      "utcDate": "2026-11-21T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 3",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/677.png",
+      "awayLogo": "https://crests.football-data.org/673.png"
+    },
+    {
+      "id": "football-data:564754",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Real Madrid CF",
+      "away": "RC Celta de Vigo",
+      "utcDate": "2026-11-21T20:00:00Z",
+      "status": "FINISHED",
+      "score": "2 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/86.png",
+      "awayLogo": "https://crests.football-data.org/558.png"
+    },
+    {
+      "id": "football-data:555092",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "EC Bahia",
+      "away": "Coritiba FBC",
+      "utcDate": "2026-11-21T20:30:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1777.png",
+      "awayLogo": "https://crests.football-data.org/4241.png"
     }
   ]
 }

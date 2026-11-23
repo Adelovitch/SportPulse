@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-22T17:05:58.663037Z",
+  "updatedAt": "2026-11-23T07:54:54.332422Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -3175,6 +3175,48 @@
         }
       ],
       "winner": "Max Verstappen"
+    },
+    {
+      "id": "thesportsdb:2601908",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "utcDate": "2026-11-23T00:00:00Z",
+      "status": "FINISHED",
+      "score": "116 – 96",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/33vjd01759233808.jpg"
+    },
+    {
+      "id": "thesportsdb:2601909",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Utah Jazz",
+      "away": "Dallas Mavericks",
+      "utcDate": "2026-11-23T00:00:00Z",
+      "status": "FINISHED",
+      "score": "114 – 116",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/trct8w1778198868.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/nf3dh81759233841.jpg"
+    },
+    {
+      "id": "thesportsdb:2601912",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Boston Celtics",
+      "utcDate": "2026-11-23T01:30:00Z",
+      "status": "FINISHED",
+      "score": "88 – 87",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xokycb1778197905.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/i01tvt1759234286.jpg"
     }
   ]
 }

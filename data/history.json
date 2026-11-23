@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-22T22:28:40.001365Z",
+  "updatedAt": "2026-11-23T07:54:54.426457Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -7781,6 +7781,19 @@
       "awayLogo": "https://crests.football-data.org/332.png"
     },
     {
+      "id": "football-data:561949",
+      "sport": "Football",
+      "competition": "Championship",
+      "home": "Lincoln City FC",
+      "away": "Wrexham AFC",
+      "utcDate": "2026-11-21T15:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1126.png",
+      "awayLogo": "https://crests.football-data.org/404.png"
+    },
+    {
       "id": "football-data:561951",
       "sport": "Football",
       "competition": "Championship",
@@ -8396,6 +8409,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/82.png",
       "awayLogo": "https://crests.football-data.org/78.png"
+    },
+    {
+      "id": "football-data:555096",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Fluminense FC",
+      "away": "Mirassol FC",
+      "utcDate": "2026-11-22T21:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1765.png",
+      "awayLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": "football-data:555094",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "RB Bragantino",
+      "away": "CR Vasco da Gama",
+      "utcDate": "2026-11-22T22:30:00Z",
+      "status": "FINISHED",
+      "score": "1 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/4286.png",
+      "awayLogo": "https://crests.football-data.org/1780.png"
     }
   ]
 }

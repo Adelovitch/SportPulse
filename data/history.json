@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-24T00:04:18.723004Z",
+  "updatedAt": "2026-11-24T01:07:08.927789Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8474,6 +8474,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/88.png",
       "awayLogo": "https://crests.football-data.org/285.png"
+    },
+    {
+      "id": "football-data:555097",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "SC Internacional",
+      "away": "EC Vitória",
+      "utcDate": "2026-11-23T22:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 5",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6684.png",
+      "awayLogo": "https://crests.football-data.org/1782.png"
     }
   ]
 }

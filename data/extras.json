@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-24T00:01:45.363718Z",
+  "updatedAt": "2026-11-24T01:04:40.311710Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:15",
@@ -960,20 +960,6 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/8f2ldu1759234208.jpg"
     },
     {
-      "id": "thesportsdb:2601914",
-      "sport": "Basketball",
-      "competition": "NBA",
-      "home": "Philadelphia 76ers",
-      "away": "Portland Trail Blazers",
-      "utcDate": "2026-11-24T00:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
-      "provider": "TheSportsDB",
-      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
-      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
-      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/lec1dk1759234558.jpg"
-    },
-    {
       "id": "thesportsdb:2601913",
       "sport": "Basketball",
       "competition": "NBA",
@@ -988,6 +974,20 @@
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/r9djdd1759234616.jpg"
     },
     {
+      "id": "thesportsdb:2601914",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Portland Trail Blazers",
+      "utcDate": "2026-11-24T00:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j6rlbi1778226857.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/lec1dk1759234558.jpg"
+    },
+    {
       "id": "thesportsdb:2601915",
       "sport": "Basketball",
       "competition": "NBA",
@@ -1000,6 +1000,34 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/y3lutb1778226511.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/1btr3r1759233007.jpg"
+    },
+    {
+      "id": "thesportsdb:2601919",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Phoenix Suns",
+      "utcDate": "2026-11-24T01:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xoxjsr1778226698.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/xfyknc1778198971.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/r5oo5c1759233678.jpg"
+    },
+    {
+      "id": "thesportsdb:2601920",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Houston Rockets",
+      "away": "Los Angeles Clippers",
+      "utcDate": "2026-11-24T01:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/azoktf1780729261.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/3gtb8s1719303125.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/9k0dts1759234262.jpg"
     },
     {
       "id": "thesportsdb:2601923",

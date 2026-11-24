@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-24T01:07:08.927789Z",
+  "updatedAt": "2026-11-24T10:06:24.248919Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8487,6 +8487,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/6684.png",
       "awayLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": "football-data:555093",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Botafogo FR",
+      "away": "São Paulo FC",
+      "utcDate": "2026-11-23T23:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1770.png",
+      "awayLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": "football-data:555099",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Santos FC",
+      "away": "Grêmio FBPA",
+      "utcDate": "2026-11-24T00:00:00Z",
+      "status": "FINISHED",
+      "score": "0 – 2",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/6685.png",
+      "awayLogo": "https://crests.football-data.org/1767.png"
     }
   ]
 }

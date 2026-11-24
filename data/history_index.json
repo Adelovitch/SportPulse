@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 663,
+  "totalMatches": 680,
   "seasons": {
     "2026-2027": {
-      "count": 663,
+      "count": 680,
       "competitions": {
         "2. Bundesliga": {
           "count": 54,
@@ -126,7 +126,7 @@
           ]
         },
         "Championship": {
-          "count": 97,
+          "count": 105,
           "matchIds": [
             "football-data:561826",
             "football-data:561857",
@@ -224,7 +224,15 @@
             "football-data:561949",
             "football-data:561950",
             "football-data:561951",
-            "football-data:561952"
+            "football-data:561952",
+            "football-data:561953",
+            "football-data:561954",
+            "football-data:561955",
+            "football-data:561956",
+            "football-data:561957",
+            "football-data:561958",
+            "football-data:561959",
+            "football-data:561960"
           ]
         },
         "Eredivisie": {
@@ -411,7 +419,7 @@
           ]
         },
         "Ligue des champions": {
-          "count": 54,
+          "count": 63,
           "matchIds": [
             "football-data:575341",
             "football-data:575342",
@@ -466,7 +474,16 @@
             "football-data:575391",
             "football-data:575392",
             "football-data:575393",
-            "football-data:575394"
+            "football-data:575394",
+            "football-data:575395",
+            "football-data:575396",
+            "football-data:575397",
+            "football-data:575398",
+            "football-data:575399",
+            "football-data:575400",
+            "football-data:575401",
+            "football-data:575402",
+            "football-data:575403"
           ]
         },
         "Premier League": {

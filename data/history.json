@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-23T07:54:54.426457Z",
+  "updatedAt": "2026-11-24T00:04:18.723004Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8435,6 +8435,45 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/4286.png",
       "awayLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": "football-data:558519",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "AC Monza",
+      "away": "ACF Fiorentina",
+      "utcDate": "2026-11-23T19:45:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/5911.png",
+      "awayLogo": "https://crests.football-data.org/99.png"
+    },
+    {
+      "id": "football-data:560649",
+      "sport": "Football",
+      "competition": "Premier League",
+      "home": "Brentford FC",
+      "away": "Everton FC",
+      "utcDate": "2026-11-23T20:00:00Z",
+      "status": "FINISHED",
+      "score": "4 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/402.png",
+      "awayLogo": "https://crests.football-data.org/62.png"
+    },
+    {
+      "id": "football-data:564757",
+      "sport": "Football",
+      "competition": "La Liga",
+      "home": "Levante UD",
+      "away": "Elche CF",
+      "utcDate": "2026-11-23T20:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/88.png",
+      "awayLogo": "https://crests.football-data.org/285.png"
     }
   ]
 }

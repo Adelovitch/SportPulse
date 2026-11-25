@@ -4,7 +4,7 @@
     "Jolpica-F1",
     "TheSportsDB"
   ],
-  "updatedAt": "2026-11-25T04:22:40.342637Z",
+  "updatedAt": "2026-11-25T08:49:11.863613Z",
   "matches": [
     {
       "id": "jolpica:f1:2026:15",
@@ -994,8 +994,8 @@
       "home": "Denver Nuggets",
       "away": "Dallas Mavericks",
       "utcDate": "2026-11-25T03:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "101 – 120",
       "provider": "TheSportsDB",
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",

@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-25T04:22:42.767318Z",
+  "updatedAt": "2026-11-25T08:49:15.183641Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -5118,7 +5118,7 @@
         "team": "Le Mans FC",
         "rank": 13,
         "played": 11,
-        "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+        "logo": "https://crests.football-data.org/535.png",
         "won": 2,
         "drawn": 5,
         "lost": 4,

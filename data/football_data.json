@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-24T22:35:03.047332Z",
+  "updatedAt": "2026-11-25T04:22:42.767318Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -1283,8 +1283,8 @@
       "home": "Chapecoense AF",
       "away": "SE Palmeiras",
       "utcDate": "2026-11-24T21:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "3 – 0",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1772_large.png",
       "awayLogo": "https://crests.football-data.org/1769.png"
@@ -5118,7 +5118,7 @@
         "team": "Le Mans FC",
         "rank": 13,
         "played": 11,
-        "logo": "https://crests.football-data.org/535.png",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
         "won": 2,
         "drawn": 5,
         "lost": 4,
@@ -6944,9 +6944,9 @@
         "drawn": 11,
         "lost": 5,
         "gf": 64,
-        "ga": 28,
+        "ga": 29,
         "points": 74,
-        "goalDifference": 36
+        "goalDifference": 35
       },
       {
         "team": "Cruzeiro EC",
@@ -7177,10 +7177,10 @@
         "won": 5,
         "drawn": 9,
         "lost": 23,
-        "gf": 36,
+        "gf": 37,
         "ga": 74,
         "points": 24,
-        "goalDifference": -38
+        "goalDifference": -37
       }
     ],
     "Championship": [

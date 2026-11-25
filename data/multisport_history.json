@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-24T10:06:24.189296Z",
+  "updatedAt": "2026-11-25T04:25:12.949186Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -3273,6 +3273,34 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/k2buwo1778227426.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/rxfohr1759234582.jpg"
+    },
+    {
+      "id": "thesportsdb:2601923",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "utcDate": "2026-11-25T00:00:00Z",
+      "status": "FINISHED",
+      "score": "86 – 104",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/j0mpu81778198371.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/lg7qrc1621594751.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/9ujwjw1759234411.jpg"
+    },
+    {
+      "id": "thesportsdb:2601924",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "utcDate": "2026-11-25T01:00:00Z",
+      "status": "FINISHED",
+      "score": "116 – 131",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/dxac7a1778227278.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/4j85bn1667936589.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/jumc601759233506.jpg"
     }
   ]
 }

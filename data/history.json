@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-24T22:37:32.544452Z",
+  "updatedAt": "2026-11-25T04:25:13.039314Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8734,6 +8734,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/7397.png",
       "awayLogo": "https://crests.football-data.org/1899.png"
+    },
+    {
+      "id": "football-data:555102",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "Chapecoense AF",
+      "away": "SE Palmeiras",
+      "utcDate": "2026-11-24T21:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 0",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1772_large.png",
+      "awayLogo": "https://crests.football-data.org/1769.png"
     }
   ]
 }

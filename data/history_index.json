@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "source": "SportPulse",
   "seasonRule": "July–June (inferred from match date; not official for all competitions)",
-  "totalMatches": 681,
+  "totalMatches": 683,
   "seasons": {
     "2026-2027": {
-      "count": 681,
+      "count": 683,
       "competitions": {
         "2. Bundesliga": {
           "count": 54,
@@ -419,7 +419,7 @@
           ]
         },
         "Ligue des champions": {
-          "count": 63,
+          "count": 65,
           "matchIds": [
             "football-data:575341",
             "football-data:575342",
@@ -483,7 +483,9 @@
             "football-data:575400",
             "football-data:575401",
             "football-data:575402",
-            "football-data:575403"
+            "football-data:575403",
+            "football-data:575404",
+            "football-data:575405"
           ]
         },
         "Premier League": {

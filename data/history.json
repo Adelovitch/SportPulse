@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-25T04:25:13.039314Z",
+  "updatedAt": "2026-11-25T21:51:31.826785Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8747,6 +8747,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1772_large.png",
       "awayLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": "football-data:575404",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "Sabah FK",
+      "away": "FC Barcelona",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "FINISHED",
+      "score": "1 – 4",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/10233.png",
+      "awayLogo": "https://crests.football-data.org/81.png"
+    },
+    {
+      "id": "football-data:575405",
+      "sport": "Football",
+      "competition": "Ligue des champions",
+      "home": "SK Slavia Praha",
+      "away": "Villarreal CF",
+      "utcDate": "2026-11-25T17:45:00Z",
+      "status": "FINISHED",
+      "score": "0 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/930.png",
+      "awayLogo": "https://crests.football-data.org/94.png"
     }
   ]
 }

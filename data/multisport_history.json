@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulseMultiSport",
-  "updatedAt": "2026-11-25T08:51:44.917515Z",
+  "updatedAt": "2026-11-26T08:37:15.242177Z",
   "events": [
     {
       "id": "jolpica:f1:2026:13",
@@ -3315,6 +3315,62 @@
       "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/s8ch7m1778197814.png",
       "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/s5dx7c1778197536.png",
       "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/vgrhmt1759234664.jpg"
+    },
+    {
+      "id": "thesportsdb:2601927",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Chicago Bulls",
+      "utcDate": "2026-11-26T00:00:00Z",
+      "status": "FINISHED",
+      "score": "105 – 107",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/xqtvvp1422380623.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/ehq8l31778197349.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/mtkz371759233427.jpg"
+    },
+    {
+      "id": "thesportsdb:2601928",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "New York Knicks",
+      "away": "Cleveland Cavaliers",
+      "utcDate": "2026-11-26T00:30:00Z",
+      "status": "FINISHED",
+      "score": "121 – 102",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/4k8obt1778226764.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/pch9ct1778195828.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/sewvvr1759233654.jpg"
+    },
+    {
+      "id": "thesportsdb:2601929",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Minnesota Timberwolves",
+      "utcDate": "2026-11-26T00:30:00Z",
+      "status": "FINISHED",
+      "score": "106 – 113",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/bkhj5p1778199006.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/epenxg1781034811.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/r9s12x1759234552.jpg"
+    },
+    {
+      "id": "thesportsdb:2601934",
+      "sport": "Basketball",
+      "competition": "NBA",
+      "home": "Portland Trail Blazers",
+      "away": "San Antonio Spurs",
+      "utcDate": "2026-11-26T03:00:00Z",
+      "status": "FINISHED",
+      "score": "116 – 111",
+      "provider": "TheSportsDB",
+      "homeLogo": "https://r2.thesportsdb.com/images/media/team/badge/umehtv1778226952.png",
+      "awayLogo": "https://r2.thesportsdb.com/images/media/team/badge/yc5qfx1781459158.png",
+      "eventImage": "https://r2.thesportsdb.com/images/media/event/thumb/a9zplw1759233417.jpg"
     }
   ]
 }

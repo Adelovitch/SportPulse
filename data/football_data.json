@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-25T23:34:10.170091Z",
+  "updatedAt": "2026-11-26T08:34:49.036377Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -1465,8 +1465,8 @@
       "home": "CA Mineiro",
       "away": "SC Corinthians Paulista",
       "utcDate": "2026-11-25T23:00:00Z",
-      "status": "SCHEDULED",
-      "score": null,
+      "status": "FINISHED",
+      "score": "1 – 1",
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1766.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
@@ -7008,8 +7008,8 @@
         "won": 14,
         "drawn": 10,
         "lost": 12,
-        "gf": 44,
-        "ga": 40,
+        "gf": 45,
+        "ga": 41,
         "points": 52,
         "goalDifference": 4
       },
@@ -7112,8 +7112,8 @@
         "won": 10,
         "drawn": 11,
         "lost": 15,
-        "gf": 40,
-        "ga": 42,
+        "gf": 41,
+        "ga": 43,
         "points": 41,
         "goalDifference": -2
       },

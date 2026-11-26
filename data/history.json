@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-25T23:36:36.109773Z",
+  "updatedAt": "2026-11-26T08:37:15.335677Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8916,6 +8916,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1887.png",
       "awayLogo": "https://crests.football-data.org/613.png"
+    },
+    {
+      "id": "football-data:555091",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "CA Mineiro",
+      "away": "SC Corinthians Paulista",
+      "utcDate": "2026-11-25T23:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1766.png",
+      "awayLogo": "https://crests.football-data.org/1779.png"
     }
   ]
 }

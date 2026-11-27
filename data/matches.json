@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-27T19:05:29.084140Z",
+  "updatedAt": "2026-11-27T21:26:39.432028Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -232,8 +232,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 1"
     },
     {
       "id": "openligadb:83709",
@@ -244,8 +244,8 @@
       "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
       "utcDate": "2026-11-27T17:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "2 – 0"
     },
     {
       "id": "openligadb:83253",
@@ -676,6 +676,18 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
       "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
       "utcDate": "2026-12-11T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83269",
+      "sport": "Football",
+      "competition": "Bundesliga",
+      "home": "Hamburger SV",
+      "away": "FC Schalke 04",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+      "utcDate": "2026-12-11T19:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

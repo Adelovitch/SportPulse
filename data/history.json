@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-27T08:49:14.883701Z",
+  "updatedAt": "2026-11-27T21:29:23.154636Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8942,6 +8942,43 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1776.png",
       "awayLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": "openligadb:83707",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Heidenheim 1846",
+      "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "utcDate": "2026-11-27T17:30:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1"
+    },
+    {
+      "id": "openligadb:83709",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "VfL Bochum",
+      "away": "SV Darmstadt 98",
+      "homeLogo": "https://i.imgur.com/5jy3Gfr.png",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+      "utcDate": "2026-11-27T17:30:00Z",
+      "status": "FINISHED",
+      "score": "2 – 0"
+    },
+    {
+      "id": "football-data:558820",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "FC Groningen",
+      "away": "Willem II Tilburg",
+      "utcDate": "2026-11-27T19:00:00Z",
+      "status": "FINISHED",
+      "score": "1 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/677.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     }
   ]
 }

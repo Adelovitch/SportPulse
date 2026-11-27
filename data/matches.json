@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-27T08:46:40.526489Z",
+  "updatedAt": "2026-11-27T19:05:29.084140Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -652,6 +652,30 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
       "awayLogo": "https://i.imgur.com/v0tkpNx.png",
       "utcDate": "2026-12-06T16:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83747",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "DSC Arminia Bielefeld",
+      "away": "1. FC Kaiserslautern",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+      "utcDate": "2026-12-11T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null
+    },
+    {
+      "id": "openligadb:83748",
+      "sport": "Football",
+      "competition": "2. Bundesliga",
+      "home": "1. FC Magdeburg",
+      "away": "1. FC Nürnberg",
+      "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+      "awayLogo": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
+      "utcDate": "2026-12-11T17:30:00Z",
       "status": "SCHEDULED",
       "score": null
     }

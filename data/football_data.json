@@ -1,6 +1,6 @@
 {
   "source": "football-data.org",
-  "updatedAt": "2026-11-27T08:46:48.805709Z",
+  "updatedAt": "2026-11-27T19:05:36.400922Z",
   "competitions": [
     "Ligue 1",
     "Premier League",
@@ -4954,6 +4954,32 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1903.png",
       "awayLogo": "https://crests.football-data.org/5613.png"
+    },
+    {
+      "id": "football-data:558482",
+      "sport": "Football",
+      "competition": "Serie A",
+      "home": "Frosinone Calcio",
+      "away": "SS Lazio",
+      "utcDate": "2026-12-18T17:30:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/470.png",
+      "awayLogo": "https://crests.football-data.org/110.png"
+    },
+    {
+      "id": "football-data:558794",
+      "sport": "Football",
+      "competition": "Eredivisie",
+      "home": "Telstar 1963",
+      "away": "Willem II Tilburg",
+      "utcDate": "2026-12-18T19:00:00Z",
+      "status": "SCHEDULED",
+      "score": null,
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1912.png",
+      "awayLogo": "https://crests.football-data.org/672.png"
     }
   ],
   "tables": {
@@ -5118,7 +5144,7 @@
         "team": "Le Mans FC",
         "rank": 13,
         "played": 11,
-        "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
+        "logo": "https://crests.football-data.org/535.png",
         "won": 2,
         "drawn": 5,
         "lost": 4,
@@ -6570,14 +6596,14 @@
       {
         "team": "FC Groningen",
         "rank": 10,
-        "played": 13,
+        "played": 14,
         "logo": "https://crests.football-data.org/677.png",
         "won": 4,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 6,
         "gf": 30,
         "ga": 31,
-        "points": 15,
+        "points": 16,
         "goalDifference": -1
       },
       {
@@ -6674,14 +6700,14 @@
       {
         "team": "Willem II Tilburg",
         "rank": 18,
-        "played": 13,
+        "played": 14,
         "logo": "https://crests.football-data.org/672.png",
         "won": 0,
-        "drawn": 3,
+        "drawn": 4,
         "lost": 10,
         "gf": 12,
         "ga": 42,
-        "points": 3,
+        "points": 4,
         "goalDifference": -30
       }
     ],

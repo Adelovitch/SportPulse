@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "SportPulse",
-  "updatedAt": "2026-11-26T08:37:15.335677Z",
+  "updatedAt": "2026-11-27T08:49:14.883701Z",
   "matches": [
     {
       "id": "openligadb:83609",
@@ -8929,6 +8929,19 @@
       "provider": "football-data.org",
       "homeLogo": "https://crests.football-data.org/1766.png",
       "awayLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": "football-data:555108",
+      "sport": "Football",
+      "competition": "Série A brésilienne",
+      "home": "São Paulo FC",
+      "away": "Clube do Remo",
+      "utcDate": "2026-11-26T23:00:00Z",
+      "status": "FINISHED",
+      "score": "3 – 1",
+      "provider": "football-data.org",
+      "homeLogo": "https://crests.football-data.org/1776.png",
+      "awayLogo": "https://crests.football-data.org/4287.png"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "OpenLigaDB",
-  "updatedAt": "2026-11-27T21:26:39.432028Z",
+  "updatedAt": "2026-11-28T02:03:38.359098Z",
   "stale": false,
   "leagues": [
     "Bundesliga",
@@ -256,8 +256,8 @@
       "homeLogo": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
       "awayLogo": "https://i.imgur.com/KSIk0Eu.png",
       "utcDate": "2026-11-27T19:30:00Z",
-      "status": "SCHEDULED",
-      "score": null
+      "status": "FINISHED",
+      "score": "3 – 3"
     },
     {
       "id": "openligadb:83708",
